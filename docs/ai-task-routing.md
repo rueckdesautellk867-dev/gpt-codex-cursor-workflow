@@ -22,6 +22,7 @@
 ## 硬性约束
 
 - 高风险任务必须人工确认后再执行
+- 高风险任务必须先查看 `docs/risk-approval.md`
 - 未填写「不做什么」和「验收标准」的任务，不进入 Codex / Cursor 实现
 - 同一任务可「GPT 拆 → Codex 做 → Cursor 审」，但主执行者只能有一个
 
@@ -31,3 +32,4 @@
 - 闭环流程：`docs/ai-workflow.md`
 - 完成标准：`docs/definition-of-done.md`
 - 合并检查：`PR_CHECKLIST.md`
+- 风险审批：`docs/risk-approval.md`
