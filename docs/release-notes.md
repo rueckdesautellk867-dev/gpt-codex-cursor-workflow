@@ -43,3 +43,10 @@
 - **主要文件**：`docs/project-status.md`、`docs/release-notes.md`、`tasks/T009-project-delivery-package.md`
 - **提交 hash**：`3cea8de`（`docs: add project delivery package`）
 - **状态**：已提交
+
+## v0.7 — 远程仓库准备层
+
+- **版本目标**：明确远程平台选择、推送前检查与初始化步骤；不实际推送
+- **主要文件**：`docs/remote-repo-plan.md`、`tasks/T010-remote-repo-plan.md`、`tasks/T011-remote-repo-push.md`
+- **提交 hash**：待提交
+- **状态**：待提交

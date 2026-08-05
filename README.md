@@ -41,7 +41,8 @@
 | [docs/risk-approval.md](docs/risk-approval.md) | 风险分级与人工审批流程 |
 | [docs/runbook.md](docs/runbook.md) | 运行手册（固定操作顺序） |
 | [docs/project-status.md](docs/project-status.md) | 项目状态、能力与限制 |
-| [docs/release-notes.md](docs/release-notes.md) | 版本记录（v0.1–v0.6） |
+| [docs/release-notes.md](docs/release-notes.md) | 版本记录（v0.1–v0.7） |
+| [docs/remote-repo-plan.md](docs/remote-repo-plan.md) | 远程仓库准备方案（不推送） |
 | [tasks/README.md](tasks/README.md) | 任务目录使用说明与最短操作 |
 | [tasks/backlog.md](tasks/backlog.md) | 可执行任务总清单 |
 

@@ -49,3 +49,7 @@
 ## v0.6 启动
 
 建立项目交付包，归档阶段成果：新增 `docs/project-status.md`、`docs/release-notes.md` 与 T009（已完成）；T004 仍为 `待确认`。
+
+## v0.7 启动
+
+建立远程仓库准备方案，不实际推送：新增 `docs/remote-repo-plan.md` 与 T010（已完成）；预留 T011（`待确认`）；T004 仍为 `待确认`。

@@ -14,6 +14,8 @@
 | T007 | 建立风险与人工审批层 | 低 | Cursor | 已完成 | [T007-risk-approval-layer.md](T007-risk-approval-layer.md) |
 | T008 | 建立运行手册层 | 低 | Cursor | 已完成 | [T008-runbook-layer.md](T008-runbook-layer.md) |
 | T009 | 建立项目交付包 | 低 | Cursor | 已完成 | [T009-project-delivery-package.md](T009-project-delivery-package.md) |
+| T010 | 建立远程仓库准备方案 | 低 | Cursor | 已完成 | [T010-remote-repo-plan.md](T010-remote-repo-plan.md) |
+| T011 | 创建远程仓库并推送 main | 中 | 人工确认后 Cursor 或人工 | 待确认 | [T011-remote-repo-push.md](T011-remote-repo-push.md) |
 
 ## 说明
 
@@ -24,3 +26,5 @@
 - T007 随 v0.4 完成：建立风险与人工审批流程文档，**不执行高风险任务**。
 - T008 随 v0.5 完成：建立运行手册，用于重复执行任务流程。
 - T009 随 v0.6 完成：建立项目交付包，归档阶段成果。
+- T010 随 v0.7 完成：远程仓库准备方案，**不实际推送**。
+- **T011 预留：创建远程并推送，状态 `待确认`，未审批前不执行。**
