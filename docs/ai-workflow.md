@@ -43,6 +43,7 @@ Cursor + 人工审查（对照 PR_CHECKLIST.md）
 - Codex 不做模糊需求下的大范围猜测改动
 - Cursor 不替代 Codex 做整仓批量自动实现；侧重局部与调试
 - 高风险变更必须人工确认后再继续
+- 实际执行任务时以 `docs/runbook.md` 作为操作顺序入口
 
 ## 相关文件
 
@@ -50,3 +51,4 @@ Cursor + 人工审查（对照 PR_CHECKLIST.md）
 - `.cursor/rules/ai-workflow.mdc`：Cursor 规则
 - `PR_CHECKLIST.md`：合并前检查清单
 - `docs/definition-of-done.md`：完成标准
+- `docs/runbook.md`：运行手册（操作顺序入口）

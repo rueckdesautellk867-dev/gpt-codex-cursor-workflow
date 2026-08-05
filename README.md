@@ -39,14 +39,16 @@
 | [docs/ai-task-routing.md](docs/ai-task-routing.md) | 任务分流规则 |
 | [docs/verification.md](docs/verification.md) | 验证层设计（风险门槛与交付字段） |
 | [docs/risk-approval.md](docs/risk-approval.md) | 风险分级与人工审批流程 |
+| [docs/runbook.md](docs/runbook.md) | 运行手册（固定操作顺序） |
 | [tasks/README.md](tasks/README.md) | 任务目录使用说明与最短操作 |
 | [tasks/backlog.md](tasks/backlog.md) | 可执行任务总清单 |
 
 ## 使用建议
 
-1. 新任务先按 [任务模板](docs/task-template.md) 填写，并登记到 [tasks/backlog.md](tasks/backlog.md)
-2. 再按 [分流规则](docs/ai-task-routing.md) 决定交给 GPT、Codex、Cursor 或人工
-3. 合并前对照 [PR_CHECKLIST.md](PR_CHECKLIST.md) 与 [完成标准](docs/definition-of-done.md)
+1. 新任务执行前先查看 [运行手册](docs/runbook.md)
+2. 新任务先按 [任务模板](docs/task-template.md) 填写，并登记到 [tasks/backlog.md](tasks/backlog.md)
+3. 再按 [分流规则](docs/ai-task-routing.md) 决定交给 GPT、Codex、Cursor 或人工
+4. 合并前对照 [PR_CHECKLIST.md](PR_CHECKLIST.md) 与 [完成标准](docs/definition-of-done.md)
 
 ## 风险原则
 
