@@ -37,6 +37,7 @@
 | [docs/definition-of-done.md](docs/definition-of-done.md) | 完成标准 |
 | [docs/task-template.md](docs/task-template.md) | 标准任务模板 |
 | [docs/ai-task-routing.md](docs/ai-task-routing.md) | 任务分流规则 |
+| [docs/verification.md](docs/verification.md) | 验证层设计（风险门槛与交付字段） |
 | [tasks/README.md](tasks/README.md) | 任务目录使用说明与最短操作 |
 | [tasks/backlog.md](tasks/backlog.md) | 可执行任务总清单 |
 
