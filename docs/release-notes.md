@@ -1,6 +1,6 @@
 # 版本记录（Release Notes）
 
-三方闭环整合项目里程碑。提交 hash 来自本地 `git log`；v0.6 在交付包提交前记为待提交。
+三方闭环整合项目里程碑。提交 hash 来自本地 `git log`。
 
 ## v0.1 — 初始化三方闭环规则
 
@@ -41,5 +41,5 @@
 
 - **版本目标**：归档能力、限制、下一步与版本记录，便于复制到其它项目
 - **主要文件**：`docs/project-status.md`、`docs/release-notes.md`、`tasks/T009-project-delivery-package.md`
-- **提交 hash**：待提交（本交付包 commit 完成后回填）
-- **状态**：准备中（文档归档中）
+- **提交 hash**：`3cea8de`（`docs: add project delivery package`）
+- **状态**：已提交
