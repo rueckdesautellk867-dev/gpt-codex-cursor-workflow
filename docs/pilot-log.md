@@ -45,3 +45,7 @@
 ## v0.5 启动
 
 建立运行手册层，用于重复执行任务流程：新增 `docs/runbook.md` 与 T008（已完成）；T004 仍为 `待确认`。
+
+## v0.6 启动
+
+建立项目交付包，归档阶段成果：新增 `docs/project-status.md`、`docs/release-notes.md` 与 T009（已完成）；T004 仍为 `待确认`。
