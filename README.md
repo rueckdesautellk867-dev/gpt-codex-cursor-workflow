@@ -37,10 +37,12 @@
 | [docs/definition-of-done.md](docs/definition-of-done.md) | 完成标准 |
 | [docs/task-template.md](docs/task-template.md) | 标准任务模板 |
 | [docs/ai-task-routing.md](docs/ai-task-routing.md) | 任务分流规则 |
+| [tasks/README.md](tasks/README.md) | 任务目录使用说明与最短操作 |
+| [tasks/backlog.md](tasks/backlog.md) | 可执行任务总清单 |
 
 ## 使用建议
 
-1. 新任务先按 [任务模板](docs/task-template.md) 填写边界与验收标准
+1. 新任务先按 [任务模板](docs/task-template.md) 填写，并登记到 [tasks/backlog.md](tasks/backlog.md)
 2. 再按 [分流规则](docs/ai-task-routing.md) 决定交给 GPT、Codex、Cursor 或人工
 3. 合并前对照 [PR_CHECKLIST.md](PR_CHECKLIST.md) 与 [完成标准](docs/definition-of-done.md)
 
