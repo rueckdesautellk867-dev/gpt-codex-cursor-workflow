@@ -53,3 +53,6 @@
 ## v0.7 启动
 
 建立远程仓库准备方案，不实际推送：新增 `docs/remote-repo-plan.md` 与 T010（已完成）；预留 T011（`待确认`）；T004 仍为 `待确认`。
+## T011 远程仓库推送
+
+已在人工授权后连接 GitHub private 仓库并推送 main 分支：https://github.com/rueckdesautellk867-dev/gpt-codex-cursor-workflow.git。T011 已完成；T004 仍保持 待确认；未接真实 CI；未执行高风险任务。分支保护建议后续在 GitHub 网页单独配置。

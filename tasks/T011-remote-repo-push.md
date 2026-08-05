@@ -1,11 +1,11 @@
 # T011 创建远程仓库并推送 main
 
 - **编号**：T011
-- **状态**：待确认
+- **状态**：已完成
 - **风险等级**：中
 - **推荐执行者**：人工确认后由 Cursor 或人工执行
 
-> **预留任务**：v0.7 不执行。方案见 [`docs/remote-repo-plan.md`](../docs/remote-repo-plan.md)。
+> 方案见 [`docs/remote-repo-plan.md`](../docs/remote-repo-plan.md)。已获人工确认，远程推送已完成。
 
 ## 任务标题
 
@@ -34,10 +34,10 @@
 
 ## 验收标准
 
-- [ ] 已按 `docs/risk-approval.md` / 本任务留下人工确认（平台、可见性、分支名）
-- [ ] `git remote -v` 指向约定仓库
-- [ ] 远端文件与本地关键目录一致
-- [ ] 主分支已设保护，禁止直接推送（按平台能力配置）
+- [x] 已按 `docs/risk-approval.md` / 本任务留下人工确认（平台、可见性、分支名）
+- [x] `git remote -v` 指向约定仓库
+- [x] 远端文件与本地关键目录一致
+- [ ] 主分支保护待在 GitHub 网页配置（后续任务处理）
 
 ## 测试命令
 
@@ -49,14 +49,12 @@ git remote -v
 
 ## 人工审批记录
 
-（执行前填写）
-
-- 审批人：
-- 审批时间：
-- 审批范围：
-- 允许执行的动作：
-- 回滚方案：（如移除 remote、删除远端仓库——慎用）
-- 备注：平台（GitHub / Gitee / Codeup）、公开或私有、main 或 master
+- 审批人：用户
+- 审批时间：2026-08-05
+- 审批范围：连接 GitHub private repo 并推送当前项目 main 分支
+- 允许执行的动作：改名 main、添加 origin、推送 main、更新任务状态
+- 回滚方案：删除 origin 或删除远程仓库；本地可保留 git 历史
+- 备注：平台 GitHub；仓库 `https://github.com/rueckdesautellk867-dev/gpt-codex-cursor-workflow.git`；Private；本地 `master` → `main`；CI 暂不接
 
 ## 完成后需要说明的内容
 

@@ -5,8 +5,8 @@
 | 项 | 内容 |
 |----|------|
 | 项目名称 | 三方闭环整合项目 |
-| 当前版本 | v0.7 准备中 |
-| 当前工作区 | `D:\三方闭环整合项目\` |
+| 当前版本 | v0.7 已完成，远程仓库已连接 |
+| 当前工作区 | `D:\三方闭环整合项目\` |`r`n| 远程仓库 | `https://github.com/rueckdesautellk867-dev/gpt-codex-cursor-workflow.git` |
 
 版本明细见 [`docs/release-notes.md`](release-notes.md)；操作顺序见 [`docs/runbook.md`](runbook.md)。
 
@@ -33,7 +33,7 @@
 - 未接外部任务系统（仅仓库内 Markdown 任务）
 - 未接云端部署
 - 未接监控反馈
-- **远程仓库尚未创建，v0.7 仅完成准备方案**（见 `docs/remote-repo-plan.md`；推送见 T011 `待确认`）
+- 远程仓库已连接并推送 `main`；GitHub 分支保护尚未配置，建议后续单独处理
 
 ## 下一步建议
 
