@@ -288,3 +288,7 @@
 ## T014 目标项目 F2 live 改期（AIContentFactory T049）
 
 用户批准 F2 live（content-id=106、session-key=platform_1、仅「暂存离开」）后尝试执行；在连接 MySQL `127.0.0.1:3306` 时失败（连接被拒绝）。未开浏览器、未点「暂存离开」/「发布」、未提交代码仓。用户确认选择 **取消或改期**：等 MySQL 明确可用后再单独批准重跑；本次审批不自动延续。见 `D:\AIContentFactory\docs\freeze20-f2-live-106-t049.md`。目标项目本地 CI 通过。
+
+## T014 目标项目 MySQL 前置清单（AIContentFactory T050）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T050-mysql-local-prereq-checklist.md`，产出 `docs/mysql-local-prereq-checklist-t049.md`。只读列出重跑 T049 前硬前置（MySQL 可连、GC 106、新审批、禁止发布）及服务/素材自检项。未启动服务、未改配置、未重跑 F2。满足清单 ≠ 批准重跑。目标项目本地 CI 通过。

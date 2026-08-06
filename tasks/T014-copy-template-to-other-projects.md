@@ -158,6 +158,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已完成 feed-only 三轮汇总：`D:\AIContentFactory\docs\p1a-feed-only-three-round-summary.md`（停同参；详情默认暂不升级）
 - 第四十九目标项目专用任务：`D:\AIContentFactory\tasks\T049-freeze20-f2-live-106.md`
 - F2 live content-id=106：已审批尝试因 MySQL 不可达失败（未开浏览器）；用户确认 **已取消（改期）**；见 `D:\AIContentFactory\docs\freeze20-f2-live-106-t049.md`（重跑须另批）
+- 第五十目标项目专用任务：`D:\AIContentFactory\tasks\T050-mysql-local-prereq-checklist.md`
+- 已完成 MySQL/本地服务前置清单：`D:\AIContentFactory\docs\mysql-local-prereq-checklist-t049.md`（只读；未启服务、未改配置；满足清单 ≠ 批准重跑）
 
 ## 验收标准
 
