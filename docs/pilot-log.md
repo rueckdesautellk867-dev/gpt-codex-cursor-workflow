@@ -76,3 +76,7 @@
 ## T014 首次真实目标项目复制
 
 已选择 `D:\AIContentFactory` 作为首次真实目标项目，并执行模板复制。复制结果：14 个模板文件复制，4 个 starter 文件创建；未使用覆盖模式。目标项目本地 CI 通过：Required files 10，Markdown files checked 15。由于 AIContentFactory 包含 `repo`、`tools`、`ObsidianMemory` 等大型目录，已将目标项目的 `scripts/ci-check.ps1` 扫描范围收窄到模板入口目录，避免全量递归。
+
+## T014 目标项目首个任务试跑
+
+已在 `D:\AIContentFactory` 创建首个项目专用低风险任务：`tasks/T001-customize-project-status.md`。该任务定制了 `docs/project-status.md`、登记 `tasks/backlog.md`、记录 `docs/pilot-log.md`，不涉及内容生产、发布、账号风控、数据库、权限或生产配置。目标项目本地 CI 通过：Required files 10，Markdown files checked 16。

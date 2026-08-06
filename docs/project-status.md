@@ -34,6 +34,7 @@
 - PR #1 已验证分支推送、`Docs validation`、合并和本地同步链路
 - 复制到其它项目的模板说明和本地复制脚本已建立
 - 首次真实目标项目 `D:\AIContentFactory` 已完成模板复制和本地 CI 验证
+- `D:\AIContentFactory` 已完成首个低风险项目任务 T001 并通过本地 CI
 
 ## 当前限制
 
@@ -45,7 +46,7 @@
 
 ## 下一步建议
 
-1. 在 `D:\AIContentFactory` 创建第一个项目专用低风险任务，验证新骨架实际可用
+1. 明确 AIContentFactory 的 Git 仓库锚点：`D:\AIContentFactory` 还是 `D:\AIContentFactory\repo`
 2. 接入任务系统（如需与看板 / Issue 同步）
 3. 如需更严格验证，可另开失败 PR 测试分支保护拦截
 4. 设计阿里云测试环境（部署与反馈闭环另开任务，高风险须审批）
