@@ -292,3 +292,7 @@
 ## T014 目标项目 MySQL 前置清单（AIContentFactory T050）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T050-mysql-local-prereq-checklist.md`，产出 `docs/mysql-local-prereq-checklist-t049.md`。只读列出重跑 T049 前硬前置（MySQL 可连、GC 106、新审批、禁止发布）及服务/素材自检项。未启动服务、未改配置、未重跑 F2。满足清单 ≠ 批准重跑。目标项目本地 CI 通过。
+
+## T014 目标项目 MySQL H1 连通性检查（AIContentFactory T051）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T051-mysql-h1-connectivity-check.md`，产出 `docs/mysql-h1-connectivity-check-t051.md`。只读检查：`127.0.0.1:3306` TCP 失败；无 MySQL/MariaDB 服务；无 Docker；`backend/.env` 含 MYSQL_* 键名（未读密钥）。H1 **未满足**；未开浏览器、未重跑 F2、未提交代码仓。目标项目本地 CI 通过。
