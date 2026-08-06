@@ -112,3 +112,7 @@
 ## T014 目标项目单测假 Settings（AIContentFactory T009）
 
 已在 `D:\AIContentFactory` 完成第九个低风险任务：`tasks/T009-dummy-settings-for-unit-tests.md`。新增 `backend/tests/settings_env.py`，在 `test_xhs_draft_box_save.py` import 引擎前强制注入假 `MYSQL_*`/`REDIS_*`；运行脚本同步注入。验证进程内 Settings 使用 `MYSQL_USER=test` 等假值，不再依赖真实 `backend/.env` 密钥。单测仍为 15 OK（expected failures=3）。未改引擎、未改 `.env` 文件、未提交代码仓。
+
+## T014 目标项目引擎 draft-box 安全修复（AIContentFactory T010）
+
+已在用户确认「引擎执行」后完成：`tasks/T010-playwright-engine-safety-fixes.md`。修改 `playwright_engine.py`：多「暂存离开」候选 → ambiguous；真实鼠标 CDP 失败不再坐标 fallback；多图上传失败不静默单图降级。对应单测去掉 `@expectedFailure`。验证 `Ran 15 tests ... OK`。未真实登录/发布；代码仓改动尚未 git commit。

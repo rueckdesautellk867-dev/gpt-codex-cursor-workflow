@@ -43,6 +43,7 @@
 - `D:\AIContentFactory` 已完成 T007：登记 playwright 测试补强（不改发布行为）
 - `D:\AIContentFactory` 已完成 T008：测试环境确认；`test_xhs_draft_box_save` 15 OK（3 expectedFailure）
 - `D:\AIContentFactory` 已完成 T009：单测假 Settings，不依赖真实 `backend/.env` 密钥
+- `D:\AIContentFactory` 已完成 T010：引擎 draft-box 安全修复；单测 15 OK（代码仓未 commit）
 
 ## 当前限制
 
@@ -56,8 +57,8 @@
 
 ## 下一步建议
 
-1. AIContentFactory：基于 T007–T009 写统一测试报告（低风险）
-2. AIContentFactory：改引擎消 `expectedFailure`（高敏感，须确认）；Freeze20/P1 拆分另开
+1. AIContentFactory：基于 T007–T010 写统一测试报告（低风险）
+2. AIContentFactory：代码仓是否 commit T010；受控草稿箱冒烟 / Freeze20·P1 拆分（须确认）
 3. 接入任务系统（如需与看板 / Issue 同步）
 4. 如需更严格验证，可另开失败 PR 测试分支保护拦截
 
