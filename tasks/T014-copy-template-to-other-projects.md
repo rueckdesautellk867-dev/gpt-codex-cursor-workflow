@@ -172,6 +172,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已确认入口 A 维持观察：`D:\AIContentFactory\docs\phase2-maintain-observation.md`（不启服务、不重跑 F2、不动敏感 `??`）
 - 第五十六目标项目专用任务：`D:\AIContentFactory\tasks\T056-observation-status-patrol.md`
 - 已完成观察期巡检：`D:\AIContentFactory\docs\observation-status-patrol-t056.md`（三方闭环 `9586d20`；代码仓 `0d4683c`；`??`×6；H1 未满足；pending 无）
+- 第五十七目标项目专用任务：`D:\AIContentFactory\tasks\T057-phase-results-index.md`
+- 已完成阶段成果索引：`D:\AIContentFactory\docs\phase-results-index.md`（T041/T054/T056、冻结、feed-only、远程策略总入口）
 
 ## 验收标准
 

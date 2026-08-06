@@ -316,3 +316,7 @@
 ## T014 目标项目观察期巡检（AIContentFactory T056）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T056-observation-status-patrol.md`，产出 `docs/observation-status-patrol-t056.md`。只读确认：三方闭环 `9586d20` 对齐且 pending 无；代码仓 `0d4683c` 无 origin；敏感 `??` 仍 6；H1 TCP 失败；H2 未检；观察边界无漂移。未启服务、未跑业务脚本、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目阶段成果索引（AIContentFactory T057）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T057-phase-results-index.md`，产出 `docs/phase-results-index.md`。低风险总入口，链接 T041/T054/T055–T056、冻结清单、feed-only 报告、F2/MySQL 改期文档、远程策略；并挂到目标项目 `README.md` 与 `project-status.md`。索引 ≠ 执行授权。未启服务、未解除冻结。目标项目本地 CI 通过。三方闭环当时远程 tip=`1a0e39d`。
