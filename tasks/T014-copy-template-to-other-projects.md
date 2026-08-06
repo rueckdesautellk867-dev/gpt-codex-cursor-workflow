@@ -182,6 +182,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已完成 P1-C 删除候选评估：`D:\AIContentFactory\docs\p1c-delete-candidate-assessment-t060.md`（两登录脚本继续 K0；真删须 L3 点名；未删文件、未运行）
 - 第六十一目标项目专用任务：`D:\AIContentFactory\tasks\T061-remote-repo-plan-recheck.md`（L4）
 - 已完成代码仓远程方案复核：`D:\AIContentFactory\docs\remote-repo-plan-recheck-t061.md`（维持暂缓 B / 无 origin；tip=`0d4683c`；敏感 `??`×6；未建仓、未 remote add、未 push）
+- 第六十二目标项目专用任务：`D:\AIContentFactory\tasks\T062-p1c-delete-open-xhs-login-local.md`（L3）
+- 已删除未跟踪 `open_xhs_login_local.py`：`D:\AIContentFactory\docs\p1c-delete-open-xhs-login-local-t062.md`（未提交代码仓；`ensure_www_xhs_login.py` 仍 K0；敏感 `??` 现 5）
 
 ## 验收标准
 

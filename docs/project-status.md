@@ -104,6 +104,7 @@
 - `D:\AIContentFactory` 已完成 T059：H1 复检（L1）`docs/h1-recheck-t059.md`（**仍未满足**：3306 不可达；无 Docker/`ai_mysql`；未启服务、未重跑 F2）
 - `D:\AIContentFactory` 已完成 T060：P1-C 删除候选评估（L2）`docs/p1c-delete-candidate-assessment-t060.md`（两登录脚本继续 K0；真删须 L3 点名；未删文件）
 - `D:\AIContentFactory` 已完成 T061：代码仓远程方案复核（L4）`docs/remote-repo-plan-recheck-t061.md`（维持暂缓 B / 无 origin；tip=`0d4683c`；`??`×6）
+- `D:\AIContentFactory` 已完成 T062：P1-C 删除 `open_xhs_login_local.py`（L3）`docs/p1c-delete-open-xhs-login-local-t062.md`（未提交；`??` 现 5；`ensure_www_xhs_login.py` 仍 K0）
 
 ## 当前限制
 
@@ -117,9 +118,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：**当前维持观察（T055）** — L1/L2/L4 已完成（T059/T060/T061）；后续见 T058 清单（L3 等须另批）；不启服务、不跑 F2/F4/详情、不动敏感 `??`
+1. AIContentFactory：**当前维持观察（T055）** — L1/L2/L4 已完成；L3 已删 `open_xhs_login_local.py`（T062）；后续见 T058 清单；不启服务、不跑 F2/F4/详情、不动剩余敏感 `??`
 2. AIContentFactory：维持代码仓无 origin（B 已暂缓；T061 复核维持）
-3. 若退出观察：先满足 H1/H2 再另批 F2；或 MySQL 就绪后再开 L1；或另批 L3；重开 B 须按 T042 §8 分步确认
+3. 若退出观察：先满足 H1/H2 再另批 F2；或 MySQL 就绪后再开 L1；或再批 L3 删 `ensure_www_xhs_login.py`；重开 B 须按 T042 §8 分步确认
 4. 接入任务系统（如需）
 
 ## 复制到其它项目时

@@ -336,3 +336,7 @@
 ## T014 目标项目代码仓远程方案复核（AIContentFactory T061 / L4）
 
 用户确认 L4。已在 `D:\AIContentFactory` 完成：`tasks/T061-remote-repo-plan-recheck.md`，产出 `docs/remote-repo-plan-recheck-t061.md`。只读复核：代码仓 tip=`0d4683c`；仍无 origin / `.github`；敏感 `??` 现 6 项；大目录 ignore 仍有效。结论 **维持暂缓 B / 无 origin**（T042 选项 4 仍有效）。未建仓、未 remote add、未 push、未改代码仓。目标项目本地 CI 通过。三方闭环当时本地 tip=`df4e84b`。
+
+## T014 目标项目 P1-C 删除 open_xhs_login_local.py（AIContentFactory T062 / L3）
+
+用户确认 L3 点名删除。已在 `D:\AIContentFactory` 完成：`tasks/T062-p1c-delete-open-xhs-login-local.md`，产出 `docs/p1c-delete-open-xhs-login-local-t062.md`。已删除代码仓工作区未跟踪文件 `backend/scripts/open_xhs_login_local.py`；`ensure_www_xhs_login.py` 保留（K0）；敏感 `??` 现 5；代码仓 tip 仍为 `0d4683c`（**未提交**）。未运行脚本、未改 remote。目标项目本地 CI 通过。三方闭环当时远程 tip=`47d1d16`。
