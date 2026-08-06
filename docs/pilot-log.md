@@ -100,3 +100,7 @@
 ## T014 目标项目限定 playwright_engine.py 复核范围（AIContentFactory T006）
 
 已在 `D:\AIContentFactory` 完成第六个任务：`tasks/T006-review-playwright-engine-scope.md`。该任务仅制定 `backend/app/publisher/adapters/browser/playwright_engine.py` 的只读复核范围，纳入草稿箱路径、暂存离开定位/点击保护、CDP/shadow DOM 文本定位、坐标 fallback、多图上传、字段填充回读和原发布路径新增返回字段；明确不发布、不登录、不点击、不改代码、不提交代码仓业务改动。目标项目本地 CI 通过：Required files 10，Markdown files checked 23。
+
+## T014 目标项目登记 playwright 测试补强（AIContentFactory T007）
+
+已在 `D:\AIContentFactory` 完成第七个低风险任务：`tasks/T007-playwright-engine-test-hardening.md`。登记代码仓未跟踪测试文件 `backend/tests/test_xhs_draft_box_save.py` 的补强点（含 ambiguous、拒绝点「发布」、禁用坐标 fallback、多图不静默降级、contenteditable 仅键盘填充等 `expectedFailure`/断言）。本轮不改 `playwright_engine.py`，不登录/发布/开浏览器，不提交代码仓。语法检查通过；unittest 因系统 Python/`.venv`/缺 `sqlalchemy` 未完整跑通，约定后续逐步测试后统一出报告。目标项目本地 CI 通过。
