@@ -73,6 +73,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第十三/十四目标项目专用任务：`D:\AIContentFactory\tasks\T013-freeze20-split-plan.md`、`D:\AIContentFactory\tasks\T014-p1-split-plan.md`
 - 已输出 Freeze20 / P1 拆分方案：`D:\AIContentFactory\docs\freeze20-p1-split-plan.md`
 - 第十三/十四任务验证：通过（Required files: 10；Markdown files checked: 35）
+- 第十五目标项目专用任务：`D:\AIContentFactory\tasks\T015-freeze20-f1-dry-run-review.md`
+- 已输出 F1 dry-run 评审：`D:\AIContentFactory\docs\freeze20-f1-dry-run-review.md`
 
 ## 验收标准
 
