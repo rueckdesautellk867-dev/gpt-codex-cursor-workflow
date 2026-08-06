@@ -39,6 +39,7 @@
 - `D:\AIContentFactory` 已完成 T003，输出代码仓库未提交改动盘点
 - `D:\AIContentFactory` 已完成 T004，输出未提交改动分组处理方案
 - `D:\AIContentFactory` 已完成 T005：三 shell 保持 Git `100755`，本仓 `core.filemode=false` 消除 Windows 模式误报
+- `D:\AIContentFactory` 已完成 T006 限定范围：只读复核 `playwright_engine.py`，不发布、不登录、不点击、不改代码
 
 ## 当前限制
 
@@ -51,7 +52,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory T006：单独复核 `playwright_engine.py`（高敏感，须确认后再做）
+1. AIContentFactory T006 后续：只读深度复核 `playwright_engine.py`（高敏感，须再次确认）
 2. 接入任务系统（如需与看板 / Issue 同步）
 3. 如需更严格验证，可另开失败 PR 测试分支保护拦截
 4. 设计阿里云测试环境（部署与反馈闭环另开任务，高风险须审批）

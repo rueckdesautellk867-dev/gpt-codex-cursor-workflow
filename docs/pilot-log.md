@@ -96,3 +96,7 @@
 ## T014 目标项目恢复 shell 可执行位（AIContentFactory T005）
 
 已在 `D:\AIContentFactory` 完成第五个低风险任务：`tasks/T005-restore-shell-executable-bits.md`。确认代码仓 `backend/backup.sh`、`backend/health_check.sh`、`backend/start_dev.sh` 在 Git HEAD/index 中已是 `100755`；Windows 工作区无法持久保存 Unix +x，故对本仓设置本地 `core.filemode=false` 消除模式误报。未改 shell 内容，未碰 playwright / Freeze20 / P1 / 大型素材，未做代码仓 commit。目标项目本地 CI 通过：Required files 10，Markdown files checked 22。
+
+## T014 目标项目限定 playwright_engine.py 复核范围（AIContentFactory T006）
+
+已在 `D:\AIContentFactory` 完成第六个任务：`tasks/T006-review-playwright-engine-scope.md`。该任务仅制定 `backend/app/publisher/adapters/browser/playwright_engine.py` 的只读复核范围，纳入草稿箱路径、暂存离开定位/点击保护、CDP/shadow DOM 文本定位、坐标 fallback、多图上传、字段填充回读和原发布路径新增返回字段；明确不发布、不登录、不点击、不改代码、不提交代码仓业务改动。目标项目本地 CI 通过：Required files 10，Markdown files checked 23。

@@ -61,6 +61,9 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第四个目标项目专用任务：`D:\AIContentFactory\tasks\T004-working-tree-group-plan.md`
 - 第四个任务验证：通过（Required files: 10；Markdown files checked: 21）
 - 已输出未提交改动分组方案：`D:\AIContentFactory\docs\working-tree-group-plan.md`
+- 第六个目标项目专用任务：`D:\AIContentFactory\tasks\T006-review-playwright-engine-scope.md`
+- 第六个任务验证：通过（Required files: 10；Markdown files checked: 23）
+- 已限定 `playwright_engine.py` 只读复核范围：不发布、不登录、不点击、不改代码
 
 ## 验收标准
 
@@ -73,6 +76,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - [x] 已确认目标项目实际 Git 仓库锚点
 - [x] 已完成目标项目代码仓库未提交改动盘点
 - [x] 已完成目标项目未提交改动分组处理方案
+- [x] 已完成目标项目高敏感文件只读复核范围限定
 
 ## 测试命令
 
