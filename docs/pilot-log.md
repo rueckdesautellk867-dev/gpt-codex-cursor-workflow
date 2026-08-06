@@ -168,3 +168,7 @@
 ## T014 目标项目 P1-C 登录 / 打开页面辅助评审（AIContentFactory T021）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T021-p1c-login-page-helper-review.md`，产出 `docs/p1c-login-page-helper-review.md`。只读确认三个脚本都会启动 Playwright 持久会话并复用 `platform_1`；登录脚本会等待扫码并写 status / screenshot；发布页辅助脚本会打开 creator 发布相关页面，但未见自动点击 `发布`。未运行脚本、未打开浏览器、未登录、未打开登录页/发布页、未截图、未点击、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 48。
+
+## T014 目标项目 F4 / P1-D 公开发布脚本暂缓清单（AIContentFactory T022）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T022-publish-script-defer-list.md`，产出 `docs/publish-script-defer-list.md`。只读确认 `freeze20_publish_one.py` 与 `freeze20_publish_one_confirm.py` 会公开发布单条 Freeze20，`publish_gx001_local.py` 会公开发布 GX-001，均禁止执行；`rebuild_gx001_local.py` 不发布，但会复制素材并写发布包 / 排期 / 协查文件，需 build-only 单独审批。未运行脚本、未打开浏览器、未登录、未打开发布页、未上传图片、未点击 `暂存离开` 或 `发布`、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 50。
