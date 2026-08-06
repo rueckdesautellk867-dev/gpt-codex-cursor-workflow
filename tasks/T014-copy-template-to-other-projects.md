@@ -133,6 +133,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第三十七目标项目专用任务：`D:\AIContentFactory\tasks\T037-p1a-detail-submit-prep.md`
 - 已输出详情版提交准备：`D:\AIContentFactory\docs\p1a-detail-submit-prep.md`
 - 代码仓本地提交 P1-A 详情版：`0672a73`（1 文件；未推送；无 origin；不等于批准真实抓取）
+- 第三十八目标项目专用任务：`D:\AIContentFactory\tasks\T038-p1c-disposition-plan.md`
+- 已输出 P1-C 处置策略：`D:\AIContentFactory\docs\p1c-disposition-plan.md`（推荐 K0；未运行、未提交）
 
 ## 验收标准
 

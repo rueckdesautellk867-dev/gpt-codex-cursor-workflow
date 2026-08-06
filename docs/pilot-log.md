@@ -244,3 +244,7 @@
 ## T014 目标项目 P1-A 详情版提交准备与代码仓提交（AIContentFactory T037）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T037-p1a-detail-submit-prep.md`，产出 `docs/p1a-detail-submit-prep.md`。用户确认后，代码仓本地提交 `0672a73`：`Add authorized P1A detail crawl script`。范围仅限 `backend/scripts/crawl_p1_benchmark_profiles.py`（1 file）。未推送远程（代码仓无 origin）；未运行真实抓取；不等于批准真实抓取。F4 / P1-C / 大目录仍未跟踪。
+
+## T014 目标项目 P1-C 三脚本处置策略（AIContentFactory T038）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T038-p1c-disposition-plan.md`，产出 `docs/p1c-disposition-plan.md`。只读整理 `ensure_www_xhs_login.py`、`open_xhs_login_local.py`、`open_xhs_publish_page_local.py`：均会开浏览器并复用 `platform_1`、无授权 flag；未见自动点发布。推荐默认 K0 暂缓保留未跟踪；publish 辅助单独隔离。未运行、未改脚本、未提交代码仓。目标项目本地 CI 通过。
