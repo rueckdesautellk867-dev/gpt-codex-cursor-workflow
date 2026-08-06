@@ -56,3 +56,11 @@
 ## T011 远程仓库推送
 
 已在人工授权后连接 GitHub private 仓库并推送 main 分支：https://github.com/rueckdesautellk867-dev/gpt-codex-cursor-workflow.git。T011 已完成；T004 仍保持 待确认；未接真实 CI；未执行高风险任务。分支保护建议后续在 GitHub 网页单独配置。
+
+## T006 真实 CI 接入
+
+已接入最小真实 CI：`.github/workflows/ci.yml` 调用 `scripts/ci-check.ps1`，检查名为 `Docs validation`。本地复现命令见 `docs/ci.md`。T006 已完成；T004 仍保持 `待确认`；CI 不替代高风险人工审批。
+
+## T012 main 分支保护
+
+已由人工在 GitHub 网页开启 `main` 分支保护，并将 `Docs validation` 设为必选检查。后续日常闭环调整为：本地改动 → 新分支 commit → push 分支 → 开 PR → `Docs validation` 通过 → 合并。T012 已完成；T004 仍保持 `待确认`。

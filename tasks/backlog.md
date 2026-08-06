@@ -16,6 +16,7 @@
 | T009 | 建立项目交付包 | 低 | Cursor | 已完成 | [T009-project-delivery-package.md](T009-project-delivery-package.md) |
 | T010 | 建立远程仓库准备方案 | 低 | Cursor | 已完成 | [T010-remote-repo-plan.md](T010-remote-repo-plan.md) |
 | T011 | 创建远程仓库并推送 main | 中 | 人工确认后 Cursor 或人工 | 已完成 | [T011-remote-repo-push.md](T011-remote-repo-push.md) |
+| T012 | 配置 main 分支保护 | 中 | 人工 | 已完成 | [T012-branch-protection.md](T012-branch-protection.md) |
 
 ## 说明
 
@@ -28,3 +29,4 @@
 - T009 随 v0.6 完成：建立项目交付包，归档阶段成果。
 - T010 随 v0.7 完成：远程仓库准备方案，**不实际推送**。
 - T011 已完成人工审批后的远程仓库连接与 `main` 推送；分支保护后续单独处理。
+- T012 已完成：GitHub 网页开启 `main` 分支保护，要求 `Docs validation` 通过后再合并。
