@@ -324,3 +324,11 @@
 ## T014 目标项目未完成与冻结清单（AIContentFactory T058）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T058-unfinished-and-frozen-task-list.md`，产出 `docs/unfinished-and-frozen-task-list.md`。只读汇总：已完成不再重复（T041/T048/T054–T057）、H1/H2/H3 前置阻塞、冻结项与低风险可选入口。形成观察期后 checkpoint；未启服务、未重跑高风险、未提交代码仓。目标项目本地 CI 通过。三方闭环当时远程 tip=`a03bd42`。
+
+## T014 目标项目 H1 复检（AIContentFactory T059 / L1）
+
+用户确认 L1。已在 `D:\AIContentFactory` 完成：`tasks/T059-h1-recheck.md`，产出 `docs/h1-recheck-t059.md`。只读：`127.0.0.1:3306` 仍不可达；无 Windows MySQL/MariaDB 服务；无 Docker/`ai_mysql`。**H1 仍未满足**（与 T051 一致）；不得进入 H2 / F2 live。未启服务、未重跑 F2、未提交代码仓。目标项目本地 CI 通过。三方闭环当时远程 tip=`51b9f3b`。
+
+## T014 目标项目 P1-C 删除候选评估（AIContentFactory T060 / L2）
+
+用户确认 L2。已在 `D:\AIContentFactory` 完成：`tasks/T060-p1c-delete-candidate-assessment.md`，产出 `docs/p1c-delete-candidate-assessment-t060.md`。只评估：`ensure_www_xhs_login.py` / `open_xhs_login_local.py` 建议继续 K0；`open_xhs_publish_page_local.py` 已在 T043 删除。真删须 L3 另批点名文件。未删文件、未运行脚本、未提交代码仓。目标项目本地 CI 通过。

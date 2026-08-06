@@ -101,6 +101,8 @@
 - `D:\AIContentFactory` 已完成 T056：观察期巡检 `docs/observation-status-patrol-t056.md`（`9586d20` / `0d4683c`；`??`×6；H1 未满足；pending 无）
 - `D:\AIContentFactory` 已完成 T057：阶段成果索引 `docs/phase-results-index.md`（总入口；挂 README / project-status）
 - `D:\AIContentFactory` 已完成 T058：未完成与冻结任务清单 `docs/unfinished-and-frozen-task-list.md`（后续只从清单选入口；checkpoint）
+- `D:\AIContentFactory` 已完成 T059：H1 复检（L1）`docs/h1-recheck-t059.md`（**仍未满足**：3306 不可达；无 Docker/`ai_mysql`；未启服务、未重跑 F2）
+- `D:\AIContentFactory` 已完成 T060：P1-C 删除候选评估（L2）`docs/p1c-delete-candidate-assessment-t060.md`（两登录脚本继续 K0；真删须 L3 点名；未删文件）
 
 ## 当前限制
 
@@ -114,9 +116,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：**当前维持观察（T055）** — 后续入口见 T058 清单；不启服务、不跑 F2/F4/详情、不动敏感 `??`
+1. AIContentFactory：**当前维持观察（T055）** — L1/L2 已完成（T059/T060）；后续见 T058 清单（L3/L4 等须另批）；不启服务、不跑 F2/F4/详情、不动敏感 `??`
 2. AIContentFactory：维持代码仓无 origin（B 已暂缓）
-3. 若退出观察：先满足 H1/H2 再另批 F2，或从 T058 低风险入口另选
+3. 若退出观察：先满足 H1/H2 再另批 F2；或 MySQL 就绪后再开 L1；或另批 L3/L4
 4. 接入任务系统（如需）
 
 ## 复制到其它项目时

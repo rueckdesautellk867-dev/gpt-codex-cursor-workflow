@@ -176,6 +176,10 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已完成阶段成果索引：`D:\AIContentFactory\docs\phase-results-index.md`（T041/T054/T056、冻结、feed-only、远程策略总入口）
 - 第五十八目标项目专用任务：`D:\AIContentFactory\tasks\T058-unfinished-and-frozen-task-list.md`
 - 已完成未完成与冻结任务清单：`D:\AIContentFactory\docs\unfinished-and-frozen-task-list.md`（后续只从清单选入口；H1/H2/H3 前置；冻结面维持）
+- 第五十九目标项目专用任务：`D:\AIContentFactory\tasks\T059-h1-recheck.md`（L1）
+- 已完成 H1 复检：`D:\AIContentFactory\docs\h1-recheck-t059.md`（**仍未满足**：3306 不可达；无 Docker/`ai_mysql`；未启服务、未重跑 F2）
+- 第六十目标项目专用任务：`D:\AIContentFactory\tasks\T060-p1c-delete-candidate-assessment.md`（L2）
+- 已完成 P1-C 删除候选评估：`D:\AIContentFactory\docs\p1c-delete-candidate-assessment-t060.md`（两登录脚本继续 K0；真删须 L3 点名；未删文件、未运行）
 
 ## 验收标准
 
