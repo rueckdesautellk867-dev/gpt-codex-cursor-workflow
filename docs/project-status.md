@@ -42,6 +42,7 @@
 - `D:\AIContentFactory` 已完成 T006 限定范围：只读复核 `playwright_engine.py`，不发布、不登录、不点击、不改代码
 - `D:\AIContentFactory` 已完成 T007：登记 playwright 测试补强（不改发布行为）
 - `D:\AIContentFactory` 已完成 T008：测试环境确认；`test_xhs_draft_box_save` 15 OK（3 expectedFailure）
+- `D:\AIContentFactory` 已完成 T009：单测假 Settings，不依赖真实 `backend/.env` 密钥
 
 ## 当前限制
 
@@ -55,7 +56,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：基于 T007/T008 写统一测试报告（低风险）
+1. AIContentFactory：基于 T007–T009 写统一测试报告（低风险）
 2. AIContentFactory：改引擎消 `expectedFailure`（高敏感，须确认）；Freeze20/P1 拆分另开
 3. 接入任务系统（如需与看板 / Issue 同步）
 4. 如需更严格验证，可另开失败 PR 测试分支保护拦截

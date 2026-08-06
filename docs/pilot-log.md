@@ -108,3 +108,7 @@
 ## T014 目标项目确认测试运行环境（AIContentFactory T008）
 
 已在 `D:\AIContentFactory` 完成第八个任务：`tasks/T008-fix-test-runtime.md`。确认代码仓 `.venv`（Python 3.10.11）可用；从仓库根跑测会因根 `.env` 字段不全触发 Settings 失败，改为在 `backend` + `PYTHONPATH=backend` 下运行。实际跑通 `tests.test_xhs_draft_box_save`：15 tests OK（expected failures=3）。新增 `docs/test-runtime.md` 与 `scripts/run-xhs-draft-box-unit-tests.ps1`。未改引擎、未改 `.env`、未提交代码仓。
+
+## T014 目标项目单测假 Settings（AIContentFactory T009）
+
+已在 `D:\AIContentFactory` 完成第九个低风险任务：`tasks/T009-dummy-settings-for-unit-tests.md`。新增 `backend/tests/settings_env.py`，在 `test_xhs_draft_box_save.py` import 引擎前强制注入假 `MYSQL_*`/`REDIS_*`；运行脚本同步注入。验证进程内 Settings 使用 `MYSQL_USER=test` 等假值，不再依赖真实 `backend/.env` 密钥。单测仍为 15 OK（expected failures=3）。未改引擎、未改 `.env` 文件、未提交代码仓。
