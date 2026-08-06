@@ -50,3 +50,10 @@
 - **主要文件**：`docs/remote-repo-plan.md`、`tasks/T010-remote-repo-plan.md`、`tasks/T011-remote-repo-push.md`
 - **提交 hash**：`d497003`（`docs: plan remote repository setup`）
 - **状态**：已提交
+
+## v0.8 — 接入最小真实 CI
+
+- **版本目标**：为文档型三方闭环模板接入可本地复现的 GitHub Actions 检查
+- **主要文件**：`.github/workflows/ci.yml`、`scripts/ci-check.ps1`、`docs/ci.md`、`docs/verification.md`、`tasks/T006-ci-setup.md`
+- **提交 hash**：`efd3556`（`ci: add docs validation workflow`）
+- **状态**：已提交
