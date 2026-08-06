@@ -64,3 +64,10 @@
 - **主要文件**：`tasks/T012-branch-protection.md`、`tasks/backlog.md`、`docs/project-status.md`、`docs/pilot-log.md`
 - **提交 hash**：`4e19740`（`docs: record branch protection setup`）
 - **状态**：已提交
+
+## v0.10 — PR + CI 冒烟验证
+
+- **版本目标**：用真实 PR 验证分支推送、`Docs validation`、合并和本地同步链路
+- **主要文件**：`tasks/T013-pr-ci-protection-smoke-test.md`、`tasks/backlog.md`、`docs/project-status.md`、`docs/pilot-log.md`
+- **提交 hash**：`126fc6a`（`docs: record PR CI smoke test`）
+- **状态**：已提交
