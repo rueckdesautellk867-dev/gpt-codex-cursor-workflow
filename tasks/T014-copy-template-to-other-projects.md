@@ -142,6 +142,10 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已输出剩余高风险冻结清单：`D:\AIContentFactory\docs\remaining-high-risk-freeze.md`（维持冻结；无解除项）
 - 第四十一目标项目专用任务：`D:\AIContentFactory\tasks\T041-freeze20-p1-stage-closeout.md`
 - 已输出阶段收口报告：`D:\AIContentFactory\docs\freeze20-p1-stage-closeout.md`
+- 第四十二目标项目专用任务：`D:\AIContentFactory\tasks\T042-remote-repo-landing-plan.md`
+- 已确认暂缓 B、维持代码仓无 origin
+- 第四十三目标项目专用任务：`D:\AIContentFactory\tasks\T043-p1c-delete-publish-page-helper.md`
+- 已删除工作区 `open_xhs_publish_page_local.py`（未提交；剩余敏感 `??` 6 项）
 
 ## 验收标准
 

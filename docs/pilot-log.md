@@ -260,3 +260,7 @@
 ## T014 目标项目 Freeze20/P1 阶段收口报告（AIContentFactory T041）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T041-freeze20-p1-stage-closeout.md`，产出 `docs/freeze20-p1-stage-closeout.md`。汇总拆分→冻结完成度：F1–F3 / P1-A / P1-B / GX build / 大目录 ignore 已本地落库；F4 / P1-C 运行 / publish / 真实 live·batch·详情抓取维持冻结。代码仓 tip=`0d4683c`、无 origin；三方闭环当时对齐 `4b3d2f5`。未解除冻结、未改代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目远程落地暂缓与删除 publish 开页辅助（AIContentFactory T042/T043）
+
+已在 `D:\AIContentFactory` 完成 T042 远程落地方案后，用户确认 **暂缓 B，维持无 origin**（不建仓、不 remote add、不 push）。随后确认选项 A：删除工作区未跟踪文件 `backend/scripts/open_xhs_publish_page_local.py`（T043）；未 git add、未提交代码仓；未动其余 P1-C / F4 / `publish_gx001_local`。当前敏感 `??` 为 6 项。目标项目本地 CI 通过。
