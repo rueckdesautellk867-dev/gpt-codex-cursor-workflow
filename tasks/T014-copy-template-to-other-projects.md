@@ -118,6 +118,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第二十八目标项目专用任务：`D:\AIContentFactory\tasks\T028-freeze20-package3-submit-prep.md`
 - 已输出 Freeze20 包 3 提交准备：`D:\AIContentFactory\docs\freeze20-package3-submit-prep.md`
 - 代码仓本地提交 Freeze20 包 3：`c6b7b6a`（2 文件；未推送；未含 F4/P1；不等于批准真实 batch）
+- 第二十九目标项目专用任务：`D:\AIContentFactory\tasks\T029-freeze20-f1f3-post-submit-status.md`
+- 已输出 F1–F3 提交后状态报告：`D:\AIContentFactory\docs\freeze20-f1f3-post-submit-status.md`（剩余：F4 / P1 残留 / 临时扫描 / 大目录）
 
 ## 验收标准
 

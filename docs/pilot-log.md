@@ -212,3 +212,7 @@
 ## T014 目标项目代码仓提交 Freeze20 包 3
 
 用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `c6b7b6a`：`Add Freeze20 small-batch draft helpers`。范围仅限 `backend/app/public_account_research/freeze20_draft_box_batch.py`、`backend/tests/test_freeze20_draft_box_batch.py`（2 files, +412）。未纳入 F4 / P1 / 大型目录；未推送远程。代码落库不等于批准真实 batch 执行。
+
+## T014 目标项目 Freeze20 F1–F3 提交后状态报告（AIContentFactory T029）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T029-freeze20-f1f3-post-submit-status.md`，产出 `docs/freeze20-f1f3-post-submit-status.md`。确认 F1–F3 草稿箱链路（含 CLI）已本地提交收口；剩余未跟踪为 F4 publish、P1 残留（详情抓取 / 登录开页辅助 / GX 公开发布）、`_tmp_merge_scan.py`、以及 `tmp_freeze20/` 与大型中文目录。未运行脚本、未提交代码仓。目标项目本地 CI 通过。
