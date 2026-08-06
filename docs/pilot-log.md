@@ -124,3 +124,7 @@
 ## T014 目标项目代码仓提交 T009–T010
 
 用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `0ae4784`：`Add draft-box safety path and unit tests`。范围仅限 `playwright_engine.py`、`backend/tests/test_xhs_draft_box_save.py`、`backend/tests/settings_env.py`。提交前复核：单测 15 OK；未纳入 Freeze20 / P1 未跟踪脚本；未推送远程。下一步：先登记本闭环文档；再决定代码仓远程 / 推送策略；Freeze20 / P1 继续拆分处理。
+
+## T014 目标项目远程仓库策略（AIContentFactory T012）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T012-remote-repo-plan.md`，产出 `docs/remote-repo-plan.md`。已确认选择：origin=A 暂不配置；可见性 private；CI/分支保护暂缓；平台 GitHub；仓库名建议 `AIContentFactory`。未创建远程、未 `git remote add`、未 push、未修改代码仓。目标项目本地 CI 通过。

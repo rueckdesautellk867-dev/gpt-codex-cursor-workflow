@@ -46,6 +46,7 @@
 - `D:\AIContentFactory` 已完成 T010：引擎 draft-box 安全修复；单测 15 OK
 - `D:\AIContentFactory` 已完成 T011：统一测试报告 `docs/draft-box-test-report.md`
 - `D:\AIContentFactory` 代码仓已本地提交 T009–T010：`0ae4784`（`Add draft-box safety path and unit tests`；3 文件；未推送）
+- `D:\AIContentFactory` 已完成 T012：远程策略 `docs/remote-repo-plan.md`（origin 暂不配置；GitHub private；CI/保护暂缓；仓库名建议 AIContentFactory）
 
 ## 当前限制
 
@@ -59,9 +60,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：是否为代码仓配置远程 / 推送策略（须确认；当前仅本地 `0ae4784`）
-2. AIContentFactory：Freeze20 / P1 继续按组拆分处理，不混入 draft-box 提交（须确认）
-3. AIContentFactory：受控草稿箱手工冒烟（高敏感，须确认）
+1. AIContentFactory：Freeze20 / P1 继续按组拆分处理，不混入 draft-box 提交（须确认）
+2. AIContentFactory：受控草稿箱手工冒烟（高敏感，须确认）
+3. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
 4. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时

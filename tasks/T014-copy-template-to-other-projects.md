@@ -68,6 +68,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第十一任务验证：通过（Required files: 10；Markdown files checked: 30）
 - 已输出统一测试报告：`D:\AIContentFactory\docs\draft-box-test-report.md`
 - 代码仓本地提交 T009–T010：`0ae4784`（3 文件；未推送；未含 Freeze20 / P1）
+- 第十二目标项目专用任务：`D:\AIContentFactory\tasks\T012-remote-repo-plan.md`
+- 已输出远程策略：`D:\AIContentFactory\docs\remote-repo-plan.md`（origin 暂不配置；GitHub private；CI/保护暂缓）
 
 ## 验收标准
 
