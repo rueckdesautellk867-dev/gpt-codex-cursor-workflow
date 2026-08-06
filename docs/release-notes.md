@@ -71,3 +71,10 @@
 - **主要文件**：`tasks/T013-pr-ci-protection-smoke-test.md`、`tasks/backlog.md`、`docs/project-status.md`、`docs/pilot-log.md`
 - **提交 hash**：`126fc6a`（`docs: record PR CI smoke test`）
 - **状态**：已提交
+
+## v0.11 — 模板化复制落地包
+
+- **版本目标**：把三方闭环能力整理成可复制到其它项目的说明、清单和本地脚本
+- **主要文件**：`docs/template-rollout.md`、`scripts/copy-workflow-template.ps1`、`tasks/T014-copy-template-to-other-projects.md`
+- **提交 hash**：`06e623a`（`docs: add template rollout package`）
+- **状态**：已提交
