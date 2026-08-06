@@ -284,3 +284,7 @@
 ## T014 目标项目 P1-A feed-only 三轮汇总（AIContentFactory T048）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T048-p1a-feed-only-three-round-summary.md`，产出 `docs/p1a-feed-only-three-round-summary.md`。对照 T044/T045/T047：同参第三轮无增量；建议停止同参 feed-only；详情默认暂不升级，升级须另开高敏感审批。未真跑、未改代码仓、未解除冻结。目标项目本地 CI 通过。
+
+## T014 目标项目 F2 live 改期（AIContentFactory T049）
+
+用户批准 F2 live（content-id=106、session-key=platform_1、仅「暂存离开」）后尝试执行；在连接 MySQL `127.0.0.1:3306` 时失败（连接被拒绝）。未开浏览器、未点「暂存离开」/「发布」、未提交代码仓。用户确认选择 **取消或改期**：等 MySQL 明确可用后再单独批准重跑；本次审批不自动延续。见 `D:\AIContentFactory\docs\freeze20-f2-live-106-t049.md`。目标项目本地 CI 通过。
