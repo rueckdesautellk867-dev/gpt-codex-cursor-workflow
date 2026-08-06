@@ -160,3 +160,7 @@
 ## T014 目标项目 P1-A 公开资料抓取评审（AIContentFactory T020）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T020-p1a-public-profile-crawl-review.md`，产出 `docs/p1a-public-profile-crawl-review.md`。只读确认 P1-A 属公开资料研究，但两个脚本都会打开 Playwright 持久会话并访问 3 个小红书 profile；`crawl_p1_benchmark_profiles.py` 会进入笔记详情页，`crawl_p1_profile_feed_only.py` 仅抽取主页信息流标题。未见点赞、评论、收藏、私信或业务库写入；两个脚本均写死个人输出目录，提交前建议参数化并加授权门禁。未运行脚本、未打开浏览器、未登录、未访问小红书、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 46。
+
+## T014 目标项目代码仓提交 P1-A feed-only 脚本
+
+用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `a9a4ea2`：`Add authorized P1A feed-only crawl script`。范围仅限 `backend/scripts/crawl_p1_profile_feed_only.py`（1 file, +314）。提交前验证：`--help` 正常；无授权运行直接拒绝；AST 解析通过；未运行抓取、未打开浏览器、未登录、未访问小红书。未纳入详情版抓取、P1-C、P1-D、Freeze20 或大型目录；未推送远程（代码仓仍无 origin）。

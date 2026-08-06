@@ -91,6 +91,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第二十目标项目专用任务：`D:\AIContentFactory\tasks\T020-p1a-public-profile-crawl-review.md`
 - 已输出 P1-A 公开资料抓取只读评审：`D:\AIContentFactory\docs\p1a-public-profile-crawl-review.md`
 - 第二十任务验证：通过（Required files: 10；Markdown files checked: 46）
+- 代码仓本地提交 P1-A feed-only 脚本：`a9a4ea2`（仅 1 文件；未推送；未含详情版抓取）
 
 ## 验收标准
 
