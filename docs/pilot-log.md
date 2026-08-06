@@ -128,3 +128,7 @@
 ## T014 目标项目远程仓库策略（AIContentFactory T012）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T012-remote-repo-plan.md`，产出 `docs/remote-repo-plan.md`。已确认选择：origin=A 暂不配置；可见性 private；CI/分支保护暂缓；平台 GitHub；仓库名建议 `AIContentFactory`。未创建远程、未 `git remote add`、未 push、未修改代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目 Freeze20 / P1 拆分方案（AIContentFactory T013/T014）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T013-freeze20-split-plan.md` 与 `tasks/T014-p1-split-plan.md`，产出 `docs/freeze20-p1-split-plan.md`。Freeze20 拆为 dry-run、单条草稿箱 live、小批量草稿箱、单条公开发布和确认 CLI；P1 拆为公开资料抓取、本地目录填表、登录/打开页面辅助、GX-001 构建/发布和临时扫描工具。本轮仅静态阅读与文档拆分，未运行脚本、未打开浏览器、未登录、未点击 `暂存离开` 或 `发布`、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 35。

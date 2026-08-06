@@ -47,6 +47,7 @@
 - `D:\AIContentFactory` 已完成 T011：统一测试报告 `docs/draft-box-test-report.md`
 - `D:\AIContentFactory` 代码仓已本地提交 T009–T010：`0ae4784`（`Add draft-box safety path and unit tests`；3 文件；未推送）
 - `D:\AIContentFactory` 已完成 T012：远程策略 `docs/remote-repo-plan.md`（origin 暂不配置；GitHub private；CI/保护暂缓；仓库名建议 AIContentFactory）
+- `D:\AIContentFactory` 已完成 T013/T014：Freeze20 / P1 未跟踪脚本拆分方案 `docs/freeze20-p1-split-plan.md`
 
 ## 当前限制
 
@@ -60,10 +61,11 @@
 
 ## 下一步建议
 
-1. AIContentFactory：Freeze20 / P1 继续按组拆分处理，不混入 draft-box 提交（须确认）
-2. AIContentFactory：受控草稿箱手工冒烟（高敏感，须确认）
-3. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
-4. 接入任务系统（如需与看板 / Issue 同步）
+1. AIContentFactory T015：Freeze20 dry-run 文件评审（只看 F1，不执行）
+2. AIContentFactory T016：P1 本地目录填表评审（只看 P1-B，不访问网络）
+3. AIContentFactory：受控草稿箱手工冒烟（高敏感，须确认）
+4. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
+5. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时
 

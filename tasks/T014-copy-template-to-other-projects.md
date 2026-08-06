@@ -70,6 +70,9 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 代码仓本地提交 T009–T010：`0ae4784`（3 文件；未推送；未含 Freeze20 / P1）
 - 第十二目标项目专用任务：`D:\AIContentFactory\tasks\T012-remote-repo-plan.md`
 - 已输出远程策略：`D:\AIContentFactory\docs\remote-repo-plan.md`（origin 暂不配置；GitHub private；CI/保护暂缓）
+- 第十三/十四目标项目专用任务：`D:\AIContentFactory\tasks\T013-freeze20-split-plan.md`、`D:\AIContentFactory\tasks\T014-p1-split-plan.md`
+- 已输出 Freeze20 / P1 拆分方案：`D:\AIContentFactory\docs\freeze20-p1-split-plan.md`
+- 第十三/十四任务验证：通过（Required files: 10；Markdown files checked: 35）
 
 ## 验收标准
 
@@ -83,6 +86,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - [x] 已完成目标项目代码仓库未提交改动盘点
 - [x] 已完成目标项目未提交改动分组处理方案
 - [x] 已完成目标项目高敏感文件只读复核范围限定
+- [x] 已完成目标项目 Freeze20 / P1 未跟踪脚本拆分方案
 
 ## 测试命令
 
