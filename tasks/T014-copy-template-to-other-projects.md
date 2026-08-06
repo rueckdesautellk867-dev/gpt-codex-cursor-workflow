@@ -126,6 +126,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已输出剩余未跟踪盘点：`D:\AIContentFactory\docs\remaining-untracked-inventory.md`（F4×3 / P1×5 / 大目录×2）
 - 第三十三目标项目专用任务：`D:\AIContentFactory\tasks\T033-remote-repo-plan-review.md`
 - 已输出远程策略复核：`D:\AIContentFactory\docs\remote-repo-plan-review.md`（维持暂不配置 origin）
+- 第三十四目标项目专用任务：`D:\AIContentFactory\tasks\T034-p1a-detail-crawl-review.md`
+- 已输出 P1-A 详情版只读评审：`D:\AIContentFactory\docs\p1a-detail-crawl-review.md`（运行/提交暂缓）
 
 ## 验收标准
 

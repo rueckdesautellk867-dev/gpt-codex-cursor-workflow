@@ -228,3 +228,7 @@
 ## T014 目标项目代码仓远程策略复核（AIContentFactory T033）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T033-remote-repo-plan-review.md`，产出 `docs/remote-repo-plan-review.md`。复核结论维持 T012：暂不配置 origin、GitHub private、CI/分支保护暂缓。未创建远程、未 `git remote add`、未 push、未改代码仓。当前 tip=`c6b7b6a`，仍无 `origin` / `.github`。目标项目本地 CI 通过。
+
+## T014 目标项目 P1-A 详情版只读评审（AIContentFactory T034）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T034-p1a-detail-crawl-review.md`，产出 `docs/p1a-detail-crawl-review.md`。仅评审未跟踪文件 `crawl_p1_benchmark_profiles.py`：会开浏览器、复用 `platform_1`、进笔记详情（每号最多 12）、无授权门禁、输出写死个人目录；未见点赞/评论/私信/业务库写入。结论：只读通过，运行与提交暂缓。处置建议 A 暂缓保留 / B 改造 / C 删除，未执行。未运行脚本、未提交代码仓。目标项目本地 CI 通过。

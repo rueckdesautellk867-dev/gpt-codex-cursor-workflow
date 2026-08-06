@@ -73,6 +73,7 @@
 - `D:\AIContentFactory` 已完成 T031：已删除工作区 `_tmp_merge_scan.py`（未跟踪；未 git add / 未提交代码仓）
 - `D:\AIContentFactory` 已完成 T032：剩余未跟踪盘点 `docs/remaining-untracked-inventory.md`（F4×3 / P1×5 / 大目录×2）
 - `D:\AIContentFactory` 已完成 T033：远程策略复核 `docs/remote-repo-plan-review.md`（维持暂不配置 origin）
+- `D:\AIContentFactory` 已完成 T034：P1-A 详情版只读评审 `docs/p1a-detail-crawl-review.md`（运行/提交暂缓；处置 A/B/C 须另确认）
 
 ## 当前限制
 
@@ -87,7 +88,7 @@
 ## 下一步建议
 
 1. AIContentFactory：F4 / `publish_gx001_local` 保持禁止执行，不进入提交候选
-2. AIContentFactory：P1-A 详情版处置策略（中，须确认）
+2. AIContentFactory：P1-A 详情版处置拍板 A 暂缓保留 / B 改造 / C 删除（中，须确认）
 3. AIContentFactory：P1-C 三脚本处置策略（高，须确认）
 4. AIContentFactory：大目录 ignore/文档声明（低，须确认）
 5. AIContentFactory：真实 F2 live / F3 batch / 草稿箱冒烟（高敏感，须另开审批）
