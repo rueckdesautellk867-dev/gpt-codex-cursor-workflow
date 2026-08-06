@@ -180,3 +180,7 @@
 ## T014 目标项目 P1-E 临时扫描工具只读评审（AIContentFactory T023）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T023-p1e-temp-merge-scan-review.md`，产出 `docs/p1e-temp-merge-scan-review.md`。只读确认 `_tmp_merge_scan.py` 会启动 Playwright、复用 `xiaohongshu/platform_1`、访问两个小红书 profile、滚动抽取 `/explore/` 链接，并写入个人目录下的合并清单。当前不应提交该临时脚本；如保留需重命名、参数化、授权门禁和低频公开资料审批。未运行脚本、未打开浏览器、未登录、未访问小红书、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 52。
+
+## T014 目标项目 Freeze20 F1/F5/F2/F3 提交边界重排（AIContentFactory T024）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T024-freeze20-submit-boundary-plan.md`，产出 `docs/freeze20-submit-boundary-plan.md`。只读整理提交顺序、依赖关系和测试边界，建议拆为三包：F1 dry-run + F5 基础 CLI；F2 单条 live；F3 小批量 batch。F4 publish-one 继续暂缓，不进入本轮提交边界。未运行脚本、未打开浏览器、未登录、未点击 `暂存离开` 或 `发布`、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 54。
