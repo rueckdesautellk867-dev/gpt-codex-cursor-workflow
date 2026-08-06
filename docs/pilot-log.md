@@ -64,3 +64,7 @@
 ## T012 main 分支保护
 
 已由人工在 GitHub 网页开启 `main` 分支保护，并将 `Docs validation` 设为必选检查。后续日常闭环调整为：本地改动 → 新分支 commit → push 分支 → 开 PR → `Docs validation` 通过 → 合并。T012 已完成；T004 仍保持 `待确认`。
+
+## T013 PR + CI + 分支保护冒烟验证
+
+已用低风险文档变更验证日常闭环：测试分支 `branch-protection-record` 推送成功，PR #1 合并到 `main`，页面显示 `1 check passed`，检查项为 `Docs validation`。本地 `main` 已同步到合并提交 `a372df6`。本次验证确认 PR + CI + merge + sync 链路可用；T004 仍保持 `待确认`，未执行任何高风险任务。
