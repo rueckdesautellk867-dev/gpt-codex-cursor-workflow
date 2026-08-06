@@ -97,6 +97,7 @@
 - `D:\AIContentFactory` 已完成 T052：MySQL 状态/启动备忘 `docs/mysql-service-status-startup-notes-t052.md`（约定 `ai_mysql`；本机无 Docker；未启服务）
 - `D:\AIContentFactory` 已完成 T053：敏感 `??` 冻结复核 `docs/remaining-sensitive-untracked-freeze-review.md`（仍 6 项；维持冻结；无低风险可删/ignore）
 - `D:\AIContentFactory` 已完成 T054：阶段二收口 `docs/phase2-closeout-t044-t053.md`（T044–T053；F2 改期；冻结维持）
+- `D:\AIContentFactory` 已完成 T055：入口 **A 维持观察** `docs/phase2-maintain-observation.md`（不启服务、不重跑 F2、不动敏感 `??`）
 
 ## 当前限制
 
@@ -110,10 +111,10 @@
 
 ## 下一步建议
 
-1. AIContentFactory：按阶段二收口默认维持观察（不启服务、不跑 F2/F4/详情；敏感 `??` 仍 6 项）
+1. AIContentFactory：**当前维持观察（T055）** — 不启服务、不跑 F2/F4/详情、不动敏感 `??`
 2. AIContentFactory：维持代码仓无 origin（B 已暂缓）
-3. AIContentFactory：停止同参 feed-only；换策略或详情须另批
-4. F2：H1 未满足、H2 未检；就绪后复检 H1 再另发新审批；接入任务系统（如需）
+3. 若退出观察：先 H1 复检 / 新审批 F2，或其它须另确认入口
+4. 接入任务系统（如需）
 
 ## 复制到其它项目时
 
