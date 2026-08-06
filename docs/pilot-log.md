@@ -164,3 +164,7 @@
 ## T014 目标项目代码仓提交 P1-A feed-only 脚本
 
 用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `a9a4ea2`：`Add authorized P1A feed-only crawl script`。范围仅限 `backend/scripts/crawl_p1_profile_feed_only.py`（1 file, +314）。提交前验证：`--help` 正常；无授权运行直接拒绝；AST 解析通过；未运行抓取、未打开浏览器、未登录、未访问小红书。未纳入详情版抓取、P1-C、P1-D、Freeze20 或大型目录；未推送远程（代码仓仍无 origin）。
+
+## T014 目标项目 P1-C 登录 / 打开页面辅助评审（AIContentFactory T021）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T021-p1c-login-page-helper-review.md`，产出 `docs/p1c-login-page-helper-review.md`。只读确认三个脚本都会启动 Playwright 持久会话并复用 `platform_1`；登录脚本会等待扫码并写 status / screenshot；发布页辅助脚本会打开 creator 发布相关页面，但未见自动点击 `发布`。未运行脚本、未打开浏览器、未登录、未打开登录页/发布页、未截图、未点击、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 48。

@@ -56,6 +56,7 @@
 - `D:\AIContentFactory` 已完成 T019：Freeze20 F3 小批量草稿箱只读评审 `docs/freeze20-f3-batch-review.md`（不运行；会连续写入真实草稿箱，执行暂缓）
 - `D:\AIContentFactory` 已完成 T020：P1-A 公开资料抓取只读评审 `docs/p1a-public-profile-crawl-review.md`（会访问小红书并复用本地会话；运行暂缓）
 - `D:\AIContentFactory` 代码仓已本地提交 P1-A feed-only 脚本：`a9a4ea2`（`Add authorized P1A feed-only crawl script`；仅 1 文件；未推送；未含详情版抓取）
+- `D:\AIContentFactory` 已完成 T021：P1-C 登录 / 打开页面辅助只读评审 `docs/p1c-login-page-helper-review.md`（会打开登录/发布相关页面；执行暂缓）
 
 ## 当前限制
 
@@ -69,8 +70,8 @@
 
 ## 下一步建议
 
-1. AIContentFactory：P1-C 登录/打开页面辅助只读评审（高敏感）
-2. AIContentFactory：F1/F5/F2/F3 提交边界重排（须确认）
+1. AIContentFactory：P1-C 授权门禁参数化方案（须确认）
+2. AIContentFactory：T022 F4 / P1-D 公开发布脚本暂缓清单
 3. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
 4. 接入任务系统（如需与看板 / Issue 同步）
 
