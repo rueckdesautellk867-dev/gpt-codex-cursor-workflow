@@ -188,3 +188,7 @@
 ## T014 目标项目 Freeze20 包 1 提交准备（AIContentFactory T025）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T025-freeze20-package1-submit-prep.md`，产出 `docs/freeze20-package1-submit-prep.md`。包 1 候选为 3 个未跟踪文件：`freeze20_draft_box_dry_run.py`、`test_freeze20_draft_box_dry_run.py`、`freeze20_draft_box_upload_confirm.py`。3 文件 AST 解析通过；F1 单测未跑通（项目 `.venv` 启动失败；Codex 内置 Python 缺 `sqlalchemy`）。未运行 Freeze20 业务脚本、未打开浏览器、未登录、未点击、未提交代码仓。包 1 进入代码提交前须先修复或指定可用测试环境。
+
+## T014 目标项目 Freeze20 F1 单测环境处理（AIContentFactory T026）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T026-freeze20-f1-test-env.md`，产出 `docs/freeze20-f1-test-env.md`。确认 `.venv` 中已有 `sqlalchemy`，但当前沙箱无法启动 `.venv` Python；Codex 内置 Python 可启动但不能混用 `.venv` 的 Python 3.10 原生依赖，卡在 `pydantic_core`。已给出本机 PowerShell 推荐测试命令。未安装依赖、未重建 `.venv`、未运行 Freeze20 业务脚本、未打开浏览器、未登录、未点击、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 58。

@@ -108,6 +108,9 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第二十五目标项目专用任务：`D:\AIContentFactory\tasks\T025-freeze20-package1-submit-prep.md`
 - 已输出 Freeze20 包 1 提交准备：`D:\AIContentFactory\docs\freeze20-package1-submit-prep.md`
 - 第二十五任务验证：通过（Required files: 10；Markdown files checked: 56）
+- 第二十六目标项目专用任务：`D:\AIContentFactory\tasks\T026-freeze20-f1-test-env.md`
+- 已输出 Freeze20 F1 单测环境处理记录：`D:\AIContentFactory\docs\freeze20-f1-test-env.md`
+- 第二十六任务验证：通过（Required files: 10；Markdown files checked: 58）
 
 ## 验收标准
 
@@ -133,6 +136,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - [x] 已完成目标项目 P1-E 临时扫描工具只读评审
 - [x] 已完成目标项目 Freeze20 F1/F5/F2/F3 提交边界重排
 - [x] 已完成目标项目 Freeze20 包 1 提交准备
+- [x] 已完成目标项目 Freeze20 F1 单测环境处理
 
 ## 测试命令
 
