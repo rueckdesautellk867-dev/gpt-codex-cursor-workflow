@@ -40,7 +40,8 @@
 - `D:\AIContentFactory` 已完成 T004，输出未提交改动分组处理方案
 - `D:\AIContentFactory` 已完成 T005：三 shell 保持 Git `100755`，本仓 `core.filemode=false` 消除 Windows 模式误报
 - `D:\AIContentFactory` 已完成 T006 限定范围：只读复核 `playwright_engine.py`，不发布、不登录、不点击、不改代码
-- `D:\AIContentFactory` 已完成 T007：登记 playwright 测试补强（不改发布行为）；完整 unittest 待环境就绪后统一报告
+- `D:\AIContentFactory` 已完成 T007：登记 playwright 测试补强（不改发布行为）
+- `D:\AIContentFactory` 已完成 T008：测试环境确认；`test_xhs_draft_box_save` 15 OK（3 expectedFailure）
 
 ## 当前限制
 
@@ -54,7 +55,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：修测试环境后跑 `test_xhs_draft_box_save.py` 并统一出报告（中风险，须确认）
+1. AIContentFactory：基于 T007/T008 写统一测试报告（低风险）
 2. AIContentFactory：改引擎消 `expectedFailure`（高敏感，须确认）；Freeze20/P1 拆分另开
 3. 接入任务系统（如需与看板 / Issue 同步）
 4. 如需更严格验证，可另开失败 PR 测试分支保护拦截

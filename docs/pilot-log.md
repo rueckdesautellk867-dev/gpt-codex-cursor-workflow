@@ -104,3 +104,7 @@
 ## T014 目标项目登记 playwright 测试补强（AIContentFactory T007）
 
 已在 `D:\AIContentFactory` 完成第七个低风险任务：`tasks/T007-playwright-engine-test-hardening.md`。登记代码仓未跟踪测试文件 `backend/tests/test_xhs_draft_box_save.py` 的补强点（含 ambiguous、拒绝点「发布」、禁用坐标 fallback、多图不静默降级、contenteditable 仅键盘填充等 `expectedFailure`/断言）。本轮不改 `playwright_engine.py`，不登录/发布/开浏览器，不提交代码仓。语法检查通过；unittest 因系统 Python/`.venv`/缺 `sqlalchemy` 未完整跑通，约定后续逐步测试后统一出报告。目标项目本地 CI 通过。
+
+## T014 目标项目确认测试运行环境（AIContentFactory T008）
+
+已在 `D:\AIContentFactory` 完成第八个任务：`tasks/T008-fix-test-runtime.md`。确认代码仓 `.venv`（Python 3.10.11）可用；从仓库根跑测会因根 `.env` 字段不全触发 Settings 失败，改为在 `backend` + `PYTHONPATH=backend` 下运行。实际跑通 `tests.test_xhs_draft_box_save`：15 tests OK（expected failures=3）。新增 `docs/test-runtime.md` 与 `scripts/run-xhs-draft-box-unit-tests.ps1`。未改引擎、未改 `.env`、未提交代码仓。
