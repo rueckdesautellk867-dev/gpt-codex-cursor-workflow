@@ -240,3 +240,7 @@
 ## T015 推送失败降级策略（CLI → Desktop）
 
 已完成：`docs/push-fallback.md`、`scripts/push-with-fallback.ps1`、`.gitignore`（忽略 `.pending-desktop-push.json`），并在 `docs/runbook.md` 增加远程推送降级入口。约定：push 失败最多短试 1～2 次，记本地 tip，标「待人工 Desktop 推送」，不死等；网络恢复后用户发「同意推送三方闭环」。本地 CI 通过。
+
+## T014 目标项目 P1-A 详情版提交准备与代码仓提交（AIContentFactory T037）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T037-p1a-detail-submit-prep.md`，产出 `docs/p1a-detail-submit-prep.md`。用户确认后，代码仓本地提交 `0672a73`：`Add authorized P1A detail crawl script`。范围仅限 `backend/scripts/crawl_p1_benchmark_profiles.py`（1 file）。未推送远程（代码仓无 origin）；未运行真实抓取；不等于批准真实抓取。F4 / P1-C / 大目录仍未跟踪。

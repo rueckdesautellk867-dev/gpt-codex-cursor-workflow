@@ -77,6 +77,8 @@
 - `D:\AIContentFactory` 已完成 T034：P1-A 详情版只读评审 `docs/p1a-detail-crawl-review.md`（运行/提交暂缓；处置 A/B/C 须另确认）
 - `D:\AIContentFactory` 已完成 T035：详情版参数化与授权门禁方案 `docs/p1a-detail-param-auth-plan.md`
 - `D:\AIContentFactory` 已完成 T036：详情版门禁落地 `docs/p1a-detail-param-auth-impl.md`（脚本已改；无授权 exit 2；未抓取、未提交）
+- `D:\AIContentFactory` 已完成 T037：详情版提交准备 `docs/p1a-detail-submit-prep.md`（候选 1 文件；AST 通过；无授权拒绝）
+- `D:\AIContentFactory` 代码仓已本地提交 P1-A 详情版：`0672a73`（`Add authorized P1A detail crawl script`；仅 1 文件；未推送；无 origin；不等于批准真实抓取）
 
 ## 当前限制
 
@@ -91,10 +93,10 @@
 ## 下一步建议
 
 1. AIContentFactory：F4 / `publish_gx001_local` 保持禁止执行，不进入提交候选
-2. AIContentFactory：P1-A 详情版提交准备（仅 1 文件；须确认；≠批准抓取）
-3. AIContentFactory：P1-C 三脚本处置策略（高，须确认）
-4. AIContentFactory：大目录 ignore/文档声明（低，须确认）
-5. AIContentFactory：真实 F2 live / F3 batch / 草稿箱冒烟（高敏感，须另开审批）
+2. AIContentFactory：P1-C 三脚本处置策略（高，须确认）
+3. AIContentFactory：大目录 ignore/文档声明（低，须确认）
+4. AIContentFactory：真实 F2 live / F3 batch / 草稿箱冒烟（高敏感，须另开审批）
+5. AIContentFactory：真实 P1-A 详情抓取（高敏感，须另开审批；≠已提交脚本）
 6. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时
