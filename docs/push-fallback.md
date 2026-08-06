@@ -36,6 +36,21 @@ CLI 推送失败（网络/443）。已记本地 tip=<shortsha> <subject>。
 状态：待人工 Desktop 推送。网络恢复后请发：同意推送三方闭环
 ```
 
+## 2.1 重点监控：`github.com:443`（与 api 分流）
+
+推送 URL 走 **`https://github.com/...`**，**不是** `api.github.com`。
+
+| 探针 | 意义 |
+|------|------|
+| `Test-NetConnection github.com -Port 443` | CLI push / ls-remote 硬依赖 |
+| `Test-NetConnection api.github.com -Port 443` | 仅说明 GitHub API 侧可达；**不能**代替上一项 |
+| `curl -sI https://github.com` | 曾出现 TCP True 但 curl 仍失败；须与 TCP 双检 |
+| `git ls-remote --heads origin main` | 与 push 同源；成功才算远端可证 |
+
+**判读：** `api.github.com` 通而 `github.com:443` 不通 → 按本文件 §2 降级（Desktop Fetch/Push），**不要**因「浏览器能上网」反复空跑 CLI push。
+
+详细当日案例与标准探针见目标项目：`D:\AIContentFactory\docs\daily-progress-report-2026-08-06.md` §4。
+
 ## 3. 待推送标记文件
 
 路径：仓库根目录 `.pending-desktop-push.json`（已加入 `.gitignore`，**禁止 commit**）
