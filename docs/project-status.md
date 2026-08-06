@@ -80,6 +80,8 @@
 - `D:\AIContentFactory` 已完成 T037：详情版提交准备 `docs/p1a-detail-submit-prep.md`（候选 1 文件；AST 通过；无授权拒绝）
 - `D:\AIContentFactory` 代码仓已本地提交 P1-A 详情版：`0672a73`（`Add authorized P1A detail crawl script`；仅 1 文件；未推送；无 origin；不等于批准真实抓取）
 - `D:\AIContentFactory` 已完成 T038：P1-C 三脚本处置策略 `docs/p1c-disposition-plan.md`（推荐 K0 暂缓保留；publish 辅助单独隔离；未运行、未提交）
+- `D:\AIContentFactory` 已完成 T039：大目录 ignore 声明 `docs/large-dir-ignore-plan.md`
+- `D:\AIContentFactory` 代码仓已本地提交 ignore：`0d4683c`（`Ignore local Freeze20 and media working trees`；仅 `.gitignore`；未推送；未删除目录；两目录不再以 `??` 出现）
 
 ## 当前限制
 
@@ -95,10 +97,9 @@
 
 1. AIContentFactory：F4 / `publish_gx001_local` 保持禁止执行，不进入提交候选
 2. AIContentFactory：拍板 P1-C 维持 K0 或删除 `open_xhs_publish_page_local.py`（高，须确认）
-3. AIContentFactory：大目录 ignore/文档声明（低，须确认）
-4. AIContentFactory：真实 F2 live / F3 batch / 草稿箱冒烟（高敏感，须另开审批）
-5. AIContentFactory：真实 P1-A 详情抓取（高敏感，须另开审批；≠已提交脚本）
-6. 接入任务系统（如需与看板 / Issue 同步）
+3. AIContentFactory：真实 F2 live / F3 batch / 草稿箱冒烟（高敏感，须另开审批）
+4. AIContentFactory：真实 P1-A 详情抓取（高敏感，须另开审批；≠已提交脚本）
+5. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时
 

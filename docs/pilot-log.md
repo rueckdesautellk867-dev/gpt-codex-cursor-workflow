@@ -248,3 +248,7 @@
 ## T014 目标项目 P1-C 三脚本处置策略（AIContentFactory T038）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T038-p1c-disposition-plan.md`，产出 `docs/p1c-disposition-plan.md`。只读整理 `ensure_www_xhs_login.py`、`open_xhs_login_local.py`、`open_xhs_publish_page_local.py`：均会开浏览器并复用 `platform_1`、无授权 flag；未见自动点发布。推荐默认 K0 暂缓保留未跟踪；publish 辅助单独隔离。未运行、未改脚本、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目大目录 ignore 落地（AIContentFactory T039）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T039-large-dir-ignore-plan.md`，产出 `docs/large-dir-ignore-plan.md`。用户确认后，代码仓本地提交 `0d4683c`：`Ignore local Freeze20 and media working trees`。范围仅限 `.gitignore` 追加 `tmp_freeze20/` 与 `小红书阅读视频生产系统/`。未删除目录、未推送（无 origin）；`git status` 中二者不再以 `??` 出现。剩余未跟踪：F4×3、P1-C×3、`publish_gx001_local`。
