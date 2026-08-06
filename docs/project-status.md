@@ -38,8 +38,10 @@
 - `D:\AIContentFactory` 已完成 T002，确认实际代码仓库锚点为 `D:\AIContentFactory\repo\AIContentFactory`
 - `D:\AIContentFactory` 已完成 T003，输出代码仓库未提交改动盘点
 - `D:\AIContentFactory` 已完成 T004，输出未提交改动分组处理方案
+- `D:\AIContentFactory` 已完成 T005：三 shell 保持 Git `100755`，本仓 `core.filemode=false` 消除 Windows 模式误报
 
 ## 当前限制
+
 
 - 已接最小真实 CI（T006 已完成），当前覆盖文档链接、任务索引和关键文件检查
 - 未接外部任务系统（仅仓库内 Markdown 任务）
@@ -49,7 +51,7 @@
 
 ## 下一步建议
 
-1. 帮 AIContentFactory 执行 T005：单独恢复 shell 文件可执行位
+1. AIContentFactory T006：单独复核 `playwright_engine.py`（高敏感，须确认后再做）
 2. 接入任务系统（如需与看板 / Issue 同步）
 3. 如需更严格验证，可另开失败 PR 测试分支保护拦截
 4. 设计阿里云测试环境（部署与反馈闭环另开任务，高风险须审批）

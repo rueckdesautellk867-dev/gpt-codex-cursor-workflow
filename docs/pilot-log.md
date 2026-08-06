@@ -92,3 +92,7 @@
 ## T014 目标项目未提交改动分组方案
 
 已在 `D:\AIContentFactory` 创建第四个低风险任务：`tasks/T004-working-tree-group-plan.md`。输出 `docs/working-tree-group-plan.md`，将未提交改动拆为 shell 文件模式变化、`playwright_engine.py`、Freeze20、P1 脚本和大型产物目录等处理组。目标项目本地 CI 通过：Required files 10，Markdown files checked 21。
+
+## T014 目标项目恢复 shell 可执行位（AIContentFactory T005）
+
+已在 `D:\AIContentFactory` 完成第五个低风险任务：`tasks/T005-restore-shell-executable-bits.md`。确认代码仓 `backend/backup.sh`、`backend/health_check.sh`、`backend/start_dev.sh` 在 Git HEAD/index 中已是 `100755`；Windows 工作区无法持久保存 Unix +x，故对本仓设置本地 `core.filemode=false` 消除模式误报。未改 shell 内容，未碰 playwright / Freeze20 / P1 / 大型素材，未做代码仓 commit。目标项目本地 CI 通过：Required files 10，Markdown files checked 22。
