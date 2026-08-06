@@ -57,3 +57,10 @@
 - **主要文件**：`.github/workflows/ci.yml`、`scripts/ci-check.ps1`、`docs/ci.md`、`docs/verification.md`、`tasks/T006-ci-setup.md`
 - **提交 hash**：`efd3556`（`ci: add docs validation workflow`）
 - **状态**：已提交
+
+## v0.9 — main 分支保护
+
+- **版本目标**：让 `main` 进入 PR + CI 门禁流程，避免直接裸推绕过验证
+- **主要文件**：`tasks/T012-branch-protection.md`、`tasks/backlog.md`、`docs/project-status.md`、`docs/pilot-log.md`
+- **提交 hash**：`4e19740`（`docs: record branch protection setup`）
+- **状态**：已提交
