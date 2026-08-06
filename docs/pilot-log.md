@@ -264,3 +264,7 @@
 ## T014 目标项目远程落地暂缓与删除 publish 开页辅助（AIContentFactory T042/T043）
 
 已在 `D:\AIContentFactory` 完成 T042 远程落地方案后，用户确认 **暂缓 B，维持无 origin**（不建仓、不 remote add、不 push）。随后确认选项 A：删除工作区未跟踪文件 `backend/scripts/open_xhs_publish_page_local.py`（T043）；未 git add、未提交代码仓；未动其余 P1-C / F4 / `publish_gx001_local`。当前敏感 `??` 为 6 项。目标项目本地 CI 通过。
+
+## T014 目标项目 P1-A feed-only 受控真跑（AIContentFactory T044）
+
+用户确认选项 1 后，在代码仓执行已提交脚本 `crawl_p1_profile_feed_only.py`：`--i-authorize-p1a-feed-crawl --limit-per-profile 8 --scroll-rounds 2`。先补装 Playwright Chromium，再跑通 exit 0。汇总 atmosphere=0 / slow=8 / other=16；输出在 ignore 的 `backend/data/public_research/p1_profile_feed/`。未进详情、未发布、未提交代码仓。见 `D:\AIContentFactory\docs\p1a-feed-only-controlled-run.md`。目标项目本地 CI 通过。

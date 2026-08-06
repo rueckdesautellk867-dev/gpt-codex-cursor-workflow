@@ -86,6 +86,7 @@
 - `D:\AIContentFactory` 已完成 T041：阶段收口报告 `docs/freeze20-p1-stage-closeout.md`（Freeze20/P1 拆分→冻结；代码仓 tip=`0d4683c` 无 origin；高风险面维持冻结）
 - `D:\AIContentFactory` 已完成 T042：远程落地方案；用户确认 **暂缓 B，维持无 origin**
 - `D:\AIContentFactory` 已完成 T043：已删除工作区 `open_xhs_publish_page_local.py`（未提交；剩余敏感 `??` 6 项）
+- `D:\AIContentFactory` 已完成 T044：P1-A feed-only 受控真跑 `docs/p1a-feed-only-controlled-run.md`（limit=8；exit 0；氛围 0 / 慢读 8 / 其他 16；输出在 ignore 目录；未提交）
 
 ## 当前限制
 
@@ -99,9 +100,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：维持高风险冻结（F4 / P1-C 登录辅助运行 / `publish_gx001` / 真跑）
+1. AIContentFactory：维持高风险冻结（F4 / P1-C 登录辅助运行 / `publish_gx001` / 详情真抓 / F2·F3 live）
 2. AIContentFactory：维持代码仓无 origin（B 已暂缓）
-3. AIContentFactory：下一阶段入口见收口报告 / 受控真跑须另批（C）
+3. AIContentFactory：其它受控真跑须另批（默认不含 F4 / GX 公开发布）
 4. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时

@@ -146,6 +146,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已确认暂缓 B、维持代码仓无 origin
 - 第四十三目标项目专用任务：`D:\AIContentFactory\tasks\T043-p1c-delete-publish-page-helper.md`
 - 已删除工作区 `open_xhs_publish_page_local.py`（未提交；剩余敏感 `??` 6 项）
+- 第四十四目标项目专用任务：`D:\AIContentFactory\tasks\T044-p1a-feed-only-controlled-run.md`
+- 已完成 P1-A feed-only 受控真跑：`D:\AIContentFactory\docs\p1a-feed-only-controlled-run.md`（exit 0；未提交）
 
 ## 验收标准
 
