@@ -116,3 +116,7 @@
 ## T014 目标项目引擎 draft-box 安全修复（AIContentFactory T010）
 
 已在用户确认「引擎执行」后完成：`tasks/T010-playwright-engine-safety-fixes.md`。修改 `playwright_engine.py`：多「暂存离开」候选 → ambiguous；真实鼠标 CDP 失败不再坐标 fallback；多图上传失败不静默单图降级。对应单测去掉 `@expectedFailure`。验证 `Ran 15 tests ... OK`。未真实登录/发布；代码仓改动尚未 git commit。
+
+## T014 目标项目统一测试报告（AIContentFactory T011）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T011-draft-box-test-report.md`。汇总 T007–T010，产出 `docs/draft-box-test-report.md`（边界、环境、修复前后 15 tests、引擎改动摘要、残留风险）。目标项目本地 CI 通过：Required files 10，Markdown files checked 30。未改引擎、未真实发布、未提交代码仓。

@@ -64,6 +64,9 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第六个目标项目专用任务：`D:\AIContentFactory\tasks\T006-review-playwright-engine-scope.md`
 - 第六个任务验证：通过（Required files: 10；Markdown files checked: 23）
 - 已限定 `playwright_engine.py` 只读复核范围：不发布、不登录、不点击、不改代码
+- 第十一目标项目专用任务：`D:\AIContentFactory\tasks\T011-draft-box-test-report.md`
+- 第十一任务验证：通过（Required files: 10；Markdown files checked: 30）
+- 已输出统一测试报告：`D:\AIContentFactory\docs\draft-box-test-report.md`
 
 ## 验收标准
 
