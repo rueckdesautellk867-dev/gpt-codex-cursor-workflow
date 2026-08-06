@@ -55,6 +55,9 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第二个目标项目专用任务：`D:\AIContentFactory\tasks\T002-confirm-git-anchor.md`
 - 第二个任务验证：通过（Required files: 10；Markdown files checked: 17）
 - AIContentFactory 实际代码仓库锚点：`D:\AIContentFactory\repo\AIContentFactory`
+- 第三个目标项目专用任务：`D:\AIContentFactory\tasks\T003-inventory-code-repo-working-tree.md`
+- 第三个任务验证：通过（Required files: 10；Markdown files checked: 19）
+- 已输出未提交改动盘点：`D:\AIContentFactory\docs\git-working-tree-inventory.md`
 
 ## 验收标准
 
@@ -65,6 +68,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - [x] 已在真实目标项目 `D:\AIContentFactory` 完成首次复制验证
 - [x] 已在目标项目完成首个低风险任务试跑
 - [x] 已确认目标项目实际 Git 仓库锚点
+- [x] 已完成目标项目代码仓库未提交改动盘点
 
 ## 测试命令
 
