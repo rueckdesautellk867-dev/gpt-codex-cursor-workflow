@@ -138,6 +138,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第三十九目标项目专用任务：`D:\AIContentFactory\tasks\T039-large-dir-ignore-plan.md`
 - 已输出大目录 ignore 声明：`D:\AIContentFactory\docs\large-dir-ignore-plan.md`
 - 代码仓本地提交 ignore：`0d4683c`（仅 `.gitignore`；未推送；未删除目录）
+- 第四十目标项目专用任务：`D:\AIContentFactory\tasks\T040-remaining-high-risk-freeze.md`
+- 已输出剩余高风险冻结清单：`D:\AIContentFactory\docs\remaining-high-risk-freeze.md`（维持冻结；无解除项）
 
 ## 验收标准
 
