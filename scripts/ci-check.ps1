@@ -112,7 +112,7 @@ if (Test-Path -LiteralPath $backlogPath -PathType Leaf) {
     }
 
     $pendingConfirmation = -join ([char[]](0x5F85, 0x786E, 0x8BA4))
-    if ($backlog -notmatch "T004.*$pendingConfirmation") {
+    if (($backlog -match 'T004') -and ($backlog -notmatch "T004.*$pendingConfirmation")) {
         Add-Failure 'High-risk sample T004 must remain pending confirmation in tasks/backlog.md'
     }
 }

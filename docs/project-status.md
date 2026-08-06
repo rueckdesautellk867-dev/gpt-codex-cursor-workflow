@@ -5,7 +5,7 @@
 | 项 | 内容 |
 |----|------|
 | 项目名称 | 三方闭环整合项目 |
-| 当前版本 | v0.9 已完成，真实 CI 与 main 分支保护已接入 |
+| 当前版本 | v0.11 已完成，模板化复制落地包已建立 |
 | 当前工作区 | `D:\三方闭环整合项目\` |
 | 远程仓库 | `https://github.com/rueckdesautellk867-dev/gpt-codex-cursor-workflow.git` |
 
@@ -21,6 +21,7 @@
 | CI 层 | GitHub Actions 与本地复现脚本 | `.github/workflows/ci.yml`、`docs/ci.md` |
 | 风险审批层 | 高风险禁止动作与审批记录 | `docs/risk-approval.md` |
 | 运行手册层 | 启动→归档的固定操作顺序 | `docs/runbook.md` |
+| 模板复制层 | 复制到其它项目的说明与脚本 | `docs/template-rollout.md`、`scripts/copy-workflow-template.ps1` |
 
 ## 已验证事项
 
@@ -31,6 +32,7 @@
 - 真实 CI 已接入：`Docs validation`
 - `main` 分支保护已在 GitHub 网页开启
 - PR #1 已验证分支推送、`Docs validation`、合并和本地同步链路
+- 复制到其它项目的模板说明和本地复制脚本已建立
 
 ## 当前限制
 
@@ -42,13 +44,13 @@
 
 ## 下一步建议
 
-1. 复制到其它项目，按本状态页落地模板
+1. 选择一个真实目标项目，按 `docs/template-rollout.md` 执行首次复制
 2. 接入任务系统（如需与看板 / Issue 同步）
 3. 如需更严格验证，可另开失败 PR 测试分支保护拦截
 4. 设计阿里云测试环境（部署与反馈闭环另开任务，高风险须审批）
 
 ## 复制到其它项目时
 
-1. 复制规则与 `docs/`、`tasks/` 骨架，按目标仓库改名与路径
+1. 按 `docs/template-rollout.md` 和 `scripts/copy-workflow-template.ps1` 复制规则与骨架
 2. 用 `docs/runbook.md` 跑第一个低风险任务验证
 3. 再按需接入 CI、远程仓库与环境；高风险仍走 `docs/risk-approval.md`

@@ -68,3 +68,7 @@
 ## T013 PR + CI + 分支保护冒烟验证
 
 已用低风险文档变更验证日常闭环：测试分支 `branch-protection-record` 推送成功，PR #1 合并到 `main`，页面显示 `1 check passed`，检查项为 `Docs validation`。本地 `main` 已同步到合并提交 `a372df6`。本次验证确认 PR + CI + merge + sync 链路可用；T004 仍保持 `待确认`，未执行任何高风险任务。
+
+## T014 复制到其它项目模板化落地
+
+已建立复制到其它项目的模板化落地包：新增 `docs/template-rollout.md` 和 `scripts/copy-workflow-template.ps1`。脚本默认跳过目标项目已有文件，避免误覆盖；具体目标项目路径需执行时显式提供。T014 已完成；T004 仍保持 `待确认`。

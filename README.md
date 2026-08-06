@@ -44,6 +44,7 @@
 | [docs/project-status.md](docs/project-status.md) | 项目状态、能力与限制 |
 | [docs/release-notes.md](docs/release-notes.md) | 版本记录（v0.1–v0.7） |
 | [docs/remote-repo-plan.md](docs/remote-repo-plan.md) | 远程仓库准备方案（不推送） |
+| [docs/template-rollout.md](docs/template-rollout.md) | 复制到其它项目的模板落地说明 |
 | [tasks/README.md](tasks/README.md) | 任务目录使用说明与最短操作 |
 | [tasks/backlog.md](tasks/backlog.md) | 可执行任务总清单 |
 
@@ -54,6 +55,7 @@
 3. 再按 [分流规则](docs/ai-task-routing.md) 决定交给 GPT、Codex、Cursor 或人工
 4. 合并前对照 [PR_CHECKLIST.md](PR_CHECKLIST.md) 与 [完成标准](docs/definition-of-done.md)
 5. 涉及提交或合并前运行 [CI 本地复现命令](docs/ci.md)
+6. 复制到其它项目时先看 [模板落地说明](docs/template-rollout.md)
 
 ## 风险原则
 
