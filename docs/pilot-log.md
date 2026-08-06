@@ -144,3 +144,7 @@
 ## T014 目标项目 Freeze20 F2 单条草稿箱 live 评审（AIContentFactory T017）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T017-freeze20-f2-live-draft-review.md`，产出 `docs/freeze20-f2-live-draft-review.md`。只读确认 F2 主路径调用草稿箱保存能力，不创建 PublishTask、不回写 GeneratedContent 状态、不执行公开发布；同时明确 live 执行会打开真实浏览器并点击 `暂存离开`，验证阶段可能进入草稿箱/图文笔记页面，当前仍按 WATCH/freeze 暂停执行。未运行脚本、未打开浏览器、未登录、未点击、未改代码仓、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 41。
+
+## T014 目标项目 P1-B 路径参数化（AIContentFactory T018）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T018-p1b-path-parameterization.md`。代码仓候选脚本 `backend/scripts/fill_p1_prescan_from_catalog.py` 增加 `--notes-dir`、`--source`、`--out`、`--summary` 参数；默认输入和输出改为代码仓内相对路径，去掉个人目录硬编码。验证使用临时输出路径运行成功，生成 `prescan.md` 与 `summary.txt`，统计为 `一页folio=2`、`谈亦默=4`、`作家蓑依=4`。未访问网络、未打开浏览器、未登录、未点击、未发布；代码仓脚本仍为未跟踪，尚未提交。目标项目本地 CI 通过：Required files 10，Markdown files checked 42。

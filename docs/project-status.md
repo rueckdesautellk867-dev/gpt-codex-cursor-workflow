@@ -51,6 +51,7 @@
 - `D:\AIContentFactory` 已完成 T015：F1 dry-run 只读评审 `docs/freeze20-f1-dry-run-review.md`（未运行、未提交代码仓）
 - `D:\AIContentFactory` 已完成 T016：P1-B 本地目录填表只读评审 `docs/p1b-local-catalog-fill-review.md`（无网络/浏览器；硬编码路径阻塞提交）
 - `D:\AIContentFactory` 已完成 T017：Freeze20 F2 单条草稿箱 live 只读评审 `docs/freeze20-f2-live-draft-review.md`（不运行；会点击 `暂存离开` 的执行风险已登记）
+- `D:\AIContentFactory` 已完成 T018：P1-B 路径参数化（去掉个人目录硬编码；临时输出验证通过；代码仓未提交）
 
 ## 当前限制
 
@@ -64,7 +65,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：P1-B 路径参数化（只改本地填表脚本，须确认）
+1. AIContentFactory：提交 P1-B 路径参数化代码改动（须确认）
 2. AIContentFactory：F1 单测跑通 / 解耦 F5 后，再议是否提交 F1（须确认）
 3. AIContentFactory：F2 单测/执行门禁拆分，或受控草稿箱手工冒烟（高敏感，须确认）
 4. AIContentFactory：受控草稿箱手工冒烟（高敏感，须确认）
