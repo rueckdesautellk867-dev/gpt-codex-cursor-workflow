@@ -320,3 +320,7 @@
 ## T014 目标项目阶段成果索引（AIContentFactory T057）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T057-phase-results-index.md`，产出 `docs/phase-results-index.md`。低风险总入口，链接 T041/T054/T055–T056、冻结清单、feed-only 报告、F2/MySQL 改期文档、远程策略；并挂到目标项目 `README.md` 与 `project-status.md`。索引 ≠ 执行授权。未启服务、未解除冻结。目标项目本地 CI 通过。三方闭环当时远程 tip=`1a0e39d`。
+
+## T014 目标项目未完成与冻结清单（AIContentFactory T058）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T058-unfinished-and-frozen-task-list.md`，产出 `docs/unfinished-and-frozen-task-list.md`。只读汇总：已完成不再重复（T041/T048/T054–T057）、H1/H2/H3 前置阻塞、冻结项与低风险可选入口。形成观察期后 checkpoint；未启服务、未重跑高风险、未提交代码仓。目标项目本地 CI 通过。三方闭环当时远程 tip=`a03bd42`。

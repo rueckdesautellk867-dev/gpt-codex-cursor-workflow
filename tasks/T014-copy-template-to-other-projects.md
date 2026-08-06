@@ -174,6 +174,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已完成观察期巡检：`D:\AIContentFactory\docs\observation-status-patrol-t056.md`（三方闭环 `9586d20`；代码仓 `0d4683c`；`??`×6；H1 未满足；pending 无）
 - 第五十七目标项目专用任务：`D:\AIContentFactory\tasks\T057-phase-results-index.md`
 - 已完成阶段成果索引：`D:\AIContentFactory\docs\phase-results-index.md`（T041/T054/T056、冻结、feed-only、远程策略总入口）
+- 第五十八目标项目专用任务：`D:\AIContentFactory\tasks\T058-unfinished-and-frozen-task-list.md`
+- 已完成未完成与冻结任务清单：`D:\AIContentFactory\docs\unfinished-and-frozen-task-list.md`（后续只从清单选入口；H1/H2/H3 前置；冻结面维持）
 
 ## 验收标准
 

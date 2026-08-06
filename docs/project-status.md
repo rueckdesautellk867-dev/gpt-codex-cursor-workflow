@@ -100,6 +100,7 @@
 - `D:\AIContentFactory` 已完成 T055：入口 **A 维持观察** `docs/phase2-maintain-observation.md`（不启服务、不重跑 F2、不动敏感 `??`）
 - `D:\AIContentFactory` 已完成 T056：观察期巡检 `docs/observation-status-patrol-t056.md`（`9586d20` / `0d4683c`；`??`×6；H1 未满足；pending 无）
 - `D:\AIContentFactory` 已完成 T057：阶段成果索引 `docs/phase-results-index.md`（总入口；挂 README / project-status）
+- `D:\AIContentFactory` 已完成 T058：未完成与冻结任务清单 `docs/unfinished-and-frozen-task-list.md`（后续只从清单选入口；checkpoint）
 
 ## 当前限制
 
@@ -113,9 +114,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：**当前维持观察（T055）** — 不启服务、不跑 F2/F4/详情、不动敏感 `??`
+1. AIContentFactory：**当前维持观察（T055）** — 后续入口见 T058 清单；不启服务、不跑 F2/F4/详情、不动敏感 `??`
 2. AIContentFactory：维持代码仓无 origin（B 已暂缓）
-3. 若退出观察：先 H1 复检 / 新审批 F2，或其它须另确认入口
+3. 若退出观察：先满足 H1/H2 再另批 F2，或从 T058 低风险入口另选
 4. 接入任务系统（如需）
 
 ## 复制到其它项目时
