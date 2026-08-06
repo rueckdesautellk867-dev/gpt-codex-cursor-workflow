@@ -71,6 +71,8 @@
 - `D:\AIContentFactory` 已完成 T029：F1–F3 提交后状态报告 `docs/freeze20-f1f3-post-submit-status.md`（剩余未跟踪：F4 publish / P1 残留 / 临时扫描 / 大目录）
 - `D:\AIContentFactory` 已完成 T030：P1-E 稳定化方案（拍板方案 A 不保留落库）
 - `D:\AIContentFactory` 已完成 T031：已删除工作区 `_tmp_merge_scan.py`（未跟踪；未 git add / 未提交代码仓）
+- `D:\AIContentFactory` 已完成 T032：剩余未跟踪盘点 `docs/remaining-untracked-inventory.md`（F4×3 / P1×5 / 大目录×2）
+- `D:\AIContentFactory` 已完成 T033：远程策略复核 `docs/remote-repo-plan-review.md`（维持暂不配置 origin）
 
 ## 当前限制
 
@@ -85,10 +87,11 @@
 ## 下一步建议
 
 1. AIContentFactory：F4 / `publish_gx001_local` 保持禁止执行，不进入提交候选
-2. AIContentFactory：P1-C / P1-A 详情版继续拆分暂缓（须确认）
-3. AIContentFactory：真实 F2 live / F3 batch / 草稿箱冒烟（高敏感，须另开审批）
-4. AIContentFactory：代码仓远程策略复核（须确认）
-5. 接入任务系统（如需与看板 / Issue 同步）
+2. AIContentFactory：P1-A 详情版处置策略（中，须确认）
+3. AIContentFactory：P1-C 三脚本处置策略（高，须确认）
+4. AIContentFactory：大目录 ignore/文档声明（低，须确认）
+5. AIContentFactory：真实 F2 live / F3 batch / 草稿箱冒烟（高敏感，须另开审批）
+6. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时
 

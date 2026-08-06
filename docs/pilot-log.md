@@ -220,3 +220,11 @@
 ## T014 目标项目 P1-E 稳定化方案与删除（AIContentFactory T030/T031）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T030-p1e-temp-scan-stabilization-plan.md`（方案 A 不保留落库）与 `tasks/T031-p1e-delete-tmp-merge-scan.md`。用户确认后删除工作区未跟踪文件 `backend/scripts/_tmp_merge_scan.py`；未 `git add`、未 commit、未 push；未动 F4 / 其它 P1 / 大目录。未运行脚本、未打开浏览器。目标项目本地 CI 通过。
+
+## T014 目标项目剩余未跟踪盘点（AIContentFactory T032）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T032-remaining-untracked-inventory.md`，产出 `docs/remaining-untracked-inventory.md`。P1-E 删除后剩余未跟踪 10 项：F4×3、P1×5、大目录×2。未运行脚本、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目代码仓远程策略复核（AIContentFactory T033）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T033-remote-repo-plan-review.md`，产出 `docs/remote-repo-plan-review.md`。复核结论维持 T012：暂不配置 origin、GitHub private、CI/分支保护暂缓。未创建远程、未 `git remote add`、未 push、未改代码仓。当前 tip=`c6b7b6a`，仍无 `origin` / `.github`。目标项目本地 CI 通过。
