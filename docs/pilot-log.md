@@ -80,3 +80,7 @@
 ## T014 目标项目首个任务试跑
 
 已在 `D:\AIContentFactory` 创建首个项目专用低风险任务：`tasks/T001-customize-project-status.md`。该任务定制了 `docs/project-status.md`、登记 `tasks/backlog.md`、记录 `docs/pilot-log.md`，不涉及内容生产、发布、账号风控、数据库、权限或生产配置。目标项目本地 CI 通过：Required files 10，Markdown files checked 16。
+
+## T014 目标项目 Git 锚点确认
+
+已在 `D:\AIContentFactory` 创建第二个低风险任务：`tasks/T002-confirm-git-anchor.md`。确认 `D:\AIContentFactory` 和 `D:\AIContentFactory\repo` 不是 Git 仓库，实际代码仓库为 `D:\AIContentFactory\repo\AIContentFactory`。该代码仓库已有大量未提交和未跟踪改动，后续不得擅自清理、提交或覆盖。目标项目本地 CI 通过：Required files 10，Markdown files checked 17。

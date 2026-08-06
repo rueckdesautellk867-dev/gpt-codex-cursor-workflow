@@ -52,6 +52,9 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 针对 AIContentFactory 调整：目标项目 `scripts/ci-check.ps1` 扫描范围收窄到模板入口目录，避免递归扫描大型项目目录
 - 首个目标项目专用任务：`D:\AIContentFactory\tasks\T001-customize-project-status.md`
 - 首个任务验证：通过（Required files: 10；Markdown files checked: 16）
+- 第二个目标项目专用任务：`D:\AIContentFactory\tasks\T002-confirm-git-anchor.md`
+- 第二个任务验证：通过（Required files: 10；Markdown files checked: 17）
+- AIContentFactory 实际代码仓库锚点：`D:\AIContentFactory\repo\AIContentFactory`
 
 ## 验收标准
 
@@ -61,6 +64,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - [x] 本地 CI 通过
 - [x] 已在真实目标项目 `D:\AIContentFactory` 完成首次复制验证
 - [x] 已在目标项目完成首个低风险任务试跑
+- [x] 已确认目标项目实际 Git 仓库锚点
 
 ## 测试命令
 
