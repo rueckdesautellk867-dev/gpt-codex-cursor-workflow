@@ -340,3 +340,11 @@
 ## T014 目标项目 P1-C 删除 open_xhs_login_local.py（AIContentFactory T062 / L3）
 
 用户确认 L3 点名删除。已在 `D:\AIContentFactory` 完成：`tasks/T062-p1c-delete-open-xhs-login-local.md`，产出 `docs/p1c-delete-open-xhs-login-local-t062.md`。已删除代码仓工作区未跟踪文件 `backend/scripts/open_xhs_login_local.py`；`ensure_www_xhs_login.py` 保留（K0）；敏感 `??` 现 5；代码仓 tip 仍为 `0d4683c`（**未提交**）。未运行脚本、未改 remote。目标项目本地 CI 通过。三方闭环当时远程 tip=`47d1d16`。
+
+## T014 目标项目 Docker / MySQL 通路与 H1–H2（AIContentFactory T063–T071）
+
+已在 `D:\AIContentFactory` 完成 T063–T071 链路：T063/T064 H1 仍失败（无 Docker）→ T065 winget 安装 Docker Desktop → T066 compose 起 `ai_mysql`/`ai_redis` → T067 H1 满足 → T068 H2 初败（1045/空库）→ T069 创建 `aicontent` 用户 → T070 schema+导入 GC 106–125 → T071 将 GC 106 设为 approved（H2 满足）。文档见各 `docs/*-t06x` / `docs/*-t07x`。未跑 F2（至 T071）、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目 F2 live content-id=106（AIContentFactory T072）
+
+用户确认 H3：`--live` content-id=106 / session=`platform_1` / 仅暂存离开 / 禁止发布等。已完成：`tasks/T072-f2-live-106.md`，产出 `docs/freeze20-f2-live-106-t072.md` 与 `tmp_freeze20/reports/freeze20_t072_draft_box_live_106.*`。结果：**成功**（exit 0）；已点「暂存离开」、4 图、草稿箱校验命中；**未点发布**、无 PublishTask、未提交代码仓。本次 H3 授权已消费；F3/再跑须新审批。目标项目本地 CI 通过。三方闭环当时远程 tip=`71c7524`。

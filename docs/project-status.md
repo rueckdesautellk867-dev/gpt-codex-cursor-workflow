@@ -105,6 +105,12 @@
 - `D:\AIContentFactory` 已完成 T060：P1-C 删除候选评估（L2）`docs/p1c-delete-candidate-assessment-t060.md`（两登录脚本继续 K0；真删须 L3 点名；未删文件）
 - `D:\AIContentFactory` 已完成 T061：代码仓远程方案复核（L4）`docs/remote-repo-plan-recheck-t061.md`（维持暂缓 B / 无 origin；tip=`0d4683c`；`??`×6）
 - `D:\AIContentFactory` 已完成 T062：P1-C 删除 `open_xhs_login_local.py`（L3）`docs/p1c-delete-open-xhs-login-local-t062.md`（未提交；`??` 现 5；`ensure_www_xhs_login.py` 仍 K0）
+- `D:\AIContentFactory` 已完成 T063/T064：H1 复检仍失败（无 Docker）；见 `docs/h1-recheck-t063.md` / `docs/h1-recheck-t064.md`
+- `D:\AIContentFactory` 已完成 T065：winget 安装 Docker Desktop `docs/docker-desktop-install-t065.md`
+- `D:\AIContentFactory` 已完成 T066：compose 启动 `ai_mysql`/`ai_redis` `docs/compose-start-ai-mysql-t066.md`
+- `D:\AIContentFactory` 已完成 T067：H1 **已满足** `docs/h1-recheck-t067.md`
+- `D:\AIContentFactory` 已完成 T068–T071：H2 通路（建用户→schema/导入→GC106 approved）；见对应 `docs/*-t068`～`t071`
+- `D:\AIContentFactory` 已完成 T072：F2 live content-id=106 **成功** `docs/freeze20-f2-live-106-t072.md`（暂存离开；未发布；未提交代码仓）
 
 ## 当前限制
 
@@ -118,9 +124,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：**当前维持观察（T055）** — L1/L2/L4 已完成；L3 已删 `open_xhs_login_local.py`（T062）；后续见 T058 清单；不启服务、不跑 F2/F4/详情、不动剩余敏感 `??`
+1. AIContentFactory：T072 F2 live 106 已成功；默认不自动 F3/发布；后续见 T058 清单（L5 复核 / F3 另批 / L3 删剩余登录脚本 / 重开 B）
 2. AIContentFactory：维持代码仓无 origin（B 已暂缓；T061 复核维持）
-3. 若退出观察：先满足 H1/H2 再另批 F2；或 MySQL 就绪后再开 L1；或再批 L3 删 `ensure_www_xhs_login.py`；重开 B 须按 T042 §8 分步确认
+3. 高风险（F3/F4/详情/再跑 F2）须新审批；T072 授权已消费
 4. 接入任务系统（如需）
 
 ## 复制到其它项目时

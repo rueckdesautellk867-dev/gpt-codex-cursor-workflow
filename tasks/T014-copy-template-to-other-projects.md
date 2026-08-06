@@ -184,6 +184,15 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已完成代码仓远程方案复核：`D:\AIContentFactory\docs\remote-repo-plan-recheck-t061.md`（维持暂缓 B / 无 origin；tip=`0d4683c`；敏感 `??`×6；未建仓、未 remote add、未 push）
 - 第六十二目标项目专用任务：`D:\AIContentFactory\tasks\T062-p1c-delete-open-xhs-login-local.md`（L3）
 - 已删除未跟踪 `open_xhs_login_local.py`：`D:\AIContentFactory\docs\p1c-delete-open-xhs-login-local-t062.md`（未提交代码仓；`ensure_www_xhs_login.py` 仍 K0；敏感 `??` 现 5）
+- 第六十三～六十四：H1 复检仍失败（无 Docker）；见 `docs/h1-recheck-t063.md` / `docs/h1-recheck-t064.md`
+- 第六十五：winget 安装 Docker Desktop（D1）；见 `docs/docker-desktop-install-t065.md`
+- 第六十六：compose 启动 `ai_mysql`/`ai_redis`（D3）；见 `docs/compose-start-ai-mysql-t066.md`
+- 第六十七：H1 复检通过（D4）；见 `docs/h1-recheck-t067.md`
+- 第六十八：H2 初检失败（1045 + 空库）；见 `docs/h2-gc106-check-t068.md`
+- 第六十九：创建应用用户 `aicontent`（E1）；见 `docs/create-aicontent-mysql-user-t069.md`
+- 第七十：schema + 导入 GC 106–125；见 `docs/schema-ingest-gc106-t070.md`
+- 第七十一：GC 106 设为 approved；H2 满足；见 `docs/gc106-quality-approved-t071.md`
+- 第七十二：F2 live content-id=106 **成功**（暂存离开；未发布）；见 `docs/freeze20-f2-live-106-t072.md`
 
 ## 验收标准
 
