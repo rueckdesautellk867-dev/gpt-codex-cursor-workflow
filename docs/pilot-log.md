@@ -184,3 +184,7 @@
 ## T014 目标项目 Freeze20 F1/F5/F2/F3 提交边界重排（AIContentFactory T024）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T024-freeze20-submit-boundary-plan.md`，产出 `docs/freeze20-submit-boundary-plan.md`。只读整理提交顺序、依赖关系和测试边界，建议拆为三包：F1 dry-run + F5 基础 CLI；F2 单条 live；F3 小批量 batch。F4 publish-one 继续暂缓，不进入本轮提交边界。未运行脚本、未打开浏览器、未登录、未点击 `暂存离开` 或 `发布`、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 54。
+
+## T014 目标项目 Freeze20 包 1 提交准备（AIContentFactory T025）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T025-freeze20-package1-submit-prep.md`，产出 `docs/freeze20-package1-submit-prep.md`。包 1 候选为 3 个未跟踪文件：`freeze20_draft_box_dry_run.py`、`test_freeze20_draft_box_dry_run.py`、`freeze20_draft_box_upload_confirm.py`。3 文件 AST 解析通过；F1 单测未跑通（项目 `.venv` 启动失败；Codex 内置 Python 缺 `sqlalchemy`）。未运行 Freeze20 业务脚本、未打开浏览器、未登录、未点击、未提交代码仓。包 1 进入代码提交前须先修复或指定可用测试环境。

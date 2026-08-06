@@ -61,6 +61,7 @@
 - `D:\AIContentFactory` 代码仓已本地提交 GX001 build pack 脚本：`22de269`（`Add authorized GX001 build pack script`；仅 1 文件；未推送；未含公开发布脚本）
 - `D:\AIContentFactory` 已完成 T023：P1-E 临时扫描工具只读评审 `docs/p1e-temp-merge-scan-review.md`（会访问小红书并复用本地会话；执行和提交均暂缓）
 - `D:\AIContentFactory` 已完成 T024：Freeze20 F1/F5/F2/F3 提交边界重排 `docs/freeze20-submit-boundary-plan.md`（只整理提交顺序、依赖关系和测试边界；未提交代码仓）
+- `D:\AIContentFactory` 已完成 T025：Freeze20 包 1 提交准备 `docs/freeze20-package1-submit-prep.md`（候选 3 文件 AST 通过；F1 单测受测试环境依赖阻塞；未提交代码仓）
 
 ## 当前限制
 
@@ -74,10 +75,11 @@
 
 ## 下一步建议
 
-1. AIContentFactory：Freeze20 包 1 提交准备：F1 dry-run + F5 基础 CLI（须确认）
-2. AIContentFactory：P1-E 临时扫描工具稳定化方案（重命名 / 参数化 / 授权门禁，须确认）
-3. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
-4. 接入任务系统（如需与看板 / Issue 同步）
+1. AIContentFactory：修复或指定 Freeze20 F1 单测环境（须确认）
+2. AIContentFactory：Freeze20 包 1 代码提交：F1 dry-run + F5 基础 CLI（须确认；单测通过后）
+3. AIContentFactory：P1-E 临时扫描工具稳定化方案（重命名 / 参数化 / 授权门禁，须确认）
+4. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
+5. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时
 
