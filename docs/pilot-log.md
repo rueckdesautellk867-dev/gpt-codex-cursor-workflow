@@ -256,3 +256,7 @@
 ## T014 目标项目剩余高风险冻结清单复核（AIContentFactory T040）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T040-remaining-high-risk-freeze.md`，产出 `docs/remaining-high-risk-freeze.md`。只读复核：F4 三件套与 `publish_gx001_local` 禁止执行且不提交；P1-C 三脚本禁止执行、K0 不提交；已入库 F2/F3/详情抓取禁止真实跑。当前代码仓 `??` 共 7 项。无解除冻结项。未运行、未改代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目 Freeze20/P1 阶段收口报告（AIContentFactory T041）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T041-freeze20-p1-stage-closeout.md`，产出 `docs/freeze20-p1-stage-closeout.md`。汇总拆分→冻结完成度：F1–F3 / P1-A / P1-B / GX build / 大目录 ignore 已本地落库；F4 / P1-C 运行 / publish / 真实 live·batch·详情抓取维持冻结。代码仓 tip=`0d4683c`、无 origin；三方闭环当时对齐 `4b3d2f5`。未解除冻结、未改代码仓。目标项目本地 CI 通过。

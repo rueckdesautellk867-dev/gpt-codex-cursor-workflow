@@ -83,6 +83,7 @@
 - `D:\AIContentFactory` 已完成 T039：大目录 ignore 声明 `docs/large-dir-ignore-plan.md`
 - `D:\AIContentFactory` 代码仓已本地提交 ignore：`0d4683c`（`Ignore local Freeze20 and media working trees`；仅 `.gitignore`；未推送；未删除目录；两目录不再以 `??` 出现）
 - `D:\AIContentFactory` 已完成 T040：剩余高风险冻结清单 `docs/remaining-high-risk-freeze.md`（维持 F4/P1-C/publish 禁止执行；未跟踪仅保留不提交；已入库真实动作仍冻结）
+- `D:\AIContentFactory` 已完成 T041：阶段收口报告 `docs/freeze20-p1-stage-closeout.md`（Freeze20/P1 拆分→冻结；代码仓 tip=`0d4683c` 无 origin；高风险面维持冻结）
 
 ## 当前限制
 
@@ -96,9 +97,10 @@
 
 ## 下一步建议
 
-1. AIContentFactory：维持高风险冻结（F4 / P1-C 运行 / `publish_gx001` / 真实 live·batch·详情抓取）
+1. AIContentFactory：维持高风险冻结（见 T040 / T041）
 2. AIContentFactory：可选拍板删除 `open_xhs_publish_page_local.py`（高，须确认）
-3. 接入任务系统（如需与看板 / Issue 同步）
+3. AIContentFactory：下一阶段入口见收口报告 §7（须另开审批）
+4. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时
 

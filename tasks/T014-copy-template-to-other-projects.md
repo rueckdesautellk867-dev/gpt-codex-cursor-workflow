@@ -140,6 +140,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 代码仓本地提交 ignore：`0d4683c`（仅 `.gitignore`；未推送；未删除目录）
 - 第四十目标项目专用任务：`D:\AIContentFactory\tasks\T040-remaining-high-risk-freeze.md`
 - 已输出剩余高风险冻结清单：`D:\AIContentFactory\docs\remaining-high-risk-freeze.md`（维持冻结；无解除项）
+- 第四十一目标项目专用任务：`D:\AIContentFactory\tasks\T041-freeze20-p1-stage-closeout.md`
+- 已输出阶段收口报告：`D:\AIContentFactory\docs\freeze20-p1-stage-closeout.md`
 
 ## 验收标准
 
