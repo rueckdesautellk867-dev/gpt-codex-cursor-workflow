@@ -59,6 +59,7 @@
 - `D:\AIContentFactory` 已完成 T021：P1-C 登录 / 打开页面辅助只读评审 `docs/p1c-login-page-helper-review.md`（会打开登录/发布相关页面；执行暂缓）
 - `D:\AIContentFactory` 已完成 T022：F4 / P1-D 公开发布脚本暂缓清单 `docs/publish-script-defer-list.md`（公开发布全部暂缓；build-only 另审）
 - `D:\AIContentFactory` 代码仓已本地提交 GX001 build pack 脚本：`22de269`（`Add authorized GX001 build pack script`；仅 1 文件；未推送；未含公开发布脚本）
+- `D:\AIContentFactory` 已完成 T023：P1-E 临时扫描工具只读评审 `docs/p1e-temp-merge-scan-review.md`（会访问小红书并复用本地会话；执行和提交均暂缓）
 
 ## 当前限制
 
@@ -73,7 +74,7 @@
 ## 下一步建议
 
 1. AIContentFactory：F1/F5/F2/F3 提交边界重排（须确认）
-2. AIContentFactory：P1-E 临时扫描工具只读评审（须确认）
+2. AIContentFactory：P1-E 临时扫描工具稳定化方案（重命名 / 参数化 / 授权门禁，须确认）
 3. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
 4. 接入任务系统（如需与看板 / Issue 同步）
 

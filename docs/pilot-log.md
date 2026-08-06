@@ -176,3 +176,7 @@
 ## T014 目标项目代码仓提交 GX001 build pack 脚本
 
 用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `22de269`：`Add authorized GX001 build pack script`。范围仅限 `backend/scripts/rebuild_gx001_local.py`（1 file, +326）。提交前验证：`--help` 正常；无授权运行直接拒绝；AST 解析通过。未运行真实构建、未复制素材、未打开浏览器、未登录、未发布。未纳入 `publish_gx001_local.py`、F4 publish-one、P1-C、Freeze20 或大型目录；未推送远程（代码仓仍无 origin）。
+
+## T014 目标项目 P1-E 临时扫描工具只读评审（AIContentFactory T023）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T023-p1e-temp-merge-scan-review.md`，产出 `docs/p1e-temp-merge-scan-review.md`。只读确认 `_tmp_merge_scan.py` 会启动 Playwright、复用 `xiaohongshu/platform_1`、访问两个小红书 profile、滚动抽取 `/explore/` 链接，并写入个人目录下的合并清单。当前不应提交该临时脚本；如保留需重命名、参数化、授权门禁和低频公开资料审批。未运行脚本、未打开浏览器、未登录、未访问小红书、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 52。
