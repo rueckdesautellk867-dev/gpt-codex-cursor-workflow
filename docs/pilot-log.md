@@ -252,3 +252,7 @@
 ## T014 目标项目大目录 ignore 落地（AIContentFactory T039）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T039-large-dir-ignore-plan.md`，产出 `docs/large-dir-ignore-plan.md`。用户确认后，代码仓本地提交 `0d4683c`：`Ignore local Freeze20 and media working trees`。范围仅限 `.gitignore` 追加 `tmp_freeze20/` 与 `小红书阅读视频生产系统/`。未删除目录、未推送（无 origin）；`git status` 中二者不再以 `??` 出现。剩余未跟踪：F4×3、P1-C×3、`publish_gx001_local`。
+
+## T014 目标项目剩余高风险冻结清单复核（AIContentFactory T040）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T040-remaining-high-risk-freeze.md`，产出 `docs/remaining-high-risk-freeze.md`。只读复核：F4 三件套与 `publish_gx001_local` 禁止执行且不提交；P1-C 三脚本禁止执行、K0 不提交；已入库 F2/F3/详情抓取禁止真实跑。当前代码仓 `??` 共 7 项。无解除冻结项。未运行、未改代码仓。目标项目本地 CI 通过。
