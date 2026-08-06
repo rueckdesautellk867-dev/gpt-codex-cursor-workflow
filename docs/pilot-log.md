@@ -296,3 +296,7 @@
 ## T014 目标项目 MySQL H1 连通性检查（AIContentFactory T051）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T051-mysql-h1-connectivity-check.md`，产出 `docs/mysql-h1-connectivity-check-t051.md`。只读检查：`127.0.0.1:3306` TCP 失败；无 MySQL/MariaDB 服务；无 Docker；`backend/.env` 含 MYSQL_* 键名（未读密钥）。H1 **未满足**；未开浏览器、未重跑 F2、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目 MySQL 状态/启动备忘（AIContentFactory T052）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T052-mysql-service-status-startup-notes.md`，产出 `docs/mysql-service-status-startup-notes-t052.md`。确认记录（H1 未满足、H2 未检、F2 不重跑、T049 授权不沿用）与仓库约定（compose/`ai_mysql`、`start_dev.sh`）；本机无 Docker CLI。未启服务、未改配置。目标项目本地 CI 通过。
