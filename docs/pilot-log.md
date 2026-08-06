@@ -276,3 +276,7 @@
 ## T014 目标项目 F4 / 公开发布禁止执行归档强化（AIContentFactory T046）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T046-f4-publish-forbid-archive.md`，产出 `docs/f4-publish-forbid-archive.md`。强化禁止对象、脚本内授权 flag ≠ 任务审批、解冻最低门槛与 Agent 禁令；交叉链接 T022/T040/收口文档。未运行发布脚本、未改代码仓、未提交代码仓、未解除冻结。目标项目本地 CI 通过。
+
+## T014 目标项目 P1-A feed-only 第三轮（AIContentFactory T047）
+
+用户确认选 A：`limit=12`、`scroll=3`、`pause=1500`；不进详情、不发布、不提交。执行 `crawl_p1_profile_feed_only.py --i-authorize-p1a-feed-crawl`。exit 0；atmosphere=0 / slow=7 / other=29（与 T045 同参一致）；输出覆盖 ignore 目录。未进详情、未发布、未提交代码仓。见 `D:\AIContentFactory\docs\p1a-feed-only-controlled-run-round3.md`。目标项目本地 CI 通过。

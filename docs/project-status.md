@@ -89,6 +89,7 @@
 - `D:\AIContentFactory` 已完成 T044：P1-A feed-only 受控真跑 `docs/p1a-feed-only-controlled-run.md`（limit=8；exit 0；氛围 0 / 慢读 8 / 其他 16；输出在 ignore 目录；未提交）
 - `D:\AIContentFactory` 已完成 T045：feed-only 第二轮 `docs/p1a-feed-only-controlled-run-round2.md`（limit=12 / scroll=3；exit 0；氛围 0 / 慢读 7 / 其他 29；未提交）
 - `D:\AIContentFactory` 已完成 T046：F4 / 公开发布禁止执行归档 `docs/f4-publish-forbid-archive.md`（只文档与门禁说明；未运行、未改代码仓、未提交）
+- `D:\AIContentFactory` 已完成 T047：feed-only 第三轮 `docs/p1a-feed-only-controlled-run-round3.md`（limit=12 / scroll=3 / pause=1500；exit 0；氛围 0 / 慢读 7 / 其他 29；与 T045 一致；未提交）
 
 ## 当前限制
 
@@ -104,7 +105,7 @@
 
 1. AIContentFactory：维持高风险冻结（F4 / P1-C 登录辅助运行 / `publish_gx001` / 详情真抓 / F2·F3 live；F4 归档见 T046）
 2. AIContentFactory：维持代码仓无 origin（B 已暂缓）
-3. AIContentFactory：其它受控真跑须另批（默认不含 F4 / GX 公开发布）
+3. AIContentFactory：其它受控真跑须另批（feed-only T044–T047 已完成；同参再跑收益有限；默认不含 F4 / GX 公开发布）
 4. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时
