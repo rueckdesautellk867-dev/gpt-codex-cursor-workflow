@@ -164,6 +164,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已完成 H1 只读连通性检查：`D:\AIContentFactory\docs\mysql-h1-connectivity-check-t051.md`（**未满足**：3306 不可达；未重跑 F2）
 - 第五十二目标项目专用任务：`D:\AIContentFactory\tasks\T052-mysql-service-status-startup-notes.md`
 - 已完成 MySQL 状态/启动备忘：`D:\AIContentFactory\docs\mysql-service-status-startup-notes-t052.md`（约定 `ai_mysql`；本机无 Docker；未启服务）
+- 第五十三目标项目专用任务：`D:\AIContentFactory\tasks\T053-remaining-sensitive-untracked-freeze-review.md`
+- 已完成敏感 `??` 冻结复核：`D:\AIContentFactory\docs\remaining-sensitive-untracked-freeze-review.md`（仍 6 项；维持冻结；无低风险可删/ignore）
 
 ## 验收标准
 

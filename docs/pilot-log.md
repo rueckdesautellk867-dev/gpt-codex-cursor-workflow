@@ -300,3 +300,7 @@
 ## T014 目标项目 MySQL 状态/启动备忘（AIContentFactory T052）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T052-mysql-service-status-startup-notes.md`，产出 `docs/mysql-service-status-startup-notes-t052.md`。确认记录（H1 未满足、H2 未检、F2 不重跑、T049 授权不沿用）与仓库约定（compose/`ai_mysql`、`start_dev.sh`）；本机无 Docker CLI。未启服务、未改配置。目标项目本地 CI 通过。
+
+## T014 目标项目敏感 `??` 冻结复核（AIContentFactory T053）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T053-remaining-sensitive-untracked-freeze-review.md`，产出 `docs/remaining-sensitive-untracked-freeze-review.md`。用户选 C 维持 F2 改期后只读复核：敏感 `??` 仍为 6 项（F4×3 + P1-C×2 + publish_gx001）；维持冻结执行/不提交；无低风险可删或 ignore 项。未运行、未改配置、未提交代码仓。目标项目本地 CI 通过。
