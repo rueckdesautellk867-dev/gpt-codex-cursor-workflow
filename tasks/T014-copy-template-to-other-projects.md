@@ -84,6 +84,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第十八目标项目专用任务：`D:\AIContentFactory\tasks\T018-p1b-path-parameterization.md`
 - 已完成 P1-B 路径参数化：`backend/scripts/fill_p1_prescan_from_catalog.py`
 - 第十八任务验证：通过（Required files: 10；Markdown files checked: 42）
+- 代码仓本地提交 P1-B 脚本：`08de0e0`（仅 1 文件；未推送；未含 Freeze20 / 其它 P1）
 
 ## 验收标准
 
