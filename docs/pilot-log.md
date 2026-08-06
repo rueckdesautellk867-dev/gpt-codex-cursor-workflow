@@ -192,3 +192,7 @@
 ## T014 目标项目 Freeze20 F1 单测环境处理（AIContentFactory T026）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T026-freeze20-f1-test-env.md`，产出 `docs/freeze20-f1-test-env.md`。确认 `.venv` 中已有 `sqlalchemy`，但当前沙箱无法启动 `.venv` Python；Codex 内置 Python 可启动但不能混用 `.venv` 的 Python 3.10 原生依赖，卡在 `pydantic_core`。已给出本机 PowerShell 推荐测试命令。未安装依赖、未重建 `.venv`、未运行 Freeze20 业务脚本、未打开浏览器、未登录、未点击、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 58。
+
+## T014 目标项目代码仓提交 Freeze20 包 1
+
+用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `453b68d`：`Add Freeze20 dry-run and guarded CLI`。范围仅限 `backend/app/public_account_research/freeze20_draft_box_dry_run.py`、`backend/tests/test_freeze20_draft_box_dry_run.py`、`scripts/freeze20_draft_box_upload_confirm.py`（3 files, +1121）。提交前本机 PowerShell 跑通 F1 单测：`Ran 7 tests ... OK`。未纳入 F2 / F3 / F4 / P1 / `tmp_freeze20/` / 大型目录；未推送远程（代码仓仍无 origin）。

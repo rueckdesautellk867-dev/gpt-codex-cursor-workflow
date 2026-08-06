@@ -63,6 +63,7 @@
 - `D:\AIContentFactory` 已完成 T024：Freeze20 F1/F5/F2/F3 提交边界重排 `docs/freeze20-submit-boundary-plan.md`（只整理提交顺序、依赖关系和测试边界；未提交代码仓）
 - `D:\AIContentFactory` 已完成 T025：Freeze20 包 1 提交准备 `docs/freeze20-package1-submit-prep.md`（候选 3 文件 AST 通过；F1 单测受测试环境依赖阻塞；未提交代码仓）
 - `D:\AIContentFactory` 已完成 T026：Freeze20 F1 单测环境处理 `docs/freeze20-f1-test-env.md`（`.venv` 依赖存在但当前沙箱无法启动；已指定本机 PowerShell 测试命令）
+- `D:\AIContentFactory` 代码仓已本地提交 Freeze20 包 1：`453b68d`（`Add Freeze20 dry-run and guarded CLI`；3 文件；本机 F1 单测 7 OK；未推送；未含 F2/F3/F4/P1/大型目录）
 
 ## 当前限制
 
@@ -76,11 +77,10 @@
 
 ## 下一步建议
 
-1. AIContentFactory：在本机正常 PowerShell 跑通 Freeze20 F1 单测（须确认）
-2. AIContentFactory：Freeze20 包 1 代码提交：F1 dry-run + F5 基础 CLI（须确认；单测通过后）
-3. AIContentFactory：P1-E 临时扫描工具稳定化方案（重命名 / 参数化 / 授权门禁，须确认）
-4. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
-5. 接入任务系统（如需与看板 / Issue 同步）
+1. AIContentFactory：F2 / F3 只读评审后的后续（单测门禁或执行须另确认）
+2. AIContentFactory：P1-E 临时扫描工具稳定化方案（重命名 / 参数化 / 授权门禁，须确认）
+3. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
+4. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时
 
