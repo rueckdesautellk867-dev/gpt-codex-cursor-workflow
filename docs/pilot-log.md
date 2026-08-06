@@ -120,3 +120,7 @@
 ## T014 目标项目统一测试报告（AIContentFactory T011）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T011-draft-box-test-report.md`。汇总 T007–T010，产出 `docs/draft-box-test-report.md`（边界、环境、修复前后 15 tests、引擎改动摘要、残留风险）。目标项目本地 CI 通过：Required files 10，Markdown files checked 30。未改引擎、未真实发布、未提交代码仓。
+
+## T014 目标项目代码仓提交 T009–T010
+
+用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `0ae4784`：`Add draft-box safety path and unit tests`。范围仅限 `playwright_engine.py`、`backend/tests/test_xhs_draft_box_save.py`、`backend/tests/settings_env.py`。提交前复核：单测 15 OK；未纳入 Freeze20 / P1 未跟踪脚本；未推送远程。下一步：先登记本闭环文档；再决定代码仓远程 / 推送策略；Freeze20 / P1 继续拆分处理。

@@ -43,8 +43,9 @@
 - `D:\AIContentFactory` 已完成 T007：登记 playwright 测试补强（不改发布行为）
 - `D:\AIContentFactory` 已完成 T008：测试环境确认；`test_xhs_draft_box_save` 15 OK（3 expectedFailure）
 - `D:\AIContentFactory` 已完成 T009：单测假 Settings，不依赖真实 `backend/.env` 密钥
-- `D:\AIContentFactory` 已完成 T010：引擎 draft-box 安全修复；单测 15 OK（代码仓未 commit）
+- `D:\AIContentFactory` 已完成 T010：引擎 draft-box 安全修复；单测 15 OK
 - `D:\AIContentFactory` 已完成 T011：统一测试报告 `docs/draft-box-test-report.md`
+- `D:\AIContentFactory` 代码仓已本地提交 T009–T010：`0ae4784`（`Add draft-box safety path and unit tests`；3 文件；未推送）
 
 ## 当前限制
 
@@ -58,10 +59,10 @@
 
 ## 下一步建议
 
-1. AIContentFactory：代码仓是否 commit T009/T010；受控草稿箱冒烟 / Freeze20·P1 拆分（须确认）
-2. 三方闭环：本地仍可能 ahead，需 Desktop/网络可用时推送
-3. 接入任务系统（如需与看板 / Issue 同步）
-4. 如需更严格验证，可另开失败 PR 测试分支保护拦截
+1. AIContentFactory：是否为代码仓配置远程 / 推送策略（须确认；当前仅本地 `0ae4784`）
+2. AIContentFactory：Freeze20 / P1 继续按组拆分处理，不混入 draft-box 提交（须确认）
+3. AIContentFactory：受控草稿箱手工冒烟（高敏感，须确认）
+4. 接入任务系统（如需与看板 / Issue 同步）
 
 ## 复制到其它项目时
 
