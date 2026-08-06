@@ -152,3 +152,7 @@
 ## T014 目标项目代码仓提交 P1-B 参数化脚本
 
 用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `08de0e0`：`Add parameterized P1 catalog prescan script`。范围仅限 `backend/scripts/fill_p1_prescan_from_catalog.py`（1 file, +192）。未纳入 Freeze20 / 其它 P1 未跟踪项；未推送远程（代码仓仍无 origin）。
+
+## T014 目标项目 Freeze20 F3 小批量草稿箱评审（AIContentFactory T019）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T019-freeze20-f3-batch-review.md`，产出 `docs/freeze20-f3-batch-review.md`。只读确认 F3 batch 复用 F2 live；每波最多 5 条；拒绝 full Freeze20 dump；CLI 需要 `--batch --i-authorize-freeze20-draft-box-batch --content-ids ...`；默认首个未确认 item 后停止。F3 不公开发布、不建 PublishTask、不改 GeneratedContent 状态，但会按 item 连续点击 `暂存离开` 写入真实草稿箱。未运行脚本、未打开浏览器、未登录、未点击、未改代码仓、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 44。
