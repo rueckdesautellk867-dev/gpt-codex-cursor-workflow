@@ -216,3 +216,7 @@
 ## T014 目标项目 Freeze20 F1–F3 提交后状态报告（AIContentFactory T029）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T029-freeze20-f1f3-post-submit-status.md`，产出 `docs/freeze20-f1f3-post-submit-status.md`。确认 F1–F3 草稿箱链路（含 CLI）已本地提交收口；剩余未跟踪为 F4 publish、P1 残留（详情抓取 / 登录开页辅助 / GX 公开发布）、`_tmp_merge_scan.py`、以及 `tmp_freeze20/` 与大型中文目录。未运行脚本、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目 P1-E 稳定化方案与删除（AIContentFactory T030/T031）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T030-p1e-temp-scan-stabilization-plan.md`（方案 A 不保留落库）与 `tasks/T031-p1e-delete-tmp-merge-scan.md`。用户确认后删除工作区未跟踪文件 `backend/scripts/_tmp_merge_scan.py`；未 `git add`、未 commit、未 push；未动 F4 / 其它 P1 / 大目录。未运行脚本、未打开浏览器。目标项目本地 CI 通过。
