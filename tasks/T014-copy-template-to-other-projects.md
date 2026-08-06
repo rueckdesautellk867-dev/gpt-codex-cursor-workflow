@@ -88,6 +88,9 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第十九目标项目专用任务：`D:\AIContentFactory\tasks\T019-freeze20-f3-batch-review.md`
 - 已输出 F3 小批量草稿箱只读评审：`D:\AIContentFactory\docs\freeze20-f3-batch-review.md`
 - 第十九任务验证：通过（Required files: 10；Markdown files checked: 44）
+- 第二十目标项目专用任务：`D:\AIContentFactory\tasks\T020-p1a-public-profile-crawl-review.md`
+- 已输出 P1-A 公开资料抓取只读评审：`D:\AIContentFactory\docs\p1a-public-profile-crawl-review.md`
+- 第二十任务验证：通过（Required files: 10；Markdown files checked: 46）
 
 ## 验收标准
 
@@ -106,6 +109,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - [x] 已完成目标项目 F2 单条草稿箱 live 只读评审
 - [x] 已完成目标项目 P1-B 路径参数化
 - [x] 已完成目标项目 F3 小批量草稿箱只读评审
+- [x] 已完成目标项目 P1-A 公开资料抓取只读评审
 
 ## 测试命令
 

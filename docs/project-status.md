@@ -54,6 +54,7 @@
 - `D:\AIContentFactory` 已完成 T018：P1-B 路径参数化（去掉个人目录硬编码；临时输出验证通过）
 - `D:\AIContentFactory` 代码仓已本地提交 P1-B 脚本：`08de0e0`（`Add parameterized P1 catalog prescan script`；仅 1 文件；未推送；未含 Freeze20 / 其它 P1）
 - `D:\AIContentFactory` 已完成 T019：Freeze20 F3 小批量草稿箱只读评审 `docs/freeze20-f3-batch-review.md`（不运行；会连续写入真实草稿箱，执行暂缓）
+- `D:\AIContentFactory` 已完成 T020：P1-A 公开资料抓取只读评审 `docs/p1a-public-profile-crawl-review.md`（会访问小红书并复用本地会话；运行暂缓）
 
 ## 当前限制
 
@@ -67,8 +68,8 @@
 
 ## 下一步建议
 
-1. AIContentFactory：F1/F5/F2/F3 提交边界重排（须确认）
-2. AIContentFactory：T020 P1-A 公开资料抓取只读评审（不运行）
+1. AIContentFactory：P1-A feed-only 参数化与授权门禁（须确认）
+2. AIContentFactory：P1-C 登录/打开页面辅助只读评审（高敏感）
 3. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
 4. 接入任务系统（如需与看板 / Issue 同步）
 

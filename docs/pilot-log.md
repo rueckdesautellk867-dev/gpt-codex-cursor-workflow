@@ -156,3 +156,7 @@
 ## T014 目标项目 Freeze20 F3 小批量草稿箱评审（AIContentFactory T019）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T019-freeze20-f3-batch-review.md`，产出 `docs/freeze20-f3-batch-review.md`。只读确认 F3 batch 复用 F2 live；每波最多 5 条；拒绝 full Freeze20 dump；CLI 需要 `--batch --i-authorize-freeze20-draft-box-batch --content-ids ...`；默认首个未确认 item 后停止。F3 不公开发布、不建 PublishTask、不改 GeneratedContent 状态，但会按 item 连续点击 `暂存离开` 写入真实草稿箱。未运行脚本、未打开浏览器、未登录、未点击、未改代码仓、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 44。
+
+## T014 目标项目 P1-A 公开资料抓取评审（AIContentFactory T020）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T020-p1a-public-profile-crawl-review.md`，产出 `docs/p1a-public-profile-crawl-review.md`。只读确认 P1-A 属公开资料研究，但两个脚本都会打开 Playwright 持久会话并访问 3 个小红书 profile；`crawl_p1_benchmark_profiles.py` 会进入笔记详情页，`crawl_p1_profile_feed_only.py` 仅抽取主页信息流标题。未见点赞、评论、收藏、私信或业务库写入；两个脚本均写死个人输出目录，提交前建议参数化并加授权门禁。未运行脚本、未打开浏览器、未登录、未访问小红书、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 46。
