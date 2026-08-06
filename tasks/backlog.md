@@ -10,7 +10,7 @@
 | T003 | 编写「从任务单到合并」最短操作清单 | 低 | Cursor | 已完成 | [T003-task-to-merge-checklist.md](T003-task-to-merge-checklist.md) |
 | T004 | 高风险门禁样例（用户表会员等级字段） | 高 | 人工确认后 Codex 或人工 | 待确认 | [T004-high-risk-gate-sample.md](T004-high-risk-gate-sample.md) |
 | T005 | 建立 CI / 验证层设计文档 | 低 | Cursor | 已完成 | [T005-verification-layer.md](T005-verification-layer.md) |
-| T006 | 接入真实 CI 配置 | 中 | Codex 或 Cursor | 待办 | [T006-ci-setup.md](T006-ci-setup.md) |
+| T006 | 接入真实 CI 配置 | 中 | Codex 或 Cursor | 已完成 | [T006-ci-setup.md](T006-ci-setup.md) |
 | T007 | 建立风险与人工审批层 | 低 | Cursor | 已完成 | [T007-risk-approval-layer.md](T007-risk-approval-layer.md) |
 | T008 | 建立运行手册层 | 低 | Cursor | 已完成 | [T008-runbook-layer.md](T008-runbook-layer.md) |
 | T009 | 建立项目交付包 | 低 | Cursor | 已完成 | [T009-project-delivery-package.md](T009-project-delivery-package.md) |
@@ -22,7 +22,7 @@
 - T001–T003 随 v0.2 落地一并完成（文档与入口，无业务代码）。
 - **T004 仅作高风险门禁样例，状态保持 `待确认`，本阶段不执行。**
 - T005 随 v0.3 完成：只建立验证设计，**不接真实 CI**。
-- T006 为预留任务：接入真实 CI，v0.3 不执行。
+- T006 已完成：接入最小真实 CI，覆盖文档链接、任务索引、关键文件和高风险样例状态。
 - T007 随 v0.4 完成：建立风险与人工审批流程文档，**不执行高风险任务**。
 - T008 随 v0.5 完成：建立运行手册，用于重复执行任务流程。
 - T009 随 v0.6 完成：建立项目交付包，归档阶段成果。

@@ -6,7 +6,8 @@
 |----|------|
 | 项目名称 | 三方闭环整合项目 |
 | 当前版本 | v0.7 已完成，远程仓库已连接 |
-| 当前工作区 | `D:\三方闭环整合项目\` |`r`n| 远程仓库 | `https://github.com/rueckdesautellk867-dev/gpt-codex-cursor-workflow.git` |
+| 当前工作区 | `D:\三方闭环整合项目\` |
+| 远程仓库 | `https://github.com/rueckdesautellk867-dev/gpt-codex-cursor-workflow.git` |
 
 版本明细见 [`docs/release-notes.md`](release-notes.md)；操作顺序见 [`docs/runbook.md`](runbook.md)。
 
@@ -17,6 +18,7 @@
 | 规则层 | GPT / Codex / Cursor 分工与仓库规则 | `AGENTS.md`、`.cursor/rules/ai-workflow.mdc`、`docs/ai-workflow.md` |
 | 任务层 | 可复用任务单与 backlog | `tasks/`、`docs/task-template.md` |
 | 验证层 | 风险对应的最低验证与交付字段 | `docs/verification.md` |
+| CI 层 | GitHub Actions 与本地复现脚本 | `.github/workflows/ci.yml`、`docs/ci.md` |
 | 风险审批层 | 高风险禁止动作与审批记录 | `docs/risk-approval.md` |
 | 运行手册层 | 启动→归档的固定操作顺序 | `docs/runbook.md` |
 
@@ -29,7 +31,7 @@
 
 ## 当前限制
 
-- 未接真实 CI（T006 仍为 `待办`）
+- 已接最小真实 CI（T006 已完成），当前覆盖文档链接、任务索引和关键文件检查
 - 未接外部任务系统（仅仓库内 Markdown 任务）
 - 未接云端部署
 - 未接监控反馈
@@ -38,7 +40,7 @@
 ## 下一步建议
 
 1. 人工确认平台后执行 T011（创建远程并推送主分支）
-2. 接入真实 CI（执行 T006）
+2. 配置 GitHub 分支保护，让 CI 结果成为合并门槛
 3. 接入任务系统（如需与看板 / Issue 同步）
 4. 设计阿里云测试环境（部署与反馈闭环另开任务，高风险须审批）
 

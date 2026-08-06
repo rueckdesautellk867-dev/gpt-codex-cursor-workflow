@@ -18,7 +18,7 @@
 3. 按分流规则确定执行者
 4. 执行前确认影响范围和不做什么
 5. 执行变更
-6. 按验证层要求检查
+6. 按验证层要求检查；有 CI 时先本地复现
 7. 高风险任务进入人工审批，不得擅自执行
 8. 输出变更总结、影响范围、验证结果、风险与待确认
 9. 更新任务状态和 backlog
@@ -59,7 +59,7 @@
 
 ## 验证要求
 
-按 [`docs/verification.md`](verification.md) 与任务单「测试命令」执行最低验证；不得把「未跑」写成「通过」。对照 [`docs/definition-of-done.md`](definition-of-done.md) 与 [`PR_CHECKLIST.md`](../PR_CHECKLIST.md)。
+按 [`docs/verification.md`](verification.md) 与任务单「测试命令」执行最低验证；不得把「未跑」写成「通过」。对照 [`docs/definition-of-done.md`](definition-of-done.md)、[`docs/ci.md`](ci.md) 与 [`PR_CHECKLIST.md`](../PR_CHECKLIST.md)。
 
 ## 高风险审批要求
 
