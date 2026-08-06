@@ -232,3 +232,7 @@
 ## T014 目标项目 P1-A 详情版只读评审（AIContentFactory T034）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T034-p1a-detail-crawl-review.md`，产出 `docs/p1a-detail-crawl-review.md`。仅评审未跟踪文件 `crawl_p1_benchmark_profiles.py`：会开浏览器、复用 `platform_1`、进笔记详情（每号最多 12）、无授权门禁、输出写死个人目录；未见点赞/评论/私信/业务库写入。结论：只读通过，运行与提交暂缓。处置建议 A 暂缓保留 / B 改造 / C 删除，未执行。未运行脚本、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目 P1-A 详情版参数化方案与落地（AIContentFactory T035/T036）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T035-p1a-detail-param-auth-plan.md` 与 `tasks/T036-p1a-detail-param-auth-impl.md`，产出 `docs/p1a-detail-param-auth-plan.md`、`docs/p1a-detail-param-auth-impl.md`。按方案 B 改造未跟踪脚本 `crawl_p1_benchmark_profiles.py`：独立授权 `--i-authorize-p1a-detail-crawl`、默认输出 `backend/data/public_research/p1_profile_detail/`、保守默认 limit=5；`py_compile` 通过，无授权 exit 2。未打开浏览器、未登录、未真实抓取、未提交代码仓。目标项目本地 CI 通过。

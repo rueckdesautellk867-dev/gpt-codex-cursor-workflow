@@ -128,6 +128,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已输出远程策略复核：`D:\AIContentFactory\docs\remote-repo-plan-review.md`（维持暂不配置 origin）
 - 第三十四目标项目专用任务：`D:\AIContentFactory\tasks\T034-p1a-detail-crawl-review.md`
 - 已输出 P1-A 详情版只读评审：`D:\AIContentFactory\docs\p1a-detail-crawl-review.md`（运行/提交暂缓）
+- 第三十五/三十六目标项目专用任务：`D:\AIContentFactory\tasks\T035-p1a-detail-param-auth-plan.md`、`D:\AIContentFactory\tasks\T036-p1a-detail-param-auth-impl.md`
+- 已输出并落地详情版门禁：`D:\AIContentFactory\docs\p1a-detail-param-auth-plan.md`、`docs/p1a-detail-param-auth-impl.md`（脚本已改；未抓取、未提交）
 
 ## 验收标准
 
