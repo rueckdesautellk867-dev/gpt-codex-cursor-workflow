@@ -136,3 +136,7 @@
 ## T014 目标项目 Freeze20 F1 dry-run 评审（AIContentFactory T015）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T015-freeze20-f1-dry-run-review.md`，产出 `docs/freeze20-f1-dry-run-review.md`。只读确认 F1 不点「暂存离开」/「发布」、不创建 PublishTask、不写业务库；默认 `skip_browser=False` 会开会话预检；单测 `CliArgTests` 依赖 F5 确认 CLI。未运行脚本、未打开浏览器、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目 P1-B 本地目录填表评审（AIContentFactory T016）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T016-p1b-local-catalog-fill-review.md`，产出 `docs/p1b-local-catalog-fill-review.md`。只读确认 `backend/scripts/fill_p1_prescan_from_catalog.py` 无网络请求、无浏览器、无登录/点赞/评论/私信动作；输入为本地 notes catalog CSV，输出为预扫 Markdown 和 summary 文本。阻塞提交点是 `NOTES_DIR` / `OUT` / `SUMMARY` 等本机绝对路径写死，提交前建议参数化。未运行脚本、未改代码仓、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 39。
