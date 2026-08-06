@@ -19,6 +19,7 @@
 | T012 | 配置 main 分支保护 | 中 | 人工 | 已完成 | [T012-branch-protection.md](T012-branch-protection.md) |
 | T013 | PR + CI + 分支保护冒烟验证 | 低 | Codex / 人工 | 已完成 | [T013-pr-ci-protection-smoke-test.md](T013-pr-ci-protection-smoke-test.md) |
 | T014 | 复制到其它项目模板化落地 | 低 | Codex / Cursor / 人工 | 已完成 | [T014-copy-template-to-other-projects.md](T014-copy-template-to-other-projects.md) |
+| T015 | 推送失败降级策略（CLI → Desktop） | 低 | Cursor | 已完成 | [T015-push-fallback.md](T015-push-fallback.md) |
 
 ## 说明
 
@@ -34,3 +35,4 @@
 - T012 已完成：GitHub 网页开启 `main` 分支保护，要求 `Docs validation` 通过后再合并。
 - T013 已完成：通过 PR #1 验证分支推送、`Docs validation`、PR 合并和本地 main 同步链路。
 - T014 已完成：建立复制到其它项目的说明和本地复制脚本，默认不覆盖目标项目已有文件。
+- T015 已完成：推送失败降级策略见 `docs/push-fallback.md` 与 `scripts/push-with-fallback.ps1`（失败记 tip、标待 Desktop 推送、不死等）。

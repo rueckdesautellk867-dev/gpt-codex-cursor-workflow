@@ -1,0 +1,4 @@
+# Local-only agent markers (do not commit)
+.pending-desktop-push.json
+.tmp-*.ps1
+.tmp-*.log

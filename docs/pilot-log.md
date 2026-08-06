@@ -236,3 +236,7 @@
 ## T014 目标项目 P1-A 详情版参数化方案与落地（AIContentFactory T035/T036）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T035-p1a-detail-param-auth-plan.md` 与 `tasks/T036-p1a-detail-param-auth-impl.md`，产出 `docs/p1a-detail-param-auth-plan.md`、`docs/p1a-detail-param-auth-impl.md`。按方案 B 改造未跟踪脚本 `crawl_p1_benchmark_profiles.py`：独立授权 `--i-authorize-p1a-detail-crawl`、默认输出 `backend/data/public_research/p1_profile_detail/`、保守默认 limit=5；`py_compile` 通过，无授权 exit 2。未打开浏览器、未登录、未真实抓取、未提交代码仓。目标项目本地 CI 通过。
+
+## T015 推送失败降级策略（CLI → Desktop）
+
+已完成：`docs/push-fallback.md`、`scripts/push-with-fallback.ps1`、`.gitignore`（忽略 `.pending-desktop-push.json`），并在 `docs/runbook.md` 增加远程推送降级入口。约定：push 失败最多短试 1～2 次，记本地 tip，标「待人工 Desktop 推送」，不死等；网络恢复后用户发「同意推送三方闭环」。本地 CI 通过。

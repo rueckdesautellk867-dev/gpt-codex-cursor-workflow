@@ -95,6 +95,15 @@
 3. 仅在用户要求或任务明确要求时创建 commit；message 简洁说明「为什么」
 4. 提交后确认工作区是否干净，并回报 hash
 
+## 远程推送与失败降级
+
+默认仍须用户明确同意后再 push。同意后：
+
+1. 优先 CLI：`git push` 或 `scripts/push-with-fallback.ps1`
+2. **失败不死等**：记本地 tip，写入 `.pending-desktop-push.json`，标「待人工 Desktop 推送」
+3. 向用户回报固定句式；网络恢复后再发 `同意推送三方闭环`
+4. 详细策略见 [`docs/push-fallback.md`](push-fallback.md)
+
 ## 任务归档流程
 
 1. 任务单与 `backlog.md` 状态改为 `已完成`（或 `已取消` 并写原因）

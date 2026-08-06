@@ -21,6 +21,7 @@
 | CI 层 | GitHub Actions 与本地复现脚本 | `.github/workflows/ci.yml`、`docs/ci.md` |
 | 风险审批层 | 高风险禁止动作与审批记录 | `docs/risk-approval.md` |
 | 运行手册层 | 启动→归档的固定操作顺序 | `docs/runbook.md` |
+| 推送降级层 | CLI push 失败记 tip / 待 Desktop，不死等 | `docs/push-fallback.md`、`scripts/push-with-fallback.ps1` |
 | 模板复制层 | 复制到其它项目的说明与脚本 | `docs/template-rollout.md`、`scripts/copy-workflow-template.ps1` |
 
 ## 已验证事项
