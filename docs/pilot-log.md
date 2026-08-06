@@ -187,8 +187,4 @@
 
 ## T014 目标项目 Freeze20 包 1 提交准备（AIContentFactory T025）
 
-已在 `D:\AIContentFactory` 完成：`tasks/T025-freeze20-package1-submit-prep.md`，产出 `docs/freeze20-package1-submit-prep.md`。候选范围为 F1 dry-run、F1 单测和 F5 基础 CLI 3 个未跟踪文件；3 个候选文件 AST 解析通过。F1 单测未跑通：项目 `.venv` 启动失败，Codex 内置 Python 缺 `sqlalchemy`。未运行 Freeze20 业务脚本、未打开浏览器、未登录、未点击 `暂存离开` 或 `发布`、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 56。
-
-## T014 目标项目 Freeze20 包 1 提交准备（AIContentFactory T025）
-
 已在 `D:\AIContentFactory` 完成：`tasks/T025-freeze20-package1-submit-prep.md`，产出 `docs/freeze20-package1-submit-prep.md`。包 1 候选为 3 个未跟踪文件：`freeze20_draft_box_dry_run.py`、`test_freeze20_draft_box_dry_run.py`、`freeze20_draft_box_upload_confirm.py`。3 文件 AST 解析通过；F1 单测未跑通（项目 `.venv` 启动失败；Codex 内置 Python 缺 `sqlalchemy`）。未运行 Freeze20 业务脚本、未打开浏览器、未登录、未点击、未提交代码仓。包 1 进入代码提交前须先修复或指定可用测试环境。
