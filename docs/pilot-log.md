@@ -268,3 +268,7 @@
 ## T014 目标项目 P1-A feed-only 受控真跑（AIContentFactory T044）
 
 用户确认选项 1 后，在代码仓执行已提交脚本 `crawl_p1_profile_feed_only.py`：`--i-authorize-p1a-feed-crawl --limit-per-profile 8 --scroll-rounds 2`。先补装 Playwright Chromium，再跑通 exit 0。汇总 atmosphere=0 / slow=8 / other=16；输出在 ignore 的 `backend/data/public_research/p1_profile_feed/`。未进详情、未发布、未提交代码仓。见 `D:\AIContentFactory\docs\p1a-feed-only-controlled-run.md`。目标项目本地 CI 通过。
+
+## T014 目标项目 P1-A feed-only 第二轮（AIContentFactory T045）
+
+用户确认 `limit=12`、`scroll=3` 后重跑同脚本。exit 0；atmosphere=0 / slow=7 / other=29；输出覆盖同一 ignore 目录。未进详情、未发布、未提交代码仓。见 `D:\AIContentFactory\docs\p1a-feed-only-controlled-run-round2.md`。目标项目本地 CI 通过。

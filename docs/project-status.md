@@ -87,6 +87,7 @@
 - `D:\AIContentFactory` 已完成 T042：远程落地方案；用户确认 **暂缓 B，维持无 origin**
 - `D:\AIContentFactory` 已完成 T043：已删除工作区 `open_xhs_publish_page_local.py`（未提交；剩余敏感 `??` 6 项）
 - `D:\AIContentFactory` 已完成 T044：P1-A feed-only 受控真跑 `docs/p1a-feed-only-controlled-run.md`（limit=8；exit 0；氛围 0 / 慢读 8 / 其他 16；输出在 ignore 目录；未提交）
+- `D:\AIContentFactory` 已完成 T045：feed-only 第二轮 `docs/p1a-feed-only-controlled-run-round2.md`（limit=12 / scroll=3；exit 0；氛围 0 / 慢读 7 / 其他 29；未提交）
 
 ## 当前限制
 

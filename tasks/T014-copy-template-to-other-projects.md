@@ -148,6 +148,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已删除工作区 `open_xhs_publish_page_local.py`（未提交；剩余敏感 `??` 6 项）
 - 第四十四目标项目专用任务：`D:\AIContentFactory\tasks\T044-p1a-feed-only-controlled-run.md`
 - 已完成 P1-A feed-only 受控真跑：`D:\AIContentFactory\docs\p1a-feed-only-controlled-run.md`（exit 0；未提交）
+- 第四十五目标项目专用任务：`D:\AIContentFactory\tasks\T045-p1a-feed-only-round2.md`
+- 已完成 feed-only 第二轮：`D:\AIContentFactory\docs\p1a-feed-only-controlled-run-round2.md`（limit=12；exit 0；未提交）
 
 ## 验收标准
 
