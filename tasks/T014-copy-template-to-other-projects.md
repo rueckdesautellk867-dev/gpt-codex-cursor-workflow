@@ -154,6 +154,8 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 已完成 F4 / 公开发布禁止执行归档强化：`D:\AIContentFactory\docs\f4-publish-forbid-archive.md`（只文档；未运行、未改代码仓、未提交）
 - 第四十七目标项目专用任务：`D:\AIContentFactory\tasks\T047-p1a-feed-only-round3.md`
 - 已完成 feed-only 第三轮：`D:\AIContentFactory\docs\p1a-feed-only-controlled-run-round3.md`（limit=12；exit 0；与 T045 同参一致；未提交）
+- 第四十八目标项目专用任务：`D:\AIContentFactory\tasks\T048-p1a-feed-only-three-round-summary.md`
+- 已完成 feed-only 三轮汇总：`D:\AIContentFactory\docs\p1a-feed-only-three-round-summary.md`（停同参；详情默认暂不升级）
 
 ## 验收标准
 

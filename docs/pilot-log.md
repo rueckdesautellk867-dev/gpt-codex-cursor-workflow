@@ -280,3 +280,7 @@
 ## T014 目标项目 P1-A feed-only 第三轮（AIContentFactory T047）
 
 用户确认选 A：`limit=12`、`scroll=3`、`pause=1500`；不进详情、不发布、不提交。执行 `crawl_p1_profile_feed_only.py --i-authorize-p1a-feed-crawl`。exit 0；atmosphere=0 / slow=7 / other=29（与 T045 同参一致）；输出覆盖 ignore 目录。未进详情、未发布、未提交代码仓。见 `D:\AIContentFactory\docs\p1a-feed-only-controlled-run-round3.md`。目标项目本地 CI 通过。
+
+## T014 目标项目 P1-A feed-only 三轮汇总（AIContentFactory T048）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T048-p1a-feed-only-three-round-summary.md`，产出 `docs/p1a-feed-only-three-round-summary.md`。对照 T044/T045/T047：同参第三轮无增量；建议停止同参 feed-only；详情默认暂不升级，升级须另开高敏感审批。未真跑、未改代码仓、未解除冻结。目标项目本地 CI 通过。
