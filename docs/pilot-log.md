@@ -196,3 +196,11 @@
 ## T014 目标项目代码仓提交 Freeze20 包 1
 
 用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `453b68d`：`Add Freeze20 dry-run and guarded CLI`。范围仅限 `backend/app/public_account_research/freeze20_draft_box_dry_run.py`、`backend/tests/test_freeze20_draft_box_dry_run.py`、`scripts/freeze20_draft_box_upload_confirm.py`（3 files, +1121）。提交前本机 PowerShell 跑通 F1 单测：`Ran 7 tests ... OK`。未纳入 F2 / F3 / F4 / P1 / `tmp_freeze20/` / 大型目录；未推送远程（代码仓仍无 origin）。
+
+## T014 目标项目 Freeze20 包 2 提交准备（AIContentFactory T027）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T027-freeze20-package2-submit-prep.md`，产出 `docs/freeze20-package2-submit-prep.md`。候选仅 2 个未跟踪文件（F2 live + 单测）；F5 CLI 已在包 1。本机 mock 单测：F1 7 OK、F2 7 OK。未运行 live、未打开浏览器、未登录、未点击、未提交代码仓。真实 live / VERIFY 继续暂缓。
+
+## T014 目标项目代码仓提交 Freeze20 包 2
+
+用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `716c73c`：`Add Freeze20 single-id live draft helpers`。范围仅限 `backend/app/public_account_research/freeze20_draft_box_live.py`、`backend/tests/test_freeze20_draft_box_live.py`（2 files, +652）。未纳入 F3 / F4 / P1 / 大型目录；未推送远程。代码落库不等于批准真实 live 执行。
