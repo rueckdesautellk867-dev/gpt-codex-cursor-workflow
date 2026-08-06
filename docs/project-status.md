@@ -37,6 +37,7 @@
 - `D:\AIContentFactory` 已完成首个低风险项目任务 T001 并通过本地 CI
 - `D:\AIContentFactory` 已完成 T002，确认实际代码仓库锚点为 `D:\AIContentFactory\repo\AIContentFactory`
 - `D:\AIContentFactory` 已完成 T003，输出代码仓库未提交改动盘点
+- `D:\AIContentFactory` 已完成 T004，输出未提交改动分组处理方案
 
 ## 当前限制
 
@@ -48,7 +49,7 @@
 
 ## 下一步建议
 
-1. 帮 AIContentFactory 建立未提交改动分组处理任务
+1. 帮 AIContentFactory 执行 T005：单独恢复 shell 文件可执行位
 2. 接入任务系统（如需与看板 / Issue 同步）
 3. 如需更严格验证，可另开失败 PR 测试分支保护拦截
 4. 设计阿里云测试环境（部署与反馈闭环另开任务，高风险须审批）

@@ -88,3 +88,7 @@
 ## T014 目标项目未提交改动盘点
 
 已在 `D:\AIContentFactory` 创建第三个低风险任务：`tasks/T003-inventory-code-repo-working-tree.md`。输出盘点文档 `docs/git-working-tree-inventory.md`，记录实际代码仓库 `D:\AIContentFactory\repo\AIContentFactory` 的已跟踪改动、未跟踪项、大型产物目录和后续处理建议。目标项目本地 CI 通过：Required files 10，Markdown files checked 19。
+
+## T014 目标项目未提交改动分组方案
+
+已在 `D:\AIContentFactory` 创建第四个低风险任务：`tasks/T004-working-tree-group-plan.md`。输出 `docs/working-tree-group-plan.md`，将未提交改动拆为 shell 文件模式变化、`playwright_engine.py`、Freeze20、P1 脚本和大型产物目录等处理组。目标项目本地 CI 通过：Required files 10，Markdown files checked 21。
