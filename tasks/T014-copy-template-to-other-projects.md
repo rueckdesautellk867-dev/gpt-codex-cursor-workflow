@@ -78,6 +78,9 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第十六目标项目专用任务：`D:\AIContentFactory\tasks\T016-p1b-local-catalog-fill-review.md`
 - 已输出 P1-B 本地目录填表评审：`D:\AIContentFactory\docs\p1b-local-catalog-fill-review.md`
 - 第十六任务验证：通过（Required files: 10；Markdown files checked: 39）
+- 第十七目标项目专用任务：`D:\AIContentFactory\tasks\T017-freeze20-f2-live-draft-review.md`
+- 已输出 F2 单条草稿箱 live 只读评审：`D:\AIContentFactory\docs\freeze20-f2-live-draft-review.md`
+- 第十七任务验证：通过（Required files: 10；Markdown files checked: 41）
 
 ## 验收标准
 
@@ -93,6 +96,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - [x] 已完成目标项目高敏感文件只读复核范围限定
 - [x] 已完成目标项目 Freeze20 / P1 未跟踪脚本拆分方案
 - [x] 已完成目标项目 P1-B 本地目录填表只读评审
+- [x] 已完成目标项目 F2 单条草稿箱 live 只读评审
 
 ## 测试命令
 
