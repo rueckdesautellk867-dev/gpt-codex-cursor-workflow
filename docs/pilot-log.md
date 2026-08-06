@@ -72,3 +72,7 @@
 ## T014 复制到其它项目模板化落地
 
 已建立复制到其它项目的模板化落地包：新增 `docs/template-rollout.md` 和 `scripts/copy-workflow-template.ps1`。脚本默认跳过目标项目已有文件，避免误覆盖；具体目标项目路径需执行时显式提供。T014 已完成；T004 仍保持 `待确认`。
+
+## T014 首次真实目标项目复制
+
+已选择 `D:\AIContentFactory` 作为首次真实目标项目，并执行模板复制。复制结果：14 个模板文件复制，4 个 starter 文件创建；未使用覆盖模式。目标项目本地 CI 通过：Required files 10，Markdown files checked 15。由于 AIContentFactory 包含 `repo`、`tools`、`ObsidianMemory` 等大型目录，已将目标项目的 `scripts/ci-check.ps1` 扫描范围收窄到模板入口目录，避免全量递归。
