@@ -98,6 +98,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第二十二目标项目专用任务：`D:\AIContentFactory\tasks\T022-publish-script-defer-list.md`
 - 已输出 F4 / P1-D 公开发布脚本暂缓清单：`D:\AIContentFactory\docs\publish-script-defer-list.md`
 - 第二十二任务验证：通过（Required files: 10；Markdown files checked: 50）
+- 代码仓本地提交 GX001 build pack 脚本：`22de269`（仅 1 文件；未推送；未含公开发布脚本）
 
 ## 验收标准
 
@@ -119,6 +120,7 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - [x] 已完成目标项目 P1-A 公开资料抓取只读评审
 - [x] 已完成目标项目 P1-C 登录 / 打开页面辅助只读评审
 - [x] 已完成目标项目 F4 / P1-D 公开发布脚本暂缓清单
+- [x] 已完成目标项目 GX001 build pack 脚本本地提交记录
 
 ## 测试命令
 

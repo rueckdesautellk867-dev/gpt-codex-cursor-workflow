@@ -172,3 +172,7 @@
 ## T014 目标项目 F4 / P1-D 公开发布脚本暂缓清单（AIContentFactory T022）
 
 已在 `D:\AIContentFactory` 完成：`tasks/T022-publish-script-defer-list.md`，产出 `docs/publish-script-defer-list.md`。只读确认 `freeze20_publish_one.py` 与 `freeze20_publish_one_confirm.py` 会公开发布单条 Freeze20，`publish_gx001_local.py` 会公开发布 GX-001，均禁止执行；`rebuild_gx001_local.py` 不发布，但会复制素材并写发布包 / 排期 / 协查文件，需 build-only 单独审批。未运行脚本、未打开浏览器、未登录、未打开发布页、未上传图片、未点击 `暂存离开` 或 `发布`、未提交代码仓。目标项目本地 CI 通过：Required files 10，Markdown files checked 50。
+
+## T014 目标项目代码仓提交 GX001 build pack 脚本
+
+用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `22de269`：`Add authorized GX001 build pack script`。范围仅限 `backend/scripts/rebuild_gx001_local.py`（1 file, +326）。提交前验证：`--help` 正常；无授权运行直接拒绝；AST 解析通过。未运行真实构建、未复制素材、未打开浏览器、未登录、未发布。未纳入 `publish_gx001_local.py`、F4 publish-one、P1-C、Freeze20 或大型目录；未推送远程（代码仓仍无 origin）。
