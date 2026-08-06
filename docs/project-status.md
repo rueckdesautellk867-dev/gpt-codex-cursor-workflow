@@ -66,6 +66,8 @@
 - `D:\AIContentFactory` 代码仓已本地提交 Freeze20 包 1：`453b68d`（`Add Freeze20 dry-run and guarded CLI`；3 文件；本机 F1 单测 7 OK；未推送；未含 F2/F3/F4/P1/大型目录）
 - `D:\AIContentFactory` 已完成 T027：Freeze20 包 2 提交准备 `docs/freeze20-package2-submit-prep.md`（F1+F2 mock 各 7 OK；真实 live 暂缓）
 - `D:\AIContentFactory` 代码仓已本地提交 Freeze20 包 2：`716c73c`（`Add Freeze20 single-id live draft helpers`；仅 2 文件；未推送；未含 F3/F4/P1；不等于批准真实 live）
+- `D:\AIContentFactory` 已完成 T028：Freeze20 包 3 提交准备 `docs/freeze20-package3-submit-prep.md`（F1+F2+F3 mock 22 OK；真实 batch 暂缓）
+- `D:\AIContentFactory` 代码仓已本地提交 Freeze20 包 3：`c6b7b6a`（`Add Freeze20 small-batch draft helpers`；仅 2 文件；未推送；未含 F4/P1；不等于批准真实 batch）
 
 ## 当前限制
 
@@ -79,9 +81,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：Freeze20 包 3（F3 batch）提交准备（须确认）
-2. AIContentFactory：P1-E 临时扫描工具稳定化方案（重命名 / 参数化 / 授权门禁，须确认）
-3. AIContentFactory：受控草稿箱手工冒烟 / 真实 F2 live（高敏感，须另开审批）
+1. AIContentFactory：P1-E 临时扫描工具稳定化方案（重命名 / 参数化 / 授权门禁，须确认）
+2. AIContentFactory：受控草稿箱手工冒烟 / 真实 F2 live / F3 batch（高敏感，须另开审批）
+3. AIContentFactory：F4 publish-one 继续排除
 4. AIContentFactory：若改远程策略（配置 origin / 首次推送 / CI·保护），另开任务并确认
 5. 接入任务系统（如需与看板 / Issue 同步）
 

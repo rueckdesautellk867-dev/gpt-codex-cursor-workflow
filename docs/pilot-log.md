@@ -204,3 +204,11 @@
 ## T014 目标项目代码仓提交 Freeze20 包 2
 
 用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `716c73c`：`Add Freeze20 single-id live draft helpers`。范围仅限 `backend/app/public_account_research/freeze20_draft_box_live.py`、`backend/tests/test_freeze20_draft_box_live.py`（2 files, +652）。未纳入 F3 / F4 / P1 / 大型目录；未推送远程。代码落库不等于批准真实 live 执行。
+
+## T014 目标项目 Freeze20 包 3 提交准备（AIContentFactory T028）
+
+已在 `D:\AIContentFactory` 完成：`tasks/T028-freeze20-package3-submit-prep.md`，产出 `docs/freeze20-package3-submit-prep.md`。候选仅 2 个未跟踪文件（F3 batch + 单测）；F5 CLI 已在包 1。本机 mock 单测合计 22 OK（F1+F2+F3）。未运行 batch、未打开浏览器、未登录、未点击、未提交代码仓。真实 batch 继续暂缓。
+
+## T014 目标项目代码仓提交 Freeze20 包 3
+
+用户确认后，在代码仓 `D:\AIContentFactory\repo\AIContentFactory` 本地提交 `c6b7b6a`：`Add Freeze20 small-batch draft helpers`。范围仅限 `backend/app/public_account_research/freeze20_draft_box_batch.py`、`backend/tests/test_freeze20_draft_box_batch.py`（2 files, +412）。未纳入 F4 / P1 / 大型目录；未推送远程。代码落库不等于批准真实 batch 执行。
