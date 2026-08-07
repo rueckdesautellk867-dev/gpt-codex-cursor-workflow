@@ -880,3 +880,11 @@
 ## T014 目标项目 freeze24 真实配图（AIContentFactory T206）
 
 用户确认按 T203 落盘真图。**20/20** jpg → `D:\tmp\freeze24_phase31_assets`；未写库、未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze24-real-images-t206.md`。
+
+## T014 目标项目 freeze24 ingest preview（AIContentFactory T207）
+
+用户确认。gates 通过；5/5；图 20/20；未写库。产出 `docs/freeze24-ingest-preview-t207.md`。
+
+## T014 目标项目 freeze24 ingest confirm（AIContentFactory T208）
+
+用户确认写库。LIT-26…30 → GC **141–145**；quality=pending；PublishTask=0；未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze24-ingest-confirm-t208.md`。

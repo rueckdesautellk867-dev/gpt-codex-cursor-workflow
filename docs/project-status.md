@@ -244,6 +244,8 @@
 - `D:\AIContentFactory` 已完成 T204：freeze24 资产目录骨架（仅 README）
 - `D:\AIContentFactory` 已完成 T205：freeze24 CSV 骨架（LIT-26…30；正文 T202）
 - `D:\AIContentFactory` 已完成 T206：freeze24 真图 20/20（`D:\tmp\freeze24_phase31_assets`）
+- `D:\AIContentFactory` 已完成 T207：freeze24 ingest preview（gates 通过；未写库）
+- `D:\AIContentFactory` 已完成 T208：freeze24 ingest confirm（GC **141–145**；quality=pending）
 
 ## 当前限制
 
@@ -257,7 +259,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T205/T206 已就绪；下一优先 freeze24 ingest preview
+1. AIContentFactory：T208 已写库 141–145（pending）；下一优先 quality approve 或 F2（须新审批）
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
