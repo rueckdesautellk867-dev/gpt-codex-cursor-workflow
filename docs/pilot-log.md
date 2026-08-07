@@ -544,3 +544,15 @@
 ## T014 目标项目 F2 live content-id=119（AIContentFactory T122）
 
 用户确认 H3：content-id=119 / platform_1 / 仅暂存离开。已完成：`tasks/T122-f2-live-119.md`，产出 `docs/freeze20-f2-live-119-t122.md` 与 reports。**成功**（`LIT-04`）；未发布；H3 已消费。目标项目本地 CI 通过。
+
+## T014 目标项目 H2 只读检 GC 120（AIContentFactory T123）
+
+用户确认只读检 content_id=120。已完成：`tasks/T123-h2-gc120-check.md`，产出 `docs/h2-gc120-check-t123.md`。GC 120 / LIT-05；**quality=pending → H2 未满足**。目标项目本地 CI 通过。
+
+## T014 目标项目 GC 120 设为 approved（AIContentFactory T124）
+
+用户确认。已完成：`tasks/T124-gc120-quality-approved.md`，产出 `docs/gc120-quality-approved-t124.md`。pending→**approved**；**H2(120) 已满足**；未跑 F2。目标项目本地 CI 通过。
+
+## T014 目标项目 F2 live content-id=120（AIContentFactory T125）
+
+用户确认 H3：content-id=120 / platform_1 / 仅暂存离开。已完成：`tasks/T125-f2-live-120.md`，产出 `docs/freeze20-f2-live-120-t125.md` 与 reports。**成功**（`LIT-05`）；未发布；H3 已消费。目标项目本地 CI 通过。
