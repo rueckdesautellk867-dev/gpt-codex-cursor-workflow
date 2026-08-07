@@ -636,3 +636,11 @@
 ## T014 目标项目 LIT-11-15 小红书正文（AIContentFactory T145）
 
 用户确认扩正文并回写推送。ChatGPT 429 → DeepSeek；产出 `docs/freeze21-lit11-15-xhs-bodies-t145.md`（标题+hook+正文+3标签×5）。不定配图、未写库。目标项目本地 CI 通过。
+
+## T014 目标项目 LIT-11-15 配图需求表（AIContentFactory T146）
+
+用户确认配图需求表。ChatGPT 429 → DeepSeek；产出 `docs/freeze21-lit11-15-image-briefs-t146.md`（封面+正文×3×5；未生成真图）。未写库。目标项目本地 CI 通过。
+
+## T014 目标项目 freeze21 资产目录骨架（AIContentFactory T147）
+
+用户确认建骨架并回写推送。已创建 `D:\tmp\freeze21_phase31_assets\LIT-11`…`LIT-15`（仅 README）；产出 `docs/freeze21-asset-dirs-t147.md`。未生成图片、未写库、未提交代码仓。目标项目本地 CI 通过。

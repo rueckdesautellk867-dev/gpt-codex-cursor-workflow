@@ -183,6 +183,8 @@
 - `D:\AIContentFactory` 已完成 T143：主题定稿方案A（泡书不啃书）
 - `D:\AIContentFactory` 已完成 T144：LIT-11–15 标题+hook大纲
 - `D:\AIContentFactory` 已完成 T145：LIT-11–15 小红书正文×5
+- `D:\AIContentFactory` 已完成 T146：LIT-11–15 配图需求表（未生成真图）
+- `D:\AIContentFactory` 已完成 T147：freeze21 资产目录骨架（仅 README）
 
 ## 当前限制
 
@@ -196,7 +198,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T144–T145 文案已落档（本提交）；可开配图需求表
+1. AIContentFactory：T146–T147 已落档（本提交）；可开 CSV 骨架
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
