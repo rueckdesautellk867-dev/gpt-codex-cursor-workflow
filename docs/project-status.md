@@ -200,6 +200,8 @@
 - `D:\AIContentFactory` 已完成 T160：Freeze21 收口后状态同步（tip=`d78fd96`；库 max=130）
 - `D:\AIContentFactory` 已完成 T161：维持观察
 - `D:\AIContentFactory` 已完成 T162：LIT-16–20 立项任务单（**主题占位待填**）
+- `D:\AIContentFactory` 已完成 T163：主题候选×5（未定稿；ChatGPT429→DeepSeek）
+- `D:\AIContentFactory` 已完成 T164：主题定稿方案A（重读小时候课文）
 
 ## 当前限制
 
@@ -213,7 +215,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T161–T162 已落档；下一优先补 LIT-16–20 主题（仍占位）
+1. AIContentFactory：T163–T164 已落档；下一优先标题+hook 大纲
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

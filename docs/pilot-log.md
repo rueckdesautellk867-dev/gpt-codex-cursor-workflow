@@ -704,3 +704,11 @@
 ## T014 目标项目超130新包立项（AIContentFactory T162）
 
 用户发立项句但主题仍为 `<一句话>` 占位。产出 `docs/freeze22-lit16-20-package-brief-t162.md`（LIT-16…20；期望 131–135）。未写库、未作文案。
+
+## T014 目标项目 LIT-16-20 主题候选（AIContentFactory T163）
+
+用户确认候选列表。ChatGPT 429 → DeepSeek；产出 `docs/freeze22-lit16-20-theme-candidates-t163.md`（5 候选；**不定稿**）。同批定稿句主题仍占位，未执行定稿。
+
+## T014 目标项目主题定稿方案A（AIContentFactory T164）
+
+用户确认方案A并回写推送。整包主题：**重读小时候的课文，发现当年背的全是恐怖故事**。已回写立项表。未写正文、未写库。
