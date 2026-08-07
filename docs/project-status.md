@@ -267,6 +267,7 @@
 - `D:\AIContentFactory` 已完成 T227：F2 live 147 **成功**（LIT-32；暂存离开；未发布）
 - `D:\AIContentFactory` 已完成 T228：F3 batch 146–150 **成功**（5/5；未发布）
 - `D:\AIContentFactory` 已完成 T229：Freeze25 146–150 草稿箱收口（只文档；F4 仍冻结）
+- `D:\AIContentFactory` 已完成 T230：任务封存 / 维持观察（存盘退出）
 
 ## 当前限制
 
@@ -280,7 +281,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T229 Freeze25 146–150 已收口；下一优先维持观察或超 150 新包
+1. AIContentFactory：**T230 已封存**；无进行中任务；再开工须新确认
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

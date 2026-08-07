@@ -972,3 +972,7 @@
 ## T014 目标项目 Freeze25 146-150 草稿箱收口（AIContentFactory T229）
 
 用户确认。只更新文档与状态清单；不跑 F2/F3/F4、不写库、不提交代码仓。产出 `docs/freeze25-146-150-draft-box-closeout-t229.md`。
+
+## T014 目标项目任务封存存盘退出（AIContentFactory T230）
+
+用户确认：`任务封存，存盘退出`。只更新观察/封存记录与状态清单；不跑 F2/F3/F4、不写库、不提交代码仓。见目标项目 `docs/maintain-observation-t230.md`。开放任务清零；F4 仍冻结。
