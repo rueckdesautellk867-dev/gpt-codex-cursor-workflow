@@ -712,3 +712,15 @@
 ## T014 目标项目主题定稿方案A（AIContentFactory T164）
 
 用户确认方案A并回写推送。整包主题：**重读小时候的课文，发现当年背的全是恐怖故事**。已回写立项表。未写正文、未写库。
+
+## T014 目标项目 LIT-16-20 标题+hook大纲（AIContentFactory T165）
+
+用户确认大纲制作。ChatGPT 429 → DeepSeek；产出 `docs/freeze22-lit16-20-title-hook-outlines-t165.md`。不定配图、未写库。
+
+## T014 目标项目 LIT-16-20 小红书正文（AIContentFactory T166）
+
+用户确认扩正文。ChatGPT 429 → DeepSeek；产出 `docs/freeze22-lit16-20-xhs-bodies-t166.md`（标题+hook+正文+3标签×5）。不定配图、未写库。
+
+## T014 目标项目 LIT-16-20 配图需求表（AIContentFactory T167）
+
+用户确认配图需求表并回写推送。ChatGPT 失败 → DeepSeek；产出 `docs/freeze22-lit16-20-image-briefs-t167.md`（封面+正文×3×5；未生成真图）。未写库。

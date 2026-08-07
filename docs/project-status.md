@@ -202,6 +202,9 @@
 - `D:\AIContentFactory` 已完成 T162：LIT-16–20 立项任务单（**主题占位待填**）
 - `D:\AIContentFactory` 已完成 T163：主题候选×5（未定稿；ChatGPT429→DeepSeek）
 - `D:\AIContentFactory` 已完成 T164：主题定稿方案A（重读小时候课文）
+- `D:\AIContentFactory` 已完成 T165：LIT-16–20 标题+hook大纲
+- `D:\AIContentFactory` 已完成 T166：LIT-16–20 小红书正文×5
+- `D:\AIContentFactory` 已完成 T167：LIT-16–20 配图需求表（未生成真图）
 
 ## 当前限制
 
@@ -215,7 +218,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T163–T164 已落档；下一优先标题+hook 大纲
+1. AIContentFactory：T165–T167 已落档；下一优先资产骨架或真图
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
