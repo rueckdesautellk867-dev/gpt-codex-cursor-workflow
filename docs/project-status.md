@@ -195,6 +195,7 @@
 - `D:\AIContentFactory` 已完成 T155：F3 batch 126–130 **成功**（5/5）
 - `D:\AIContentFactory` 已完成 T156：Freeze21 126–130 草稿箱收口（只文档；F4 仍冻结）
 - `D:\AIContentFactory` 已完成 T157：F2 live 128 **成功**
+- `D:\AIContentFactory` 已完成 T158：F2 live 129 **成功**
 
 ## 当前限制
 
@@ -208,7 +209,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T156–T157 已落档；下一优先回写推送，或可选 F2 129/130
+1. AIContentFactory：T156–T158 已落档；下一优先可选 F2 130，或补推三方闭环
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
