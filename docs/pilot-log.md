@@ -588,3 +588,7 @@
 ## T014 目标项目剩余冻结项复核 L5（AIContentFactory T133）
 
 用户确认只读 L5。已完成：`tasks/T133-remaining-freeze-l5-review.md`，产出 `docs/remaining-freeze-l5-review-t133.md`。敏感 `??` **仍为 4**；冻结维持；未跑 F4、未发布、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目新素材段盘点 >125（AIContentFactory T134）
+
+用户确认只读盘点。已完成：`tasks/T134-new-material-segment-inventory-gt125.md`，产出 `docs/new-material-segment-inventory-gt125-t134.md`。结论：**无 >125 可 ingest 候选**（CSV/资产/库均止于 125）。未写库、未跑 F2/F3/F4。目标项目本地 CI 通过。

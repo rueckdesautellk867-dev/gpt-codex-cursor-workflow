@@ -171,6 +171,7 @@
 - `D:\AIContentFactory` 已完成 T131：F3 batch 121–125 **成功**（5/5）
 - `D:\AIContentFactory` 已完成 T132：Freeze20 106–125 草稿箱路径收口（只文档；F4 仍冻结）
 - `D:\AIContentFactory` 已完成 T133：L5 冻结复核（**`??`=4**；冻结维持）
+- `D:\AIContentFactory` 已完成 T134：超 125 素材盘点（**无候选**）
 
 ## 当前限制
 
@@ -184,8 +185,8 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T133 L5 已本地提交 `70152f0`（**待推送**，443）
-2. F4 仍不开放；新 id / 再跑须新完整审批；勿空跑同内容 L5
+1. AIContentFactory：T134 盘点已落档（无 >125 可 ingest 候选；本提交）
+2. 下一实质进度：另产新素材包后再批 ingest preview；F4 仍不开放
 3. 接入任务系统（如需）
 
 ## 复制到其它项目时
