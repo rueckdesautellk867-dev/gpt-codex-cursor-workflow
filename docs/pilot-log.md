@@ -776,3 +776,11 @@
 ## T014 目标项目超135新包立项（AIContentFactory T180）
 
 用户发立项句但主题仍为 `<一句话>` 占位。产出 `docs/freeze23-lit21-25-package-brief-t180.md`（LIT-21…25；期望 136–140）。未写库、未作文案。
+
+## T014 目标项目 LIT-21-25 主题候选（AIContentFactory T181）
+
+用户确认候选列表。ChatGPT 429 → DeepSeek；产出 `docs/freeze23-lit21-25-theme-candidates-t181.md`（5 候选；**不定稿**）。同批定稿句主题仍占位，未执行定稿。
+
+## T014 目标项目主题定稿拒绝（AIContentFactory T182）
+
+用户确认方案A但主题仍为 `<你的真实一句话主题>` 占位。**拒绝定稿**。见目标项目 `docs/freeze23-theme-lock-refused-t182.md`。
