@@ -166,6 +166,9 @@
 - `D:\AIContentFactory` 已完成 T126：H2(121) **未满足**（quality=pending；`LIT-06`）
 - `D:\AIContentFactory` 已完成 T127：F3 batch 116–120 **成功**（5/5；未发布）
 - `D:\AIContentFactory` 已完成 T128：GC 121 approved；**H2(121) 已满足**；F3 121–125 **未跑**（122–125 pending）
+- `D:\AIContentFactory` 已完成 T129：GC 122–125 approved
+- `D:\AIContentFactory` 已完成 T130：F2 live 121 **成功**
+- `D:\AIContentFactory` 已完成 T131：F3 batch 121–125 **成功**（5/5）
 
 ## 当前限制
 
@@ -179,9 +182,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：先批 GC 122–125 approved，再重发完整 F3 121–125；或另批 F2 live 121
-2. 三方闭环 tip=`fa906dc`（T128 回写另批）
-3. 高风险（F3 下一波/F4/再跑 F2）须新完整审批
+1. AIContentFactory：Freeze20 106–125 草稿箱路径已验证（单条至 121 + F3 两波 116–125）
+2. 可「同意回写并推送三方闭环」落档 T129–T131
+3. F4 / 再跑 / 下一波须新完整审批；T130/T131 已消费
 4. 接入任务系统（如需）
 
 ## 复制到其它项目时

@@ -568,3 +568,15 @@
 ## T014 目标项目 GC 121 设为 approved（AIContentFactory T128）
 
 用户确认。已完成：`tasks/T128-gc121-quality-approved.md`，产出 `docs/gc121-quality-approved-t128.md`。pending→**approved**；**H2(121) 已满足**。122–125 仍 pending → **F3 121–125 未执行**。目标项目本地 CI 通过。
+
+## T014 目标项目 GC 122–125 设为 approved（AIContentFactory T129）
+
+用户确认。已完成：`tasks/T129-gc122-125-quality-approved.md`，产出 `docs/gc122-125-quality-approved-t129.md`。4 条 pending→**approved**；本步未跑 F2/F3。目标项目本地 CI 通过。
+
+## T014 目标项目 F2 live content-id=121（AIContentFactory T130）
+
+用户确认 H3。已完成：`tasks/T130-f2-live-121.md`，产出 `docs/freeze20-f2-live-121-t130.md`。**成功**（`LIT-06`）；未发布。目标项目本地 CI 通过。
+
+## T014 目标项目 F3 batch 121-125（AIContentFactory T131）
+
+用户确认完整 F3。已完成：`tasks/T131-f3-batch-121-125.md`，产出 `docs/freeze20-f3-batch-121-125-t131.md`。**wave_ok=true；5/5 confirmed**；未发布。目标项目本地 CI 通过。
