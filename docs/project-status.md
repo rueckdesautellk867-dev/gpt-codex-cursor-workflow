@@ -235,7 +235,10 @@
 - `D:\AIContentFactory` 已完成 T195：F3 batch 136–140 **成功**（5/5；未发布）
 - `D:\AIContentFactory` 已完成 T196：Freeze23 136–140 草稿箱收口（只文档；F4 仍冻结）
 - `D:\AIContentFactory` 已完成 T197：维持观察
-- `D:\AIContentFactory` 已完成 T198：Freeze24 立项（LIT-26…30 / GC 141–145；主题仍占位）
+- `D:\AIContentFactory` 已完成 T198：Freeze24 立项（LIT-26…30 / GC 141–145；主题见 T200）
+- `D:\AIContentFactory` 已完成 T199：主题候选×5（ChatGPT403→DeepSeek）
+- `D:\AIContentFactory` 已完成 T200：主题定稿（**书籍未来的路-AI会代替书籍吗？**）
+- `D:\AIContentFactory` 已完成 T201：LIT-26…30 标题+hook大纲（ChatGPT403→DeepSeek）
 
 ## 当前限制
 
@@ -249,7 +252,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T198 已立项但主题仍占位；下一优先主题候选×5 或真实主题定稿
+1. AIContentFactory：T201 大纲已出；下一优先 LIT-26…30 小红书正文扩写（经ChatGPT）
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

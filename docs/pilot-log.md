@@ -847,4 +847,16 @@
 
 ## T014 目标项目 Freeze24 超140新包立项（AIContentFactory T198）
 
-用户确认立项。条数=5；平台=小红书；草稿 **LIT-26…30**；期望 GC **141–145**；主题仍为占位符（未定稿、未写正文）。产出 `docs/freeze24-lit26-30-package-brief-t198.md`。未写库、未跑 F2/F3/F4、未提交代码仓。
+用户确认立项。条数=5；平台=小红书；草稿 **LIT-26…30**；期望 GC **141–145**；主题后来定稿见 T200。产出 `docs/freeze24-lit26-30-package-brief-t198.md`。未写库、未跑 F2/F3/F4、未提交代码仓。
+
+## T014 目标项目 Freeze24 主题候选（AIContentFactory T199）
+
+用户确认。ChatGPT 403 → DeepSeek；产出 5 条候选（不定稿）。见 `docs/freeze24-lit26-30-theme-candidates-t199.md`。
+
+## T014 目标项目 Freeze24 主题定稿（AIContentFactory T200）
+
+用户确认定稿。整包主题 **书籍未来的路-AI会代替书籍吗？**；LIT-26…30；期望 GC 141–145；未写正文。产出 `docs/freeze24-theme-locked-t200.md`。
+
+## T014 目标项目 LIT-26-30 标题+hook大纲（AIContentFactory T201）
+
+用户确认。ChatGPT 403 → DeepSeek；5 条标题+hook+三点大纲；不定配图、未写完整正文。产出 `docs/freeze24-lit26-30-title-hook-outlines-t201.md`。
