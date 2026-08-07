@@ -752,3 +752,11 @@
 ## T014 目标项目 F2 live 131（AIContentFactory T174）
 
 用户确认并回写推送。content-id=131：**成功**；暂存离开；未发布。产出 `docs/freeze22-f2-live-131-t174.md`。
+
+## T014 目标项目 F2 live 132（AIContentFactory T175）
+
+用户确认。content-id=132：**成功**；暂存离开；未发布。产出 `docs/freeze22-f2-live-132-t175.md`。
+
+## T014 目标项目 F3 batch 131-135（AIContentFactory T176）
+
+用户确认并回写推送。batch 131–135：**5/5 confirmed**；未点发布、未跑 F4。产出 `docs/freeze22-f3-batch-131-135-t176.md`。

@@ -212,6 +212,8 @@
 - `D:\AIContentFactory` 已完成 T172：freeze22 ingest confirm（GC **131–135**；quality=pending）
 - `D:\AIContentFactory` 已完成 T173：GC 131–135 quality approved
 - `D:\AIContentFactory` 已完成 T174：F2 live 131 **成功**（暂存离开；未发布）
+- `D:\AIContentFactory` 已完成 T175：F2 live 132 **成功**
+- `D:\AIContentFactory` 已完成 T176：F3 batch 131–135 **成功**（5/5）
 
 ## 当前限制
 
@@ -225,7 +227,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：F2 131 已成功；下一优先 F2 132+ 或 F3 131–135（须新审批）
+1. AIContentFactory：F3 131–135 已 5/5；下一优先可选补 F2 133–135 或草稿箱收口
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
