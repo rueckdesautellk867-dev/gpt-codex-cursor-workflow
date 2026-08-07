@@ -660,3 +660,11 @@
 ## T014 目标项目 freeze21 ingest confirm（AIContentFactory T151）
 
 用户确认写库并回写推送。LIT-11…15 → GC **126–130**；quality=pending；PublishTask=0；未跑 F2/F3/F4；未提交代码仓。产出见目标项目 `docs/freeze21-ingest-confirm-t151.md`。
+
+## T014 目标项目 GC 126-130 quality approved（AIContentFactory T152）
+
+用户确认。126–130 pending→**approved**；PublishTask=0；本步未跑 F2。见目标项目 `docs/gc126-130-quality-approved-t152.md`。
+
+## T014 目标项目 F2 live 126（AIContentFactory T153）
+
+用户确认。content-id=126 / platform_1：**成功**；已点「暂存离开」、4 图、草稿箱命中；未点发布、未改代码仓。见目标项目 `docs/freeze21-f2-live-126-t153.md`。

@@ -189,6 +189,8 @@
 - `D:\AIContentFactory` 已完成 T149：freeze21 ingest preview（gates 通过；未写库）
 - `D:\AIContentFactory` 已完成 T150：freeze21 真图落盘（20/20 jpg → `D:\tmp\freeze21_phase31_assets`；未写库）
 - `D:\AIContentFactory` 已完成 T151：freeze21 ingest confirm（LIT-11…15 → GC **126–130**；quality=pending）
+- `D:\AIContentFactory` 已完成 T152：GC 126–130 quality approved
+- `D:\AIContentFactory` 已完成 T153：F2 live 126 **成功**（暂存离开；未发布）
 
 ## 当前限制
 
@@ -202,8 +204,8 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T150–T151 已落档；下一优先 quality approve 或单条 F2（须新完整确认句）
-2. F4 仍不开放
+1. AIContentFactory：T152–T153 已落档；下一优先 F2 127–130 或 F3 batch 126–130（须新确认句）
+2. F4 仍不开放；若 tip=`8af30a9` 仍 pending Desktop push，可另句补推
 3. 接入任务系统（如需）
 
 ## 复制到其它项目时
