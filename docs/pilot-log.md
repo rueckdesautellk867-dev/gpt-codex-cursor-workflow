@@ -384,3 +384,7 @@
 ## T014 目标项目 F2 live content-id=106（AIContentFactory T082）
 
 用户确认 H3：`--live` content-id=106 / session=`platform_1` / 仅暂存离开 / 禁止发布/F3/F4/提交。已完成：`tasks/T082-f2-live-106.md`，产出 `docs/freeze20-f2-live-106-t082.md` 与 `tmp_freeze20/reports/freeze20_t082_draft_box_live_106.*`。结果：**成功**（exit 0）；已点「暂存离开」、4 图、草稿箱命中；**未点发布**、未提交代码仓。本次 H3 授权已消费。目标项目本地 CI 通过。
+
+## T014 目标项目 F2 live content-id=106（AIContentFactory T083）
+
+用户确认 H3 同参再跑。已完成：`tasks/T083-f2-live-106.md`，产出 `docs/freeze20-f2-live-106-t083.md` 与 `tmp_freeze20/reports/freeze20_t083_draft_box_live_106.*`。**成功**；暂存离开；未发布；未提交。H3 已消费。目标项目本地 CI 通过。
