@@ -800,3 +800,7 @@
 ## T014 目标项目 LIT-21-25 配图需求表（AIContentFactory T186）
 
 用户确认配图需求表并回写推送。ChatGPT 429 → DeepSeek；产出 `docs/freeze23-lit21-25-image-briefs-t186.md`（封面+正文×3×5；未生成真图）。未写库。
+
+## T014 目标项目 freeze23 资产目录骨架（AIContentFactory T187）
+
+用户确认建骨架。已创建 `D:\tmp\freeze23_phase31_assets\LIT-21`…`LIT-25`（仅 README）；无图片；未写库、未提交代码仓。产出 `docs/freeze23-asset-dirs-t187.md`。
