@@ -163,6 +163,8 @@
 - `D:\AIContentFactory` 已完成 T123：H2(120) **未满足**（quality=pending；`LIT-05`）
 - `D:\AIContentFactory` 已完成 T124：GC 120 approved；**H2(120) 已满足**
 - `D:\AIContentFactory` 已完成 T125：F2 live 120 **成功**（`LIT-05`；暂存离开；未发布）
+- `D:\AIContentFactory` 已完成 T126：H2(121) **未满足**（quality=pending；`LIT-06`）
+- `D:\AIContentFactory` 已完成 T127：F3 batch 116–120 **成功**（5/5；未发布）
 
 ## 当前限制
 
@@ -176,9 +178,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T125 后 106–120 单条 F2 均已成功；下一可走 H2(121) 或完整 F3 另批
-2. AIContentFactory：维持代码仓无 origin（B 已暂缓；T061 复核维持）
-3. 高风险（F3/F4/详情/再跑 F2）须新完整审批；T125 授权已消费；截断 F3 句未执行
+1. AIContentFactory：T127 F3 首波成功；T126 后 H2(121) 未满足；下一优先批 GC 121 approved
+2. 三方闭环 tip=`9541ceb` 仍待推送（443）；可 Desktop Push 或再发「同意推送/回写并推送」
+3. 高风险（F3 下一波/F4/再跑 F2）须新完整审批；T127 本波已消费
 4. 接入任务系统（如需）
 
 ## 复制到其它项目时
