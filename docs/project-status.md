@@ -217,9 +217,10 @@
 - `D:\AIContentFactory` 已完成 T177：F2 live 133 **成功**
 - `D:\AIContentFactory` 已完成 T178：Freeze22 131–135 草稿箱收口（只文档；F4 仍冻结）
 - `D:\AIContentFactory` 已完成 T179：维持观察
-- `D:\AIContentFactory` 已完成 T180：LIT-21–25 立项任务单（**主题占位待填**）
+- `D:\AIContentFactory` 已完成 T180：LIT-21–25 立项任务单（主题已定稿见 T183）
 - `D:\AIContentFactory` 已完成 T181：主题候选×5（未定稿；ChatGPT429→DeepSeek）
 - `D:\AIContentFactory` T182：主题定稿**已拒绝**（主题仍占位）
+- `D:\AIContentFactory` 已完成 T183：主题定稿方案A（借出去的书，就是泼出去的水）
 
 ## 当前限制
 
@@ -233,7 +234,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T181 候选已出；须点名真实主题再定稿（占位拒绝）
+1. AIContentFactory：T183 主题已定；下一优先标题+hook大纲
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
