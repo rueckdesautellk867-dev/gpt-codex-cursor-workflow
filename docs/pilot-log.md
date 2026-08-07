@@ -788,3 +788,7 @@
 ## T014 目标项目主题定稿方案A（AIContentFactory T183）
 
 用户确认方案A并回写推送。整包主题：**借出去的书，就是泼出去的水**。已回写立项表。未写正文、未写库。
+
+## T014 目标项目 LIT-21-25 标题+hook大纲（AIContentFactory T184）
+
+用户确认大纲制作。ChatGPT 429 → DeepSeek；产出 `docs/freeze23-lit21-25-title-hook-outlines-t184.md`。不定配图、未写库。
