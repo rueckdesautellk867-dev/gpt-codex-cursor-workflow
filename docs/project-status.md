@@ -256,6 +256,8 @@
 - `D:\AIContentFactory` 已完成 T216：主题定稿（**建立知识库的重要性**）
 - `D:\AIContentFactory` 已完成 T217：LIT-31…35 标题+hook大纲（ChatGPT403→DeepSeek）
 - `D:\AIContentFactory` 已完成 T218：LIT-31…35 小红书正文×5（ChatGPT429→DeepSeek）
+- `D:\AIContentFactory` 已完成 T219：LIT-31…35 配图需求表（未生成真图）
+- `D:\AIContentFactory` 已完成 T220：freeze25 资产目录骨架（仅 README）
 
 ## 当前限制
 
@@ -269,7 +271,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T218 正文已出；下一优先 LIT-31…35 配图需求表（经ChatGPT）
+1. AIContentFactory：T220 骨架已建；下一优先 CSV 骨架或真图落盘
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

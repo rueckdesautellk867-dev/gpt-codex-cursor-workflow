@@ -928,3 +928,11 @@
 ## T014 目标项目 LIT-31-35 小红书正文（AIContentFactory T218）
 
 用户确认。ChatGPT 429 → DeepSeek；5 条完整正文+各3标签；不定配图。产出 `docs/freeze25-lit31-35-xhs-bodies-t218.md`。
+
+## T014 目标项目 LIT-31-35 配图需求表（AIContentFactory T219）
+
+用户确认。ChatGPT 429 → DeepSeek；每条封面+正文图×3；未生成真图。产出 `docs/freeze25-lit31-35-image-briefs-t219.md`。
+
+## T014 目标项目 freeze25 资产目录骨架（AIContentFactory T220）
+
+用户确认建骨架。已创建 `D:\tmp\freeze25_phase31_assets\LIT-31`…`LIT-35`（仅 README）；无图片；未写库、未提交代码仓。产出 `docs/freeze25-asset-dirs-t220.md`。
