@@ -246,6 +246,10 @@
 - `D:\AIContentFactory` 已完成 T206：freeze24 真图 20/20（`D:\tmp\freeze24_phase31_assets`）
 - `D:\AIContentFactory` 已完成 T207：freeze24 ingest preview（gates 通过；未写库）
 - `D:\AIContentFactory` 已完成 T208：freeze24 ingest confirm（GC **141–145**；quality=pending）
+- `D:\AIContentFactory` 已完成 T209：GC 141–145 → **approved**（PublishTask=0）
+- `D:\AIContentFactory` 已完成 T210：F2 live 141 **成功**（LIT-26；暂存离开；未发布）
+- `D:\AIContentFactory` 已完成 T211：F2 live 142 **成功**（LIT-27；暂存离开；未发布）
+- `D:\AIContentFactory` 已完成 T212：F3 batch 141–145 **成功**（5/5；未发布）
 
 ## 当前限制
 
@@ -259,7 +263,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T208 已写库 141–145（pending）；下一优先 quality approve 或 F2（须新审批）
+1. AIContentFactory：T212 F3 141–145 已 5/5；可另批草稿箱收口文档，或维持观察
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

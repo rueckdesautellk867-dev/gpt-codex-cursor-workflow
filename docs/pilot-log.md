@@ -888,3 +888,19 @@
 ## T014 目标项目 freeze24 ingest confirm（AIContentFactory T208）
 
 用户确认写库。LIT-26…30 → GC **141–145**；quality=pending；PublishTask=0；未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze24-ingest-confirm-t208.md`。
+
+## T014 目标项目 F2 live 141（AIContentFactory T210）
+
+用户确认。content-id=141 / LIT-26 / platform_1；上传 4 图；暂存离开；未点发布。产出 `docs/freeze24-f2-live-141-t210.md`。
+
+## T014 目标项目 GC 141–145 quality approved（AIContentFactory T209）
+
+用户确认。141–145：pending → **approved**；PublishTask=0；本步未跑 F2。产出 `docs/gc141-145-quality-approved-t209.md`。
+
+## T014 目标项目 F2 live 142（AIContentFactory T211）
+
+用户确认。content-id=142 / LIT-27 / platform_1；上传 4 图；暂存离开；未点发布。产出 `docs/freeze24-f2-live-142-t211.md`。
+
+## T014 目标项目 F3 batch 141-145（AIContentFactory T212）
+
+用户确认。wave **5/5** confirmed；未点发布；无 PublishTask；未跑 F4、未提交代码仓。产出 `docs/freeze24-f3-batch-141-145-t212.md`。
