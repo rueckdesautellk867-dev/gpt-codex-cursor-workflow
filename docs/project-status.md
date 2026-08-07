@@ -227,6 +227,8 @@
 - `D:\AIContentFactory` 已完成 T187：freeze23 资产目录骨架（仅 README）
 - `D:\AIContentFactory` 已完成 T188：freeze23 CSV 骨架（LIT-21…25；正文 T185）
 - `D:\AIContentFactory` 已完成 T189：freeze23 真图 20/20（`D:\tmp\freeze23_phase31_assets`）
+- `D:\AIContentFactory` 已完成 T190：freeze23 ingest preview（gates 通过；未写库）
+- `D:\AIContentFactory` 已完成 T191：freeze23 ingest confirm（GC **136–140**；quality=pending）
 
 ## 当前限制
 
@@ -240,7 +242,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T188/T189 已齐；下一优先 ingest preview（dry-run）
+1. AIContentFactory：T191 已写库 136–140（pending）；下一优先 quality approve 或 F2（须新审批）
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
