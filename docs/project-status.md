@@ -130,6 +130,9 @@
 - `D:\AIContentFactory` 已完成 T090：H2(109) **未满足**（quality=pending）
 - `D:\AIContentFactory` 已完成 T091：GC 109 approved；**H2(109) 已满足**
 - `D:\AIContentFactory` 已完成 T092：F2 live 109 **成功**
+- `D:\AIContentFactory` 已完成 T093：H2(110) **未满足**（quality=pending）
+- `D:\AIContentFactory` 已完成 T094：GC 110 approved；**H2(110) 已满足**
+- `D:\AIContentFactory` 已完成 T095：F2 live 110 **成功**
 
 ## 当前限制
 
@@ -143,7 +146,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T092 F2 live 109 成功；106–109 已验证；换 id/F3 须新批
+1. AIContentFactory：T095 F2 live 110 成功；106–110 已验证；换 id/F3 须新批
 2. AIContentFactory：维持代码仓无 origin（B 已暂缓；T061 复核维持）
 3. 高风险（F3/F4/详情/再跑 F2）须新审批；T072 授权已消费
 4. 接入任务系统（如需）
