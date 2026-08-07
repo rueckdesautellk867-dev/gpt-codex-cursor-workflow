@@ -121,6 +121,9 @@
 - `D:\AIContentFactory` 已完成 T081：L5 确认 **`??`=4**、冻结维持
 - `D:\AIContentFactory` 已完成 T082：F2 live 106 **成功**（暂存离开；未发布）
 - `D:\AIContentFactory` 已完成 T083：F2 live 106 **成功**（暂存离开；未发布）
+- `D:\AIContentFactory` 已完成 T084：H2(107) **未满足**（quality=pending）
+- `D:\AIContentFactory` 已完成 T085：GC 107 approved；**H2(107) 已满足**
+- `D:\AIContentFactory` 已完成 T086：F2 live 107 **成功**（暂存离开；未发布）
 
 ## 当前限制
 
@@ -134,7 +137,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T083 F2 live 106 成功；建议停同参连跑；F3/换 id 须新批
+1. AIContentFactory：T086 F2 live 107 成功；106/107 已验证；F3/换 id 须新批
 2. AIContentFactory：维持代码仓无 origin（B 已暂缓；T061 复核维持）
 3. 高风险（F3/F4/详情/再跑 F2）须新审批；T072 授权已消费
 4. 接入任务系统（如需）
