@@ -600,3 +600,15 @@
 ## T014 目标项目远程方案复核 L4（AIContentFactory T136）
 
 用户确认只文档 L4。已完成：`tasks/T136-remote-repo-plan-recheck.md`，产出 `docs/remote-repo-plan-recheck-t136.md`。**维持无 origin**；tip=`0d4683c`；`??`=4。未 remote add、未 push、未改代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目评估提交 settings_env（AIContentFactory T137）
+
+用户确认仅提交 `backend/tests/settings_env.py`。已完成：`tasks/T137-code-commit-settings-env.md`，产出 `docs/code-commit-settings-env-t137.md`。`git diff` 为空；**未创建 commit**；tip 仍 `0d4683c`。未配 origin、未推送、未碰 F4。目标项目本地 CI 通过。
+
+## T014 目标项目只读检查 crawl_p1（AIContentFactory T138）
+
+用户确认只读。已完成：`tasks/T138-crawl-p1-diff-check.md`，产出 `docs/crawl-p1-diff-check-t138.md`。`git diff` 为空；未提交、未改文件。目标项目本地 CI 通过。
+
+## T014 目标项目维持观察（AIContentFactory T139）
+
+用户确认维持观察。已完成：`tasks/T139-maintain-observation.md`，产出 `docs/maintain-observation-t139.md`。不启服务、不跑 F2/F3/F4、不提交代码仓、不配 origin。目标项目本地 CI 通过。

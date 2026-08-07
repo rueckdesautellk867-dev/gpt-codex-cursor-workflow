@@ -174,6 +174,9 @@
 - `D:\AIContentFactory` 已完成 T134：超 125 素材盘点（**无候选**）
 - `D:\AIContentFactory` 已完成 T135：观察期巡检（稳态；H1 通；`??`=4）
 - `D:\AIContentFactory` 已完成 T136：L4 远程方案复核（**维持无 origin**）
+- `D:\AIContentFactory` 已完成 T137：settings_env 提交评估（**无实质 diff，未 commit**）
+- `D:\AIContentFactory` 已完成 T138：crawl_p1 diff 只读（**无实质 diff**）
+- `D:\AIContentFactory` 已完成 T139：维持观察
 
 ## 当前限制
 
@@ -187,8 +190,8 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T135+T136 已落档（本提交）；维持无 origin / F4 不开放
-2. 可选：点名文件代码仓 commit，或另产超 125 新包
+1. AIContentFactory：T139 维持观察中；T137–T139 本提交落档
+2. 退出观察须新确认；F4 仍不开放；超 125 无包
 3. 接入任务系统（如需）
 
 ## 复制到其它项目时
