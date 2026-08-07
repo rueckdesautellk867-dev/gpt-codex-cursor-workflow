@@ -860,3 +860,11 @@
 ## T014 目标项目 LIT-26-30 标题+hook大纲（AIContentFactory T201）
 
 用户确认。ChatGPT 403 → DeepSeek；5 条标题+hook+三点大纲；不定配图、未写完整正文。产出 `docs/freeze24-lit26-30-title-hook-outlines-t201.md`。
+
+## T014 目标项目 LIT-26-30 小红书正文（AIContentFactory T202）
+
+用户确认。ChatGPT 429 → DeepSeek；5 条完整正文+各3标签；不定配图。产出 `docs/freeze24-lit26-30-xhs-bodies-t202.md`。
+
+## T014 目标项目 LIT-26-30 配图需求表（AIContentFactory T203）
+
+用户确认。ChatGPT 429 → DeepSeek；每条封面+正文图×3；未生成真图。产出 `docs/freeze24-lit26-30-image-briefs-t203.md`。

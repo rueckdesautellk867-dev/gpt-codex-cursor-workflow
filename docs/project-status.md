@@ -239,6 +239,8 @@
 - `D:\AIContentFactory` 已完成 T199：主题候选×5（ChatGPT403→DeepSeek）
 - `D:\AIContentFactory` 已完成 T200：主题定稿（**书籍未来的路-AI会代替书籍吗？**）
 - `D:\AIContentFactory` 已完成 T201：LIT-26…30 标题+hook大纲（ChatGPT403→DeepSeek）
+- `D:\AIContentFactory` 已完成 T202：LIT-26…30 小红书正文×5（ChatGPT429→DeepSeek）
+- `D:\AIContentFactory` 已完成 T203：LIT-26…30 配图需求表（未生成真图）
 
 ## 当前限制
 
@@ -252,7 +254,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T201 大纲已出；下一优先 LIT-26…30 小红书正文扩写（经ChatGPT）
+1. AIContentFactory：T203 配图需求已出；下一优先资产目录骨架或真图落盘
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
