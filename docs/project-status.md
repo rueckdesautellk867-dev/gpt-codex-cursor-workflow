@@ -148,6 +148,9 @@
 - `D:\AIContentFactory` 已完成 T108：H2(115) **未满足**（quality=pending）
 - `D:\AIContentFactory` 已完成 T109：GC 115 approved；**H2(115) 已满足**
 - `D:\AIContentFactory` 已完成 T110：F2 live 115 **成功**（暂存离开；未发布）
+- `D:\AIContentFactory` 已完成 T111：H2(116) **未满足**（quality=pending；`LIT-01`）
+- `D:\AIContentFactory` 已完成 T112：GC 116 approved；**H2(116) 已满足**
+- `D:\AIContentFactory` 已完成 T113：F2 live 116 **成功**（`LIT-01`；暂存离开；未发布）
 
 ## 当前限制
 
@@ -161,9 +164,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T110 后 106–115 单条 F2 均已成功；下一可走 H2(116) 或另批 F3
-2. AIContentFactory：维持代码仓无 origin（B 已暂缓；T061 复核维持）
-3. 高风险（F3/F4/详情/再跑 F2）须新审批；T110 授权已消费
+1. AIContentFactory：T113 后 106–116 单条 F2 均已成功；下一可走 H2(117) 或另批 F3
+2. 三方闭环 tip=`3b4516a` 仍待推送；可「同意回写并推送三方闭环」一并带上 T111–T113
+3. 高风险（F3/F4/详情/再跑 F2）须新审批；T113 授权已消费
 4. 接入任务系统（如需）
 
 ## 复制到其它项目时
