@@ -592,3 +592,11 @@
 ## T014 目标项目新素材段盘点 >125（AIContentFactory T134）
 
 用户确认只读盘点。已完成：`tasks/T134-new-material-segment-inventory-gt125.md`，产出 `docs/new-material-segment-inventory-gt125-t134.md`。结论：**无 >125 可 ingest 候选**（CSV/资产/库均止于 125）。未写库、未跑 F2/F3/F4。目标项目本地 CI 通过。
+
+## T014 目标项目观察期巡检（AIContentFactory T135）
+
+用户确认只读巡检。已完成：`tasks/T135-observation-status-patrol.md`，产出 `docs/observation-status-patrol-t135.md`。tip=`db90a59` 齐平；`??`=4；H1 通；GC 106–125 全 approved；PublishTask=0。未启服务、未跑 F2/F3/F4。目标项目本地 CI 通过。
+
+## T014 目标项目远程方案复核 L4（AIContentFactory T136）
+
+用户确认只文档 L4。已完成：`tasks/T136-remote-repo-plan-recheck.md`，产出 `docs/remote-repo-plan-recheck-t136.md`。**维持无 origin**；tip=`0d4683c`；`??`=4。未 remote add、未 push、未改代码仓。目标项目本地 CI 通过。
