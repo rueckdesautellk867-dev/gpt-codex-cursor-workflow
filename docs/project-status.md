@@ -113,6 +113,11 @@
 - `D:\AIContentFactory` 已完成 T072：F2 live content-id=106 **成功** `docs/freeze20-f2-live-106-t072.md`（暂存离开；未发布；未提交代码仓）
 - `D:\AIContentFactory` 已完成 T074：L5 冻结复核 `docs/remaining-freeze-l5-review-t074.md`（**`??`=5**；冻结维持）
 - `D:\AIContentFactory` 已完成 T075：删除 `ensure_www_xhs_login.py`（不提交）；`??`→**4**
+- `D:\AIContentFactory` 已完成 T076：H1 复检 **未满足**（Docker 停 / 3306 不通）
+- `D:\AIContentFactory` 已完成 T077：Docker + compose `ai_mysql`/`ai_redis`（3306 True；未跑 F2）
+- `D:\AIContentFactory` 已完成 T078：H1 **已满足**
+- `D:\AIContentFactory` 已完成 T079：H2 **已满足**（GC106 gates；未跑 F2）
+- `D:\AIContentFactory` 已完成 T080：F2 live 106 **成功**（暂存离开；未发布）
 
 ## 当前限制
 
@@ -126,7 +131,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T075 后 `??`=4（F4×3+GX）；可选 L5 复核 / 恢复 Docker；F3/再跑 F2 须新审批
+1. AIContentFactory：T080 F2 live 106 成功；默认不自动 F3/发布；再跑须新 H3
 2. AIContentFactory：维持代码仓无 origin（B 已暂缓；T061 复核维持）
 3. 高风险（F3/F4/详情/再跑 F2）须新审批；T072 授权已消费
 4. 接入任务系统（如需）

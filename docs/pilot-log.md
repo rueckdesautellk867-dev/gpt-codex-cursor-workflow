@@ -356,3 +356,23 @@
 ## T014 目标项目 P1-C 删除 ensure_www_xhs_login.py（AIContentFactory T075 / L3）
 
 用户确认句删除。已在 `D:\AIContentFactory` 完成：`tasks/T075-p1c-delete-ensure-www-xhs-login.md`，产出 `docs/p1c-delete-ensure-www-xhs-login-t075.md`。已删除代码仓工作区未跟踪 `backend/scripts/ensure_www_xhs_login.py`；敏感 `??`→**4**（F4×3 + publish_gx001）；代码仓 tip 仍 `0d4683c`（**未提交**）。未运行脚本、未删 F4/GX。目标项目本地 CI 通过。
+
+## T014 目标项目 H1 复检（AIContentFactory T076 / L1）
+
+用户确认只读不启服务。已在 `D:\AIContentFactory` 完成：`tasks/T076-h1-recheck.md`，产出 `docs/h1-recheck-t076.md`。`3306` 不通；`com.docker.service` Stopped；Docker 引擎未起。**H1 未满足**（相对 T067 回退）。未启服务、未跑 F2、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目启动 Docker + compose（AIContentFactory T077）
+
+用户确认启动 Docker Desktop 并 compose up `ai_mysql`/`ai_redis`（不跑 F2）。已完成：`tasks/T077-docker-compose-start.md`，产出 `docs/docker-compose-start-t077.md`。引擎就绪；两容器 Running；3306/6379 TCP True；未改 `.env`、未跑 F2、未提交代码仓。正式 H1 须另开 L1。目标项目本地 CI 通过。
+
+## T014 目标项目 H1 复检（AIContentFactory T078 / L1）
+
+用户确认只读不启服务。已在 `D:\AIContentFactory` 完成：`tasks/T078-h1-recheck.md`，产出 `docs/h1-recheck-t078.md`。`3306` TCP True；`ai_mysql`/`ai_redis` Up。**H1 已满足**。未启新服务、未跑 F2、未检 H2、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目 H2 只读检 GC 106（AIContentFactory T079）
+
+用户确认只读检 GC 106 与 F2 gate（不启服务、不跑 F2、不发布）。已完成：`tasks/T079-h2-gc106-check.md`，产出 `docs/h2-gc106-check-t079.md`。连库 ok；GC 106 approved；images 4/4；**gate_ok=True → H2 已满足**。未跑 F2、未开浏览器、未发布、未提交代码仓。目标项目本地 CI 通过。
+
+## T014 目标项目 F2 live content-id=106（AIContentFactory T080）
+
+用户确认 H3：`--live` content-id=106 / session=`platform_1` / 仅暂存离开 / 禁止发布/F3/F4/提交。已完成：`tasks/T080-f2-live-106.md`，产出 `docs/freeze20-f2-live-106-t080.md` 与 `tmp_freeze20/reports/freeze20_t080_draft_box_live_106.*`。结果：**成功**（exit 0）；已点「暂存离开」、4 图、草稿箱校验命中；**未点发布**、无 PublishTask、未提交代码仓。本次 H3 授权已消费；F3/再跑须新审批。目标项目本地 CI 通过。
