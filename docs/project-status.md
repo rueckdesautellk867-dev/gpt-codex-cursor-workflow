@@ -181,6 +181,8 @@
 - `D:\AIContentFactory` 已完成 T141：LIT-11–15 立项任务单（**主题占位待填**）
 - `D:\AIContentFactory` 已完成 T142：主题候选×5（未定稿；ChatGPT429→DeepSeek）
 - `D:\AIContentFactory` 已完成 T143：主题定稿方案A（泡书不啃书）
+- `D:\AIContentFactory` 已完成 T144：LIT-11–15 标题+hook大纲
+- `D:\AIContentFactory` 已完成 T145：LIT-11–15 小红书正文×5
 
 ## 当前限制
 
@@ -194,7 +196,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T143 主题已定；可开文案大纲制作；本提交落档 T141–T143
+1. AIContentFactory：T144–T145 文案已落档（本提交）；可开配图需求表
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

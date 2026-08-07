@@ -628,3 +628,11 @@
 ## T014 目标项目主题定稿方案A（AIContentFactory T143）
 
 用户确认方案A。整包主题：**别急着打卡，书是拿来「泡」的不是「啃」的**。产出 `docs/freeze21-theme-locked-t143.md`；已回写立项表。未写正文、未写库。目标项目本地 CI 通过。
+
+## T014 目标项目 LIT-11-15 标题hook大纲（AIContentFactory T144）
+
+用户确认大纲制作。ChatGPT 429 → DeepSeek；产出 `docs/freeze21-lit11-15-title-hook-outlines-t144.md`。不定配图、未写库。目标项目本地 CI 通过。
+
+## T014 目标项目 LIT-11-15 小红书正文（AIContentFactory T145）
+
+用户确认扩正文并回写推送。ChatGPT 429 → DeepSeek；产出 `docs/freeze21-lit11-15-xhs-bodies-t145.md`（标题+hook+正文+3标签×5）。不定配图、未写库。目标项目本地 CI 通过。
