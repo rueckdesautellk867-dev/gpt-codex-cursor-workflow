@@ -616,3 +616,15 @@
 ## T014 目标项目退出观察逐条报告（AIContentFactory T140）
 
 用户要求逐条完成给报告。已完成：`tasks/T140-exit-observation-itemized-report.md`，产出 `docs/exit-observation-itemized-report-t140.md` 与重开 B 梯子。结论：1–2 阻塞、3 无提交目标、4 只文档、5–6 维持观察。未写库、未配 origin、未跑 F4。目标项目本地 CI 通过。
+
+## T014 目标项目超125包立项 LIT-11-15（AIContentFactory T141）
+
+用户发立项句（主题仍为占位 `<一句话>`）。已完成：`tasks/T141-freeze21-lit11-15-package-brief.md`，产出 `docs/freeze21-lit11-15-package-brief-t141.md`（任务单+目录约定；期望 126–130）。未写库、未作文案、未跑 F2/F3/F4。目标项目本地 CI 通过。
+
+## T014 目标项目 LIT-11-15 主题候选（AIContentFactory T142）
+
+用户确认候选列表。ChatGPT 429 → DeepSeek 顶上；产出 `docs/freeze21-lit11-15-theme-candidates-t142.md`（5 候选；**不定稿**）。未写库、未跑 F2/F3/F4。目标项目本地 CI 通过。
+
+## T014 目标项目主题定稿方案A（AIContentFactory T143）
+
+用户确认方案A。整包主题：**别急着打卡，书是拿来「泡」的不是「啃」的**。产出 `docs/freeze21-theme-locked-t143.md`；已回写立项表。未写正文、未写库。目标项目本地 CI 通过。

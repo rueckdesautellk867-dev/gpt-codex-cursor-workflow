@@ -178,6 +178,9 @@
 - `D:\AIContentFactory` 已完成 T138：crawl_p1 diff 只读（**无实质 diff**）
 - `D:\AIContentFactory` 已完成 T139：维持观察
 - `D:\AIContentFactory` 已完成 T140：退出观察逐条报告（卡点=缺新包参数）
+- `D:\AIContentFactory` 已完成 T141：LIT-11–15 立项任务单（**主题占位待填**）
+- `D:\AIContentFactory` 已完成 T142：主题候选×5（未定稿；ChatGPT429→DeepSeek）
+- `D:\AIContentFactory` 已完成 T143：主题定稿方案A（泡书不啃书）
 
 ## 当前限制
 
@@ -191,8 +194,8 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T140 逐条报告已落档（本提交）；观察仍有效
-2. 实质进度：发带主题的超 125 立项句；F4 / B 执行仍另批
+1. AIContentFactory：T143 主题已定；可开文案大纲制作；本提交落档 T141–T143
+2. F4 仍不开放
 3. 接入任务系统（如需）
 
 ## 复制到其它项目时
