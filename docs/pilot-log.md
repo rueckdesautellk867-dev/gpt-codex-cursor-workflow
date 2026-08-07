@@ -652,3 +652,11 @@
 ## T014 目标项目 freeze21 ingest preview（AIContentFactory T149）
 
 用户确认 dry-run 并回写推送。产出 `docs/freeze21-ingest-preview-t149.md`；**all_gates_pass=true**；5/5；图片 0/20；未写库。目标项目本地 CI 通过。
+
+## T014 目标项目 freeze21 真实配图落盘（AIContentFactory T150）
+
+用户确认方案A：按 T146 为 LIT-11…15 生成/落盘真图到 `D:\tmp\freeze21_phase31_assets`。**20/20** jpg；未写库、未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze21-real-images-t150.md`。
+
+## T014 目标项目 freeze21 ingest confirm（AIContentFactory T151）
+
+用户确认写库并回写推送。LIT-11…15 → GC **126–130**；quality=pending；PublishTask=0；未跑 F2/F3/F4；未提交代码仓。产出见目标项目 `docs/freeze21-ingest-confirm-t151.md`。

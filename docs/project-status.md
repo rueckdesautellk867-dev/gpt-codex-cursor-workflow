@@ -187,6 +187,8 @@
 - `D:\AIContentFactory` 已完成 T147：freeze21 资产目录骨架（仅 README）
 - `D:\AIContentFactory` 已完成 T148：freeze21 CSV 骨架（图路径占位）
 - `D:\AIContentFactory` 已完成 T149：freeze21 ingest preview（gates 通过；未写库）
+- `D:\AIContentFactory` 已完成 T150：freeze21 真图落盘（20/20 jpg → `D:\tmp\freeze21_phase31_assets`；未写库）
+- `D:\AIContentFactory` 已完成 T151：freeze21 ingest confirm（LIT-11…15 → GC **126–130**；quality=pending）
 
 ## 当前限制
 
@@ -200,7 +202,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T148–T149 已落档（本提交）；可补真图或另批 confirm 写库
+1. AIContentFactory：T150–T151 已落档；下一优先 quality approve 或单条 F2（须新完整确认句）
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
