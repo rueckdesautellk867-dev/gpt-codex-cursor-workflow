@@ -768,3 +768,11 @@
 ## T014 目标项目 Freeze22 阶段收口（AIContentFactory T178）
 
 用户确认只文档收口。覆盖 LIT-16…20 / GC 131–135（单条+F3）；未跑 F4、未发布、未提交代码仓。产出 `docs/freeze22-131-135-draft-box-closeout-t178.md`。
+
+## T014 目标项目维持观察（AIContentFactory T179）
+
+用户确认维持观察并回写推送。只更新观察记录；不跑 F2/F3/F4、不写库、不提交代码仓。见目标项目 `docs/maintain-observation-t179.md`。
+
+## T014 目标项目超135新包立项（AIContentFactory T180）
+
+用户发立项句但主题仍为 `<一句话>` 占位。产出 `docs/freeze23-lit21-25-package-brief-t180.md`（LIT-21…25；期望 136–140）。未写库、未作文案。

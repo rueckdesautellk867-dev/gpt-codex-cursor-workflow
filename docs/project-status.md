@@ -216,6 +216,8 @@
 - `D:\AIContentFactory` 已完成 T176：F3 batch 131–135 **成功**（5/5）
 - `D:\AIContentFactory` 已完成 T177：F2 live 133 **成功**
 - `D:\AIContentFactory` 已完成 T178：Freeze22 131–135 草稿箱收口（只文档；F4 仍冻结）
+- `D:\AIContentFactory` 已完成 T179：维持观察
+- `D:\AIContentFactory` 已完成 T180：LIT-21–25 立项任务单（**主题占位待填**）
 
 ## 当前限制
 
@@ -229,7 +231,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：Freeze22 草稿箱已收口；下一优先维持观察或超 135 新包
+1. AIContentFactory：T180 立项已出；主题仍占位，须先填真实主题再候选/定稿
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
