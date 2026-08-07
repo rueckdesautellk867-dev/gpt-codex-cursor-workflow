@@ -736,3 +736,19 @@
 ## T014 目标项目 freeze22 真实配图（AIContentFactory T170）
 
 用户确认按 T167 落盘真图。**20/20** jpg → `D:\tmp\freeze22_phase31_assets`；未写库、未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze22-real-images-t170.md`。
+
+## T014 目标项目 freeze22 ingest preview（AIContentFactory T171）
+
+用户确认。gates 通过；5/5；图 20/20；未写库。产出 `docs/freeze22-ingest-preview-t171.md`。
+
+## T014 目标项目 freeze22 ingest confirm（AIContentFactory T172）
+
+用户确认写库。LIT-16…20 → GC **131–135**；quality=pending；PublishTask=0；未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze22-ingest-confirm-t172.md`。
+
+## T014 目标项目 GC 131-135 quality approved（AIContentFactory T173）
+
+用户确认。131–135：pending→**approved**；PublishTask=0；本步未跑 F2。产出 `docs/gc131-135-quality-approved-t173.md`。
+
+## T014 目标项目 F2 live 131（AIContentFactory T174）
+
+用户确认并回写推送。content-id=131：**成功**；暂存离开；未发布。产出 `docs/freeze22-f2-live-131-t174.md`。
