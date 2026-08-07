@@ -177,6 +177,7 @@
 - `D:\AIContentFactory` 已完成 T137：settings_env 提交评估（**无实质 diff，未 commit**）
 - `D:\AIContentFactory` 已完成 T138：crawl_p1 diff 只读（**无实质 diff**）
 - `D:\AIContentFactory` 已完成 T139：维持观察
+- `D:\AIContentFactory` 已完成 T140：退出观察逐条报告（卡点=缺新包参数）
 
 ## 当前限制
 
@@ -190,8 +191,8 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T139 维持观察中；T137–T139 本提交落档
-2. 退出观察须新确认；F4 仍不开放；超 125 无包
+1. AIContentFactory：T140 已出逐条报告；可回写推送；实质进度待立项填空
+2. 退出观察优先发带主题的超 125 立项句；F4 / B 执行仍另批
 3. 接入任务系统（如需）
 
 ## 复制到其它项目时

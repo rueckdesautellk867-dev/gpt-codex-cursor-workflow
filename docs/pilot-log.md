@@ -612,3 +612,7 @@
 ## T014 目标项目维持观察（AIContentFactory T139）
 
 用户确认维持观察。已完成：`tasks/T139-maintain-observation.md`，产出 `docs/maintain-observation-t139.md`。不启服务、不跑 F2/F3/F4、不提交代码仓、不配 origin。目标项目本地 CI 通过。
+
+## T014 目标项目退出观察逐条报告（AIContentFactory T140）
+
+用户要求逐条完成给报告。已完成：`tasks/T140-exit-observation-itemized-report.md`，产出 `docs/exit-observation-itemized-report-t140.md` 与重开 B 梯子。结论：1–2 阻塞、3 无提交目标、4 只文档、5–6 维持观察。未写库、未配 origin、未跑 F4。目标项目本地 CI 通过。
