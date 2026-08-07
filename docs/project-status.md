@@ -250,6 +250,10 @@
 - `D:\AIContentFactory` 已完成 T210：F2 live 141 **成功**（LIT-26；暂存离开；未发布）
 - `D:\AIContentFactory` 已完成 T211：F2 live 142 **成功**（LIT-27；暂存离开；未发布）
 - `D:\AIContentFactory` 已完成 T212：F3 batch 141–145 **成功**（5/5；未发布）
+- `D:\AIContentFactory` 已完成 T213：Freeze24 141–145 草稿箱收口（只文档；F4 仍冻结）
+- `D:\AIContentFactory` 已完成 T214：维持观察
+- `D:\AIContentFactory` 已完成 T215：Freeze25 立项（LIT-31…35 / GC 146–150）
+- `D:\AIContentFactory` 已完成 T216：主题定稿（**建立知识库的重要性**）
 
 ## 当前限制
 
@@ -263,7 +267,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T212 F3 141–145 已 5/5；可另批草稿箱收口文档，或维持观察
+1. AIContentFactory：T216 已定稿；下一优先 LIT-31…35 标题+hook大纲（经ChatGPT）
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
