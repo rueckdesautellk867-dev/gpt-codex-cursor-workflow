@@ -376,3 +376,7 @@
 ## T014 目标项目 F2 live content-id=106（AIContentFactory T080）
 
 用户确认 H3：`--live` content-id=106 / session=`platform_1` / 仅暂存离开 / 禁止发布/F3/F4/提交。已完成：`tasks/T080-f2-live-106.md`，产出 `docs/freeze20-f2-live-106-t080.md` 与 `tmp_freeze20/reports/freeze20_t080_draft_box_live_106.*`。结果：**成功**（exit 0）；已点「暂存离开」、4 图、草稿箱校验命中；**未点发布**、无 PublishTask、未提交代码仓。本次 H3 授权已消费；F3/再跑须新审批。目标项目本地 CI 通过。
+
+## T014 目标项目剩余冻结项复核（AIContentFactory T081 / L5）
+
+用户确认只读不改文件。已在 `D:\AIContentFactory` 完成：`tasks/T081-remaining-freeze-l5-review.md`，产出 `docs/remaining-freeze-l5-review-t081.md`。敏感 `??` **=4**（F4×3+GX）；冻结维持；未删未跑未提交。目标项目本地 CI 通过。三方闭环 tip=`746e7ad`。
