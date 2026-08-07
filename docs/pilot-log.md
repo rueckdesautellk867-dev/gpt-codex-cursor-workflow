@@ -868,3 +868,15 @@
 ## T014 目标项目 LIT-26-30 配图需求表（AIContentFactory T203）
 
 用户确认。ChatGPT 429 → DeepSeek；每条封面+正文图×3；未生成真图。产出 `docs/freeze24-lit26-30-image-briefs-t203.md`。
+
+## T014 目标项目 freeze24 资产目录骨架（AIContentFactory T204）
+
+用户确认建骨架。已创建 `D:\tmp\freeze24_phase31_assets\LIT-26`…`LIT-30`（仅 README）；无图片；未写库、未提交代码仓。产出 `docs/freeze24-asset-dirs-t204.md`。
+
+## T014 目标项目 freeze24 CSV 骨架（AIContentFactory T205）
+
+用户确认写 CSV。5 行 LIT-26…30；正文 T202；图路径占位；未写库、未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze24-editor-export-csv-t205.md`。
+
+## T014 目标项目 freeze24 真实配图（AIContentFactory T206）
+
+用户确认按 T203 落盘真图。**20/20** jpg → `D:\tmp\freeze24_phase31_assets`；未写库、未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze24-real-images-t206.md`。

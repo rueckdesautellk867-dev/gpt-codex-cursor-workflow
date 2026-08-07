@@ -241,6 +241,9 @@
 - `D:\AIContentFactory` 已完成 T201：LIT-26…30 标题+hook大纲（ChatGPT403→DeepSeek）
 - `D:\AIContentFactory` 已完成 T202：LIT-26…30 小红书正文×5（ChatGPT429→DeepSeek）
 - `D:\AIContentFactory` 已完成 T203：LIT-26…30 配图需求表（未生成真图）
+- `D:\AIContentFactory` 已完成 T204：freeze24 资产目录骨架（仅 README）
+- `D:\AIContentFactory` 已完成 T205：freeze24 CSV 骨架（LIT-26…30；正文 T202）
+- `D:\AIContentFactory` 已完成 T206：freeze24 真图 20/20（`D:\tmp\freeze24_phase31_assets`）
 
 ## 当前限制
 
@@ -254,7 +257,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T203 配图需求已出；下一优先资产目录骨架或真图落盘
+1. AIContentFactory：T205/T206 已就绪；下一优先 freeze24 ingest preview
 2. F4 仍不开放
 3. 接入任务系统（如需）
 
