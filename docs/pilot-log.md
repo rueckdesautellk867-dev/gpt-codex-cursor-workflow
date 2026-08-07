@@ -676,3 +676,11 @@
 ## T014 目标项目 F3 batch 126-130（AIContentFactory T155）
 
 用户确认。content-ids=126–130：**5/5 confirmed**；未点发布、未跑 F4、未改代码仓。见目标项目 `docs/freeze21-f3-batch-126-130-t155.md`。
+
+## T014 目标项目 Freeze21 阶段收口（AIContentFactory T156）
+
+用户确认只文档收口。覆盖 LIT-11…15 / GC 126–130（单条+F3）；未跑 F4、未发布、未提交代码仓。见目标项目 `docs/freeze21-126-130-draft-box-closeout-t156.md`。
+
+## T014 目标项目 F2 live 128（AIContentFactory T157）
+
+用户确认。content-id=128：**成功**；暂存离开；未发布。见目标项目 `docs/freeze21-f2-live-128-t157.md`。
