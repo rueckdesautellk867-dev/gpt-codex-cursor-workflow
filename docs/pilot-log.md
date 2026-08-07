@@ -920,3 +920,11 @@
 ## T014 目标项目 Freeze25 主题定稿（AIContentFactory T216）
 
 随立项确认句定稿。整包主题 **建立知识库的重要性**；LIT-31…35；期望 GC 146–150。产出 `docs/freeze25-theme-locked-t216.md`。
+
+## T014 目标项目 LIT-31-35 标题+hook大纲（AIContentFactory T217）
+
+用户确认。ChatGPT 403 → DeepSeek；5 条标题+hook+三点大纲；不定配图、未写完整正文。产出 `docs/freeze25-lit31-35-title-hook-outlines-t217.md`。
+
+## T014 目标项目 LIT-31-35 小红书正文（AIContentFactory T218）
+
+用户确认。ChatGPT 429 → DeepSeek；5 条完整正文+各3标签；不定配图。产出 `docs/freeze25-lit31-35-xhs-bodies-t218.md`。
