@@ -564,3 +564,7 @@
 ## T014 目标项目 F3 batch 116-120（AIContentFactory T127）
 
 用户确认完整 F3。已完成：`tasks/T127-f3-batch-116-120.md`，产出 `docs/freeze20-f3-batch-116-120-t127.md` 与 reports。**wave_ok=true；5/5 confirmed**；未发布。目标项目本地 CI 通过。
+
+## T014 目标项目 GC 121 设为 approved（AIContentFactory T128）
+
+用户确认。已完成：`tasks/T128-gc121-quality-approved.md`，产出 `docs/gc121-quality-approved-t128.md`。pending→**approved**；**H2(121) 已满足**。122–125 仍 pending → **F3 121–125 未执行**。目标项目本地 CI 通过。
