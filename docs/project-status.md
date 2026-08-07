@@ -258,6 +258,15 @@
 - `D:\AIContentFactory` 已完成 T218：LIT-31…35 小红书正文×5（ChatGPT429→DeepSeek）
 - `D:\AIContentFactory` 已完成 T219：LIT-31…35 配图需求表（未生成真图）
 - `D:\AIContentFactory` 已完成 T220：freeze25 资产目录骨架（仅 README）
+- `D:\AIContentFactory` 已完成 T221：freeze25 CSV 骨架（LIT-31…35；正文 T218）
+- `D:\AIContentFactory` 已完成 T222：真图 20/20 → `D:\tmp\freeze25_phase31_assets`
+- `D:\AIContentFactory` 已完成 T223：ingest preview（gates 通过；未写库）
+- `D:\AIContentFactory` 已完成 T224：ingest confirm（GC **146–150**；quality=pending）
+- `D:\AIContentFactory` 已完成 T225：GC 146–150 → **approved**（PublishTask=0）
+- `D:\AIContentFactory` 已完成 T226：F2 live 146 **成功**（LIT-31；暂存离开；未发布）
+- `D:\AIContentFactory` 已完成 T227：F2 live 147 **成功**（LIT-32；暂存离开；未发布）
+- `D:\AIContentFactory` 已完成 T228：F3 batch 146–150 **成功**（5/5；未发布）
+- `D:\AIContentFactory` 已完成 T229：Freeze25 146–150 草稿箱收口（只文档；F4 仍冻结）
 
 ## 当前限制
 
@@ -271,7 +280,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T220 骨架已建；下一优先 CSV 骨架或真图落盘
+1. AIContentFactory：T229 Freeze25 146–150 已收口；下一优先维持观察或超 150 新包
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

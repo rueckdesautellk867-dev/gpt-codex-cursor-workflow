@@ -936,3 +936,39 @@
 ## T014 目标项目 freeze25 资产目录骨架（AIContentFactory T220）
 
 用户确认建骨架。已创建 `D:\tmp\freeze25_phase31_assets\LIT-31`…`LIT-35`（仅 README）；无图片；未写库、未提交代码仓。产出 `docs/freeze25-asset-dirs-t220.md`。
+
+## T014 目标项目 freeze25 CSV 骨架（AIContentFactory T221）
+
+用户确认。5 行 LIT-31…35；正文取自 T218；图片路径占位。产出 `docs/freeze25-editor-export-csv-t221.md`；CSV：`tmp_freeze20/freeze25_phase32_editor_export/exports/freeze25_phase32_editor_export.csv`。
+
+## T014 目标项目 freeze25 真实配图落盘（AIContentFactory T222）
+
+用户确认。GenerateImage → JPG；**20/20** → `D:\tmp\freeze25_phase31_assets`；未写库。产出 `docs/freeze25-real-images-t222.md`。
+
+## T014 目标项目 freeze25 ingest preview（AIContentFactory T223）
+
+用户确认只读 dry-run。gates 通过；图 20/20；未写库。产出 `docs/freeze25-ingest-preview-t223.md`。
+
+## T014 目标项目 freeze25 ingest confirm（AIContentFactory T224）
+
+用户确认写库。LIT-31…35 → GC **146–150**；quality=pending；PublishTask=0；未跑 F2/F3/F4。产出 `docs/freeze25-ingest-confirm-t224.md`。
+
+## T014 目标项目 GC 146-150 quality approved（AIContentFactory T225）
+
+用户确认。146–150 pending→**approved**；PublishTask=0；未跑 F2；CSV 回填 id。产出 `docs/gc146-150-quality-approved-t225.md`。
+
+## T014 目标项目 F2 live 146（AIContentFactory T226）
+
+用户确认。content-id=146 / LIT-31；images=4；暂存离开成功；未点发布。产出 `docs/freeze25-f2-live-146-t226.md`。
+
+## T014 目标项目 F2 live 147（AIContentFactory T227）
+
+用户确认。content-id=147 / LIT-32；images=4；暂存离开成功；未点发布。产出 `docs/freeze25-f2-live-147-t227.md`。
+
+## T014 目标项目 F3 batch 146-150（AIContentFactory T228）
+
+用户确认。146–150 **5/5 confirmed**；未点发布；未建 PublishTask；未跑 F4。产出 `docs/freeze25-f3-batch-146-150-t228.md`。
+
+## T014 目标项目 Freeze25 146-150 草稿箱收口（AIContentFactory T229）
+
+用户确认。只更新文档与状态清单；不跑 F2/F3/F4、不写库、不提交代码仓。产出 `docs/freeze25-146-150-draft-box-closeout-t229.md`。
