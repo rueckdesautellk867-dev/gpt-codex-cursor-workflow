@@ -223,6 +223,7 @@
 - `D:\AIContentFactory` 已完成 T183：主题定稿方案A（借出去的书，就是泼出去的水）
 - `D:\AIContentFactory` 已完成 T184：LIT-21–25 标题+hook大纲
 - `D:\AIContentFactory` 已完成 T185：LIT-21–25 小红书正文×5
+- `D:\AIContentFactory` 已完成 T186：LIT-21–25 配图需求表（未生成真图）
 
 ## 当前限制
 
@@ -236,7 +237,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T185 正文已出；下一优先配图需求表
+1. AIContentFactory：T186 配图需求已出；下一优先资产骨架或真图/CSV
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

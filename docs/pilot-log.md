@@ -796,3 +796,7 @@
 ## T014 目标项目 LIT-21-25 小红书正文（AIContentFactory T185）
 
 用户确认扩正文。ChatGPT 429 → DeepSeek；产出 `docs/freeze23-lit21-25-xhs-bodies-t185.md`（标题+hook+正文+3标签×5）。不定配图、未写库。
+
+## T014 目标项目 LIT-21-25 配图需求表（AIContentFactory T186）
+
+用户确认配图需求表并回写推送。ChatGPT 429 → DeepSeek；产出 `docs/freeze23-lit21-25-image-briefs-t186.md`（封面+正文×3×5；未生成真图）。未写库。
