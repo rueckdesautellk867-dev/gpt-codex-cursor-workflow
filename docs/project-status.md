@@ -205,6 +205,9 @@
 - `D:\AIContentFactory` 已完成 T165：LIT-16–20 标题+hook大纲
 - `D:\AIContentFactory` 已完成 T166：LIT-16–20 小红书正文×5
 - `D:\AIContentFactory` 已完成 T167：LIT-16–20 配图需求表（未生成真图）
+- `D:\AIContentFactory` 已完成 T168：freeze22 资产目录骨架（仅 README）
+- `D:\AIContentFactory` 已完成 T169：freeze22 CSV 骨架（LIT-16…20；正文 T166）
+- `D:\AIContentFactory` 已完成 T170：freeze22 真图 20/20（`D:\tmp\freeze22_phase31_assets`）
 
 ## 当前限制
 
@@ -218,7 +221,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T165–T167 已落档；下一优先资产骨架或真图
+1. AIContentFactory：T169/T170 已齐；下一优先 ingest preview（dry-run）
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

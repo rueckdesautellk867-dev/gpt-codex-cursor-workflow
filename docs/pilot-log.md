@@ -724,3 +724,15 @@
 ## T014 目标项目 LIT-16-20 配图需求表（AIContentFactory T167）
 
 用户确认配图需求表并回写推送。ChatGPT 失败 → DeepSeek；产出 `docs/freeze22-lit16-20-image-briefs-t167.md`（封面+正文×3×5；未生成真图）。未写库。
+
+## T014 目标项目 freeze22 资产目录骨架（AIContentFactory T168）
+
+用户确认建骨架。已创建 `D:\tmp\freeze22_phase31_assets\LIT-16`…`LIT-20`（仅 README）；无图片；未写库、未提交代码仓。产出 `docs/freeze22-asset-dirs-t168.md`。
+
+## T014 目标项目 freeze22 CSV 骨架（AIContentFactory T169）
+
+用户确认写 CSV。5 行 LIT-16…20；正文 T166；图路径占位；未写库、未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze22-editor-export-csv-t169.md`。
+
+## T014 目标项目 freeze22 真实配图（AIContentFactory T170）
+
+用户确认按 T167 落盘真图。**20/20** jpg → `D:\tmp\freeze22_phase31_assets`；未写库、未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze22-real-images-t170.md`。
