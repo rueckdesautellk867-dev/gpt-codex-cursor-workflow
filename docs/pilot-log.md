@@ -400,3 +400,15 @@
 ## T014 目标项目 F2 live content-id=107（AIContentFactory T086）
 
 用户确认 H3：content-id=107 / session=`platform_1` / 仅暂存离开 / 禁止发布/F3/F4/提交。已完成：`tasks/T086-f2-live-107.md`，产出 `docs/freeze20-f2-live-107-t086.md` 与 `tmp_freeze20/reports/freeze20_t086_draft_box_live_107.*`。**成功**；暂存离开；未发布；未提交。H3 已消费。目标项目本地 CI 通过。
+
+## T014 目标项目 H2 只读检 GC 108（AIContentFactory T087）
+
+用户确认只读检 content_id=108。已完成：`tasks/T087-h2-gc108-check.md`，产出 `docs/h2-gc108-check-t087.md`。GC 108 / CAR-03；images 4/4；**quality=pending → H2 未满足**。未改库、未跑 F2。目标项目本地 CI 通过。
+
+## T014 目标项目 GC 108 设为 approved（AIContentFactory T088）
+
+用户确认。已完成：`tasks/T088-gc108-quality-approved.md`，产出 `docs/gc108-quality-approved-t088.md`。pending→**approved**；**H2(108) 已满足**；未跑 F2。目标项目本地 CI 通过。
+
+## T014 目标项目 F2 live content-id=108（AIContentFactory T089）
+
+用户确认 H3：content-id=108 / platform_1 / 仅暂存离开。已完成：`tasks/T089-f2-live-108.md`，产出 `docs/freeze20-f2-live-108-t089.md` 与 reports。**成功**；未发布；H3 已消费。目标项目本地 CI 通过。
