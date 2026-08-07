@@ -348,3 +348,11 @@
 ## T014 目标项目 F2 live content-id=106（AIContentFactory T072）
 
 用户确认 H3：`--live` content-id=106 / session=`platform_1` / 仅暂存离开 / 禁止发布等。已完成：`tasks/T072-f2-live-106.md`，产出 `docs/freeze20-f2-live-106-t072.md` 与 `tmp_freeze20/reports/freeze20_t072_draft_box_live_106.*`。结果：**成功**（exit 0）；已点「暂存离开」、4 图、草稿箱校验命中；**未点发布**、无 PublishTask、未提交代码仓。本次 H3 授权已消费；F3/再跑须新审批。目标项目本地 CI 通过。三方闭环当时远程 tip=`71c7524`。
+
+## T014 目标项目剩余冻结项复核（AIContentFactory T074 / L5）
+
+用户确认稳态优先走 L5（L3 暂缓）。已在 `D:\AIContentFactory` 完成：`tasks/T074-remaining-freeze-l5-review.md`，产出 `docs/remaining-freeze-l5-review-t074.md`。只读：敏感 `??` **仍为 5**；F4/GX/P1-C 冻结维持；未删 `ensure_www_xhs_login.py`、未解除冻结、未提交代码仓。旁注：复核时点 MySQL 3306 不可达、Docker 引擎未起。目标项目本地 CI 通过。三方闭环 tip=`937a974`（已推送对齐）。
+
+## T014 目标项目 P1-C 删除 ensure_www_xhs_login.py（AIContentFactory T075 / L3）
+
+用户确认句删除。已在 `D:\AIContentFactory` 完成：`tasks/T075-p1c-delete-ensure-www-xhs-login.md`，产出 `docs/p1c-delete-ensure-www-xhs-login-t075.md`。已删除代码仓工作区未跟踪 `backend/scripts/ensure_www_xhs_login.py`；敏感 `??`→**4**（F4×3 + publish_gx001）；代码仓 tip 仍 `0d4683c`（**未提交**）。未运行脚本、未删 F4/GX。目标项目本地 CI 通过。
