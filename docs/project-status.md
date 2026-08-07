@@ -169,6 +169,7 @@
 - `D:\AIContentFactory` 已完成 T129：GC 122–125 approved
 - `D:\AIContentFactory` 已完成 T130：F2 live 121 **成功**
 - `D:\AIContentFactory` 已完成 T131：F3 batch 121–125 **成功**（5/5）
+- `D:\AIContentFactory` 已完成 T132：Freeze20 106–125 草稿箱路径收口（只文档；F4 仍冻结）
 
 ## 当前限制
 
@@ -182,10 +183,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：Freeze20 106–125 草稿箱路径已验证（单条至 121 + F3 两波 116–125）
-2. 三方闭环 tip=`a992c98` 已推送（T129–T131 已落档）
-3. F4 / 再跑 / 下一波须新完整审批；T130/T131 已消费
-4. 接入任务系统（如需）
+1. AIContentFactory：T132 Freeze20 106–125 草稿箱收口已落档（本提交）
+2. F4 仍不开放；新 id / L5 / 再跑须新完整审批
+3. 接入任务系统（如需）
 
 ## 复制到其它项目时
 
