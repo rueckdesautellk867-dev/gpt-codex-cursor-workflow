@@ -222,6 +222,7 @@
 - `D:\AIContentFactory` T182：主题定稿**已拒绝**（主题仍占位）
 - `D:\AIContentFactory` 已完成 T183：主题定稿方案A（借出去的书，就是泼出去的水）
 - `D:\AIContentFactory` 已完成 T184：LIT-21–25 标题+hook大纲
+- `D:\AIContentFactory` 已完成 T185：LIT-21–25 小红书正文×5
 
 ## 当前限制
 
@@ -235,7 +236,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T184 大纲已出；下一优先扩写正文×5
+1. AIContentFactory：T185 正文已出；下一优先配图需求表
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

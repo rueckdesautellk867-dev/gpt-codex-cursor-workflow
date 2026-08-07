@@ -792,3 +792,7 @@
 ## T014 目标项目 LIT-21-25 标题+hook大纲（AIContentFactory T184）
 
 用户确认大纲制作。ChatGPT 429 → DeepSeek；产出 `docs/freeze23-lit21-25-title-hook-outlines-t184.md`。不定配图、未写库。
+
+## T014 目标项目 LIT-21-25 小红书正文（AIContentFactory T185）
+
+用户确认扩正文。ChatGPT 429 → DeepSeek；产出 `docs/freeze23-lit21-25-xhs-bodies-t185.md`（标题+hook+正文+3标签×5）。不定配图、未写库。
