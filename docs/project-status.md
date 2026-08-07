@@ -225,6 +225,8 @@
 - `D:\AIContentFactory` 已完成 T185：LIT-21–25 小红书正文×5
 - `D:\AIContentFactory` 已完成 T186：LIT-21–25 配图需求表（未生成真图）
 - `D:\AIContentFactory` 已完成 T187：freeze23 资产目录骨架（仅 README）
+- `D:\AIContentFactory` 已完成 T188：freeze23 CSV 骨架（LIT-21…25；正文 T185）
+- `D:\AIContentFactory` 已完成 T189：freeze23 真图 20/20（`D:\tmp\freeze23_phase31_assets`）
 
 ## 当前限制
 
@@ -238,7 +240,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T187 骨架已建；下一优先 CSV 或真图
+1. AIContentFactory：T188/T189 已齐；下一优先 ingest preview（dry-run）
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

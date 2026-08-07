@@ -804,3 +804,11 @@
 ## T014 目标项目 freeze23 资产目录骨架（AIContentFactory T187）
 
 用户确认建骨架。已创建 `D:\tmp\freeze23_phase31_assets\LIT-21`…`LIT-25`（仅 README）；无图片；未写库、未提交代码仓。产出 `docs/freeze23-asset-dirs-t187.md`。
+
+## T014 目标项目 freeze23 CSV 骨架（AIContentFactory T188）
+
+用户确认写 CSV。5 行 LIT-21…25；正文 T185；图路径占位；未写库、未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze23-editor-export-csv-t188.md`。
+
+## T014 目标项目 freeze23 真实配图（AIContentFactory T189）
+
+用户确认按 T186 落盘真图。**20/20** jpg → `D:\tmp\freeze23_phase31_assets`；未写库、未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze23-real-images-t189.md`。
