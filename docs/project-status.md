@@ -197,6 +197,9 @@
 - `D:\AIContentFactory` 已完成 T157：F2 live 128 **成功**
 - `D:\AIContentFactory` 已完成 T158：F2 live 129 **成功**
 - `D:\AIContentFactory` 已完成 T159：F2 live 130 **成功**（126–130 单条已齐）
+- `D:\AIContentFactory` 已完成 T160：Freeze21 收口后状态同步（tip=`d78fd96`；库 max=130）
+- `D:\AIContentFactory` 已完成 T161：维持观察
+- `D:\AIContentFactory` 已完成 T162：LIT-16–20 立项任务单（**主题占位待填**）
 
 ## 当前限制
 
@@ -210,7 +213,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T159 已落档；126–130 单条 F2 已齐；下一优先补推三方闭环
+1. AIContentFactory：T161–T162 已落档；下一优先补 LIT-16–20 主题（仍占位）
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

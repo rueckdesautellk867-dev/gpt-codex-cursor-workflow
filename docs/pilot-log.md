@@ -692,3 +692,15 @@
 ## T014 目标项目 F2 live 130（AIContentFactory T159）
 
 用户确认。content-id=130：**成功**；暂存离开；未发布。Freeze21 126–130 单条 F2 已齐。见目标项目 `docs/freeze21-f2-live-130-t159.md`。
+
+## T014 目标项目 Freeze21 收口后状态同步（AIContentFactory T160）
+
+用户要求继续未完成任务。Desktop 推送已对齐 tip=`d78fd96`；库 max=130；`??`=4；清单纠偏。未跑 F2/F3/F4。见目标项目 `docs/freeze21-post-closeout-status-sync-t160.md`。
+
+## T014 目标项目维持观察（AIContentFactory T161）
+
+用户确认维持观察并回写推送。只更新观察记录；不跑 F2/F3/F4、不写库、不提交代码仓。见目标项目 `docs/maintain-observation-t161.md`。
+
+## T014 目标项目超130新包立项（AIContentFactory T162）
+
+用户发立项句但主题仍为 `<一句话>` 占位。产出 `docs/freeze22-lit16-20-package-brief-t162.md`（LIT-16…20；期望 131–135）。未写库、未作文案。
