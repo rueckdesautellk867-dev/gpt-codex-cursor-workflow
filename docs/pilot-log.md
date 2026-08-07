@@ -820,3 +820,19 @@
 ## T014 目标项目 freeze23 ingest confirm（AIContentFactory T191）
 
 用户确认写库。LIT-21…25 → GC **136–140**；quality=pending；PublishTask=0；未跑 F2/F3/F4、未提交代码仓。产出 `docs/freeze23-ingest-confirm-t191.md`。
+
+## T014 目标项目 GC 136–140 quality approved（AIContentFactory T192）
+
+用户确认。136–140：pending → **approved**；PublishTask=0；本步未跑 F2。产出 `docs/gc136-140-quality-approved-t192.md`。
+
+## T014 目标项目 F2 live 136（AIContentFactory T193）
+
+用户确认。content-id=136 / LIT-21 / platform_1；上传 4 图；暂存离开；未点发布；草稿箱校验命中。产出 `docs/freeze23-f2-live-136-t193.md`。未跑 F3/F4、未提交代码仓。
+
+## T014 目标项目 F2 live 137（AIContentFactory T194）
+
+用户确认。content-id=137 / LIT-22 / platform_1；上传 4 图；暂存离开；未点发布。产出 `docs/freeze23-f2-live-137-t194.md`。
+
+## T014 目标项目 F3 batch 136-140（AIContentFactory T195）
+
+用户确认。wave **5/5** confirmed；未点发布；无 PublishTask；未跑 F4、未提交代码仓。产出 `docs/freeze23-f3-batch-136-140-t195.md`。
