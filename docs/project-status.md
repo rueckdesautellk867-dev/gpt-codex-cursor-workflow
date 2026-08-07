@@ -233,6 +233,9 @@
 - `D:\AIContentFactory` 已完成 T193：F2 live 136 **成功**（LIT-21；暂存离开；未发布）
 - `D:\AIContentFactory` 已完成 T194：F2 live 137 **成功**（LIT-22；暂存离开；未发布）
 - `D:\AIContentFactory` 已完成 T195：F3 batch 136–140 **成功**（5/5；未发布）
+- `D:\AIContentFactory` 已完成 T196：Freeze23 136–140 草稿箱收口（只文档；F4 仍冻结）
+- `D:\AIContentFactory` 已完成 T197：维持观察
+- `D:\AIContentFactory` 已完成 T198：Freeze24 立项（LIT-26…30 / GC 141–145；主题仍占位）
 
 ## 当前限制
 
@@ -246,7 +249,7 @@
 
 ## 下一步建议
 
-1. AIContentFactory：T195 F3 136–140 已 5/5；可另批草稿箱收口文档，或维持观察 / 新包立项
+1. AIContentFactory：T198 已立项但主题仍占位；下一优先主题候选×5 或真实主题定稿
 2. F4 仍不开放
 3. 接入任务系统（如需）
 

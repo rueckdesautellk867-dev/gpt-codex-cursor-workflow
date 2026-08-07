@@ -836,3 +836,15 @@
 ## T014 目标项目 F3 batch 136-140（AIContentFactory T195）
 
 用户确认。wave **5/5** confirmed；未点发布；无 PublishTask；未跑 F4、未提交代码仓。产出 `docs/freeze23-f3-batch-136-140-t195.md`。
+
+## T014 目标项目 Freeze23 草稿箱收口（AIContentFactory T196）
+
+用户确认。只更新文档与状态清单；不跑 F2/F3/F4、不写库、不提交代码仓。产出 `docs/freeze23-136-140-draft-box-closeout-t196.md`。
+
+## T014 目标项目维持观察（AIContentFactory T197）
+
+用户确认维持观察。只更新观察记录；不跑 F2/F3/F4、不写库、不提交代码仓。见目标项目 `docs/maintain-observation-t197.md`。
+
+## T014 目标项目 Freeze24 超140新包立项（AIContentFactory T198）
+
+用户确认立项。条数=5；平台=小红书；草稿 **LIT-26…30**；期望 GC **141–145**；主题仍为占位符（未定稿、未写正文）。产出 `docs/freeze24-lit26-30-package-brief-t198.md`。未写库、未跑 F2/F3/F4、未提交代码仓。
