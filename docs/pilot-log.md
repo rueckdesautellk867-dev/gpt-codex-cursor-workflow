@@ -436,3 +436,27 @@
 ## T014 目标项目 F2 live content-id=110（AIContentFactory T095）
 
 用户确认 H3：content-id=110 / platform_1 / 仅暂存离开。已完成：`tasks/T095-f2-live-110.md`，产出 `docs/freeze20-f2-live-110-t095.md` 与 reports。**成功**；未发布；H3 已消费。目标项目本地 CI 通过。
+
+## T014 目标项目 H2 只读检 GC 111（AIContentFactory T096）
+
+用户确认只读检 content_id=111。已完成：`tasks/T096-h2-gc111-check.md`，产出 `docs/h2-gc111-check-t096.md`。GC 111 / CAR-06；**quality=pending → H2 未满足**。目标项目本地 CI 通过。
+
+## T014 目标项目 GC 111 设为 approved（AIContentFactory T097）
+
+用户确认。已完成：`tasks/T097-gc111-quality-approved.md`，产出 `docs/gc111-quality-approved-t097.md`。pending→**approved**；**H2(111) 已满足**；未跑 F2。目标项目本地 CI 通过。
+
+## T014 目标项目 F2 live content-id=111（AIContentFactory T098）
+
+用户确认 H3：content-id=111 / platform_1 / 仅暂存离开。已完成：`tasks/T098-f2-live-111.md`，产出 `docs/freeze20-f2-live-111-t098.md` 与 reports。**成功**；未发布；H3 已消费。目标项目本地 CI 通过。
+
+## T014 目标项目 H2 只读检 GC 112（AIContentFactory T099）
+
+用户确认只读检 content_id=112。已完成：`tasks/T099-h2-gc112-check.md`，产出 `docs/h2-gc112-check-t099.md`。GC 112 / CAR-07；**quality=pending → H2 未满足**。目标项目本地 CI 通过。
+
+## T014 目标项目 GC 112 设为 approved（AIContentFactory T100）
+
+用户确认。已完成：`tasks/T100-gc112-quality-approved.md`，产出 `docs/gc112-quality-approved-t100.md`。pending→**approved**；**H2(112) 已满足**；未跑 F2。目标项目本地 CI 通过。
+
+## T014 目标项目 F2 live content-id=112（AIContentFactory T101）
+
+用户确认 H3：content-id=112 / platform_1 / 仅暂存离开。已完成：`tasks/T101-f2-live-112.md`，产出 `docs/freeze20-f2-live-112-t101.md` 与 reports。**成功**；未发布；H3 已消费。目标项目本地 CI 通过。
