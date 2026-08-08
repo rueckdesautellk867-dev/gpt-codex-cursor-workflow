@@ -1053,3 +1053,7 @@ S13 本波已消费；S14 F4 维持不开放；S15 P1-A 详情维持不真跑；
 
 用户确认只写收口文档。Freeze27 156–160 路径已收口；F4 仍冻结。本回写仅更新三方闭环文档，**不推送、不提交代码仓**。见目标项目 `docs/freeze27-156-160-draft-box-closeout-t292.md`。
 
+## T014 目标项目维持观察至 09-14（AIContentFactory T293）
+
+用户打包确认：推送 tip `c4ced0e`（CLI 鉴权失败→待 Desktop）；维持观察至 **2026-09-14 10:00**；Freeze28+ / 分支保护另批未开。见目标项目 `docs/maintain-observation-quiet-to-0914-t293.md`。
+
