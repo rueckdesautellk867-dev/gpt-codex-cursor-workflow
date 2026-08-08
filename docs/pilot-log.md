@@ -1017,3 +1017,39 @@ S13 本波已消费；S14 F4 维持不开放；S15 P1-A 详情维持不真跑；
 
 用户确认只写收口文档。Freeze26 151–155 路径已收口；F4 仍冻结。本回写仅更新三方闭环文档并本地提交，**不推送**。
 
+## T014 目标项目 freeze27 ingest preview（AIContentFactory T284）
+
+用户确认只读 dry-run。source=`freeze27_phase32_editor_export.csv`；gates 通过；5/5；图 20/20；**未写库**；未跑 F2/F3/F4、未提交代码仓。见目标项目 `docs/freeze27-ingest-preview-t284.md`。
+
+## T014 目标项目 freeze27 ingest confirm（AIContentFactory T285）
+
+用户确认写库。LIT-41…45 → GC **156–160**；quality=**pending**；PublishTask=0；未跑 F2/F3/F4、未提交代码仓。见目标项目 `docs/freeze27-ingest-confirm-t285.md`。
+
+## T014 目标项目 GC 156–160 → approved（AIContentFactory T286）
+
+用户确认。156–160：pending → **approved**；PublishTask=0；未跑 F2。见目标项目 `docs/gc156-160-quality-approved-t286.md`。
+
+## T014 目标项目 F2 live 156（AIContentFactory T287）
+
+用户确认。LIT-41；images=4；仅暂存离开；未点发布；PublishTask=0；未改代码仓。见目标项目 `docs/freeze27-f2-live-156-t287.md`。
+
+## T014 目标项目 F2 live 157 失败（AIContentFactory T288）
+
+用户确认。gate 过；`ERR_CONNECTION_CLOSED` 打开创作者中心；未上传/未点击；PublishTask=0；未自动重跑。见目标项目 `docs/freeze27-f2-live-157-t288.md`。
+
+## T014 目标项目重跑 F2 live 157（AIContentFactory T289）
+
+用户确认重跑。LIT-42；images=4；仅暂存离开；未点发布；PublishTask=0；未改代码仓。见目标项目 `docs/freeze27-f2-live-157-retry-t289.md`。
+
+## T014 目标项目 F3 batch 156–160 部分失败（AIContentFactory T290）
+
+用户确认。confirmed 156–157；failed 158（goto timeout）；skipped 159–160；未点发布；PublishTask=0；未自动续跑。见目标项目 `docs/freeze27-f3-batch-156-160-t290.md`。
+
+## T014 目标项目续跑 F3 158–160（AIContentFactory T291）
+
+用户确认续跑。confirmed 158–160（3/3）；未点发布；PublishTask=0；合 T290 → Freeze27 F3 **156–160** 全覆盖。见目标项目 `docs/freeze27-f3-batch-158-160-resume-t291.md`。
+
+## T014 目标项目 Freeze27 草稿箱收口（AIContentFactory T292）
+
+用户确认只写收口文档。Freeze27 156–160 路径已收口；F4 仍冻结。本回写仅更新三方闭环文档，**不推送、不提交代码仓**。见目标项目 `docs/freeze27-156-160-draft-box-closeout-t292.md`。
+

@@ -275,6 +275,16 @@
 - `D:\AIContentFactory` 已完成 T265–T268：S13–S16 点名确认（本波消费 / F4·P1-A 冻结 / origin 策略）
 - `D:\AIContentFactory` 已完成 T269–T271：S16 §8 建仓→remote→首推；代码仓 `0d4683c`=`origin/main`（private；敏感 `??`×4 未推）
 - `D:\AIContentFactory` 已完成 T272：Freeze26 151–155 草稿箱收口（只文档；F4 仍冻结）
+- `D:\AIContentFactory` 已完成 T273–T283：Freeze27 LIT-41…45 至 CSV/真图就绪（主题「重读一本书…」）
+- `D:\AIContentFactory` 已完成 T284：freeze27 ingest preview（gates 通过；图 20/20；未写库）
+- `D:\AIContentFactory` 已完成 T285：freeze27 ingest confirm（LIT-41…45 → GC **156–160**；quality=pending）
+- `D:\AIContentFactory` 已完成 T286：GC 156–160 → **approved**（PublishTask=0；未跑 F2）
+- `D:\AIContentFactory` 已完成 T287：F2 live **156**（LIT-41；暂存离开；images=4；未发布）
+- `D:\AIContentFactory` 已完成 T288（失败）：F2 live **157**（`ERR_CONNECTION_CLOSED`；未点击）
+- `D:\AIContentFactory` 已完成 T289：重跑 F2 live **157**（LIT-42；暂存离开；images=4；未发布）
+- `D:\AIContentFactory` 已完成 T290（部分失败）：F3 **156–160**（confirmed 156–157；failed 158；skipped 159–160）
+- `D:\AIContentFactory` 已完成 T291：续跑 F3 **158–160**（3/3；合 T290 → **156–160** 全覆盖）
+- `D:\AIContentFactory` 已完成 T292：Freeze27 156–160 草稿箱收口（只文档；F4 仍冻结）
 
 ## 当前限制
 
@@ -290,7 +300,7 @@
 
 1. 目标项目默认静默复抓至 **2026-09-14 10:00**（仍 WATCH）
 2. F4 / 日更自动发仍不开放（STABLE 前）
-3. 可选另批：Freeze27+ 立项 / 代码仓最小 CI·分支保护 / 本仓推送（本回写默认不推送）
+3. 可选另批：本仓本地提交/推送 / Freeze28+ 立项（本回写默认不推送）
 
 ## 复制到其它项目时
 
