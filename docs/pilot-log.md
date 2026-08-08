@@ -976,3 +976,15 @@
 ## T014 目标项目任务封存存盘退出（AIContentFactory T230）
 
 用户确认：`任务封存，存盘退出`。只更新观察/封存记录与状态清单；不跑 F2/F3/F4、不写库、不提交代码仓。见目标项目 `docs/maintain-observation-t230.md`。开放任务清零；F4 仍冻结。
+
+## T014 目标项目 08-08 Obsidian纠偏与低风险检查（AIContentFactory T231）
+
+用户确认纠偏 Obsidian 主锚点为 `D:\三方闭环整合项目`，并写 2026-08-08 每日复盘；另做 AICF 低风险 CI/链接检查。见 `docs/low-risk-organize-check-t231.md`。
+
+## T014 目标项目 formal 复抓 WATCH 回填（AIContentFactory T234–T239）
+
+用户审批写入 §8（WATCH）；同日多次提前节点复抓（§8b–§8d）指标零变化，仍 WATCH。未发布、未导 RV final、未改排期。见 `docs/freeze-0810-section8-applied-t234.md` 等。
+
+## T014 目标项目暂停提前复抓（AIContentFactory T240）
+
+用户确认：`复抓工作先不做了，完成其他任务`。暂停提前复抓至 **2026-09-07 10:00**；完成静默清单修订与三方闭环文档回写。见目标项目 `docs/pause-early-recrawl-other-tasks-t240.md`。

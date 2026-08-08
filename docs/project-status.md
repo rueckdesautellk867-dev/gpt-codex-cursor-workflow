@@ -268,6 +268,7 @@
 - `D:\AIContentFactory` 已完成 T228：F3 batch 146–150 **成功**（5/5；未发布）
 - `D:\AIContentFactory` 已完成 T229：Freeze25 146–150 草稿箱收口（只文档；F4 仍冻结）
 - `D:\AIContentFactory` 已完成 T230：任务封存 / 维持观察（存盘退出）
+- `D:\AIContentFactory` 已完成 T231–T240：Obsidian 纠偏、formal 复抓 **WATCH**、**复抓已暂停**至 **2026-09-07 10:00**
 
 ## 当前限制
 
@@ -281,9 +282,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：**T230 已封存**；无进行中任务；再开工须新确认
+1. AIContentFactory：**复抓暂停**；WATCH 至 **2026-09-07 10:00**；可做低风险文档
 2. F4 仍不开放
-3. 接入任务系统（如需）
+3. 三方闭环：本地有未推文档时可说 `agree push workflow repo`
 
 ## 复制到其它项目时
 
