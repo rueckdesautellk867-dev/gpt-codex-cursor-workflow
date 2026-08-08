@@ -269,6 +269,12 @@
 - `D:\AIContentFactory` 已完成 T229：Freeze25 146–150 草稿箱收口（只文档；F4 仍冻结）
 - `D:\AIContentFactory` 已完成 T230：任务封存 / 维持观察（存盘退出）
 - `D:\AIContentFactory` 已完成 T231–T242：Obsidian 纠偏、WATCH、复抓暂停至 09-07；分步清单见目标项目 `docs/stepwise-remaining-checklist-t242.md`
+- `D:\AIContentFactory` 已完成 T243：09-07 复抓改到现在仍 **WATCH**；下次 **2026-09-14 10:00**
+- `D:\AIContentFactory` 已完成 T244–T249：S6–S11 点名确认（GX 观察 / HOLD / 日更禁用）
+- `D:\AIContentFactory` 已完成 T250–T264：Freeze26 LIT-36…40 → GC **151–155**（approved；F2 151–152；F3 **5/5**；未发布）
+- `D:\AIContentFactory` 已完成 T265–T268：S13–S16 点名确认（本波消费 / F4·P1-A 冻结 / origin 策略）
+- `D:\AIContentFactory` 已完成 T269–T271：S16 §8 建仓→remote→首推；代码仓 `0d4683c`=`origin/main`（private；敏感 `??`×4 未推）
+- `D:\AIContentFactory` 已完成 T272：Freeze26 151–155 草稿箱收口（只文档；F4 仍冻结）
 
 ## 当前限制
 
@@ -282,9 +288,9 @@
 
 ## 下一步建议
 
-1. 按目标项目 T242 分步清单：S3 静默中；S4 等 **2026-09-07 10:00**
+1. 目标项目默认静默复抓至 **2026-09-14 10:00**（仍 WATCH）
 2. F4 / 日更自动发仍不开放（STABLE 前）
-3. 三方闭环主仓 origin 已齐；勿对 Documents 种子重复绑远程
+3. 可选另批：Freeze27+ 立项 / 代码仓最小 CI·分支保护 / 本仓推送（本回写默认不推送）
 
 ## 复制到其它项目时
 

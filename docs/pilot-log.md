@@ -997,3 +997,23 @@
 
 用户确认：`按照顺序完成任务`。合并两次总结为分步清单；执行 S1（本提交）→ S2 种子打标确认 → S3 静默；S4 未到点停。见目标项目 `docs/stepwise-remaining-checklist-t242.md`。
 
+## T014 目标项目 09-07 复抓改到现在（AIContentFactory T243）
+
+用户确认将复抓安排在现在。仍 **WATCH**；下次静默至 **2026-09-14 10:00**。见目标项目 `docs/freeze-0907-recrawl-now-watch-t243.md`。
+
+## T014 目标项目 S6–S11 点名确认（AIContentFactory T244–T249）
+
+用户逐点 S6–S11：GX-001 API 观察、GX-002 观察、GX-003 HOLD、GX_STABLE 首批确认、RV-001 HOLD、日更禁用确认。均只确认/只读，未升 STABLE、未发布。
+
+## T014 目标项目 Freeze26 管线（AIContentFactory T250–T264）
+
+用户确认 S12 起至 F3：主题「精神泡面」；LIT-36…40 → GC **151–155**；approved；F2 live **151–152**；F3 batch **5/5**；仅暂存离开、未发布、未跑 F4。收口见目标项目 `docs/freeze26-151-155-draft-box-closeout-t272.md`（T272）。
+
+## T014 目标项目 S13–S16 与代码仓远程（AIContentFactory T265–T271）
+
+S13 本波已消费；S14 F4 维持不开放；S15 P1-A 详情维持不真跑；S16 先确认无 origin，后按 §8 建 private 仓、`remote add`、首次 push：`0d4683c`=`origin/main`（敏感 `??` 未入库）。
+
+## T014 目标项目 Freeze26 草稿箱收口（AIContentFactory T272）
+
+用户确认只写收口文档。Freeze26 151–155 路径已收口；F4 仍冻结。本回写仅更新三方闭环文档并本地提交，**不推送**。
+

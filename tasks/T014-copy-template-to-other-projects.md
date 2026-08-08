@@ -193,6 +193,11 @@ T006、T012、T013 已验证 CI、分支保护和 PR 链路。下一步需要让
 - 第七十：schema + 导入 GC 106–125；见 `docs/schema-ingest-gc106-t070.md`
 - 第七十一：GC 106 设为 approved；H2 满足；见 `docs/gc106-quality-approved-t071.md`
 - 第七十二：F2 live content-id=106 **成功**（暂存离开；未发布）；见 `docs/freeze20-f2-live-106-t072.md`
+- 第二四三～二四九：S4–S11（复抓 WATCH；GX/RV/日更点名确认）；清单 `docs/stepwise-remaining-checklist-t242.md`
+- 第二五〇～二六四：Freeze26 LIT-36…40 → GC **151–155**（approved；F2 151–152；F3 5/5；未发布）
+- 第二六五～二六八：S13–S16 点名确认（本波消费 / F4·P1-A 冻结 / origin 策略）
+- 第二六九～二七一：S16 §8 建仓→remote→首推；代码仓 `0d4683c`=`origin/main`（敏感 `??` 未推）
+- 第二七二：Freeze26 151–155 草稿箱收口（只文档）；见 `docs/freeze26-151-155-draft-box-closeout-t272.md`
 
 ## 验收标准
 
