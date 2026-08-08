@@ -988,3 +988,12 @@
 ## T014 目标项目暂停提前复抓（AIContentFactory T240）
 
 用户确认：`复抓工作先不做了，完成其他任务`。暂停提前复抓至 **2026-09-07 10:00**；完成静默清单修订与三方闭环文档回写。见目标项目 `docs/pause-early-recrawl-other-tasks-t240.md`。
+
+## T014 目标项目推送后静默同步（AIContentFactory T241）
+
+用户 Desktop 推送成功后继续。核对 tip=`7f3e8e0` = origin/main；清除待推标记；纠偏清单过期下次日期。见目标项目 `docs/quiet-sync-after-push-t241.md`。
+
+## T014 目标项目分步任务清单（AIContentFactory T242）
+
+用户确认：`按照顺序完成任务`。合并两次总结为分步清单；执行 S1（本提交）→ S2 种子打标确认 → S3 静默；S4 未到点停。见目标项目 `docs/stepwise-remaining-checklist-t242.md`。
+

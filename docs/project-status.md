@@ -268,7 +268,7 @@
 - `D:\AIContentFactory` 已完成 T228：F3 batch 146–150 **成功**（5/5；未发布）
 - `D:\AIContentFactory` 已完成 T229：Freeze25 146–150 草稿箱收口（只文档；F4 仍冻结）
 - `D:\AIContentFactory` 已完成 T230：任务封存 / 维持观察（存盘退出）
-- `D:\AIContentFactory` 已完成 T231–T240：Obsidian 纠偏、formal 复抓 **WATCH**、**复抓已暂停**至 **2026-09-07 10:00**
+- `D:\AIContentFactory` 已完成 T231–T242：Obsidian 纠偏、WATCH、复抓暂停至 09-07；分步清单见目标项目 `docs/stepwise-remaining-checklist-t242.md`
 
 ## 当前限制
 
@@ -282,9 +282,9 @@
 
 ## 下一步建议
 
-1. AIContentFactory：**复抓暂停**；WATCH 至 **2026-09-07 10:00**；可做低风险文档
-2. F4 仍不开放
-3. 三方闭环：本地有未推文档时可说 `agree push workflow repo`
+1. 按目标项目 T242 分步清单：S3 静默中；S4 等 **2026-09-07 10:00**
+2. F4 / 日更自动发仍不开放（STABLE 前）
+3. 三方闭环主仓 origin 已齐；勿对 Documents 种子重复绑远程
 
 ## 复制到其它项目时
 
