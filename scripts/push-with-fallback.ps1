@@ -68,20 +68,22 @@ if ($StatusOnly) {
   exit (Show-Status)
 }
 
-Write-Host "==== probe curl github.com ===="
+# HTTPS curl to github.com is informative only. Origin may be SSH-over-443
+# (ssh://git@ssh.github.com:443/...), where ls-remote is the real readiness signal.
+Write-Host "==== probe curl github.com (informational) ===="
 $curlOut = & curl.exe -sI --connect-timeout 12 --max-time 20 https://github.com 2>&1
 $curlCode = $LASTEXITCODE
 $curlOut | Select-Object -First 6 | ForEach-Object { Write-Host $_ }
 Write-Host ("curl_exit=" + $curlCode)
 
-Write-Host "==== probe git ls-remote ===="
+Write-Host "==== probe git ls-remote (authoritative) ===="
 $lsOut = & git -C $RepoPath ls-remote --heads origin 2>&1
 $lsCode = $LASTEXITCODE
 $lsOut | Select-Object -First 5 | ForEach-Object { Write-Host $_ }
 Write-Host ("ls_remote_exit=" + $lsCode)
 
 if ($ProbeOnly) {
-  if (($curlCode -eq 0) -and ($lsCode -eq 0)) {
+  if ($lsCode -eq 0) {
     $head = (& git -C $RepoPath rev-parse HEAD).Trim()
     $origin = (& git -C $RepoPath rev-parse origin/main 2>$null)
     if ($origin -and ($head -eq $origin.Trim())) {
@@ -107,18 +109,22 @@ if (-not $remoteTracking) {
   $remoteTracking = $remoteTracking.Trim()
 }
 
-# Never treat "not ahead of local tracking" as proven remote sync when probes fail.
+# Never treat "not ahead of local tracking" as proven remote sync when ls-remote fails.
 # Local origin/* can lag or be stale; only clear marker after a successful ls-remote
-# that shows the same tip (or a successful push).
-if (($curlCode -ne 0) -or ($lsCode -ne 0)) {
-  $probeErr = "probe failed curl_exit=$curlCode ls_remote_exit=$lsCode"
+# that shows the same tip (or a successful push). HTTPS curl failure alone must not block
+# SSH-over-443 remotes.
+if ($lsCode -ne 0) {
+  $probeErr = "probe failed ls_remote_exit=$lsCode curl_exit=$curlCode"
   Write-Host ("PROBE_BLOCK: " + $probeErr + " — will not clear pending marker / will not claim synced.")
   Write-Marker -LocalTip $localTip -Subject $subject -Branch $branch `
     -RemoteTracking $remoteTracking -LastError $probeErr
-  Write-Host ("CLI cannot reach github.com reliably. Recorded local tip=" + $localTip.Substring(0, 7) + " " + $subject)
+  Write-Host ("CLI cannot reach origin reliably. Recorded local tip=" + $localTip.Substring(0, 7) + " " + $subject)
   Write-Host "Status: pending Desktop push. When network is OK, say: agree push workflow repo"
   Write-Host ("Marker: " + $MarkerPath)
   exit 1
+}
+if ($curlCode -ne 0) {
+  Write-Host ("NOTE: https://github.com curl failed (exit=$curlCode); continuing because ls-remote succeeded (SSH/git path OK).")
 }
 
 $remoteTipFromLs = ""

@@ -1137,3 +1137,7 @@ S13 本波已消费；S14 F4 维持不开放；S15 P1-A 详情维持不真跑；
 
 用户确认只写文档。LIT-46…50 / GC **161–165** 草稿箱路径收口；F2 全覆盖 + F3 5/5；未跑 F4、未发布、未提交代码仓。见目标项目 `docs/freeze28-161-165-draft-box-closeout-t314.md`。
 
+## T015 本仓推送通道改为 SSH-over-443
+
+HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 `origin` 改为 `ssh://git@ssh.github.com:443/...`，本地 `core.sshCommand` 指向 `id_ed25519_github_codex`（正斜杠路径）；公钥已加到 GitHub；`ls-remote` 核验 tip=`d0d7ed8`；`push` Everything up-to-date。`push-with-fallback.ps1` 改为以 ls-remote 为准（curl 仅信息项）。未碰 AIContentFactory 冻结项。
+

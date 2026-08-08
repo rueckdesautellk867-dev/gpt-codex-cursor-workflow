@@ -12,6 +12,19 @@
   → 失败：进入 §2 降级，不阻塞后续本地任务
 ```
 
+### 1.1 本仓推荐远端：SSH-over-443（2026-08-08）
+
+HTTPS `github.com:443` 在本机曾间歇失败（curl 28 / connection reset），且与 `gh` 凭据解耦后仍不稳定。  
+本仓已切到：
+
+```text
+origin = ssh://git@ssh.github.com:443/<owner>/<repo>.git
+core.sshCommand = ssh -i C:/Users/<user>/.ssh/id_ed25519_github_codex -o IdentitiesOnly=yes
+```
+
+注意：`core.sshCommand` 里私钥路径须用**正斜杠**（`C:/Users/...`），Windows 下反斜杠会被 SSH 吃掉。  
+权威就绪信号是 `git ls-remote`（不是 `curl https://github.com`）。`push-with-fallback.ps1` 以 ls-remote 为准。
+
 ## 2. 失败降级（必须执行）
 
 push / fetch / ls-remote 出现例如：

@@ -285,7 +285,7 @@
 - `D:\AIContentFactory` 已完成 T290（部分失败）：F3 **156–160**（confirmed 156–157；failed 158；skipped 159–160）
 - `D:\AIContentFactory` 已完成 T291：续跑 F3 **158–160**（3/3；合 T290 → **156–160** 全覆盖）
 - `D:\AIContentFactory` 已完成 T292：Freeze27 156–160 草稿箱收口（只文档；F4 仍冻结）
-- `D:\AIContentFactory` 已完成 T293：维持观察至 **2026-09-14 10:00**；分支保护另批；三方闭环 `c4ced0e` 待 Desktop 推送
+- `D:\AIContentFactory` 已完成 T293：维持观察至 **2026-09-14 10:00**；分支保护另批（三方闭环推送已改 SSH-over-443，见 tip `d0d7ed8`）
 - `D:\AIContentFactory` 已完成 T294：Freeze28 LIT-46–50 立项骨架（主题待定稿；未写库）
 - `D:\AIContentFactory` 已完成 T295：Freeze28 主题候选×5（不定稿）
 - `D:\AIContentFactory` 已完成 T296：Freeze28 主题定稿（候选1「把书架当「社交圈」来整理」）
@@ -321,7 +321,8 @@
 
 1. 目标项目默认静默复抓至 **2026-09-14 10:00**（仍 WATCH；T293）
 2. F4 / 日更自动发仍不开放（STABLE 前）
-3. 可选另批：Freeze29+ 新立项 / 本仓 Desktop 推送；F4/日更/P1-A详情/分支保护按 T298 维持
+3. 可选另批：Freeze29+ 新立项；F4/日更/P1-A详情/分支保护按 T298 维持
+4. 本仓推送：优先 SSH-over-443（`ssh.github.com:443`）；远端 tip 已核验 `d0d7ed8`；Desktop 仅作兜底
 
 ## 复制到其它项目时
 
