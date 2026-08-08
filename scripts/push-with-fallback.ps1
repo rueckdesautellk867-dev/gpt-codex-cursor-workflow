@@ -107,11 +107,37 @@ if (-not $remoteTracking) {
   $remoteTracking = $remoteTracking.Trim()
 }
 
+# Never treat "not ahead of local tracking" as proven remote sync when probes fail.
+# Local origin/* can lag or be stale; only clear marker after a successful ls-remote
+# that shows the same tip (or a successful push).
+if (($curlCode -ne 0) -or ($lsCode -ne 0)) {
+  $probeErr = "probe failed curl_exit=$curlCode ls_remote_exit=$lsCode"
+  Write-Host ("PROBE_BLOCK: " + $probeErr + " — will not clear pending marker / will not claim synced.")
+  Write-Marker -LocalTip $localTip -Subject $subject -Branch $branch `
+    -RemoteTracking $remoteTracking -LastError $probeErr
+  Write-Host ("CLI cannot reach github.com reliably. Recorded local tip=" + $localTip.Substring(0, 7) + " " + $subject)
+  Write-Host "Status: pending Desktop push. When network is OK, say: agree push workflow repo"
+  Write-Host ("Marker: " + $MarkerPath)
+  exit 1
+}
+
+$remoteTipFromLs = ""
+foreach ($line in @($lsOut)) {
+  $text = [string]$line
+  if ($text -match "^([0-9a-f]{40})\s+refs/heads/$([regex]::Escape($branch))\s*$") {
+    $remoteTipFromLs = $Matches[1]
+    break
+  }
+}
+
 $statusLine = (& git -C $RepoPath status --short --branch | Select-Object -First 1)
 if ($statusLine -notmatch "ahead") {
-  Write-Host "Nothing to push (not ahead of upstream)."
-  Clear-Marker
-  exit 0
+  if ($remoteTipFromLs -and ($remoteTipFromLs -eq $localTip)) {
+    Write-Host ("Nothing to push (remote tip already matches HEAD " + $localTip.Substring(0, 7) + ").")
+    Clear-Marker
+    exit 0
+  }
+  Write-Host "Local tracking not ahead, but remote tip unproven/mismatch — attempting push to verify auth+sync."
 }
 
 $lastError = ""
