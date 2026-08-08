@@ -269,7 +269,7 @@
 - `D:\AIContentFactory` 已完成 T229：Freeze25 146–150 草稿箱收口（只文档；F4 仍冻结）
 - `D:\AIContentFactory` 已完成 T230：任务封存 / 维持观察（存盘退出）
 - `D:\AIContentFactory` 已完成 T231–T242：Obsidian 纠偏、WATCH、复抓暂停至 09-07；分步清单见目标项目 `docs/stepwise-remaining-checklist-t242.md`
-- `D:\AIContentFactory` 已完成 T243：09-07 复抓改到现在仍 **WATCH**；下次原记 09-14，**现提前为 2026-08-10 06:00**
+- `D:\AIContentFactory` 已完成 T243：09-07 复抓改到现在仍 **WATCH**；下次原记 09-14→08-10，**现为 2026-08-09 08:00**
 - `D:\AIContentFactory` 已完成 T244–T249：S6–S11 点名确认（GX 观察 / HOLD / 日更禁用）
 - `D:\AIContentFactory` 已完成 T250–T264：Freeze26 LIT-36…40 → GC **151–155**（approved；F2 151–152；F3 **5/5**；未发布）
 - `D:\AIContentFactory` 已完成 T265–T268：S13–S16 点名确认（本波消费 / F4·P1-A 冻结 / origin 策略）
@@ -285,7 +285,7 @@
 - `D:\AIContentFactory` 已完成 T290（部分失败）：F3 **156–160**（confirmed 156–157；failed 158；skipped 159–160）
 - `D:\AIContentFactory` 已完成 T291：续跑 F3 **158–160**（3/3；合 T290 → **156–160** 全覆盖）
 - `D:\AIContentFactory` 已完成 T292：Freeze27 156–160 草稿箱收口（只文档；F4 仍冻结）
-- `D:\AIContentFactory` 已完成 T293：曾维持观察至 09-14；**当前有效锚点已提前为 2026-08-10 06:00**
+- `D:\AIContentFactory` 已完成 T293：曾维持观察至 09-14；**当前有效锚点为 2026-08-09 08:00**（再次提前）
 - `D:\AIContentFactory` 已完成 T294：Freeze28 LIT-46–50 立项骨架（主题待定稿；未写库）
 - `D:\AIContentFactory` 已完成 T295：Freeze28 主题候选×5（不定稿）
 - `D:\AIContentFactory` 已完成 T296：Freeze28 主题定稿（候选1「把书架当「社交圈」来整理」）
@@ -338,7 +338,7 @@
 
 ## 下一步建议
 
-1. **继续观察至 2026-08-10 06:00**（仍 WATCH；由 09-14 提前；见目标项目 `docs/observation-anchor-to-2026-08-10-0600.md`）；**不跑 F4**；到点后须另确认是否复抓/回填（≠ 自动 STABLE）
+1. **继续观察至 2026-08-09 08:00**（仍 WATCH；由 08-10 06:00 再次提前；见目标项目 `docs/observation-anchor-to-2026-08-09-0800.md`）；**不跑 F4**；到点后须另确认是否复抓/回填（≠ 自动 STABLE）
 2. F4 / 日更自动发仍不开放（STABLE 前）
 3. Freeze30+ 是否立项：**等待新确认句**；F4/日更/P1-A详情/分支保护按 T298 维持
 4. 本仓 tip 以 `origin/main` 为准；Desktop 仅作兜底
