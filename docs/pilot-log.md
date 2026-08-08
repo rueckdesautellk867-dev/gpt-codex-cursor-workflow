@@ -1141,3 +1141,75 @@ S13 本波已消费；S14 F4 维持不开放；S15 P1-A 详情维持不真跑；
 
 HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 `origin` 改为 `ssh://git@ssh.github.com:443/...`，本地 `core.sshCommand` 指向 `id_ed25519_github_codex`（正斜杠路径）；公钥已加到 GitHub；`ls-remote` 核验 tip=`d0d7ed8`；`push` Everything up-to-date。`push-with-fallback.ps1` 改为以 ls-remote 为准（curl 仅信息项）。未碰 AIContentFactory 冻结项。
 
+## T014 目标项目 Freeze29 立项（AIContentFactory T315）
+
+用户确认只写 package brief。LIT-51…55；期望 GC **166–170**（库 max=165）；主题待定稿；未写库、未跑 F2/F3/F4、未提交代码仓。见目标项目 `docs/freeze29-lit51-55-package-brief-t315.md`。
+
+## T014 目标项目 Freeze29 主题候选（AIContentFactory T316）
+
+用户确认。ChatGPT 429 → DeepSeek 出 5 候选；未定稿、未写库。见目标项目 `docs/freeze29-theme-candidates-t316.md`。
+
+## T014 目标项目 Freeze29 主题定稿+标题大纲（AIContentFactory T317–T318）
+
+用户确认采用候选3：**读不懂也没关系，先「混个眼熟」**；同批出 LIT-51…55 标题+hook大纲（ChatGPT 429→DeepSeek）；未写完整正文/库。见目标项目 `docs/freeze29-theme-locked-t317.md`、`docs/freeze29-lit51-55-title-hook-outlines-t318.md`。
+
+## T014 目标项目 Freeze29 小红书正文（AIContentFactory T319）
+
+用户确认。LIT-51…55 正文+标签（ChatGPT 429→DeepSeek）；不定配图、未写库。见目标项目 `docs/freeze29-lit51-55-xhs-bodies-t319.md`。
+
+## T014 目标项目 Freeze29 配图需求表（AIContentFactory T320）
+
+用户确认。LIT-51…55 封面+正文×3×5；不定真图。见目标项目 `docs/freeze29-lit51-55-image-briefs-t320.md`。
+
+## T014 目标项目 Freeze29 目录+真图（AIContentFactory T321–T322）
+
+用户同批确认。资产根 `D:\tmp\freeze29_phase31_assets`；真图 **20/20** @1080×1440；未写库。见目标项目 `docs/freeze29-asset-dirs-t321.md`、`docs/freeze29-real-images-t322.md`。
+
+## T014 目标项目 Freeze29 editor CSV（AIContentFactory T323）
+
+用户确认。LIT-51…55 CSV；正文 T319；资产 missing=0；未写库。见目标项目 `docs/freeze29-editor-export-csv-t323.md`。
+
+## T014 目标项目 Freeze29 ingest preview（AIContentFactory T324）
+
+用户确认。只读 dry-run；`all_gates_pass=true`；planned 5/5；图 20/20；未写库。见目标项目 `docs/freeze29-ingest-preview-t324.md`。
+
+## T014 目标项目 Freeze29 ingest confirm（AIContentFactory T325）
+
+用户确认。LIT-51…55 → GC **166–170**；quality=pending；PublishTask=0；未跑 F2/F3/F4。见目标项目 `docs/freeze29-ingest-confirm-t325.md`。
+
+## T014 目标项目 Freeze29 quality approved（AIContentFactory T326）
+
+用户确认。GC **166–170** → `quality_status=approved`；PublishTask=0；未跑 F2。见目标项目 `docs/gc166-170-quality-approved-t326.md`。
+
+## T014 目标项目 Freeze29 F2 live 166（AIContentFactory T327）
+
+用户确认。content-id=166 / LIT-51；platform_1；暂存离开；images=4；未点发布。见目标项目 `docs/freeze29-f2-live-166-t327.md`。
+
+## T014 目标项目 Freeze29 F2 live 167（AIContentFactory T328 · 失败）
+
+用户确认后执行失败：`Page.goto` 超时打开创作者中心；门禁通过但未暂存、未上传图、未点发布；不自动重跑。见目标项目 `docs/freeze29-f2-live-167-t328.md`。
+
+## T014 目标项目 Freeze29 F2 live 167 重跑（AIContentFactory T329）
+
+用户确认重跑。content-id=167 / LIT-52；暂存离开；images=4；未点发布。见目标项目 `docs/freeze29-f2-live-167-retry-t329.md`。
+
+## T014 目标项目 Freeze29 F2 live 168（AIContentFactory T330）
+
+用户确认。content-id=168 / LIT-53；platform_1；暂存离开；images=4；未点发布。见目标项目 `docs/freeze29-f2-live-168-t330.md`。
+
+## T014 目标项目 Freeze29 F2 live 169（AIContentFactory T331）
+
+用户确认。content-id=169 / LIT-54；platform_1；暂存离开；images=4；未点发布。见目标项目 `docs/freeze29-f2-live-169-t331.md`。
+
+## T014 目标项目 Freeze29 F2 live 170（AIContentFactory T332）
+
+用户确认。content-id=170 / LIT-55；platform_1；暂存离开；images=4；未点发布。F2 **166–170** 全覆盖。见目标项目 `docs/freeze29-f2-live-170-t332.md`。
+
+## T014 目标项目 Freeze29 F3 batch 166–170（AIContentFactory T333）
+
+用户确认。content-ids=166–170；platform_1；**5/5 confirmed**；仅暂存离开；未点发布；未建 PublishTask；未跑 F4。见目标项目 `docs/freeze29-f3-batch-166-170-t333.md`。
+
+## T014 目标项目 Freeze29 166–170 草稿箱收口（AIContentFactory T334）
+
+用户确认。只写收口文档；不跑 F4、不发布、不提交代码仓。见目标项目 `docs/freeze29-166-170-draft-box-closeout-t334.md`。
+

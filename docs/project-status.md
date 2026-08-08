@@ -306,6 +306,25 @@
 - `D:\AIContentFactory` 已完成 T312（部分失败）：F3 **161–165**（failed 161；skipped 162–165；未发布）
 - `D:\AIContentFactory` 已完成 T313：续跑 F3 **161–165**（5/5；合 T312 → 全覆盖；未发布）
 - `D:\AIContentFactory` 已完成 T314：Freeze28 161–165 草稿箱收口（只文档；F4 仍冻结）
+- `D:\AIContentFactory` 已完成 T315：Freeze29 LIT-51–55 立项骨架（主题待定稿；期望 GC **166–170**；未写库）
+- `D:\AIContentFactory` 已完成 T316：Freeze29 主题候选×5（不定稿）
+- `D:\AIContentFactory` 已完成 T317：Freeze29 主题定稿（候选3「读不懂也没关系，先「混个眼熟」」）
+- `D:\AIContentFactory` 已完成 T318：Freeze29 LIT-51…55 标题+hook大纲
+- `D:\AIContentFactory` 已完成 T319：Freeze29 LIT-51…55 小红书正文（不定配图）
+- `D:\AIContentFactory` 已完成 T320：Freeze29 LIT-51…55 配图需求表（不定真图）
+- `D:\AIContentFactory` 已完成 T321–T322：Freeze29 资产目录 + 真图 **20/20**
+- `D:\AIContentFactory` 已完成 T323：Freeze29 editor export CSV（5 行；资产 missing=0）
+- `D:\AIContentFactory` 已完成 T324：Freeze29 ingest preview（gates 全过；图 20/20；未写库）
+- `D:\AIContentFactory` 已完成 T325：Freeze29 ingest confirm LIT-51…55 → GC **166–170**（quality=pending）
+- `D:\AIContentFactory` 已完成 T326：GC 166–170 → approved（PublishTask=0；未跑 F2）
+- `D:\AIContentFactory` 已完成 T327：F2 live **166**（暂存离开；images=4；未发布）
+- `D:\AIContentFactory` T328 **失败**：F2 live **167**（goto 超时；失败报告保留）
+- `D:\AIContentFactory` 已完成 T329：重跑 F2 live **167**（暂存离开；images=4；未发布）
+- `D:\AIContentFactory` 已完成 T330：F2 live **168**（暂存离开；images=4；未发布）
+- `D:\AIContentFactory` 已完成 T331：F2 live **169**（暂存离开；images=4；未发布）
+- `D:\AIContentFactory` 已完成 T332：F2 live **170**；F2 **166–170** 全覆盖（暂存离开；未发布）
+- `D:\AIContentFactory` 已完成 T333：F3 batch **166–170**（5/5 confirmed；未发布）
+- `D:\AIContentFactory` 已完成 T334：Freeze29 166–170 草稿箱收口（只文档；F4 仍冻结）
 
 ## 当前限制
 
@@ -321,8 +340,8 @@
 
 1. 目标项目默认静默复抓至 **2026-09-14 10:00**（仍 WATCH；T293）
 2. F4 / 日更自动发仍不开放（STABLE 前）
-3. 可选另批：Freeze29+ 新立项；F4/日更/P1-A详情/分支保护按 T298 维持
-4. 本仓推送：优先 SSH-over-443（`ssh.github.com:443`）；远端 tip 已核验 `d0d7ed8`；Desktop 仅作兜底
+3. 可选另批：三方闭环回写/推送，或 Freeze30+ 新立项；F4/日更/P1-A详情/分支保护按 T298 维持
+4. 本仓推送：优先 SSH-over-443（`ssh.github.com:443`）；Desktop 仅作兜底
 
 ## 复制到其它项目时
 
