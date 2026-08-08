@@ -285,7 +285,27 @@
 - `D:\AIContentFactory` 已完成 T290（部分失败）：F3 **156–160**（confirmed 156–157；failed 158；skipped 159–160）
 - `D:\AIContentFactory` 已完成 T291：续跑 F3 **158–160**（3/3；合 T290 → **156–160** 全覆盖）
 - `D:\AIContentFactory` 已完成 T292：Freeze27 156–160 草稿箱收口（只文档；F4 仍冻结）
-- `D:\AIContentFactory` 已完成 T293：维持观察至 **2026-09-14 10:00**；Freeze28+ / 分支保护另批；三方闭环 `c4ced0e` 待 Desktop 推送
+- `D:\AIContentFactory` 已完成 T293：维持观察至 **2026-09-14 10:00**；分支保护另批；三方闭环 `c4ced0e` 待 Desktop 推送
+- `D:\AIContentFactory` 已完成 T294：Freeze28 LIT-46–50 立项骨架（主题待定稿；未写库）
+- `D:\AIContentFactory` 已完成 T295：Freeze28 主题候选×5（不定稿）
+- `D:\AIContentFactory` 已完成 T296：Freeze28 主题定稿（候选1「把书架当「社交圈」来整理」）
+- `D:\AIContentFactory` 已完成 T297：Freeze28 LIT-46…50 标题+hook大纲
+- `D:\AIContentFactory` 已完成 T298：通道打通 A1+B1+C1+D1（F4冻；P1-A前置过；DeepSeek默认；CI-only）
+- `D:\AIContentFactory` 已完成 T299：Freeze28 LIT-46…50 小红书正文（不定配图）
+- `D:\AIContentFactory` 已完成 T300：Freeze28 LIT-46…50 配图需求表（不定真图）
+- `D:\AIContentFactory` 已完成 T301–T302：Freeze28 资产目录 + 真图 **20/20**
+- `D:\AIContentFactory` 已完成 T303：Freeze28 editor export CSV（5 行；资产 missing=0）
+- `D:\AIContentFactory` 已完成 T304：Freeze28 ingest preview（gates 全过；20/20 图；未写库）
+- `D:\AIContentFactory` 已完成 T305：Freeze28 ingest confirm（LIT-46…50 → GC **161–165**；quality=pending）
+- `D:\AIContentFactory` 已完成 T306：GC 161–165 → **approved**（PublishTask=0；未跑 F2）
+- `D:\AIContentFactory` 已完成 T307：F2 live **161**（LIT-46；暂存离开；images=4；未发布）
+- `D:\AIContentFactory` 已完成 T308：F2 live **162**（LIT-47；暂存离开；images=4；未发布）
+- `D:\AIContentFactory` 已完成 T309：F2 live **163**（LIT-48；暂存离开；images=4；未发布）
+- `D:\AIContentFactory` 已完成 T310：F2 live **164**（LIT-49；暂存离开；images=4；未发布）
+- `D:\AIContentFactory` 已完成 T311：F2 live **165**（LIT-50；暂存离开；images=4；未发布；F2 **161–165** 全覆盖）
+- `D:\AIContentFactory` 已完成 T312（部分失败）：F3 **161–165**（failed 161；skipped 162–165；未发布）
+- `D:\AIContentFactory` 已完成 T313：续跑 F3 **161–165**（5/5；合 T312 → 全覆盖；未发布）
+- `D:\AIContentFactory` 已完成 T314：Freeze28 161–165 草稿箱收口（只文档；F4 仍冻结）
 
 ## 当前限制
 
@@ -301,7 +321,7 @@
 
 1. 目标项目默认静默复抓至 **2026-09-14 10:00**（仍 WATCH；T293）
 2. F4 / 日更自动发仍不开放（STABLE 前）
-3. 本仓：Desktop 推送 `c4ced0e`（或鉴权恢复后发「同意推送三方闭环」）；Freeze28+ / 分支保护另批
+3. 可选另批：Freeze29+ 新立项 / 本仓 Desktop 推送；F4/日更/P1-A详情/分支保护按 T298 维持
 
 ## 复制到其它项目时
 
