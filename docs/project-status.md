@@ -325,7 +325,8 @@
 - `D:\AIContentFactory` 已完成 T332：F2 live **170**；F2 **166–170** 全覆盖（暂存离开；未发布）
 - `D:\AIContentFactory` 已完成 T333：F3 batch **166–170**（5/5 confirmed；未发布）
 - `D:\AIContentFactory` 已完成 T334：Freeze29 166–170 草稿箱收口（只文档；F4 仍冻结）
-- `D:\AIContentFactory` 已完成 T335：08-09 观察节点 formal 复抓仍 **WATCH**；下次 **2026-08-16 08:00**（未发布、未跑 F4）
+- `D:\AIContentFactory` 已完成 T335：08-09 观察节点 formal 复抓仍记 **WATCH**（未发布、未跑 F4）
+- `D:\AIContentFactory` **策略变更**：T335 后 **复抓环节取消为推进前置**；**项目进入实施状态**；WATCH 不阻塞非发布实施；见目标项目 `docs/implementation-entry-after-t335.md`
 
 ## 当前限制
 
@@ -339,8 +340,8 @@
 
 ## 下一步建议
 
-1. **继续观察至 2026-08-16 08:00**（仍 WATCH；见目标项目 `docs/observation-anchor-to-2026-08-16-0800.md`）；**不跑 F4**；到点后须另确认是否复抓/回填（≠ 自动 STABLE）
-2. F4 / 日更自动发仍不开放（STABLE 前）
+1. **项目进入实施状态**（目标项目 `docs/implementation-entry-after-t335.md`）：**复抓环节取消为推进前置**；闸门仍记 **WATCH**（历史风险状态，不阻塞非发布实施）；**不自动 STABLE**
+2. **公开发布 / F4 / 日更自动发 仍需用户单独明确授权**；第一批次方案为 1 条图文（LIT-51/GC166），未执行发布
 3. Freeze30+ 是否立项：**等待新确认句**；F4/日更/P1-A详情/分支保护按 T298 维持
 4. 本仓 tip 以 `origin/main` 为准；Desktop 仅作兜底
 
