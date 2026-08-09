@@ -356,11 +356,12 @@
 
 ## 下一步建议
 
-1. **调用 AICF 远端基线**：`62a54e4` — RISK/BANNED 封存 + 人工发布运营并行；见 `docs/2026-08-09-aicf-risk-banned-pushed-baseline.md`
-2. **AICF 手动发布运营中**：今日 3 篇已发；14 天观察进行中 — 见 `docs/2026-08-09-aicf-manual-publish-shift-summary.md`
-3. **调用入口（AICF）**：`SEAL_RISK_BANNED_*` / `compliance-recovery-entry-*` / `pilot-log-risk-banned-*` / `manual-publish-*` / 作品池路径
-4. **下一步（AICF）**：合规恢复文档与人工观察；补 note_url；次日 3 篇包；维持 ready≥21
-5. 禁止仍有效：不发布（未另授）、不抓取、不跑 F4、不创建 publish_task/plan、不写凭证、不删平台内容、不提交 settings_env / freeze20/publish 脏态
+1. **日终恢复入口**：`docs/2026-08-09-cross-project-final-seal-index.md` → AICF `docs/2026-08-09-final-seal-index.md`
+2. **调用 AICF 远端基线**：`62a54e4` — RISK/BANNED 封存 + 人工发布运营并行；见 `docs/2026-08-09-aicf-risk-banned-pushed-baseline.md`
+3. **AICF 手动发布运营中**：今日 3 篇已发；14 天观察进行中 — 见 `docs/2026-08-09-aicf-manual-publish-shift-summary.md`
+4. **调用入口（AICF）**：`SEAL_RISK_BANNED_*` / `compliance-recovery-entry-*` / `pilot-log-risk-banned-*` / `manual-publish-*` / 作品池路径
+5. **下一步（AICF）**：合规恢复文档与人工观察；补 note_url；次日 3 篇包；维持 ready≥21
+6. 禁止仍有效：不发布（未另授）、不抓取、不跑 F4、不创建 publish_task/plan、不写凭证、不删平台内容、不提交 settings_env / freeze20/publish 脏态
 
 ## 复制到其它项目时
 
