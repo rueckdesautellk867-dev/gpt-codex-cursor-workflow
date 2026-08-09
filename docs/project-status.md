@@ -336,8 +336,9 @@
 - `D:\AIContentFactory` **`platform_2` 浏览器登录态已建立**；本地 profile 继续承载人工登录态；DB 不保存明文凭证
 - `D:\AIContentFactory` **`platform_account_id=2` 已激活为 `active`**：保留为备用发布账号，**但不使用**；**不再执行首发测试**
 - `D:\AIContentFactory` **策略切换**：停止新笔记生产与发布；目标改为存量图文维护、复盘与账号安全观察（原账号约 80 篇图文为存量资产）；见 `docs/existing-note-maintenance-mode.md`
-- `D:\AIContentFactory` 合规采集降级与发布账号隔离 A **继续保留为安全底座**；**未发布、未跑 F4、未启用日更、未恢复自动抓取**；不创建 publish_task / publish_plan
-- `D:\AIContentFactory` 代码仓当前 **tip=`2eba36d`=`origin/main`**（`0 0`，本轮策略文档未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
+- `D:\AIContentFactory` **当前进入存量图文盘点 / 复盘 / 风险观察**：约 80 篇为主要资产；每次只做人工记录与分析；见 `docs/existing-note-inventory-review.md`；batch-01 空模板 `docs/existing-note-inventory-batch-01.md`
+- `D:\AIContentFactory` 合规采集降级与发布账号隔离 A **继续保留为安全底座**；**不新增笔记，不首发 platform_2**；**不自动采集，不发布，不跑 F4**；不创建 publish_task / publish_plan
+- `D:\AIContentFactory` 代码仓当前 **tip=`85da274`=`origin/main`**（`0 0`，本轮盘点文档未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
 
 ## 当前限制
 
@@ -352,8 +353,8 @@
 ## 下一步建议
 
 1. **停止新笔记生产与发布**：不重试、不换发、不跑 F4；不创建 publish_task / publish_plan；`platform_2` 备用不用、不做首发
-2. **AICF tip=`2eba36d`**：进入存量图文维护模式；合规采集降级 + 隔离 A 为安全底座；数据侧仅合规手动研究 / 只读历史
-3. **下一入口**：存量盘点 / 表现复盘 / 风险观察 / 账号状态核查 / 资产归档（见目标项目 `docs/existing-note-maintenance-mode.md`）
+2. **AICF tip=`85da274`**：当前进入存量图文盘点 / 复盘 / 风险观察；约 80 篇为主要资产；每次只做人工记录与分析
+3. **下一入口**：人工填 batch-01（10 篇）→ `docs/existing-note-inventory-batch-01.md`；总册 `docs/existing-note-inventory-review.md`
 4. 若重新发布：**重新立项并单独确认**；Freeze30+ 默认不立项
 
 ## 复制到其它项目时
