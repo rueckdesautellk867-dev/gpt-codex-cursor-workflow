@@ -332,8 +332,9 @@
 - `D:\AIContentFactory` **合规采集降级已推送** `a983c79` → `origin/main`（自动抓取默认禁用；见 `docs/xhs-compliant-data-collection-mode.md`）
 - `D:\AIContentFactory` **发布账号隔离 A 已推送** `c031e3d` → `origin/main`（显式账号 + `manual_confirm`；禁默认 `platform_1`/`id=1`；见 `docs/publisher-account-isolation-impl-a.md`）
 - `D:\AIContentFactory` **建档/session 隔离能力已推送** `eb4b5d3` → `origin/main`
-- `D:\AIContentFactory` **恢复发布号A 已建档（仅写库）**：`platform_account_id=2` / `status=inactive` / session=`platform_2` / ledger=`session:publisher_recovery_001`；凭证 NULL；未进采集；**未登录、未发布**；不具备发布资格。见 `docs/publisher-account-session-isolation.md`
-- `D:\AIContentFactory` 代码仓当前 **tip=`eb4b5d3`=`origin/main`**（`0 0`）；工作区残留仅 `settings_env.py` + 冻结 `??`×4（不提交）
+- `D:\AIContentFactory` **恢复发布号A 已建档（仅写库）**：`platform_account_id=2` / `status=inactive` / session=`platform_2` / ledger=`session:publisher_recovery_001`；凭证 NULL；未进采集；不具备发布资格。见 `docs/publisher-account-session-isolation.md`
+- `D:\AIContentFactory` **`platform_2` 浏览器登录态已建立**（人工登录；最终 URL=`creator.xiaohongshu.com/new/home`；未用 `platform_1`）；本地 profile 仅作会话目录；**DB 仍 inactive**；DB 不保存明文凭证；**未激活、未发布**
+- `D:\AIContentFactory` 代码仓当前 **tip=`a5aa12d`=`origin/main`**（`0 0`，本轮登录文档未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
 
 ## 当前限制
 
@@ -348,8 +349,8 @@
 ## 下一步建议
 
 1. **仍停发**（T336/T337）：不得复用 `platform_1`；新号 `platform_account_id=2` 为 **inactive**，无发布资格
-2. **AICF tip=`eb4b5d3`**：合规降级 + 隔离 A + 建档能力已在主线；数据侧仅合规手动研究 / 只读历史
-3. **下一确认方向**：登录 `platform_2`（仅登录）/ 激活 / 首发 — **各需单独确认句**；**F4 / 日更 / migration B / 自动抓取恢复**均须另授
+2. **AICF tip=`a5aa12d`**：合规降级 + 隔离 A + 建档能力已在主线；`platform_2` 浏览器登录态已建立；数据侧仅合规手动研究 / 只读历史
+3. **下一确认方向**：激活 `platform_account_id=2`（不发布）→ 激活后再首发测试 — **各需单独确认句**；**F4 / 日更 / migration B / 自动抓取恢复**均须另授
 4. Freeze30+ 是否立项：**等待新确认句**；本仓 tip 以 `origin/main` 为准
 
 ## 复制到其它项目时

@@ -1263,5 +1263,9 @@ HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 
 
 ## T014 目标项目恢复发布号A 建档结果回写（仅写库）
 
-用户确认建立新发布账号记录并保持 inactive。结果：`creator_account_id=1`（publisher/mock）；`platform_account_id=2`（inactive）；ledger=`session:publisher_recovery_001`；浏览器 session=`platform_2`；凭证列 NULL；未进采集队列；id=1 为 restricted 占位。**未登录、未发布**；不具备发布资格；后续登录/激活/首发须单独确认句。见目标项目 `docs/publisher-account-session-isolation.md`。本轮只文档回写，不登录不发布不跑 F4。
+用户确认建立新发布账号记录并保持 inactive。结果：`creator_account_id=1`（publisher/mock）；`platform_account_id=2`（inactive）；ledger=`session:publisher_recovery_001`；浏览器 session=`platform_2`；凭证列 NULL；未进采集队列；id=1 为 restricted 占位。不具备发布资格；后续登录/激活/首发须单独确认句。见目标项目 `docs/publisher-account-session-isolation.md`。本轮只文档回写，不登录不发布不跑 F4。
+
+## T014 目标项目 platform_2 人工登录完成（不写凭证）
+
+用户确认：`同意打开 platform_2 浏览器 session 供人工登录（不发布、不写凭证、不激活、不跑 F4）`。已完成人工登录；最终 URL=`creator.xiaohongshu.com/new/home`；未使用 `platform_1`。本地 profile=`backend/data/browser_sessions/xiaohongshu/platform_2/`（仅人工登录会话目录）。DB `platform_account_id=2` 仍 **inactive**；access/refresh/`cookie_session` 仍 **NULL**（DB 不保存明文凭证）。临时打开脚本已删除，未入库未提交。**未激活、未发布**；仍停发。后续若要激活 / 首发须各自单独确认句。见目标项目 `docs/publisher-account-session-isolation.md` §0.1。本轮只文档回写。
 
