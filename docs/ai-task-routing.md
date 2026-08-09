@@ -30,6 +30,7 @@
 
 - 任务模板：`docs/task-template.md`
 - 闭环流程：`docs/ai-workflow.md`
+- Codex↔Cursor 局部闭环：`docs/codex-cursor-loop.md`
 - 完成标准：`docs/definition-of-done.md`
 - 合并检查：`PR_CHECKLIST.md`
 - 风险审批：`docs/risk-approval.md`

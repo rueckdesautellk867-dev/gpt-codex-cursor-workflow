@@ -52,3 +52,4 @@ Cursor + 人工审查（对照 PR_CHECKLIST.md）
 - `PR_CHECKLIST.md`：合并前检查清单
 - `docs/definition-of-done.md`：完成标准
 - `docs/runbook.md`：运行手册（操作顺序入口）
+- `docs/codex-cursor-loop.md`：Codex ↔ Cursor 局部执行闭环（指令 / 回传 / 判责模板）
