@@ -331,7 +331,9 @@
 - `D:\AIContentFactory` T337：账号限制只读观察（「账号状态异常」）；维持停发
 - `D:\AIContentFactory` **合规采集降级已推送** `a983c79` → `origin/main`（自动抓取默认禁用；见 `docs/xhs-compliant-data-collection-mode.md`）
 - `D:\AIContentFactory` **发布账号隔离 A 已推送** `c031e3d` → `origin/main`（显式账号 + `manual_confirm`；禁默认 `platform_1`/`id=1`；见 `docs/publisher-account-isolation-impl-a.md`）
-- `D:\AIContentFactory` 代码仓当前 **tip=`c031e3d`=`origin/main`**（`0 0`）；工作区残留仅 `settings_env.py` + 冻结 `??`×4（不提交）
+- `D:\AIContentFactory` **建档/session 隔离能力已推送** `eb4b5d3` → `origin/main`
+- `D:\AIContentFactory` **恢复发布号A 已建档（仅写库）**：`platform_account_id=2` / `status=inactive` / session=`platform_2` / ledger=`session:publisher_recovery_001`；凭证 NULL；未进采集；**未登录、未发布**；不具备发布资格。见 `docs/publisher-account-session-isolation.md`
+- `D:\AIContentFactory` 代码仓当前 **tip=`eb4b5d3`=`origin/main`**（`0 0`）；工作区残留仅 `settings_env.py` + 冻结 `??`×4（不提交）
 
 ## 当前限制
 
@@ -345,10 +347,10 @@
 
 ## 下一步建议
 
-1. **仍停发**（T336/T337）：旧号风险未解除前不复用旧号；不重试、不换发；闸门仍记 **WATCH**；**不自动 STABLE**
-2. **AICF 主线已收口**：合规降级 `a983c79` + 隔离 A `c031e3d` 均已在 `origin/main`；数据侧仅合规手动研究 / 只读历史；发布须显式账号 + `manual_confirm`
-3. **下一阶段=发布恢复实战准备态**（非自动发布）：新 publisher 独立 session 准备；再发须新完整确认句；**F4 / 日更 / migration B / 自动抓取恢复**均须另授
-4. Freeze30+ 是否立项：**等待新确认句**；本仓 tip 以 `origin/main` 为准（本轮文档收口后另提交）
+1. **仍停发**（T336/T337）：不得复用 `platform_1`；新号 `platform_account_id=2` 为 **inactive**，无发布资格
+2. **AICF tip=`eb4b5d3`**：合规降级 + 隔离 A + 建档能力已在主线；数据侧仅合规手动研究 / 只读历史
+3. **下一确认方向**：登录 `platform_2`（仅登录）/ 激活 / 首发 — **各需单独确认句**；**F4 / 日更 / migration B / 自动抓取恢复**均须另授
+4. Freeze30+ 是否立项：**等待新确认句**；本仓 tip 以 `origin/main` 为准
 
 ## 复制到其它项目时
 

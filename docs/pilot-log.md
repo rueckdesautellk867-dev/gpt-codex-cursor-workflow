@@ -1257,3 +1257,11 @@ HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 
 
 用户确认只更新文档与状态：AICF 文档、Obsidian 决策/复盘、本仓 `pilot-log`/`project-status`。统一为：**仍停发**；发布恢复实战准备态（非自动发）；不启日更、不升 STABLE、不恢复自动抓取、不做 migration B。未开发新功能、未发布、未跑 F4、未写凭证。
 
+## T014 目标项目无凭证 publisher 建档能力落主线（AIContentFactory `eb4b5d3`）
+
+用户确认进入新发布账号建档 / session 隔离（不做 migration、不写凭证、不发布）。已 push `eb4b5d3`：`provision_xhs_publisher_account` + 文档。未登录、未发布。
+
+## T014 目标项目恢复发布号A 建档结果回写（仅写库）
+
+用户确认建立新发布账号记录并保持 inactive。结果：`creator_account_id=1`（publisher/mock）；`platform_account_id=2`（inactive）；ledger=`session:publisher_recovery_001`；浏览器 session=`platform_2`；凭证列 NULL；未进采集队列；id=1 为 restricted 占位。**未登录、未发布**；不具备发布资格；后续登录/激活/首发须单独确认句。见目标项目 `docs/publisher-account-session-isolation.md`。本轮只文档回写，不登录不发布不跑 F4。
+
