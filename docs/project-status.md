@@ -334,11 +334,12 @@
 - `D:\AIContentFactory` **建档/session 隔离能力已推送** `eb4b5d3` → `origin/main`
 - `D:\AIContentFactory` **恢复发布号A 已建档**：`platform_account_id=2` / session=`platform_2` / ledger=`session:publisher_recovery_001`；凭证 NULL；未进采集。见 `docs/publisher-account-session-isolation.md`
 - `D:\AIContentFactory` **`platform_account_id=2` DB 仍 `active`**；凭证 NULL；未进采集
-- `D:\AIContentFactory` **草稿箱不再作为稳定仓库**；迁稿 **`suspended`**
-- `D:\AIContentFactory` **本地作品池为唯一可信发布基础**：`content_pool/xhs_manual_publish`；每天 3 篇手动发布包；ready&lt;21→补到50；见 `docs/manual-publish-content-pool-policy.md`
-- `D:\AIContentFactory` **用户手动发布**；不上传草稿箱、不自动发布、不自动删平台、不跑 F4
-- `D:\AIContentFactory` 合规采集降级与发布账号隔离 A **继续保留**；不写凭证
-- `D:\AIContentFactory` 代码仓当前 **tip=`0b67766`=`origin/main`**（本轮作品池文档未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
+- `D:\AIContentFactory` **本地作品池是主仓库**；草稿箱不作为稳定仓库；迁稿 **`suspended`**
+- `D:\AIContentFactory` **用户手动发布**；今日三篇已发布成功（GC126/128/129）；见 `docs/2026-08-09-aicf-manual-publish-shift-summary.md`
+- `D:\AIContentFactory` **14 天观察**（08-09→08-22）每天 3 篇人工发布；自动发布/抓取/F4/日更仍禁止
+- `D:\AIContentFactory` 作品池：`content_pool/xhs_manual_publish`；政策/计划在 AICF `docs/manual-publish-*.md`
+- `D:\AIContentFactory` 合规采集降级与隔离 A **继续保留**；不写凭证
+- `D:\AIContentFactory` 代码仓当前 **tip=`18b3408`=`origin/main`**（本轮总结未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
 
 ## 当前限制
 
@@ -352,10 +353,10 @@
 
 ## 下一步建议
 
-1. **手动发布模式**：本地作品池 + 每日三篇；迁稿 suspended
-2. **AICF tip=`0b67766`**：今日队列 `daily_queue/2026-08-09/`
-3. **下一步**：用户按 checklist 手动发布；维持 ready≥21
-4. 不上传草稿箱、不自动发布、不删平台、不跑 F4；不写凭证
+1. **AICF 手动发布运营中**：今日 3 篇已发；14 天观察进行中
+2. **调用入口**：作品池 / 今日包 / 截图 / 政策 / 14 天计划 — 见 `docs/2026-08-09-aicf-manual-publish-shift-summary.md`
+3. **下一步（AICF）**：补 note_url；次日 3 篇包；维持 ready≥21
+4. 自动发布/抓取/F4/日更仍禁止；2 周后再评估草稿箱文案直发
 
 ## 复制到其它项目时
 
