@@ -356,12 +356,15 @@
 
 ## 下一步建议
 
+> **STOP: waiting for 2026-08-10 result log fill; do not create 08-11 queue.**  
+> 暂停入口：`docs/2026-08-10-aicf-pause-until-result-filled.md`
+
 1. **日终恢复入口**：`docs/2026-08-09-cross-project-final-seal-index.md` → AICF `docs/2026-08-09-final-seal-index.md`
-2. **08-10 回填说明入口**：`docs/2026-08-10-aicf-result-log-fill-guide.md` → AICF `docs/manual-publish-result-log-fill-guide-2026-08-10.md`
-3. **08-11 队列 gate**：`docs/2026-08-11-aicf-queue-gate.md` → AICF `docs/manual-publish-next-queue-gate-2026-08-11.md`
-4. **08-10 结果回填入口**：`docs/2026-08-10-aicf-result-log-prep.md` → AICF `docs/manual-publish-result-log-2026-08-10.md`
-5. **调用 AICF 远端基线**：`1238208`（gate tip；后续以 push 后 tip 为准）
-6. **AICF 状态**：08-10 **等待用户按 fill guide 回填**；08-11 queue **gated**
+2. **暂停推进入口**：`docs/2026-08-10-aicf-pause-until-result-filled.md` → AICF `docs/manual-publish-pause-until-0810-result-filled.md`
+3. **08-10 回填说明入口**：`docs/2026-08-10-aicf-result-log-fill-guide.md` → AICF `docs/manual-publish-result-log-fill-guide-2026-08-10.md`
+4. **08-11 队列 gate**：`docs/2026-08-11-aicf-queue-gate.md` → AICF `docs/manual-publish-next-queue-gate-2026-08-11.md`
+5. **调用 AICF 远端基线**：`e4c1dd2`（fill guide tip；后续以 push 后 tip 为准）
+6. **AICF 状态**：暂停推进 · 等待用户回填 08-10 result log · 08-11 queue **gated**
 7. **下一步（AICF·用户）**：按 fill guide 回填 → 确认句决定是否建 08-11；补 08-09 note/24h
 8. 禁止仍有效：不发布（未另授）、不抓取、不跑 F4、未确认前不建 08-11 队列、不写凭证、不提交 settings_env / freeze20/publish 脏态
 

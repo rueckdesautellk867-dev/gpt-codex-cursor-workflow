@@ -1337,3 +1337,7 @@ GUI 检查停在登录墙（`creator.xiaohongshu.com/login`）；未进创作者
 
 用户确认：只做文档模板。AICF 新建 `docs/manual-publish-result-log-fill-guide-2026-08-10.md`（最小必填、可复制回填块、gate 判定、确认句）。本仓新建 `docs/2026-08-10-aicf-result-log-fill-guide.md`。未开平台、未发布、未建 08-11 队列、未改 pool_index。
 
+## T014 目标项目：AICF 暂停推进至 08-10 result log 回填
+
+用户确认：只做文档保护，防止 agent 未回填前自动推进。AICF 新建 `docs/manual-publish-pause-until-0810-result-filled.md`（STOP / 阻塞 / 解除 / 禁止）。本仓新建 `docs/2026-08-10-aicf-pause-until-result-filled.md`。未开平台、未发布、未建 08-11 队列、未改作品池。
+
