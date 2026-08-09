@@ -357,12 +357,12 @@
 ## 下一步建议
 
 1. **日终恢复入口**：`docs/2026-08-09-cross-project-final-seal-index.md` → AICF `docs/2026-08-09-final-seal-index.md`
-2. **08-10 结果回填入口**：`docs/2026-08-10-aicf-result-log-prep.md` → AICF `docs/manual-publish-result-log-2026-08-10.md`
-3. **08-10 交接页入口**：`docs/2026-08-10-aicf-manual-publish-handoff.md` → AICF `docs/manual-publish-handoff-2026-08-10.md`
-4. **调用 AICF 远端基线**：`80dd96c`（handoff tip；后续以 push 后 tip 为准）
-5. **AICF 手动发布运营中**：等用户发完 08-10 并回填 result log；08-11 仅预检未建队
-6. **下一步（AICF·用户）**：手动发 08-10 → 回填 result log → 再议 08-11；补 08-09 note/24h
-7. 禁止仍有效：不发布（未另授）、不抓取、不跑 F4、不创建 publish_task/plan、不写凭证、不删平台内容、不提交 settings_env / freeze20/publish 脏态
+2. **08-11 队列 gate**：`docs/2026-08-11-aicf-queue-gate.md` → AICF `docs/manual-publish-next-queue-gate-2026-08-11.md`
+3. **08-10 结果回填入口**：`docs/2026-08-10-aicf-result-log-prep.md` → AICF `docs/manual-publish-result-log-2026-08-10.md`
+4. **调用 AICF 远端基线**：`642040e`（result log tip；后续以 push 后 tip 为准）
+5. **AICF 状态**：08-10 **等待用户回填**；08-11 queue **gated**（未建队）
+6. **下一步（AICF·用户）**：回填 08-10 result log → 用确认句决定是否建 08-11；补 08-09 note/24h
+7. 禁止仍有效：不发布（未另授）、不抓取、不跑 F4、未确认前不建 08-11 队列、不写凭证、不提交 settings_env / freeze20/publish 脏态
 
 ## 复制到其它项目时
 
