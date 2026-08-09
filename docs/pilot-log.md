@@ -1289,3 +1289,7 @@ HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 
 
 用户授权：在只读/文档/本地档案整理/状态同步/commit/push 范围内自主推进，高风险动作仍须单独确认。已建立 `docs/existing-note-maintenance-continuation-protocol.md`；扩展已发存量 batch-02…08 空模板；建立 `docs/local-draft-candidate-archive-index.md`（Freeze20–29 本地索引）。**已进入自动续做式存量维护**；只读/文档/本地档案类任务可继续推进；发布/迁稿/抓取/F4 等仍需用户单独确认；下一人工入口是填 batch 数据或提供截图。
 
+## T014 目标项目补全本地草稿候选索引标题级
+
+从本地 Freeze20–29 closeout/CSV/bodies 补全 `docs/local-draft-candidate-archive-index.md`：Freeze21–29 **45** 篇标题已抄录；Freeze20 **20** 篇因无本地标题表标 **待人工确认**（不编造）。未打开平台、未抓取、未填已发存量 batch。下一人工入口仍为填 batch / 交截图，或补 Freeze20 标题。
+

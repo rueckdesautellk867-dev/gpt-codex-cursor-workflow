@@ -337,9 +337,10 @@
 - `D:\AIContentFactory` **`platform_account_id=2` 已激活为 `active`**：保留为备用发布账号，**但不使用**；**不再执行首发测试**
 - `D:\AIContentFactory` **关键修正：`platform_2` 草稿箱为空**；Freeze28/29 本地 10 篇为本地草稿候选档案，**不是 platform_2 草稿箱内容**；见 `docs/draft-box-inventory-sample-10.md`、`docs/local-draft-candidate-archive-index.md`
 - `D:\AIContentFactory` **已进入自动续做式存量维护**：只读/文档/本地档案类任务可继续推进；发布/迁稿/抓取/F4 等仍需用户单独确认；见 `docs/existing-note-maintenance-continuation-protocol.md`
+- `D:\AIContentFactory` **本地草稿候选索引已补全**：Freeze21–29 **45** 篇标题已从 bodies/CSV 抄录；Freeze20 **20** 篇标题仍待人工确认
 - `D:\AIContentFactory` **当前进入存量图文盘点 / 复盘 / 风险观察**：约 80 篇为主要资产；batch-01…08 空模板已就绪（待人工填数据）
 - `D:\AIContentFactory` 合规采集降级与发布账号隔离 A **继续保留为安全底座**；**不新增笔记，不首发 platform_2**；**不自动采集，不发布，不跑 F4**；不迁稿、不重建草稿
-- `D:\AIContentFactory` 代码仓当前 **tip=`edbd07c`=`origin/main`**（本轮续做文档未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
+- `D:\AIContentFactory` 代码仓当前 **tip=`7ad1761`=`origin/main`**（本轮索引补全未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
 
 ## 当前限制
 
@@ -354,8 +355,8 @@
 ## 下一步建议
 
 1. **停止新笔记生产与发布**：不迁稿、不重建草稿；`platform_2` 备用不用且**草稿箱为空**
-2. **AICF tip=`edbd07c`**：已进入自动续做式存量维护；约 80 篇为主要资产；batch-01…08 空模板齐
-3. **下一人工入口**：填 batch 数据或提供截图 → `docs/existing-note-inventory-batch-01.md` 起
+2. **AICF tip=`7ad1761`**：已进入自动续做式存量维护；本地索引 Freeze21–29×45 标题已补全；batch-01…08 空模板齐
+3. **下一人工入口**：填 batch 数据或提供截图 → `docs/existing-note-inventory-batch-01.md` 起；或补 Freeze20 标题
 4. 若迁稿或重新发布：**另行立项、单独确认，并先做合规重审**；Freeze30+ 默认不立项
 
 ## 复制到其它项目时
