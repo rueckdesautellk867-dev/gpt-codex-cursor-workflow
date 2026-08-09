@@ -1305,3 +1305,7 @@ GUI 检查停在登录墙（`creator.xiaohongshu.com/login`）；未进创作者
 
 用户确认：草稿箱上传图片再次打开后消失。判定 **`draft_image_persistence_failed`**；**platform_2 草稿箱不能作为可靠迁稿仓库**；迁稿计划 **`suspended`**；禁止继续 Batch A/B、补传、重试。**upload_staging 是当前唯一可信本地存放路径**。本轮只读/文档收口；不上传、不发布、不改脚本、不写凭证。问题单：AICF `docs/platform-2-draft-image-persistence-issue.md`。后续须人工验证（手动上传→明确暂存→关闭重开→图片仍在，连续 ≥2 次）后，才可再议迁稿。
 
+## T014 目标项目切换：本地作品池 + 每日三篇手动发布
+
+用户确认调整为本地作品池主仓库：草稿箱不再作为稳定仓库；**本地作品池为唯一可信发布基础**；用户手动发布；每天准备 3 篇；ready&lt;21 补充到 50；不自动删除平台笔记。已建 `content_pool/xhs_manual_publish`（Freeze21–29 齐备入库；今日 `XHS-20260809-001…003`）；政策 `docs/manual-publish-content-pool-policy.md`。本轮不上传草稿箱、不发布、不删平台、不跑 F4。
+
