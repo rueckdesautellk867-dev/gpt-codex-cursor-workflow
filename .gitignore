@@ -2,3 +2,8 @@
 .pending-desktop-push.json
 .tmp-*.ps1
 .tmp-*.log
+
+# Watcher R2 runtime (do not commit)
+docs/handoffs/codex-cursor/.watcher-state.json
+docs/handoffs/codex-cursor/.watcher.lock
+docs/handoffs/codex-cursor/.watcher-*.tmp
