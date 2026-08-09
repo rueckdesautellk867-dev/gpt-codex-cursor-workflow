@@ -1271,5 +1271,9 @@ HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 
 
 ## T014 目标项目激活 platform_account_id=2（不发布）
 
-用户确认激活新发布账号 `platform_account_id=2`，但仍不发布。已走受控 `activate_platform_account`（浏览器 session=`platform_2` 校验通过）；DB `status`：**inactive → active**；凭证列仍 NULL；id=1 restricted 占位未改；PublishTask=0；未进采集队列；未创建 publish_plan；未跑 F4；未启日更；未恢复自动抓取。**激活仅表示通过账号选择前置，不等于发布授权**；首发测试仍需单独完整确认句；发布仍必须显式账号 + `manual_confirm`。见目标项目 `docs/publisher-account-session-isolation.md` §0.2。
+用户确认激活新发布账号 `platform_account_id=2`，但仍不发布。已走受控 `activate_platform_account`（浏览器 session=`platform_2` 校验通过）；DB `status`：**inactive → active**；凭证列仍 NULL；id=1 restricted 占位未改；PublishTask=0；未进采集队列；未创建 publish_plan；未跑 F4；未启日更；未恢复自动抓取。**激活仅表示通过账号选择前置，不等于发布授权**。见目标项目 `docs/publisher-account-session-isolation.md` §0.2。
+
+## T014 目标项目策略切换：存量图文维护模式
+
+用户确认：原有账号约 80 篇图文笔记，后续不再制作或发布新笔记；本轮只做文档状态切换。**停止新笔记生产与发布**；**不再执行 `platform_2` 首发测试**；`platform_2` 保留为已建档/已登录/已激活的备用发布账号但不使用；原账号约 80 篇图文作为存量内容资产；后续转为存量盘点、表现复盘、风险观察、账号状态核查、内容资产归档。不发布、不重试、不换发、不启用日更、不跑 F4、不创建 publish_task / publish_plan。合规采集降级与隔离 A 继续保留为安全底座。见目标项目 `docs/existing-note-maintenance-mode.md`。若重新发布须重新立项并单独确认。
 

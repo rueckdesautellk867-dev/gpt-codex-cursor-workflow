@@ -334,8 +334,10 @@
 - `D:\AIContentFactory` **建档/session 隔离能力已推送** `eb4b5d3` → `origin/main`
 - `D:\AIContentFactory` **恢复发布号A 已建档**：`platform_account_id=2` / session=`platform_2` / ledger=`session:publisher_recovery_001`；凭证 NULL；未进采集。见 `docs/publisher-account-session-isolation.md`
 - `D:\AIContentFactory` **`platform_2` 浏览器登录态已建立**；本地 profile 继续承载人工登录态；DB 不保存明文凭证
-- `D:\AIContentFactory` **`platform_account_id=2` 已激活为 `active`**；激活仅表示通过账号选择前置，**不等于发布授权**；发布仍须显式账号 + `manual_confirm`；首发测试仍需单独完整确认句；**未发布、未跑 F4、未启用日更、未恢复自动抓取**
-- `D:\AIContentFactory` 代码仓当前 **tip=`a9250fb`=`origin/main`**（`0 0`，本轮激活文档未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
+- `D:\AIContentFactory` **`platform_account_id=2` 已激活为 `active`**：保留为备用发布账号，**但不使用**；**不再执行首发测试**
+- `D:\AIContentFactory` **策略切换**：停止新笔记生产与发布；目标改为存量图文维护、复盘与账号安全观察（原账号约 80 篇图文为存量资产）；见 `docs/existing-note-maintenance-mode.md`
+- `D:\AIContentFactory` 合规采集降级与发布账号隔离 A **继续保留为安全底座**；**未发布、未跑 F4、未启用日更、未恢复自动抓取**；不创建 publish_task / publish_plan
+- `D:\AIContentFactory` 代码仓当前 **tip=`2eba36d`=`origin/main`**（`0 0`，本轮策略文档未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
 
 ## 当前限制
 
@@ -349,10 +351,10 @@
 
 ## 下一步建议
 
-1. **仍停发**（T336/T337）：不得复用 `platform_1`；新号虽 `active`，无首发确认句前不得发布
-2. **AICF tip=`a9250fb`**：合规降级 + 隔离 A + 建档 + `platform_2` 登录 + `platform_account_id=2` 已 active；数据侧仅合规手动研究 / 只读历史
-3. **下一确认方向**：首发测试（显式账号 + `manual_confirm`）— **须单独完整确认句**；**F4 / 日更 / migration B / 自动抓取恢复**均须另授
-4. Freeze30+ 是否立项：**等待新确认句**；本仓 tip 以 `origin/main` 为准
+1. **停止新笔记生产与发布**：不重试、不换发、不跑 F4；不创建 publish_task / publish_plan；`platform_2` 备用不用、不做首发
+2. **AICF tip=`2eba36d`**：进入存量图文维护模式；合规采集降级 + 隔离 A 为安全底座；数据侧仅合规手动研究 / 只读历史
+3. **下一入口**：存量盘点 / 表现复盘 / 风险观察 / 账号状态核查 / 资产归档（见目标项目 `docs/existing-note-maintenance-mode.md`）
+4. 若重新发布：**重新立项并单独确认**；Freeze30+ 默认不立项
 
 ## 复制到其它项目时
 
