@@ -341,10 +341,10 @@
 
 ## 下一步建议
 
-1. **T336 发布失败**：平台禁止发笔记 → **停发**（目标项目 `docs/manual-publish-gc166-blocked-t336.md`）；闸门仍记 **WATCH**；**不自动 STABLE**
-2. 禁发解除前不做公开发布；再发须新确认句；**F4 / 日更**仍须另授
-3. Freeze30+ 是否立项：**等待新确认句**；F4/日更/P1-A详情/分支保护按 T298 维持
-4. 本仓 tip 以 `origin/main` 为准；Desktop 仅作兜底
+1. **T336 停发**：平台禁止发笔记（目标项目 `docs/manual-publish-gc166-blocked-t336.md`）；闸门仍记 **WATCH**；**不自动 STABLE**
+2. **小红书数据采集降级为合规/人工研究辅助**（目标项目 `docs/xhs-compliant-data-collection-mode.md`）；不增强爬虫；P1-A 等自动抓取默认禁用
+3. 禁发解除前不做公开发布；再发须新确认句；**F4 / 日更**仍须另授
+4. Freeze30+ 是否立项：**等待新确认句**；本仓 tip 以 `origin/main` 为准
 
 ## 复制到其它项目时
 
