@@ -66,6 +66,22 @@ docs/handoffs/codex-cursor/
 
 跨项目执行时：指令可指向目标仓路径（如 AICF）；RESULT 写回本仓 handoff 或目标仓约定 docs，**在 instruction 里写明回传路径**。
 
+目录内命名与操作顺序见 [`docs/handoffs/codex-cursor/README.md`](handoffs/codex-cursor/README.md)。
+
+### C. Watcher（可选）
+
+文件接力时可另开本机 Watcher，**只做控制台通知，不自动执行、不调用 Codex/Cursor API、不写 git**：
+
+```text
+powershell -NoProfile -File scripts\watch-codex-cursor-handoff.ps1
+```
+
+- 监视目录：`docs/handoffs/codex-cursor/`
+- 已实现：R1 轮询/防抖/忽略模板；R2 持久去重 state + 单实例锁  
+  （运行时 `.watcher-state.json` / `.watcher.lock` 已 gitignore，勿提交）
+- 方案、边界与验收：[`docs/codex-cursor-watcher-mvp.md`](codex-cursor-watcher-mvp.md)
+- Toast（R3）仍为可选，未要求本协议依赖
+
 ## 4. 指令模板：`CODEX_INSTRUCTION`
 
 复制填写；一项指令只做一件事。
@@ -219,5 +235,8 @@ Codex 输出简短判责块（可写入下一轮 instruction 的「背景」）�
 - `docs/definition-of-done.md` — 完成标准  
 - `docs/risk-approval.md` — 高风险审批  
 - `docs/push-fallback.md` — 推送失败降级  
+- `docs/handoffs/codex-cursor/README.md` — 文件接力目录规范  
+- `docs/codex-cursor-watcher-mvp.md` — Watcher MVP 方案（可选通知器）  
+- `scripts/watch-codex-cursor-handoff.ps1` — Watcher R1/R2 脚本  
 - `AGENTS.md` — Codex 仓库级规则  
 - `.cursor/rules/ai-workflow.mdc` — Cursor 执行规范  
