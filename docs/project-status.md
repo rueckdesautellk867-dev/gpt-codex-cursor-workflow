@@ -339,7 +339,10 @@
 - `D:\AIContentFactory` **14 天观察**（08-09→08-22）每天 3 篇人工发布；自动发布/抓取/F4/日更仍禁止
 - `D:\AIContentFactory` 作品池：`content_pool/xhs_manual_publish`；政策/计划在 AICF `docs/manual-publish-*.md`
 - `D:\AIContentFactory` 合规采集降级与隔离 A **继续保留**；不写凭证
-- `D:\AIContentFactory` 代码仓当前 **tip=`18b3408`=`origin/main`**（本轮总结未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
+- `D:\AIContentFactory` **RISK/BANNED 文档封存已 push**：`5abdaa9..62a54e4`；可调用基线 **`62a54e4`=`origin/main`**
+- `D:\AIContentFactory` Account gate：**RISK / BANNED**；复抓锚点 08-12 / 08-16 已取消为推进前置
+- `D:\AIContentFactory` RISK 调用入口总结：本仓 `docs/2026-08-09-aicf-risk-banned-pushed-baseline.md`
+- `D:\AIContentFactory` 代码仓 tip=`62a54e486a8e8d1f30ef39f76f861c934d659d48`=`origin/main`；本地仍可有 `settings_env.py` + freeze20/publish + 历史 `docs/pilot-log.md`（**不提交**）
 
 ## 当前限制
 
@@ -353,10 +356,11 @@
 
 ## 下一步建议
 
-1. **AICF 手动发布运营中**：今日 3 篇已发；14 天观察进行中
-2. **调用入口**：作品池 / 今日包 / 截图 / 政策 / 14 天计划 — 见 `docs/2026-08-09-aicf-manual-publish-shift-summary.md`
-3. **下一步（AICF）**：补 note_url；次日 3 篇包；维持 ready≥21
-4. 自动发布/抓取/F4/日更仍禁止；2 周后再评估草稿箱文案直发
+1. **调用 AICF 远端基线**：`62a54e4` — RISK/BANNED 封存 + 人工发布运营并行；见 `docs/2026-08-09-aicf-risk-banned-pushed-baseline.md`
+2. **AICF 手动发布运营中**：今日 3 篇已发；14 天观察进行中 — 见 `docs/2026-08-09-aicf-manual-publish-shift-summary.md`
+3. **调用入口（AICF）**：`SEAL_RISK_BANNED_*` / `compliance-recovery-entry-*` / `pilot-log-risk-banned-*` / `manual-publish-*` / 作品池路径
+4. **下一步（AICF）**：合规恢复文档与人工观察；补 note_url；次日 3 篇包；维持 ready≥21
+5. 禁止仍有效：不发布（未另授）、不抓取、不跑 F4、不创建 publish_task/plan、不写凭证、不删平台内容、不提交 settings_env / freeze20/publish 脏态
 
 ## 复制到其它项目时
 
