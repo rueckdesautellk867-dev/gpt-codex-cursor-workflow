@@ -1321,3 +1321,7 @@ GUI 检查停在登录墙（`creator.xiaohongshu.com/login`）；未进创作者
 
 用户确认：只做本地作品池与文档准备，不打开平台。AICF 已为 Day 2 准备 `daily_queue/2026-08-10/` 三篇（GC130/131/132 · R0 · queued）；ready=39（≥21）；08-09 note_url/note_id 仍待用户补充。本仓新建 `docs/2026-08-10-aicf-manual-publish-prep.md` 记锚点与调用入口；不替代 AICF 业务执行。未发布、未抓取、未跑 F4、未建 publish_task/plan。
 
+## T014 目标项目：AICF 2026-08-10 人工发布交接页入口
+
+用户确认：只做交接页与文档整理，不打开平台、不发布。AICF 新建 `docs/manual-publish-handoff-2026-08-10.md`（三篇路径、回填模板、08-09 待补提醒）。本仓新建 `docs/2026-08-10-aicf-manual-publish-handoff.md` 记入口；不替代 AICF 执行。未发布、未上传、未抓取、未跑 F4。
+

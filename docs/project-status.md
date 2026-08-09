@@ -357,12 +357,13 @@
 ## 下一步建议
 
 1. **日终恢复入口**：`docs/2026-08-09-cross-project-final-seal-index.md` → AICF `docs/2026-08-09-final-seal-index.md`
-2. **08-10 Day 2 准备锚点**：`docs/2026-08-10-aicf-manual-publish-prep.md`（本地包 GC130/131/132；发布须用户手动）
-3. **调用 AICF 远端基线**：`ccd9745`（日终索引 tip；后续以 push 后 tip 为准）— RISK/BANNED + 人工发布并行
-4. **AICF 手动发布运营中**：08-09 三篇已发；14 天观察 Day 2 准备已落地 — 见 `docs/2026-08-09-aicf-manual-publish-shift-summary.md`
-5. **调用入口（AICF）**：`SEAL_RISK_BANNED_*` / `manual-publish-14day-*` / `daily_queue/2026-08-10/` / 作品池路径
-6. **下一步（AICF·用户）**：手动发 08-10 三篇；补 08-09 note_url/24h；维持 ready≥21
-7. 禁止仍有效：不发布（未另授）、不抓取、不跑 F4、不创建 publish_task/plan、不写凭证、不删平台内容、不提交 settings_env / freeze20/publish 脏态
+2. **08-10 交接页入口**：`docs/2026-08-10-aicf-manual-publish-handoff.md` → AICF `docs/manual-publish-handoff-2026-08-10.md`
+3. **08-10 Day 2 准备锚点**：`docs/2026-08-10-aicf-manual-publish-prep.md`（本地包 GC130/131/132）
+4. **调用 AICF 远端基线**：`f665b4e`（08-10 prep tip；后续以 push 后 tip 为准）— RISK/BANNED + 人工发布并行
+5. **AICF 手动发布运营中**：等待用户按 handoff 手动发布并回填 — 见 `docs/2026-08-09-aicf-manual-publish-shift-summary.md`
+6. **调用入口（AICF）**：`manual-publish-handoff-2026-08-10.md` / `daily_queue/2026-08-10/` / 作品池路径
+7. **下一步（AICF·用户）**：按交接页手动发 08-10 三篇并回填；补 08-09 note_url/24h；维持 ready≥21
+8. 禁止仍有效：不发布（未另授）、不抓取、不跑 F4、不创建 publish_task/plan、不写凭证、不删平台内容、不提交 settings_env / freeze20/publish 脏态
 
 ## 复制到其它项目时
 
