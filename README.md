@@ -14,7 +14,7 @@
 
 ## 项目目标
 
-建立以代码仓库、任务系统、CI 和评审规则为中心的 GPT + Codex + Cursor 三方 AI 研发闭环。
+建立可复用的 GPT + Codex + Cursor 三方 AI 研发闭环：以代码仓库、任务系统、CI 与评审规则为中心，做到需求可拆解、改动可验证、风险可确认、结果可回流；Codex 与 Cursor 可通过结构化指令/回传完成局部执行接力（见 [docs/codex-cursor-loop.md](docs/codex-cursor-loop.md)）。
 
 ## 三方分工
 
