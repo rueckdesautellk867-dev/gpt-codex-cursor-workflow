@@ -6,8 +6,9 @@
 |----|------|
 | 项目名称 | 三方闭环整合项目 |
 | 当前版本 | v0.11 已完成，模板化复制落地包已建立 |
-| 当前工作区 | `D:\三方闭环整合项目\` |
-| 远程仓库 | `https://github.com/rueckdesautellk867-dev/gpt-codex-cursor-workflow.git` |
+| 当前工作区（主仓） | `D:\AIContentFactory\三方闭环整合项目\` |
+| 旧副本（legacy，非主入口） | `D:\三方闭环整合项目\`（暂不删除、未建 junction） |
+| 远程仓库 | `https://github.com/rueckdesautellk867-dev/gpt-codex-cursor-workflow.git`（与 AICF 业务仓独立） |
 
 版本明细见 [`docs/release-notes.md`](release-notes.md)；操作顺序见 [`docs/runbook.md`](runbook.md)。
 

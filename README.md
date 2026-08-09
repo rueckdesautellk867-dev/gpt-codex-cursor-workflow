@@ -2,6 +2,16 @@
 
 以代码仓库、任务系统、CI、评审规则为中心的 AI 协作工程规范。
 
+## 本地路径（2026-08-09）
+
+| 角色 | 路径 |
+|------|------|
+| **主仓（请用此路径）** | `D:\AIContentFactory\三方闭环整合项目\` |
+| 旧副本（legacy copy，非主入口） | `D:\三方闭环整合项目\`（暂不删除；未建 junction） |
+| AICF 业务仓（独立 git） | `D:\AIContentFactory\repo\AIContentFactory\` |
+
+工作区说明见：`D:\AIContentFactory\WORKSPACE_LAYOUT.md`。勿将本仓 flatten 并入 AICF 业务仓。
+
 ## 项目目标
 
 建立以代码仓库、任务系统、CI 和评审规则为中心的 GPT + Codex + Cursor 三方 AI 研发闭环。
