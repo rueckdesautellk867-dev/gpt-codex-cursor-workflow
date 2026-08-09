@@ -357,7 +357,8 @@
 ## 下一步建议
 
 > **STOP: waiting for 2026-08-10 result log fill; do not create 08-11 queue.**  
-> 暂停入口：`docs/2026-08-10-aicf-pause-until-result-filled.md`
+> 暂停入口：`docs/2026-08-10-aicf-pause-until-result-filled.md`  
+> STOP 只读自检：`docs/2026-08-10-aicf-stop-readonly-check.md`
 
 1. **日终恢复入口**：`docs/2026-08-09-cross-project-final-seal-index.md` → AICF `docs/2026-08-09-final-seal-index.md`
 2. **暂停推进入口**：`docs/2026-08-10-aicf-pause-until-result-filled.md` → AICF `docs/manual-publish-pause-until-0810-result-filled.md`
