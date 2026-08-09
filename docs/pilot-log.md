@@ -1333,3 +1333,7 @@ GUI 检查停在登录墙（`creator.xiaohongshu.com/login`）；未进创作者
 
 用户确认：只做文档；不创建 08-11 队列。AICF 新建 `docs/manual-publish-next-queue-gate-2026-08-11.md`：08-10 为等待回填态；08-11 queue gated；含确认句模板。本仓新建 `docs/2026-08-11-aicf-queue-gate.md`。未开平台、未发布、未抓取、未改作品池。
 
+## T014 目标项目：AICF 08-10 result log 回填说明
+
+用户确认：只做文档模板。AICF 新建 `docs/manual-publish-result-log-fill-guide-2026-08-10.md`（最小必填、可复制回填块、gate 判定、确认句）。本仓新建 `docs/2026-08-10-aicf-result-log-fill-guide.md`。未开平台、未发布、未建 08-11 队列、未改 pool_index。
+
