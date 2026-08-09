@@ -333,13 +333,12 @@
 - `D:\AIContentFactory` **发布账号隔离 A 已推送** `c031e3d` → `origin/main`（显式账号 + `manual_confirm`；禁默认 `platform_1`/`id=1`；见 `docs/publisher-account-isolation-impl-a.md`）
 - `D:\AIContentFactory` **建档/session 隔离能力已推送** `eb4b5d3` → `origin/main`
 - `D:\AIContentFactory` **恢复发布号A 已建档**：`platform_account_id=2` / session=`platform_2` / ledger=`session:publisher_recovery_001`；凭证 NULL；未进采集。见 `docs/publisher-account-session-isolation.md`
-- `D:\AIContentFactory` **`platform_2` 浏览器登录态已建立**；本地 profile 继续承载人工登录态；DB 不保存明文凭证
-- `D:\AIContentFactory` **`platform_account_id=2` 已激活为 `active`**：保留为备用发布账号，**但不使用**；**不再执行首发测试**
-- `D:\AIContentFactory` **已确认进入本地存量 → platform_2 草稿箱阶段**（只存草稿、不发布）；见 `docs/platform-2-draft-migration-plan.md`
-- `D:\AIContentFactory` **本地可迁稿 45 篇**（Freeze21–29）；Freeze20×20 skipped；合规 blocked=0
-- `D:\AIContentFactory` **Batch A 已停**：GC126 `editor not ready`；saved_draft=0；草稿箱仍空；未扩批；见 `docs/platform-2-draft-migration-log.md`
-- `D:\AIContentFactory` 合规采集降级与发布账号隔离 A **继续保留**；**不发布、不跑 F4、不日更、不自动抓取**
-- `D:\AIContentFactory` 代码仓当前 **tip=`36435b3`=`origin/main`**（本轮迁稿文档未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
+- `D:\AIContentFactory` **`platform_account_id=2` DB 仍 `active`**；凭证 NULL；未进采集
+- `D:\AIContentFactory` **`platform_2` session 当前失效 / login wall**（GUI 检查跳转 `creator.xiaohongshu.com/login`）；未进后台；当前不能判断编辑器/暂存是否可用
+- `D:\AIContentFactory` **草稿迁入 Batch A GC126 失败后冻结仍有效**；saved_draft=0；不重试、不扩批、不发布；见 `docs/platform-2-draft-migration-log.md`
+- `D:\AIContentFactory` 本地可迁稿仍为 45（Freeze21–29）；Freeze20 skipped
+- `D:\AIContentFactory` 合规采集降级与发布账号隔离 A **继续保留**；**不自动登录、不写凭证、不跑 F4**
+- `D:\AIContentFactory` 代码仓当前 **tip=`8f715b1`=`origin/main`**（本轮 GUI 回写未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
 
 ## 当前限制
 
@@ -353,10 +352,10 @@
 
 ## 下一步建议
 
-1. **停止新笔记生产与发布**：不迁稿、不重建草稿；`platform_2` 备用不用且**草稿箱为空**
-2. **AICF tip=`36435b3`**：草稿迁入 Batch A 暂停；saved_draft=0
-3. **下一人工入口**：确认 `platform_2` 上传图文编辑器可手动暂存 → 再授权重试 GC126
-4. 公开发布 / F4 仍须另行完整确认；Freeze30+ 默认不立项
+1. **停止公开发布**；草稿迁入继续冻结；`platform_2` session 失效
+2. **AICF tip=`8f715b1`**：saved_draft=0；GUI 检查 login wall
+3. **下一步是用户人工重新登录 platform_2** → 再做上传图文/暂存检查 → 正常后再用新确认句重试 GC126
+4. 不自动登录、不写凭证、不重试、不扩批、不发布；F4 另确认
 
 ## 复制到其它项目时
 

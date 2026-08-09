@@ -1297,3 +1297,7 @@ HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 
 
 用户确认进入「本地存量笔记迁入 platform_2 草稿箱」：只存草稿、不发布、不用 platform_1。本地核验 Freeze21–29 **45** 篇 ready，Freeze20×20 skipped，合规 blocked=0。Batch A 首篇 GC126 失败（`cover upload failed: editor not ready after upload`）后按规则立即停止；saved_draft=0；`clicked_publish=false`；未扩 Batch B。计划/日志见 AICF `docs/platform-2-draft-migration-plan.md`、`docs/platform-2-draft-migration-log.md`。下一人工入口：确认创作者编辑器可手动暂存后再授权重试。
 
+## T014 目标项目 GUI 检查：platform_2 登录态失效，草稿迁入继续冻结
+
+GUI 检查停在登录墙（`creator.xiaohongshu.com/login`）；未进创作者后台、未进上传图文编辑器、未上传、未暂存、未发布、未重试 GC126；未观察到禁发提示（因未进后台）。**platform_2 session 当前失效 / login wall**；Batch A GC126 失败后冻结仍有效；**当前不能判断**编辑器/暂存是否可用。截图：`tmp_freeze20/reports/platform2_gui_check/20260809T055941Z/`。下一步是用户**人工重新登录 platform_2**；不自动登录、不写凭证、不重试、不扩批、不发布。
+
