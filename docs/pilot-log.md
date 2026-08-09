@@ -1317,3 +1317,7 @@ GUI 检查停在登录墙（`creator.xiaohongshu.com/login`）；未进创作者
 
 用户确认：仅同步文档，使三方闭环可调用 AICF 当前远端基线；不做平台动作。AICF 已 push `5abdaa9..62a54e4`：`c2adb03`（seal RISK BANNED）+ `62a54e4`（pilot log snapshot）；可调用 tip **`62a54e486a8e8d1f30ef39f76f861c934d659d48`**=`origin/main`。本仓新建 `docs/2026-08-09-aicf-risk-banned-pushed-baseline.md`；更新 `project-status` / `pilot-log`。三方闭环作用：跨项目锚点、执行边界、后续调用入口。禁止仍有效：不发布、不抓取、不跑 F4、不创建 publish_task/plan、不写凭证、不删平台内容、不提交 AICF `settings_env.py` / freeze20/publish 脏态。本轮不改 AICF 仓库、不触碰 AICF 工作区。
 
+## T014 目标项目：AICF 2026-08-10 人工发布准备（仅本地+文档）
+
+用户确认：只做本地作品池与文档准备，不打开平台。AICF 已为 Day 2 准备 `daily_queue/2026-08-10/` 三篇（GC130/131/132 · R0 · queued）；ready=39（≥21）；08-09 note_url/note_id 仍待用户补充。本仓新建 `docs/2026-08-10-aicf-manual-publish-prep.md` 记锚点与调用入口；不替代 AICF 业务执行。未发布、未抓取、未跑 F4、未建 publish_task/plan。
+
