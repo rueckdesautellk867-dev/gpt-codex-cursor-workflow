@@ -328,6 +328,10 @@
 - `D:\AIContentFactory` 已完成 T335：08-09 观察节点 formal 复抓仍记 **WATCH**（未发布、未跑 F4）
 - `D:\AIContentFactory` **策略变更**：T335 后 **复抓环节取消为推进前置**；**项目进入实施状态**；见目标项目 `docs/implementation-entry-after-t335.md`
 - `D:\AIContentFactory` T336 **失败**：LIT-51/GC166 发布被拒（**因违反社区规范禁止发笔记**）；已停发；见 `docs/manual-publish-gc166-blocked-t336.md`
+- `D:\AIContentFactory` T337：账号限制只读观察（「账号状态异常」）；维持停发
+- `D:\AIContentFactory` **合规采集降级已推送** `a983c79` → `origin/main`（自动抓取默认禁用；见 `docs/xhs-compliant-data-collection-mode.md`）
+- `D:\AIContentFactory` **发布账号隔离 A 已推送** `c031e3d` → `origin/main`（显式账号 + `manual_confirm`；禁默认 `platform_1`/`id=1`；见 `docs/publisher-account-isolation-impl-a.md`）
+- `D:\AIContentFactory` 代码仓当前 **tip=`c031e3d`=`origin/main`**（`0 0`）；工作区残留仅 `settings_env.py` + 冻结 `??`×4（不提交）
 
 ## 当前限制
 
@@ -341,10 +345,10 @@
 
 ## 下一步建议
 
-1. **T336 停发**：平台禁止发笔记（目标项目 `docs/manual-publish-gc166-blocked-t336.md`）；闸门仍记 **WATCH**；**不自动 STABLE**
-2. **小红书数据采集降级为合规/人工研究辅助**（目标项目 `docs/xhs-compliant-data-collection-mode.md`）；不增强爬虫；P1-A 等自动抓取默认禁用
-3. 禁发解除前不做公开发布；再发须新确认句；**F4 / 日更**仍须另授
-4. Freeze30+ 是否立项：**等待新确认句**；本仓 tip 以 `origin/main` 为准
+1. **仍停发**（T336/T337）：旧号风险未解除前不复用旧号；不重试、不换发；闸门仍记 **WATCH**；**不自动 STABLE**
+2. **AICF 主线已收口**：合规降级 `a983c79` + 隔离 A `c031e3d` 均已在 `origin/main`；数据侧仅合规手动研究 / 只读历史；发布须显式账号 + `manual_confirm`
+3. **下一阶段=发布恢复实战准备态**（非自动发布）：新 publisher 独立 session 准备；再发须新完整确认句；**F4 / 日更 / migration B / 自动抓取恢复**均须另授
+4. Freeze30+ 是否立项：**等待新确认句**；本仓 tip 以 `origin/main` 为准（本轮文档收口后另提交）
 
 ## 复制到其它项目时
 

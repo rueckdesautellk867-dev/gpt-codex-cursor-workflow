@@ -1247,5 +1247,13 @@ HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 
 
 ## T014 目标项目小红书数据采集降级为合规/人工研究辅助
 
-用户确认将小红书数据抓取能力整体降级：停止增强爬虫；P1-A/爬虫调度/Browser 采集等默认禁用；保留历史 CSV 为研究资料（不自动刷新、不联动发布）；新增人工研究录入模板；发布与采集解耦。见目标项目 `docs/xhs-compliant-data-collection-mode.md`。未发布、未跑 F4、未真跑抓取。
+用户确认将小红书数据抓取能力整体降级：停止增强爬虫；P1-A/爬虫调度/Browser 采集等默认禁用；保留历史 CSV 为研究资料（不自动刷新、不联动发布）；新增人工研究录入模板；发布与采集解耦。见目标项目 `docs/xhs-compliant-data-collection-mode.md`。未发布、未跑 F4、未真跑抓取。随后代码落主线并 push：`a983c79`。
+
+## T014 目标项目发布账号隔离 A 落主线（AIContentFactory `c031e3d`）
+
+用户确认进入隔离实现 A（不做 migration、不写凭证、不发布、不跑 F4）。已落地：显式 `platform_account_id` / 非 `platform_1` 的 `session_key` + `manual_confirm`；禁默认 `platform_1`/`id=1`；restricted/disabled/inactive 拒发；publisher 不进采集队列；`account_selector` 不再自动选号。已 **push** → AICF `origin/main` tip=`c031e3d`（`HEAD=origin/main`，`0 0`）。见目标项目 `docs/publisher-account-isolation-impl-a.md`。未发布、未重试 GC166、未提交冻结 `??` / `settings_env.py`。
+
+## T014 合规降级 + 隔离 A 收口同步（文档/Obsidian/闭环）
+
+用户确认只更新文档与状态：AICF 文档、Obsidian 决策/复盘、本仓 `pilot-log`/`project-status`。统一为：**仍停发**；发布恢复实战准备态（非自动发）；不启日更、不升 STABLE、不恢复自动抓取、不做 migration B。未开发新功能、未发布、未跑 F4、未写凭证。
 
