@@ -326,7 +326,8 @@
 - `D:\AIContentFactory` 已完成 T333：F3 batch **166–170**（5/5 confirmed；未发布）
 - `D:\AIContentFactory` 已完成 T334：Freeze29 166–170 草稿箱收口（只文档；F4 仍冻结）
 - `D:\AIContentFactory` 已完成 T335：08-09 观察节点 formal 复抓仍记 **WATCH**（未发布、未跑 F4）
-- `D:\AIContentFactory` **策略变更**：T335 后 **复抓环节取消为推进前置**；**项目进入实施状态**；WATCH 不阻塞非发布实施；见目标项目 `docs/implementation-entry-after-t335.md`
+- `D:\AIContentFactory` **策略变更**：T335 后 **复抓环节取消为推进前置**；**项目进入实施状态**；见目标项目 `docs/implementation-entry-after-t335.md`
+- `D:\AIContentFactory` T336 **失败**：LIT-51/GC166 发布被拒（**因违反社区规范禁止发笔记**）；已停发；见 `docs/manual-publish-gc166-blocked-t336.md`
 
 ## 当前限制
 
@@ -340,8 +341,8 @@
 
 ## 下一步建议
 
-1. **项目进入实施状态**（目标项目 `docs/implementation-entry-after-t335.md`）：**复抓环节取消为推进前置**；闸门仍记 **WATCH**（历史风险状态，不阻塞非发布实施）；**不自动 STABLE**
-2. **公开发布 / F4 / 日更自动发 仍需用户单独明确授权**；第一批次方案为 1 条图文（LIT-51/GC166），未执行发布
+1. **T336 发布失败**：平台禁止发笔记 → **停发**（目标项目 `docs/manual-publish-gc166-blocked-t336.md`）；闸门仍记 **WATCH**；**不自动 STABLE**
+2. 禁发解除前不做公开发布；再发须新确认句；**F4 / 日更**仍须另授
 3. Freeze30+ 是否立项：**等待新确认句**；F4/日更/P1-A详情/分支保护按 T298 维持
 4. 本仓 tip 以 `origin/main` 为准；Desktop 仅作兜底
 
