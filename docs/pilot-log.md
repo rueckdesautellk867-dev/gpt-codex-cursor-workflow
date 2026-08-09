@@ -1285,3 +1285,7 @@ HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 
 
 用户确认回写：新发布账号 `platform_2` 草稿箱为空。Freeze28/29 本地清单 10 篇（`docs/draft-box-inventory-sample-10.md`）仅为**本地草稿候选档案，不是 platform_2 草稿箱内容**；不得表述为新号草稿箱中存在这 10 篇。旧账号/旧流程草稿箱状态仍待人工核对。**不自动迁移旧稿到 platform_2**；**不重建草稿**；**不发布**。如未来需要把旧稿迁入新账号草稿箱，必须另行立项、单独确认，并先做合规重审。本轮只改文档，不抓取、不跑 F4。
 
+## T014 目标项目进入自动续做式存量维护
+
+用户授权：在只读/文档/本地档案整理/状态同步/commit/push 范围内自主推进，高风险动作仍须单独确认。已建立 `docs/existing-note-maintenance-continuation-protocol.md`；扩展已发存量 batch-02…08 空模板；建立 `docs/local-draft-candidate-archive-index.md`（Freeze20–29 本地索引）。**已进入自动续做式存量维护**；只读/文档/本地档案类任务可继续推进；发布/迁稿/抓取/F4 等仍需用户单独确认；下一人工入口是填 batch 数据或提供截图。
+
