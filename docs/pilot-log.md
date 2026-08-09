@@ -1293,3 +1293,7 @@ HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 
 
 从本地 Freeze20–29 closeout/CSV/bodies 补全 `docs/local-draft-candidate-archive-index.md`：Freeze21–29 **45** 篇标题已抄录；Freeze20 **20** 篇因无本地标题表标 **待人工确认**（不编造）。未打开平台、未抓取、未填已发存量 batch。下一人工入口仍为填 batch / 交截图，或补 Freeze20 标题。
 
+## T014 目标项目进入 platform_2 草稿迁入并在 Batch A 暂停
+
+用户确认进入「本地存量笔记迁入 platform_2 草稿箱」：只存草稿、不发布、不用 platform_1。本地核验 Freeze21–29 **45** 篇 ready，Freeze20×20 skipped，合规 blocked=0。Batch A 首篇 GC126 失败（`cover upload failed: editor not ready after upload`）后按规则立即停止；saved_draft=0；`clicked_publish=false`；未扩 Batch B。计划/日志见 AICF `docs/platform-2-draft-migration-plan.md`、`docs/platform-2-draft-migration-log.md`。下一人工入口：确认创作者编辑器可手动暂存后再授权重试。
+

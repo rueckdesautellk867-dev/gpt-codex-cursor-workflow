@@ -335,12 +335,11 @@
 - `D:\AIContentFactory` **恢复发布号A 已建档**：`platform_account_id=2` / session=`platform_2` / ledger=`session:publisher_recovery_001`；凭证 NULL；未进采集。见 `docs/publisher-account-session-isolation.md`
 - `D:\AIContentFactory` **`platform_2` 浏览器登录态已建立**；本地 profile 继续承载人工登录态；DB 不保存明文凭证
 - `D:\AIContentFactory` **`platform_account_id=2` 已激活为 `active`**：保留为备用发布账号，**但不使用**；**不再执行首发测试**
-- `D:\AIContentFactory` **关键修正：`platform_2` 草稿箱为空**；Freeze28/29 本地 10 篇为本地草稿候选档案，**不是 platform_2 草稿箱内容**；见 `docs/draft-box-inventory-sample-10.md`、`docs/local-draft-candidate-archive-index.md`
-- `D:\AIContentFactory` **已进入自动续做式存量维护**：只读/文档/本地档案类任务可继续推进；发布/迁稿/抓取/F4 等仍需用户单独确认；见 `docs/existing-note-maintenance-continuation-protocol.md`
-- `D:\AIContentFactory` **本地草稿候选索引已补全**：Freeze21–29 **45** 篇标题已从 bodies/CSV 抄录；Freeze20 **20** 篇标题仍待人工确认
-- `D:\AIContentFactory` **当前进入存量图文盘点 / 复盘 / 风险观察**：约 80 篇为主要资产；batch-01…08 空模板已就绪（待人工填数据）
-- `D:\AIContentFactory` 合规采集降级与发布账号隔离 A **继续保留为安全底座**；**不新增笔记，不首发 platform_2**；**不自动采集，不发布，不跑 F4**；不迁稿、不重建草稿
-- `D:\AIContentFactory` 代码仓当前 **tip=`7ad1761`=`origin/main`**（本轮索引补全未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
+- `D:\AIContentFactory` **已确认进入本地存量 → platform_2 草稿箱阶段**（只存草稿、不发布）；见 `docs/platform-2-draft-migration-plan.md`
+- `D:\AIContentFactory` **本地可迁稿 45 篇**（Freeze21–29）；Freeze20×20 skipped；合规 blocked=0
+- `D:\AIContentFactory` **Batch A 已停**：GC126 `editor not ready`；saved_draft=0；草稿箱仍空；未扩批；见 `docs/platform-2-draft-migration-log.md`
+- `D:\AIContentFactory` 合规采集降级与发布账号隔离 A **继续保留**；**不发布、不跑 F4、不日更、不自动抓取**
+- `D:\AIContentFactory` 代码仓当前 **tip=`36435b3`=`origin/main`**（本轮迁稿文档未提交前工作区另有 docs 改动）；残留另含 `settings_env.py` + 冻结 `??`×4（不提交）
 
 ## 当前限制
 
@@ -355,9 +354,9 @@
 ## 下一步建议
 
 1. **停止新笔记生产与发布**：不迁稿、不重建草稿；`platform_2` 备用不用且**草稿箱为空**
-2. **AICF tip=`7ad1761`**：已进入自动续做式存量维护；本地索引 Freeze21–29×45 标题已补全；batch-01…08 空模板齐
-3. **下一人工入口**：填 batch 数据或提供截图 → `docs/existing-note-inventory-batch-01.md` 起；或补 Freeze20 标题
-4. 若迁稿或重新发布：**另行立项、单独确认，并先做合规重审**；Freeze30+ 默认不立项
+2. **AICF tip=`36435b3`**：草稿迁入 Batch A 暂停；saved_draft=0
+3. **下一人工入口**：确认 `platform_2` 上传图文编辑器可手动暂存 → 再授权重试 GC126
+4. 公开发布 / F4 仍须另行完整确认；Freeze30+ 默认不立项
 
 ## 复制到其它项目时
 
