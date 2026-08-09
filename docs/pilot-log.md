@@ -1301,3 +1301,7 @@ HTTPS `github.com:443` 间歇失败；`gh` 设备登录后仍不稳定。本仓 
 
 GUI 检查停在登录墙（`creator.xiaohongshu.com/login`）；未进创作者后台、未进上传图文编辑器、未上传、未暂存、未发布、未重试 GC126；未观察到禁发提示（因未进后台）。**platform_2 session 当前失效 / login wall**；Batch A GC126 失败后冻结仍有效；**当前不能判断**编辑器/暂存是否可用。截图：`tmp_freeze20/reports/platform2_gui_check/20260809T055941Z/`。下一步是用户**人工重新登录 platform_2**；不自动登录、不写凭证、不重试、不扩批、不发布。
 
+## T014 目标项目紧急停止：platform_2 草稿箱图片持久化失败
+
+用户确认：草稿箱上传图片再次打开后消失。判定 **`draft_image_persistence_failed`**；**platform_2 草稿箱不能作为可靠迁稿仓库**；迁稿计划 **`suspended`**；禁止继续 Batch A/B、补传、重试。**upload_staging 是当前唯一可信本地存放路径**。本轮只读/文档收口；不上传、不发布、不改脚本、不写凭证。问题单：AICF `docs/platform-2-draft-image-persistence-issue.md`。后续须人工验证（手动上传→明确暂存→关闭重开→图片仍在，连续 ≥2 次）后，才可再议迁稿。
+
