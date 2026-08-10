@@ -239,6 +239,7 @@ Codex 输出简短判责块（可写入下一轮 instruction 的「背景」）�
 - `docs/push-fallback.md` — 推送失败降级  
 - `docs/handoffs/codex-cursor/README.md` — 文件接力目录规范  
 - `docs/codex-cursor-watcher-mvp.md` — Watcher MVP 方案（可选通知器）  
-- `scripts/watch-codex-cursor-handoff.ps1` — Watcher R1/R2 脚本  
+- `docs/codex-cursor-loop-status-roadmap.md` — 基础层状态与下一阶段路线图
+- `scripts/watch-codex-cursor-handoff.ps1` — Watcher R1/R2/R3 脚本
 - `AGENTS.md` — Codex 仓库级规则  
 - `.cursor/rules/ai-workflow.mdc` — Cursor 执行规范  
