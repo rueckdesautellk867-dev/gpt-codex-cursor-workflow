@@ -61,7 +61,7 @@
 |------|------|
 | **R0** | 人工根据 result 手动补 INDEX（现流程） |
 | **R1（已实现）** | [`scripts/suggest-codex-cursor-index.ps1`](../../../scripts/suggest-codex-cursor-index.ps1)：只读打印建议行 + warnings；**不写** INDEX |
-| **写入 INDEX** | 必须另开任务或用户明确授权「把建议合并进 INDEX」；助手本身永不静默改表 |
+| **写入 INDEX** | 必须另开任务或用户明确授权「把建议合并进 INDEX」；助手本身永不静默改表。**写入 [`INDEX.md`](INDEX.md) 前须按 [`SAFE_INDEX_APPLY.md`](SAFE_INDEX_APPLY.md) 人工确认**（建议 → 挑选 → 写入前/后检查）；不得跳过该流程 |
 
 与队列脚本关系：可先 `list-codex-cursor-queue.ps1` 看待判，再用本助手检查 INDEX 是否漏行——二者都只读。
 
@@ -94,12 +94,13 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\suggest-codex-cursor
 
 ---
 
-## 5. 与 STATE / READONLY_QUEUE_SCRIPT 的关系
+## 5. 与 STATE / READONLY_QUEUE_SCRIPT / SAFE_INDEX_APPLY 的关系
 
 | 文档 | 关系 |
 |------|------|
 | STATE | `status` **只能**使用状态机枚举；非法只警告 |
 | INDEX | 助手服务其维护；不取代人工 ownership |
+| [`SAFE_INDEX_APPLY.md`](SAFE_INDEX_APPLY.md) | **写入 INDEX 的安全流程入口**：只读建议之后，须按该文档人工确认再改 [`INDEX.md`](INDEX.md)；本助手 / suggest 脚本均不自动写入 |
 | READONLY_QUEUE_SCRIPT | 复用文件名/正文字段解析；队列偏「待判责」，助手偏「INDEX 是否同步」 |
 | QUEUE / 判责半自动 | 不替代判责；不因建议行自动 pass |
 
@@ -137,6 +138,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts\suggest-codex-cursor
 ## 9. 相关文件
 
 - [`scripts/suggest-codex-cursor-index.ps1`](../../../scripts/suggest-codex-cursor-index.ps1) — R1 INDEX 建议脚本
+- [`SAFE_INDEX_APPLY.md`](SAFE_INDEX_APPLY.md) — 写入 [`INDEX.md`](INDEX.md) 前须按此流程人工确认（建议 → 挑选 → 检查 → 写入）
 - [`INDEX.md`](INDEX.md) · [`STATE.md`](STATE.md)  
 - [`READONLY_QUEUE_SCRIPT.md`](READONLY_QUEUE_SCRIPT.md) · [`scripts/list-codex-cursor-queue.ps1`](../../../scripts/list-codex-cursor-queue.ps1)  
 - [`QUEUE.md`](QUEUE.md) · [`RISK_GATE.md`](RISK_GATE.md)  
