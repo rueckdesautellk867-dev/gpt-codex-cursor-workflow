@@ -74,13 +74,15 @@ docs/handoffs/codex-cursor/
 
 ```text
 powershell -NoProfile -File scripts\watch-codex-cursor-handoff.ps1
+# optional desktop tip (falls back to console on failure):
+powershell -NoProfile -File scripts\watch-codex-cursor-handoff.ps1 -Toast
 ```
 
 - 监视目录：`docs/handoffs/codex-cursor/`
-- 已实现：R1 轮询/防抖/忽略模板；R2 持久去重 state + 单实例锁  
+- 已实现：R1 轮询/防抖/忽略模板；R2 持久去重 state + 单实例锁；R3 可选 `-Toast`
   （运行时 `.watcher-state.json` / `.watcher.lock` 已 gitignore，勿提交）
 - 方案、边界与验收：[`docs/codex-cursor-watcher-mvp.md`](codex-cursor-watcher-mvp.md)
-- Toast（R3）仍为可选，未要求本协议依赖
+- 默认仍只打控制台；`-Toast` 失败不得中断 watcher 主流程
 
 ## 4. 指令模板：`CODEX_INSTRUCTION`
 

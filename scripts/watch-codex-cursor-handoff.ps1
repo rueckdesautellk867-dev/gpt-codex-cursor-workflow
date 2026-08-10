@@ -1,15 +1,16 @@
 ﻿<#
 .SYNOPSIS
-  Watcher R1+R2: poll handoff dir, console notify, persistent dedupe, single-instance lock.
+  Watcher R1+R2+R3: poll handoff dir, console notify, optional Toast, state, lock.
 
 .DESCRIPTION
   Polls docs/handoffs/codex-cursor for stable *-instruction.md / *-result.md /
-  *-judgement.md files. Console only. Does not execute instructions, call APIs,
-  commit, push, or make network requests.
+  *-judgement.md files. Default channel is console. Does not execute instructions,
+  call APIs, commit, push, or make network requests.
 
-  Spec: docs/codex-cursor-watcher-mvp.md (R1 + R2)
+  Spec: docs/codex-cursor-watcher-mvp.md (R1 + R2 + R3)
   - R1: poll + debounce + ignore templates + console notify
   - R2: persistent .watcher-state.json + .watcher.lock single-instance
+  - R3: optional -Toast desktop tip; on failure fall back to console only
 
 .PARAMETER WatchDir
   Absolute or relative path to the handoff directory.
@@ -34,6 +35,10 @@
 
 .PARAMETER ForceUnlock
   If set, delete a stale/foreign lock before acquiring (use only when sure no other watcher runs).
+
+.PARAMETER Toast
+  Optional Windows toast/balloon tip in addition to console. Default off.
+  Toast failures are logged and never abort the watcher.
 #>
 param(
     [string]$WatchDir = '',
@@ -43,7 +48,8 @@ param(
     [switch]$RequireHeading,
     [string]$StateFile = '',
     [string]$LockFile = '',
-    [switch]$ForceUnlock
+    [switch]$ForceUnlock,
+    [switch]$Toast
 )
 
 Set-StrictMode -Version Latest
@@ -158,6 +164,55 @@ function Get-NotifyKey {
     return "$rel|$Size|$($MtimeUtc.Ticks)"
 }
 
+function Show-WatcherToast {
+    param(
+        [string]$Title,
+        [string]$Body
+    )
+    if (-not $Toast) { return }
+
+    $escTitle = [System.Security.SecurityElement]::Escape($Title)
+    $escBody = [System.Security.SecurityElement]::Escape($Body)
+
+    # 1) Prefer WinRT Toast (no extra modules)
+    try {
+        $null = [Windows.UI.Notifications.ToastNotificationManager, Windows.UI.Notifications, ContentType = WindowsRuntime]
+        $null = [Windows.Data.Xml.Dom.XmlDocument, Windows.Data.Xml.Dom, ContentType = WindowsRuntime]
+        $xml = @"
+<toast><visual><binding template="ToastGeneric"><text>$escTitle</text><text>$escBody</text></binding></visual></toast>
+"@
+        $doc = New-Object Windows.Data.Xml.Dom.XmlDocument
+        $doc.LoadXml($xml)
+        $appId = '{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe'
+        $notifier = [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier($appId)
+        $notification = [Windows.UI.Notifications.ToastNotification]::new($doc)
+        $notifier.Show($notification)
+        return
+    }
+    catch {
+        Write-WatchLog 'DEBUG' "WinRT toast unavailable: $($_.Exception.Message)"
+    }
+
+    # 2) Balloon tip fallback (still no new dependencies)
+    try {
+        Add-Type -AssemblyName System.Windows.Forms | Out-Null
+        Add-Type -AssemblyName System.Drawing | Out-Null
+        $ni = New-Object System.Windows.Forms.NotifyIcon
+        $ni.Icon = [System.Drawing.SystemIcons]::Information
+        $ni.Visible = $true
+        $tipBody = $Body
+        if ($tipBody.Length -gt 240) { $tipBody = $tipBody.Substring(0, 240) }
+        $ni.ShowBalloonTip(4000, $Title, $tipBody, [System.Windows.Forms.ToolTipIcon]::Info)
+        Start-Sleep -Milliseconds 600
+        $ni.Visible = $false
+        $ni.Dispose()
+        return
+    }
+    catch {
+        Write-WatchLog 'WARN' "Toast failed; console-only fallback. err=$($_.Exception.Message)"
+    }
+}
+
 function Emit-HandoffNotice {
     param(
         [string]$Path,
@@ -172,6 +227,14 @@ function Emit-HandoffNotice {
     Write-Host " task_id=$TaskId round=$Round"
     Write-Host " hint=$hint"
     Write-Host ''
+
+    # Optional desktop tip; never interrupts console notify / main loop
+    try {
+        Show-WatcherToast -Title ("handoff " + $Type) -Body ("task_id=$TaskId round=$Round`n$hint`n$Path")
+    }
+    catch {
+        Write-WatchLog 'WARN' "Toast wrapper failed; console-only fallback. err=$($_.Exception.Message)"
+    }
 }
 
 function Test-ProcessAlive {
@@ -310,7 +373,7 @@ function Save-WatcherState {
 Enter-WatcherLock -Path $LockFile -Force:$ForceUnlock
 Import-WatcherState -Path $StateFile
 
-Write-WatchLog 'INFO' "Watcher R2 started. watch=$WatchDir poll=${PollSeconds}s debounce=${DebounceSeconds}s requireHeading=$RequireHeading"
+Write-WatchLog 'INFO' "Watcher R3 started. watch=$WatchDir poll=${PollSeconds}s debounce=${DebounceSeconds}s requireHeading=$RequireHeading toast=$Toast"
 Write-WatchLog 'INFO' "state=$StateFile lock=$LockFile"
 Write-WatchLog 'INFO' 'Notify only. No execute / no git / no network. Ctrl+C to stop.'
 
@@ -394,5 +457,5 @@ try {
 }
 finally {
     try { Exit-WatcherLock } catch { Write-WatchLog 'WARN' "Lock release failed: $($_.Exception.Message)" }
-    Write-WatchLog 'INFO' 'Watcher R2 stopped.'
+    Write-WatchLog 'INFO' 'Watcher R3 stopped.'
 }
