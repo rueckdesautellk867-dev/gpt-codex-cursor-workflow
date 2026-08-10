@@ -90,6 +90,21 @@
 
 推进原则：先把 P1 用熟，再谈 P2；P3/P4 不得挤压 P1 的稳定性。
 
+### P1 使用记录（真实低风险文档任务）
+
+基础层已用于真实文档任务（不只是冒烟）。流程仍是：
+
+`CODEX_INSTRUCTION` →（可选 Watcher 通知）→ Cursor 执行 → `CURSOR_RESULT` → `CODEX_JUDGEMENT` → **人工授权**后才 commit/push。
+
+这不是自动执行 instruction，也不是 Codex↔Cursor 进程级互通。
+
+| 提交 | 任务 | 说明 |
+|------|------|------|
+| `674c36a` | 路线图入口补充 | 在 `docs/codex-cursor-loop.md` §9 增加本路线图链接 |
+| `25de00f` | handoff Watcher 使用提示 | 在 `docs/handoffs/codex-cursor/README.md` 增加启动命令与 `-Toast` 提示 |
+
+P1「至少 1～2 轮真实低风险文档任务」样例已满足；后续可继续同类任务，或另开任务评估可选 P2。
+
 ---
 
 ## 6. 风险闸门（硬）
