@@ -43,6 +43,8 @@
 | [AGENTS.md](AGENTS.md) | Codex 仓库级规则 |
 | [.cursor/rules/ai-workflow.mdc](.cursor/rules/ai-workflow.mdc) | Cursor 协作规则 |
 | [PR_CHECKLIST.md](PR_CHECKLIST.md) | 合并前检查清单 |
+| [docs/handoffs/codex-cursor/README.md](docs/handoffs/codex-cursor/README.md) | **Codex↔Cursor 默认使用入口**（半自动 + P1；P2 hold / P3·UI reject） |
+| [docs/handoffs/codex-cursor/FINAL_LOOP_AUTOMATION_CLOSEOUT.md](docs/handoffs/codex-cursor/FINAL_LOOP_AUTOMATION_CLOSEOUT.md) | 闭环自动化总收口 / 默认边界 |
 | [docs/ai-workflow.md](docs/ai-workflow.md) | 三方闭环流程详解 |
 | [docs/definition-of-done.md](docs/definition-of-done.md) | 完成标准 |
 | [docs/task-template.md](docs/task-template.md) | 标准任务模板 |

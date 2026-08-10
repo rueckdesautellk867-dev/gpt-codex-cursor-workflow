@@ -3,6 +3,29 @@
 本目录用于**可追溯**的文件接力（粘贴接力仍可用，见 `docs/codex-cursor-loop.md` §3）。  
 协议正文以 `docs/codex-cursor-loop.md` 为准；本文只约定本目录的命名、生命周期与操作顺序。
 
+## 当前默认使用入口（2026-08-10）
+
+> **一句话边界**：当前默认是**半自动文件/粘贴接力 + P1 草稿辅助**；**P2 hold**，**P3 reject**，**UI 自动化 reject**。
+> 远端收口锚点：`58831bd`（P2 hold closeout）。
+
+| 用途 | 文档 |
+|------|------|
+| **总入口 / 默认边界** | [`FINAL_LOOP_AUTOMATION_CLOSEOUT.md`](FINAL_LOOP_AUTOMATION_CLOSEOUT.md) |
+| 稳定半自动收口 | [`STABLE_SEMI_AUTO_CLOSEOUT.md`](STABLE_SEMI_AUTO_CLOSEOUT.md) |
+| Option B 一键观察 | [`ONE_SHOT_OBSERVER.md`](ONE_SHOT_OBSERVER.md) |
+| Pilot P1（草稿可用） | [`PROCESS_BRIDGE_PILOT_P1_CLOSEOUT.md`](PROCESS_BRIDGE_PILOT_P1_CLOSEOUT.md) |
+| Pilot P2（hold） | [`PROCESS_BRIDGE_PILOT_P2_HOLD_CLOSEOUT.md`](PROCESS_BRIDGE_PILOT_P2_HOLD_CLOSEOUT.md) |
+
+**主通道**：本目录文件接力 + 人工粘贴。
+**辅助观察**（仓库根执行）：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\show-codex-cursor-loop-status.ps1
+```
+
+**辅助草稿**：主仓外 sandbox P0/P1（见 P1 收口；不自动发送/执行）。
+**不要**：接 API/UI 桥、UI 自动化、自动判责、自动 commit/push。
+
 ## 命名
 
 ```text
