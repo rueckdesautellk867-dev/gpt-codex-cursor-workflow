@@ -3,7 +3,7 @@
 > **这是什么**：未来用**只读脚本**扫描本仓 handoff，汇总「待 Codex 判责」的 `*-result.md` 列表（Markdown 表或 JSON）。  
 > **这不是什么**：不是自动判责器；不改 result/INDEX/STATE；不 commit/push；不调 Codex/Cursor API。  
 > 队列语义对齐 [`QUEUE.md`](QUEUE.md)；状态对齐 [`STATE.md`](STATE.md)；风险仅提示见 [`RISK_GATE.md`](RISK_GATE.md)；判责流程见 [`CODEX_JUDGEMENT_SEMI_AUTO.md`](CODEX_JUDGEMENT_SEMI_AUTO.md)。  
-> **本轮只定方案，不写脚本。**
+> R1 脚本已实现：[`scripts/list-codex-cursor-queue.ps1`](../../../scripts/list-codex-cursor-queue.ps1)（只读；见 §5.1）。
 
 ---
 
@@ -70,10 +70,37 @@
 
 | 阶段 | 方式 |
 |------|------|
-| **R0（当前）** | 人工查看 [`QUEUE.md`](QUEUE.md) + INDEX + 打开 result；不跑脚本 |
-| **R1（未来）** | 实现只读脚本（建议路径另令，如 `scripts/list-handoff-judgement-queue.ps1`）；打印表/JSON；**另开 implement 任务**；默认不写文件，或只写 gitignore 产物 |
+| **R0** | 人工查看 [`QUEUE.md`](QUEUE.md) + INDEX + 打开 result；不跑脚本 |
+| **R1（已实现）** | [`scripts/list-codex-cursor-queue.ps1`](../../../scripts/list-codex-cursor-queue.ps1)：只读扫描、打印表/JSON；**不写** handoff / INDEX / STATE；不自动判责 |
 
 Watcher：**不**调用本脚本；不因通知自动判责。
+
+### 5.1 R1 脚本入口与用法
+
+脚本路径（相对主仓根）：
+
+```text
+scripts/list-codex-cursor-queue.ps1
+```
+
+在主仓根目录执行：
+
+```powershell
+# 默认：Markdown 表格 → stdout
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\list-codex-cursor-queue.ps1
+
+# JSON
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\list-codex-cursor-queue.ps1 -Json
+
+# 自定义 handoff 目录
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\list-codex-cursor-queue.ps1 -HandoffDir "D:\path\to\handoffs"
+```
+
+说明：
+
+- **只读**：不修改 handoff、INDEX、STATE，不写运行时文件
+- **不自动判责**：输出供 Codex/人工挑选；见 [`CODEX_JUDGEMENT_SEMI_AUTO.md`](CODEX_JUDGEMENT_SEMI_AUTO.md)
+- `-ExecutionPolicy Bypass` 为**进程级**参数，仅影响本次 `powershell` 调用，**不修改**系统/用户 ExecutionPolicy
 
 ---
 
@@ -87,12 +114,13 @@ Watcher：**不**调用本脚本；不因通知自动判责。
 
 ---
 
-## 7. 实现约束（给未来脚本任务）
+## 7. 实现约束（R1 脚本须遵守）
 
 1. 只读打开文件；无 `Set-Content` 写 handoff  
 2. 无网络、无新依赖（PowerShell 内置即可）  
 3. 单实例非必须；不抢 Watcher lock  
 4. 失败时非零退出并打日志，不得半写 INDEX  
+5. 不调用 Codex API / Cursor API；不改 watcher 行为
 
 ---
 
@@ -107,6 +135,7 @@ Watcher：**不**调用本脚本；不因通知自动判责。
 
 ## 9. 相关文件
 
+- [`scripts/list-codex-cursor-queue.ps1`](../../../scripts/list-codex-cursor-queue.ps1) — R1 只读队列脚本
 - [`QUEUE.md`](QUEUE.md) · [`STATE.md`](STATE.md) · [`INDEX.md`](INDEX.md)  
 - [`RISK_GATE.md`](RISK_GATE.md) · [`CODEX_JUDGEMENT_SEMI_AUTO.md`](CODEX_JUDGEMENT_SEMI_AUTO.md)  
 - [`AUTOMATION_STEPS_CLOSEOUT.md`](AUTOMATION_STEPS_CLOSEOUT.md)  
