@@ -2,7 +2,8 @@
 
 > **这是什么**：只读扫描 handoff 的 `*-instruction.md` / `*-result.md`，对照 [`STATE.md`](STATE.md) 与现有 [`INDEX.md`](INDEX.md)，**生成建议的 INDEX 行、diff 预览与 warnings**，供人工粘贴/核对。  
 > **这不是什么**：不是自动状态机；不自动改 `INDEX.md`；不自动判责；不自动 commit/push。  
-> 解析可复用 [`READONLY_QUEUE_SCRIPT.md`](READONLY_QUEUE_SCRIPT.md) / `scripts/list-codex-cursor-queue.ps1` 的思路；**本轮不写代码**。
+> 解析可复用 [`READONLY_QUEUE_SCRIPT.md`](READONLY_QUEUE_SCRIPT.md) / `scripts/list-codex-cursor-queue.ps1` 的思路。
+> R1 脚本已实现：[`scripts/suggest-codex-cursor-index.ps1`](../../../scripts/suggest-codex-cursor-index.ps1)（只读；见 §4.1）。
 
 ---
 
@@ -58,11 +59,38 @@
 
 | 阶段 | 方式 |
 |------|------|
-| **R0（当前）** | 人工根据 result 手动补 INDEX（现流程） |
-| **R1（未来）** | 只读脚本打印建议行 + diff + warnings；**另开 implement 任务**；默认不写 INDEX |
+| **R0** | 人工根据 result 手动补 INDEX（现流程） |
+| **R1（已实现）** | [`scripts/suggest-codex-cursor-index.ps1`](../../../scripts/suggest-codex-cursor-index.ps1)：只读打印建议行 + warnings；**不写** INDEX |
 | **写入 INDEX** | 必须另开任务或用户明确授权「把建议合并进 INDEX」；助手本身永不静默改表 |
 
 与队列脚本关系：可先 `list-codex-cursor-queue.ps1` 看待判，再用本助手检查 INDEX 是否漏行——二者都只读。
+
+### 4.1 R1 脚本入口与用法
+
+脚本路径（相对主仓根）：
+
+```text
+scripts/suggest-codex-cursor-index.ps1
+```
+
+在主仓根目录执行：
+
+```powershell
+# 默认：Markdown 建议表 + warnings → stdout
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\suggest-codex-cursor-index.ps1
+
+# JSON（含 suggestions / warnings）
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\suggest-codex-cursor-index.ps1 -Json
+
+# 自定义 handoff 目录
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\suggest-codex-cursor-index.ps1 -HandoffDir "D:\path\to\handoffs"
+```
+
+说明：
+
+- **只读**：不修改 `INDEX.md`，不修改任何 handoff 文件，不写运行时文件
+- **不自动应用建议**：输出仅供人工核对后另授写入
+- `-ExecutionPolicy Bypass` 为**进程级**参数，仅影响本次调用，**不修改**系统/用户 ExecutionPolicy
 
 ---
 
@@ -87,15 +115,14 @@
 
 ---
 
-## 7. 未来脚本接口草案（非本轮实现）
+## 7. 脚本行为摘要（已实现）
 
-```text
-scripts/suggest-handoff-index.ps1
-  [-HandoffDir <path>]
-  [-Json]
-```
-
-输出：Markdown 建议表 + warnings 段；退出码：有 warnings 可为 0（仍成功）或 2（可选表示需人工看）。
+| 项 | 约定 |
+|----|------|
+| 路径 | `scripts/suggest-codex-cursor-index.ps1` |
+| 输出 | Markdown 建议表 + `## warnings`；或 `-Json` |
+| 建议 status | 有 result 时保守为 `needs_codex_judgement`（INDEX 已更靠前则不回退） |
+| 退出码 | 扫描成功为 0；有 warnings 仍可为 0 |
 
 ---
 
@@ -109,6 +136,7 @@ scripts/suggest-handoff-index.ps1
 
 ## 9. 相关文件
 
+- [`scripts/suggest-codex-cursor-index.ps1`](../../../scripts/suggest-codex-cursor-index.ps1) — R1 INDEX 建议脚本
 - [`INDEX.md`](INDEX.md) · [`STATE.md`](STATE.md)  
 - [`READONLY_QUEUE_SCRIPT.md`](READONLY_QUEUE_SCRIPT.md) · [`scripts/list-codex-cursor-queue.ps1`](../../../scripts/list-codex-cursor-queue.ps1)  
 - [`QUEUE.md`](QUEUE.md) · [`RISK_GATE.md`](RISK_GATE.md)  
