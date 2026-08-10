@@ -3,6 +3,7 @@
 > **这是什么**：人工 / 半人工维护的任务索引，方便在 `*-result.md` 变多时快速定位。  
 > **这不是什么**：不是自动执行器，不替代 instruction/result，不驱动 Codex/Cursor，不自动 commit/push。  
 > 命名与操作顺序仍以 [`README.md`](README.md) 与 `docs/codex-cursor-loop.md` 为准。
+> **`status` 字段**与状态机对齐：见 [`STATE.md`](STATE.md)（Automation Step 1）。
 
 ## 1. 维护规则
 
@@ -22,20 +23,30 @@
 |------|------|
 | `task_id` | 与 instruction/result 文件名前缀一致 |
 | `round` | 如 `01` |
-| `status` | `done` / `blocked` / `need_confirm` / `open` 等（与 CURSOR_RESULT 对齐即可） |
+| `status` | 使用 [`STATE.md`](STATE.md) 枚举（见下节）；一行记**当前最远已达**状态 |
 | `result` | 相对本目录的 result 文件名（可点链接） |
 | `commit` | 已入库则填短 hash；未入库填 `-` |
-| `push` | `yes` / `no` / `n/a`（相对当时 `origin/main`） |
+| `push` | `yes` / `no` / `n/a`（相对当时 `origin/main`；与 `status=pushed` 应对齐） |
 | `note` | 一句话说明 |
 
 可选附加列（需要时再加，避免表过宽）：`mode`、`judgement`、`date`。
 
+### 2.1 状态字段约定
+
+- **新行推荐值**（摘自 STATE）：`draft` · `ready_for_cursor` · `cursor_done` · `needs_codex_judgement` · `passed` · `needs_continue` · `blocked` · `committed` · `pushed`
+- 已 **人工授权 push** 且远端对齐：`status=pushed`，且 `push=yes`、`commit` 填短 hash
+- 仅本地 commit：`status=committed`，`push=no`
+- 判责通过尚未入库：`status=passed`
+- **旧值映射**（历史行可不回填）：`done` ≈ 至少 `passed`；若当时已 push，视同 `pushed`；`open` ≈ `ready_for_cursor` 或 `needs_codex_judgement`；`need_confirm` ≈ `blocked`
+- INDEX **不**自动推进状态；Watcher **不**改本表
+
 ## 3. 何时更新
 
-1. **result 落盘后**：可先加一行，`commit=-`，`push=no`  
-2. **本地 commit 后**：补 `commit`  
-3. **push 成功后**：将 `push` 改为 `yes`  
-4. **判责 continue**：同一 `task_id` 可新开一行（提高 `round`），或在 `note` 标明多轮  
+1. **result 落盘后**：可先加一行，`status=cursor_done` 或 `needs_codex_judgement`，`commit=-`，`push=no`
+2. **判责后**：改为 `passed` / `needs_continue` / `blocked`
+3. **本地 commit 后**：`status=committed`，补 `commit`
+4. **push 成功后**：`status=pushed`，`push=yes`
+5. **判责 continue**：同一 `task_id` 可新开一行（提高 `round`）
 
 不在索引里执行任务；Watcher 通知与索引维护无关。
 
@@ -45,21 +56,22 @@
 
 | task_id | round | status | result | commit | push | note |
 |---------|-------|--------|--------|--------|------|------|
-| p1-real-doc-task-index-roadmap | 01 | done | [p1-real-doc-task-index-roadmap-r01-result.md](p1-real-doc-task-index-roadmap-r01-result.md) | `674c36a` | yes | 协议 §9 补路线图入口（收窄后入库） |
-| p1-real-doc-task-handoff-usage-tip | 01 | done | [p1-real-doc-task-handoff-usage-tip-r01-result.md](p1-real-doc-task-handoff-usage-tip-r01-result.md) | `25de00f` | yes | handoff README 补 Watcher 使用提示 |
-| p1-usage-log-roadmap-note | 01 | done | [p1-usage-log-roadmap-note-r01-result.md](p1-usage-log-roadmap-note-r01-result.md) | `c673c40` | yes | 路线图记录 P1 使用样例 |
+| p1-real-doc-task-index-roadmap | 01 | pushed | [p1-real-doc-task-index-roadmap-r01-result.md](p1-real-doc-task-index-roadmap-r01-result.md) | `674c36a` | yes | 协议 §9 补路线图入口（收窄后入库） |
+| p1-real-doc-task-handoff-usage-tip | 01 | pushed | [p1-real-doc-task-handoff-usage-tip-r01-result.md](p1-real-doc-task-handoff-usage-tip-r01-result.md) | `25de00f` | yes | handoff README 补 Watcher 使用提示 |
+| p1-usage-log-roadmap-note | 01 | pushed | [p1-usage-log-roadmap-note-r01-result.md](p1-usage-log-roadmap-note-r01-result.md) | `c673c40` | yes | 路线图记录 P1 使用样例 |
 
-新行加在表**顶部**或底部均可；建议顶部（最新在上）。本轮方案任务自身待入库后再补行。
+新行加在表**顶部**或底部均可；建议顶部（最新在上）。本轮任务待入库后再补行（勿全量回填历史）。
 
 ## 5. 行模板（复制用）
 
 ```markdown
-| task_id | 01 | done | [task_id-r01-result.md](task_id-r01-result.md) | `-` | no | 一句话 |
+| task_id | 01 | needs_codex_judgement | [task_id-r01-result.md](task_id-r01-result.md) | `-` | no | 一句话 |
 ```
 
 ## 6. 相关文件
 
 - [`README.md`](README.md) — 目录命名与操作顺序  
+- [`STATE.md`](STATE.md) — handoff 任务状态机（status 枚举与转移）
 - [`_template-instruction.md`](_template-instruction.md) / [`_template-result.md`](_template-result.md)  
 - `docs/codex-cursor-loop.md` — 闭环协议  
 - `docs/codex-cursor-loop-status-roadmap.md` — 状态与 P1–P4 路线图  
