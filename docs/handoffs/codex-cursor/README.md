@@ -30,6 +30,22 @@ docs/handoffs/codex-cursor/
 3. **Codex**：读 result → 判责；`continue` 则写 `…-r02-instruction.md`；`pass` / `stop` 收口（可选写 `…-judgement.md`）。
 4. **收口后**：活跃文件可保留作审计；不必删除。可选在 `docs/pilot-log.md` 记一行 tip。
 
+## Watcher 使用提示（可选）
+
+文件落盘后可用本机 Watcher **只做通知**（不自动执行 instruction、不调 API、不写 git）：
+
+```powershell
+# 仓库根目录执行
+powershell -NoProfile -File scripts\watch-codex-cursor-handoff.ps1
+
+# 需要桌面提示时（失败回退控制台）
+powershell -NoProfile -File scripts\watch-codex-cursor-handoff.ps1 -Toast
+```
+
+- 监视本目录；忽略 `_template-*` / `README.md`
+- 运行时 `.watcher-state.json` / `.watcher.lock` 已 gitignore，勿提交
+- 方案与边界见 `docs/codex-cursor-watcher-mvp.md`；状态与路线图见 `docs/codex-cursor-loop-status-roadmap.md`
+
 ## 约束
 
 - 一项 instruction 只做一件可验收的事
