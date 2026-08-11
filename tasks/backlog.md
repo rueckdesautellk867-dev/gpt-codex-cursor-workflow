@@ -22,6 +22,7 @@
 | T013 | PR + CI + 分支保护冒烟验证 | 低 | Codex / 人工 | 已完成 | [T013-pr-ci-protection-smoke-test.md](T013-pr-ci-protection-smoke-test.md) |
 | T014 | 复制到其它项目模板化落地 | 低 | Codex / Cursor / 人工 | 已完成 | [T014-copy-template-to-other-projects.md](T014-copy-template-to-other-projects.md) |
 | T015 | 推送失败降级策略（CLI → Desktop） | 低 | Cursor | 已完成 | [T015-push-fallback.md](T015-push-fallback.md) |
+| T016 | 全自动模式边界与运行规则 | 低 | Codex | 已完成 | [T016-full-auto-mode.md](T016-full-auto-mode.md) |
 
 ## 说明
 
@@ -38,3 +39,4 @@
 - T013 已完成：通过 PR #1 验证分支推送、`Docs validation`、PR 合并和本地 main 同步链路。
 - T014 已完成：建立复制到其它项目的说明和本地复制脚本，默认不覆盖目标项目已有文件。
 - T015 已完成：推送失败降级策略见 `docs/push-fallback.md` 与 `scripts/push-with-fallback.ps1`（失败记 tip、标待 Desktop 推送、不死等）。
+- T016 已完成：新增 `docs/full-auto-mode.md`，明确全自动研发闭环的可自动范围、人工确认边界、失败降级与 Obsidian 复盘入库要求。

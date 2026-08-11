@@ -65,7 +65,7 @@
 ## 5. 行模板（复制用）
 
 ```markdown
-| task_id | 01 | needs_codex_judgement | [task_id-r01-result.md](task_id-r01-result.md) | `-` | no | 一句话 |
+| task_id | 01 | needs_codex_judgement | task_id-r01-result.md | `-` | no | 一句话 |
 ```
 
 ## 6. 相关文件
