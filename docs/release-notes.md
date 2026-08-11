@@ -78,3 +78,10 @@
 - **主要文件**：`docs/template-rollout.md`、`scripts/copy-workflow-template.ps1`、`tasks/T014-copy-template-to-other-projects.md`
 - **提交 hash**：`06e623a`（`docs: add template rollout package`）
 - **状态**：已提交
+
+## v0.12 — 研发全自动边界与 Obsidian 回流排查
+
+- **版本目标**：明确三方闭环可进入研发全自动，但不扩大到 AICF 平台发布、抓取、F4、日更或凭证动作；补齐 Obsidian daily review automation 的排查入口。
+- **主要文件**：`docs/full-auto-mode.md`、`tasks/T016-full-auto-mode.md`、`docs/obsidian-automation-troubleshooting.md`、`README.md`、`tasks/backlog.md`
+- **提交 hash**：`46f83bc`（`docs: add full-auto mode boundary (T016)`） / `7230c27`（`docs: add Obsidian automation troubleshooting guide`）
+- **状态**：已提交并推送

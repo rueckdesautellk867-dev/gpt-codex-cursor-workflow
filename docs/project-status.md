@@ -5,7 +5,7 @@
 | 项 | 内容 |
 |----|------|
 | 项目名称 | 三方闭环整合项目 |
-| 当前版本 | v0.11 已完成，模板化复制落地包已建立 |
+| 当前版本 | v0.12 已完成，研发全自动边界与 Obsidian automation 排查入口已建立 |
 | 当前工作区（主仓） | `D:\AIContentFactory\三方闭环整合项目\` |
 | 旧副本（legacy，非主入口） | `D:\三方闭环整合项目\`（暂不删除、未建 junction） |
 | 远程仓库 | `https://github.com/rueckdesautellk867-dev/gpt-codex-cursor-workflow.git`（与 AICF 业务仓独立） |
@@ -24,6 +24,8 @@
 | 运行手册层 | 启动→归档的固定操作顺序 | `docs/runbook.md` |
 | 推送降级层 | CLI push 失败记 tip / 待 Desktop，不死等 | `docs/push-fallback.md`、`scripts/push-with-fallback.ps1` |
 | 模板复制层 | 复制到其它项目的说明与脚本 | `docs/template-rollout.md`、`scripts/copy-workflow-template.ps1` |
+| 研发全自动边界层 | 低风险研发闭环自动执行范围、AICF 边界、执行器边界 | `docs/full-auto-mode.md` |
+| Obsidian 回流排查层 | daily review automation 产出核对与调度失败排查口径 | `docs/obsidian-automation-troubleshooting.md` |
 
 ## 已验证事项
 
@@ -35,6 +37,8 @@
 - `main` 分支保护已在 GitHub 网页开启
 - PR #1 已验证分支推送、`Docs validation`、合并和本地同步链路
 - 复制到其它项目的模板说明和本地复制脚本已建立
+- T016 研发全自动模式边界已入主仓并推送：`46f83bc`（全自动不等于小红书自动发布）
+- Obsidian automation 调度排查入口已入主仓并推送：`7230c27`（人工等价验证不等于 cron 成功）
 - 首次真实目标项目 `D:\AIContentFactory` 已完成模板复制和本地 CI 验证
 - `D:\AIContentFactory` 已完成首个低风险项目任务 T001 并通过本地 CI
 - `D:\AIContentFactory` 已完成 T002，确认实际代码仓库锚点为 `D:\AIContentFactory\repo\AIContentFactory`
