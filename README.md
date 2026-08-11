@@ -54,6 +54,7 @@
 | [docs/risk-approval.md](docs/risk-approval.md) | 风险分级与人工审批流程 |
 | [docs/runbook.md](docs/runbook.md) | 运行手册（固定操作顺序） |
 | [docs/full-auto-mode.md](docs/full-auto-mode.md) | 全自动模式边界、运行规则与失败降级 |
+| [docs/obsidian-automation-troubleshooting.md](docs/obsidian-automation-troubleshooting.md) | Obsidian automation 调度排查与验证口径 |
 | [docs/project-status.md](docs/project-status.md) | 项目状态、能力与限制 |
 | [docs/release-notes.md](docs/release-notes.md) | 版本记录（v0.1–v0.7） |
 | [docs/remote-repo-plan.md](docs/remote-repo-plan.md) | 远程仓库准备方案（不推送） |
