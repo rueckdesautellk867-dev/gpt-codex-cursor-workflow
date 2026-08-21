@@ -19,8 +19,15 @@
 8. 补 `backend/data/account_gate_status.txt` 闸门 + `docs/operations/account-gate-status-2026-08-21.md`
 
 ## 保留的硬边界（不可逾越）
-- `platform_1`/id=1 永久禁用，绝不作为发布通道（代码层 `is_legacy_risk_*` 强制拦截）
-- `platform_2` 观察期 08-22 到期前仍限手动验证（WATCH），不自动批量
+- `platform_1` 为用户确认可用的基础自动发布账号（2026-08-21 撤销原 legacy 封禁）。
+- `platform_2` 观察期 08-08~08-22，当前 `status=watch` 不被选号器选中；08-22 后改 `active` 纳入自动列表。
+
+## 追加变更（2026-08-21 后续：platform_1 作基础账号）
+- 用户明确：platform_1 实为可用号，T336/T337 指别的事项；撤销代码层对 platform_1/id=1 的封禁。
+- `account_selector`：`_LEGACY_EXCLUDE_*` 清空，platform_1(id=1,active) 成为选号首选。
+- `publish_account_gate`：`LEGACY_RISK_SESSION_KEYS`/`LEGACY_RISK_PLATFORM_ACCOUNT_IDS` 清空。
+- DB：INSERT platform_1 行(id=1, active)；platform_2 置 `watch`（观察期占位）。
+- 风险：若平台侧实际仍按 T336「禁止发笔记」拒绝，真发会被平台挡回，以平台回执为准。
 
 ## 人工审批记录
 - 审批人：用户（项目所有者）
