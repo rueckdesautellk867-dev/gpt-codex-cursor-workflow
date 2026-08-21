@@ -47,8 +47,31 @@ foreach ($file in $requiredFiles) {
     Test-RequiredFile $file
 }
 
-$markdownFiles = Get-ChildItem -LiteralPath $Root -Recurse -File -Filter '*.md' |
-    Where-Object { $_.FullName -notmatch '\\.git\\' }
+$scanRoots = @(
+    'README.md',
+    'AGENTS.md',
+    'PR_CHECKLIST.md',
+    'docs',
+    'tasks'
+)
+
+$markdownFiles = @()
+foreach ($scanRoot in $scanRoots) {
+    $scanPath = Join-Path $Root $scanRoot
+    if (-not (Test-Path -LiteralPath $scanPath)) {
+        continue
+    }
+
+    if (Test-Path -LiteralPath $scanPath -PathType Leaf) {
+        if ([System.IO.Path]::GetExtension($scanPath) -eq '.md') {
+            $markdownFiles += Get-Item -LiteralPath $scanPath
+        }
+        continue
+    }
+
+    $markdownFiles += Get-ChildItem -LiteralPath $scanPath -Recurse -File -Filter '*.md' |
+        Where-Object { $_.FullName -notmatch '\\.git\\' }
+}
 
 foreach ($file in $markdownFiles) {
     $relativeFile = Get-DisplayPath $file.FullName
@@ -111,9 +134,38 @@ if (Test-Path -LiteralPath $backlogPath -PathType Leaf) {
         }
     }
 
-    $pendingConfirmation = -join ([char[]](0x5F85, 0x786E, 0x8BA4))
-    if (($backlog -match 'T004') -and ($backlog -notmatch "T004.*$pendingConfirmation")) {
-        Add-Failure 'High-risk sample T004 must remain pending confirmation in tasks/backlog.md'
+    if ($backlog -match 'T004-high-risk') {
+        $pendingConfirmation = -join ([char[]](0x5F85, 0x786E, 0x8BA4))
+        if ($backlog -notmatch "T004.*$pendingConfirmation") {
+            Add-Failure 'High-risk sample T004 must remain pending confirmation in tasks/backlog.md'
+        }
+    }
+
+    # ---- High-risk manual-approval gate (Phase 3, 2026-08-21) ----
+    # Rule: a high-risk task (风险=高) may only be marked 已完成 if its task file
+    # contains a '## 人工审批记录' section with a filled 审批人.
+    # Historical baseline: tasks with numeric id <= $HighRiskGateBaseline were completed
+    # before this gate existed and are exempt; new high-risk tasks (id > baseline) are enforced.
+    $HighRiskGateBaseline = 335
+    $riskRows = [regex]::Matches($backlog, '\|\s*(T(\d{3})[^\|]*?)\s*\|\s*([^|]+?)\s*\|\s*[^|]+?\s*\|\s*([^|]+?)\s*\|')
+    foreach ($row in $riskRows) {
+        $idNum = [int]$row.Groups[2].Value
+        $risk = $row.Groups[3].Value.Trim()
+        $status = $row.Groups[4].Value.Trim()
+        if ($idNum -gt $HighRiskGateBaseline -and $risk -match '高' -and $status -match '已完成') {
+            $idStr = $row.Groups[1].Value
+            $matchFile = $taskFiles | Where-Object { $_.BaseName -match ("^" + [regex]::Escape($idStr) + '(-|$)') } | Select-Object -First 1
+            if (-not $matchFile) {
+                Add-Failure "High-risk task $idStr is 已完成 but has no task file with an approval record."
+                continue
+            }
+            $taskContent = Get-Content -LiteralPath $matchFile.FullName -Raw -Encoding UTF8
+            if ($taskContent -notmatch '人工审批记录') {
+                Add-Failure "High-risk task $($matchFile.Name) is 已完成 but missing '## 人工审批记录'; manual approval required before completion."
+            } elseif ($taskContent -notmatch '审批人[：:]\s*\S') {
+                Add-Failure "High-risk task $($matchFile.Name) approval record is missing a filled 审批人."
+            }
+        }
     }
 }
 
