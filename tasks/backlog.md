@@ -26,6 +26,7 @@
 | T014 | 复制到其它项目模板化落地 | 低 | Codex / Cursor / 人工 | 已完成 | [T014-copy-template-to-other-projects.md](T014-copy-template-to-other-projects.md) |
 | T015 | 推送失败降级策略（CLI → Desktop） | 低 | Cursor | 已完成 | [T015-push-fallback.md](T015-push-fallback.md) |
 | T016 | 全自动模式边界与运行规则 | 低 | Codex | 已完成 | [T016-full-auto-mode.md](T016-full-auto-mode.md) |
+| T336 | 解除阻止自动发布的全部指令（F4解冻+platform_2恢复） | 高 | 人工授权后 Codex | 已完成 | [T336-auto-publish-unfreeze.md](T336-auto-publish-unfreeze.md) |
 
 ## 说明
 
